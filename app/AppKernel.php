@@ -16,7 +16,27 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new AppBundle\AppBundle(),
+//addons
+			new JMS\DiExtraBundle\JMSDiExtraBundle($this),
+			new JMS\AopBundle\JMSAopBundle(),
+			new JMS\TranslationBundle\JMSTranslationBundle(),
+			new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new Misd\PhoneNumberBundle\MisdPhoneNumberBundle(),
+            new Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
+			new FOS\UserBundle\FOSUserBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new SunCat\MobileDetectBundle\MobileDetectBundle(),
+            new RobertoTru\ToInlineStyleEmailBundle\RobertoTruToInlineStyleEmailBundle(),
+            new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
+            new Vich\UploaderBundle\VichUploaderBundle(),
+            new Misd\GuzzleBundle\MisdGuzzleBundle(),
+
+//eldolink bundles
+            new eldo\MainBundle\eldoMainBundle(),
+            new eldo\UserBundle\eldoUserBundle(),
+            
+//custom made bundles
+            new eldo\PagesBundle\eldoPagesBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
