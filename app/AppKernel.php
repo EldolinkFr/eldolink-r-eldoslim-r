@@ -17,6 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 //addons
+			new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
+            new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
 			new JMS\DiExtraBundle\JMSDiExtraBundle($this),
 			new JMS\AopBundle\JMSAopBundle(),
 			new JMS\TranslationBundle\JMSTranslationBundle(),
@@ -34,6 +36,7 @@ class AppKernel extends Kernel
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),
             new eldo\UserBundle\eldoUserBundle(),
+            new eldo\PaymentBundle\eldoPaymentBundle(),
             
 //custom made bundles
             new eldo\PagesBundle\eldoPagesBundle(),
