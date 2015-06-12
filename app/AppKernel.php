@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
 			new JMS\TranslationBundle\JMSTranslationBundle(),
 			new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
             new Misd\PhoneNumberBundle\MisdPhoneNumberBundle(),
             new Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
 			new FOS\UserBundle\FOSUserBundle(),
