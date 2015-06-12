@@ -1,3 +1,23 @@
-eldo_pages:
-    resource: "@eldoPagesBundle/Resources/config/routing.yml"
-    prefix:   /
+# eldo_pages:
+#     resource: "@eldoPagesBundle/Resources/config/routing.yml"
+#     prefix:   /
+
+slimdoo_home:
+    pattern:  /
+    defaults: { _controller: eldoPagesBundle:Page:home }
+
+slimdoo_pdv1:
+    pattern:  /pdv/1
+    defaults: { _controller: eldoPagesBundle:Page:pdv1 }
+
+slimdoo_pdv2:
+    pattern:  /pdv/2
+    defaults: { _controller: eldoPagesBundle:Page:pdv2 }
+
+slimdoo_check_email:
+    pattern:  /
+    defaults: { _controller: eldoPagesBundle:Page:check_email }
+
+pages_content_show:
+    pattern:  /
+    defaults: { _controller: eldoPagesBundle:Content:show }

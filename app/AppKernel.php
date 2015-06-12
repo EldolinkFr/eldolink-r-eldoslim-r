@@ -19,8 +19,6 @@ class AppKernel extends Kernel
 //addons
 			new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
-			new JMS\DiExtraBundle\JMSDiExtraBundle($this),
-			new JMS\AopBundle\JMSAopBundle(),
 			new JMS\TranslationBundle\JMSTranslationBundle(),
 			new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new Misd\PhoneNumberBundle\MisdPhoneNumberBundle(),
