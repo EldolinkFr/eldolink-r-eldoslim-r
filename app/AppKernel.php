@@ -34,7 +34,6 @@ class AppKernel extends Kernel
 
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),
-            new eldo\PaymentBundle\eldoPaymentBundle(),
             
 //custom made bundles
             new eldo\PagesBundle\eldoPagesBundle(),
