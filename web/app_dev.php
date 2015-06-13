@@ -5,9 +5,9 @@ use Symfony\Component\Debug\Debug;
 
 ini_set('xdebug.max_nesting_level', '10000');
 /*
-  apc_clear_cache();
-  apc_clear_cache('user');
-  apc_clear_cache('opcode');
+apc_clear_cache();
+apc_clear_cache('user');
+apc_clear_cache('opcode');
 */
 
 if (isset($_SERVER['HTTP_CLIENT_IP'])

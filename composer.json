@@ -40,9 +40,7 @@
         "knplabs/knp-gaufrette-bundle": "dev-master",
         "misd/guzzle-bundle": "dev-master",
         "eldolink/pages-bundle": "dev-master",
-        "eldolink/user-bundle": "dev-master",
-        "eldolink/main-bundle": "dev-master",
-        "eldolink/payment-bundle": "dev-master"
+        "eldolink/main-bundle": "dev-master"
     },
     "repositories": [
         {
@@ -62,15 +60,7 @@
         },
         {
             "type": "vcs",
-            "url":  "https://alexdurand@bitbucket.org/alexdurand/eldolink-user-bundle.git"
-        },
-        {
-            "type": "vcs",
             "url":  "https://alexdurand@bitbucket.org/alexdurand/eldolink-main-bundle.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://alexdurand@bitbucket.org/alexdurand/eldolink-payment-bundle.git"
         }
     ],
     "require-dev": {
