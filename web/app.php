@@ -3,6 +3,13 @@
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
 
+ini_set('xdebug.max_nesting_level', '10000');
+/*
+apc_clear_cache();
+apc_clear_cache('user');
+apc_clear_cache('opcode');
+*/
+
 $loader = require_once __DIR__.'/../app/bootstrap.php.cache';
 
 // Enable APC for autoloading to improve performance.
