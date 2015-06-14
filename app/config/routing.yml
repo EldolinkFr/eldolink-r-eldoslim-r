@@ -1,18 +1,26 @@
 slimdoo_home:
     pattern:  /
     defaults: { _controller: eldoPagesBundle:Page:home }
+    requirements:
+        _method:  GET
 
 slimdoo_pdv1:
     pattern:  /pdv/1
     defaults: { _controller: eldoPagesBundle:Page:pdv1 }
+    requirements:
+        _method:  GET
 
 slimdoo_pdv2:
     pattern:  /pdv/2
     defaults: { _controller: eldoPagesBundle:Page:pdv2 }
+    requirements:
+        _method:  GET
 
 slimdoo_check_email:
     pattern:  /
     defaults: { _controller: eldoPagesBundle:Page:check_email }
+    requirements:
+        _method:  POST
 
 pages_content_show:
     pattern:  /pages_content/{identifier}
