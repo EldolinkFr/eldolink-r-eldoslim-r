@@ -23,4 +23,6 @@ parameters:
     contact_plus.site.id:       xxx
     contact_plus.service.id:    xxx
 
-    use_affiliate:    false
+    use_affiliate:      true
+    # If use_affiliate is set to true, we can force to index pages by using robots meta tag
+    force_index:        false
