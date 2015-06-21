@@ -176,3 +176,9 @@ vich_uploader:
             upload_destination: media_fs
 #             upload_destination: database_fs
             namer:              vich_uploader.namer_uniqid
+
+# EldoPagesBundle Configuration
+eldo_pages:
+    api:
+        url: "http://www.absolusecure.com/"
+        version: "v1"
