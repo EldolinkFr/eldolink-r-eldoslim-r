@@ -16,6 +16,7 @@ parameters:
 
     # Application specific parameters
     app.name:           AppName
+    app.admin_email:    error@example.com
     app.facebook.id:    XXX
     app.locales:        [fr, en]
     app.maxItems:       50
