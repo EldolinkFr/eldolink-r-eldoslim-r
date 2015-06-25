@@ -31,6 +31,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
             new Misd\GuzzleBundle\MisdGuzzleBundle(),
+            new Endroid\Bundle\GoogleAnalyticsBundle\EndroidGoogleAnalyticsBundle(),
 
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),
