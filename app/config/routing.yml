@@ -22,6 +22,12 @@ slimdoo_pdv3:
     requirements:
         _method:  GET|POST
 
+slimdoo_audiotel:
+    pattern:  /audiotel
+    defaults: { _controller: eldoPagesBundle:Audiotel:home }
+    requirements:
+        _method:  GET
+
 slimdoo_check_email:
     pattern:  /check_email
     defaults: { _controller: eldoPagesBundle:Page:checkEmail }
