@@ -16,11 +16,11 @@ slimdoo_pdv2:
     requirements:
         _method:  GET|POST
 
-# slimdoo_pdv3:
-#     pattern:  /pdv/3
-#     defaults: { _controller: eldoPagesBundle:Page:pdv3 }
-#     requirements:
-#         _method:  GET
+slimdoo_pdv3:
+    pattern:  /pdv/3
+    defaults: { _controller: eldoPagesBundle:Page:pdv3 }
+    requirements:
+        _method:  GET
 
 slimdoo_audiotel_home:
     pattern:  /audiotel
