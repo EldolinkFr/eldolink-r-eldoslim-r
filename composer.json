@@ -40,6 +40,7 @@
         "knplabs/knp-gaufrette-bundle": "dev-master",
         "misd/guzzle-bundle": "dev-master",
         "isometriks/spam-bundle":"dev-master",
+        "endroid/google-analytics-bundle": "dev-master",
         "eldolink/pages-bundle": "dev-master",
         "eldolink/main-bundle": "dev-master"
     },
@@ -65,7 +66,10 @@
         }
     ],
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "doctrine/migrations": "dev-master",
+        "doctrine/doctrine-migrations-bundle": "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
