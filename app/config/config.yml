@@ -64,7 +64,9 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
+    bundles:
+           - MopaBootstrapBundle
+           - eldoPagesBundle
     #java: /usr/bin/java
     filters:
         less:
