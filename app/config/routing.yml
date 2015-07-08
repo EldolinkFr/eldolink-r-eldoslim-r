@@ -34,6 +34,10 @@ slimdoo_check_email:
     requirements:
         _method:  POST
 
-pages_content_show:
-    pattern:  /pages_content/{identifier}
+content_show:
+    pattern:  /content/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
+
+content_show_image:
+    pattern:  /content/image/{identifier}
+    defaults: { _controller: eldoPagesBundle:Content:contentImage }
