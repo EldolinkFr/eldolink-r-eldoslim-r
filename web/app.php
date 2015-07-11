@@ -3,7 +3,6 @@
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
 
-ini_set('xdebug.max_nesting_level', '10000');
 /*
 apc_clear_cache();
 apc_clear_cache('user');
