@@ -225,3 +225,6 @@ cravler_max_mind_geo_ip:
         connection_type: ~
         domain: ~
         isp: ~
+
+parameters:
+    httpProtocol: http
