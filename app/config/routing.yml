@@ -40,6 +40,18 @@ slimdoo_check_email:
         _method:  POST
     schemes:  [%httpProtocol%]
 
+check_email:
+    pattern:  /check_email
+    defaults: { _controller: eldoToolsBundle:Api:checkEmail }
+    requirements:
+        _method:  POST
+    schemes:  [%httpProtocol%]
+
+tool_show:
+    pattern:  /t/{id}
+    defaults: { _controller: eldoToolsBundle:Tool:show }
+    schemes:  [%httpProtocol%]
+
 content_show:
     pattern:  /content/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }

@@ -33,6 +33,7 @@ class AppKernel extends Kernel
             new Misd\GuzzleBundle\MisdGuzzleBundle(),
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
+            new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new Endroid\Bundle\GoogleAnalyticsBundle\EndroidGoogleAnalyticsBundle(),
 
 //eldolink bundles
@@ -40,6 +41,7 @@ class AppKernel extends Kernel
             
 //custom made bundles
             new eldo\PagesBundle\eldoPagesBundle(),
+            new eldo\ToolsBundle\eldoToolsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

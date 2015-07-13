@@ -42,7 +42,9 @@
         "isometriks/spam-bundle":"dev-master",
         "endroid/google-analytics-bundle": "1.0.9",
         "cravler/maxmind-geoip-bundle": "dev-master",
+        "craue/formflow-bundle": "~2.0",
         "eldolink/pages-bundle": "dev-master",
+        "eldolink/tools-bundle": "dev-master",
         "eldolink/main-bundle": "dev-master"
     },
     "repositories": [
@@ -60,6 +62,10 @@
         {
             "type": "vcs",
             "url":  "https://alexdurand@bitbucket.org/alexdurand/eldolink-pages-bundle.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://alexdurand@bitbucket.org/alexdurand/eldolink-toolsbundle.git"
         },
         {
             "type": "vcs",

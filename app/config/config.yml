@@ -67,6 +67,7 @@ assetic:
     bundles:
            - MopaBootstrapBundle
            - eldoPagesBundle
+           - eldoToolsBundle
     #java: /usr/bin/java
     filters:
         less:
