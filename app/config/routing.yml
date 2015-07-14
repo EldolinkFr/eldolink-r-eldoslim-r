@@ -52,6 +52,11 @@ tool_show:
     defaults: { _controller: eldoToolsBundle:Tool:show }
     schemes:  [%httpProtocol%]
 
+tool_show_css:
+    pattern:  /t/{id}/css
+    defaults: { _controller: eldoToolsBundle:Tool:showCss }
+    schemes:  [%httpProtocol%]
+
 content_show:
     pattern:  /content/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
