@@ -202,7 +202,7 @@ vich_uploader:
 # EldoPagesBundle Configuration
 eldo_pages:
     api:
-        url: "http://www.absolusecure.com/"
+        url: "https://www.absolusecure.com/"
         version: "v1"
 
 # EndroidGoogleBundle Configuration
