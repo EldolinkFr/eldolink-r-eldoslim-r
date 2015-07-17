@@ -26,6 +26,20 @@ slimdoo_pdv3:
         _method:  GET
     schemes:  [%httpProtocol%]
 
+slimdoo_internetplus_modal:
+    pattern:  /internetplusModal
+    defaults: { _controller: eldoPagesBundle:Page:internetplusModal }
+    requirements:
+        _method:  POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_internetplus:
+    pattern:  /internetplus
+    defaults: { _controller: eldoPagesBundle:Page:internetplus }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
 slimdoo_audiotel_home:
     pattern:  /audiotel
     defaults: { _controller: eldoPagesBundle:Audiotel:home }
