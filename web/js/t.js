@@ -14,8 +14,8 @@
 	var trace = true;
 
 	var version = 1.0;
-	var baseUrl = 'dev.tools.eldolink.com/app_dev.php';
-	var contentPath = 'api/tools/';
+	var baseUrl = 'tools.eldolink.com';
+	var contentPath = 'api/tool/';
 	var analyticPath = 'api/analytics/';
 	var containerClass = 'lDo';
 	var appName = "EldoLink";
