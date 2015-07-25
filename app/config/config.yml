@@ -199,12 +199,6 @@ vich_uploader:
 #             upload_destination: database_fs
             namer:              vich_uploader.namer_uniqid
 
-# EldoPagesBundle Configuration
-eldo_pages:
-    api:
-        url: "https://www.absolusecure.com/"
-        version: "v1"
-
 # EndroidGoogleBundle Configuration
 endroid_google_analytics:
     trackers:
@@ -226,6 +220,15 @@ cravler_max_mind_geo_ip:
         connection_type: ~
         domain: ~
         isp: ~
+        
+# eldoMainBundle Configuration
+eldo_main:
+    sendgrid:
+        username:   %sendgrid_username%
+        password:   %sendgrid_password%
+    api:
+        url:        %api_url%
+        version:    %api_version%
 
 parameters:
     httpProtocol: http

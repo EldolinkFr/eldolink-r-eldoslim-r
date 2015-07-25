@@ -47,6 +47,13 @@ slimdoo_audiotel_home:
         _method:  GET
     schemes:  [%httpProtocol%]
 
+slimdoo_sms_home:
+    pattern:  /sms
+    defaults: { _controller: eldoPagesBundle:Sms:home }
+    requirements:
+        _method:  GET
+    schemes:  [%httpProtocol%]
+
 slimdoo_check_email:
     pattern:  /check_email
     defaults: { _controller: eldoPagesBundle:Page:checkEmail }
@@ -59,6 +66,21 @@ check_email:
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
     requirements:
         _method:  POST
+    schemes:  [%httpProtocol%]
+
+api_tool:
+    pattern:  /api/tool/
+    defaults: { _controller: eldoToolsBundle:Api:tool }
+    schemes:  [%httpProtocol%]
+
+api_analytics:
+    pattern:  /api/analytics/
+    defaults: { _controller: eldoToolsBundle:Api:analytics }
+    schemes:  [%httpProtocol%]
+
+tool_show:
+    pattern:  /t/{id}
+    defaults: { _controller: eldoToolsBundle:Tool:show }
     schemes:  [%httpProtocol%]
 
 tool_show:
