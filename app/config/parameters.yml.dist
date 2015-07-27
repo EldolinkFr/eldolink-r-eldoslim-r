@@ -33,5 +33,5 @@ parameters:
     sendgrid_password: XXX
 
     # API config
-    api_url: https://www.absolusecure.com
+    api_url: https://www.absolusecure.com/
     api_version: v1
