@@ -1,0 +1,44 @@
+{# app/Resources/TwigBundle/views/Exception/error.html.twig #}
+{% extends 'eldoPagesBundle::layout.html.twig' %}
+
+{% block title %}{{ parent() }} - {{ 'app.twig.exception.title'|trans({'%status%':status_text}, 'slimdoo')|desc('Erreur %status%') }}{% endblock %}
+
+{% block metas %}
+    {{ parent() }}
+
+    <meta name="robots" content="noindex,nofollow" />
+{% endblock metas %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+	{% stylesheets
+        'css/errors.css'
+		filter='uglifycss'
+		filter='cssrewrite'
+		output='css/compiled/errors.css'
+    %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+	{% endstylesheets %}
+{% endblock stylesheets %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-container text-center">
+                <a href="{{ path('slimdoo_home') }}">
+					<img src="{{ asset('bundles/eldopages/img/logo.png') }}" alt=""/>
+                </a>
+                <h1>{{ 'ooops.title'|trans({}, 'slimdoo')|desc("Ooops...")|raw }}</h1>
+                <p>{{ 'app.twig.exception.404.txt'|trans({}, 'slimdoo')|desc("La page que vous recherchez n'a pas été trouvée")|raw }}</p>
+                <div class="error-actions">
+                    <a href="{{ path('slimdoo_home') }}" class="btn btn-primary btn-lg">
+                        <span class="glyphicon glyphicon-home"></span> {{ 'home.title'|trans({}, 'slimdoo')|desc("Revenir à l'accueil") }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
