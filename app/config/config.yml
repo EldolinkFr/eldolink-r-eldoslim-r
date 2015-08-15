@@ -230,6 +230,7 @@ eldo_main:
     api:
         url:        %api_url%
         version:    %api_version%
+    default_offer:    %default_offer%
 
 parameters:
     httpProtocol: http
