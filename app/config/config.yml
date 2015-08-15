@@ -112,6 +112,25 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
     
+# LiipImagineBundle Configuration
+liip_imagine:
+    resolvers:
+       default:
+           web_path: ~ 
+    loaders:
+        default:
+            filesystem: ~          
+    filter_sets:
+        thumb_16x16:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+        thumb_196x196:
+            filters:
+                thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
+        thumb_152x152:
+            filters:
+                thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
+
 # MopaBootstrapBundle Configuration
 mopa_bootstrap:
     form:
