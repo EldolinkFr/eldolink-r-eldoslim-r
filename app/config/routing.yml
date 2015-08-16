@@ -3,6 +3,13 @@ _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
     schemes:  [%httpProtocol%]
 
+slimdoo_gateway:
+    pattern:  /g
+    defaults: { _controller: eldoPagesBundle:Page:gateway }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
 slimdoo_home:
     path:  /
     defaults: { _controller: eldoPagesBundle:Page:home }
@@ -73,32 +80,8 @@ check_email:
         methods:  POST
     schemes:  [%httpProtocol%]
 
-api_tool:
-    path:  /api/tool/
-    defaults: { _controller: eldoToolsBundle:Api:tool }
-    schemes:  [%httpProtocol%]
-
-api_analytics:
-    path:  /api/analytics/
-    defaults: { _controller: eldoToolsBundle:Api:analytics }
-    schemes:  [%httpProtocol%]
-
-tool_show:
-    path:  /t/{id}
-    defaults: { _controller: eldoToolsBundle:Tool:show }
-    schemes:  [%httpProtocol%]
-
-tool_show_css:
-    path:  /t/{id}/css
-    defaults: { _controller: eldoToolsBundle:Tool:showCss }
-    schemes:  [%httpProtocol%]
-
-content_show:
-    path:  /content/{identifier}
-    defaults: { _controller: eldoPagesBundle:Content:content }
-    schemes:  [%httpProtocol%]
-
-content_show_image:
-    path:  /content/image/{identifier}
-    defaults: { _controller: eldoPagesBundle:Content:contentImage }
+eldo_tools:
+    resource: "@eldoToolsBundle/Controller/" 
+    type: annotation
+    prefix:   /
     schemes:  [%httpProtocol%]
