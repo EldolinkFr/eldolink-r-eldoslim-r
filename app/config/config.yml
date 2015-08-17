@@ -241,6 +241,24 @@ cravler_max_mind_geo_ip:
         domain: ~
         isp: ~
         
+# NelmioCorsBundle Configuration
+nelmio_cors:
+    defaults:
+        allow_credentials: false
+        allow_origin: []
+        allow_headers: []
+        allow_methods: []
+        expose_headers: []
+        max_age: 0
+        hosts: []
+        origin_regex: false
+    paths:
+        '^/as/':
+            allow_origin: ['*']
+            allow_headers: ['*']
+            allow_methods: ['POST', 'PUT', 'GET', 'DELETE']
+            max_age: 3600
+
 # eldoMainBundle Configuration
 eldo_main:
     sendgrid:
