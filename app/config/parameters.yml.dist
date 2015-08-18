@@ -19,7 +19,7 @@ parameters:
     app.name:           AppName
     app.admin_email:    error@example.com
     app.facebook.id:    XXX
-    app.locales:        [fr, en]
+    app.locales:        [en, fr]
     app.maxItems:       50
 
     contact_plus.site.id:       xxx
@@ -39,3 +39,7 @@ parameters:
 
     # Offers config
     default_offer: slimdoo-1hour
+
+    # Eldolink Affiliates
+    affiliates.default: 12345
+    affiliates.no_exit: 12345
