@@ -59,6 +59,7 @@ twig:
     globals:
         main_app_name: %app.name%
         main_facebook_app_ip: %app.facebook.id%
+        use_affiliate: %use_affiliate%
 
 # Assetic Configuration
 assetic:

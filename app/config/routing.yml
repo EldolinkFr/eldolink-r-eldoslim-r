@@ -87,6 +87,13 @@ content_show_image:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
+example_home:
+    path:  /example/
+    defaults: { _controller: eldoPagesBundle:Example:home }
+    requirements:
+        methods:  GET|POST
+    schemes:  [%httpProtocol%]
+
 check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
