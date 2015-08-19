@@ -73,6 +73,20 @@ slimdoo_check_email:
         methods:  POST
     schemes:  [%httpProtocol%]
 
+content_show:
+    path:  /content_show/{identifier}
+    defaults: { _controller: eldoPagesBundle:Content:content }
+    requirements:
+        methods:  GET|POST
+    schemes:  [%httpProtocol%]
+
+content_show_image:
+    path:  /content/img/{identifier}
+    defaults: { _controller: eldoPagesBundle:Content:contentImage }
+    requirements:
+        methods:  GET|POST
+    schemes:  [%httpProtocol%]
+
 check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
