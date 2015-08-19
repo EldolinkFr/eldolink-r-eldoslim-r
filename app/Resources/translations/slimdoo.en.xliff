@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2015-08-19T23:16:31Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="f4c2b15deb472439cfe5befe9766367509e10198" resname="app.twig.exception.404.txt">
+        <source>La page que vous recherchez n'a pas été trouvée</source>
+        <target>La page que vous recherchez n'a pas été trouvée</target>
+        <jms:reference-file line="34">views/Exception/error404.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="65d3f9d2b41563181936454360bbac63a35c3f2a" resname="app.twig.exception.error.txt">
+        <source>Désolé, une erreur s'est produite, notre equipe technique a été prévenue.</source>
+        <target>Désolé, une erreur s'est produite, notre equipe technique a été prévenue.</target>
+        <jms:reference-file line="35">views/Exception/error.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="730f688824fb2873dbcb562c172dd5ac16865485" resname="app.twig.exception.title">
+        <source>Erreur %status%</source>
+        <target>Erreur %status%</target>
+        <jms:reference-file line="4">views/Exception/error404.html.twig</jms:reference-file>
+        <jms:reference-file line="4">views/Exception/error.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a5a23e1a031f4a8508a9444097bba7c15d4c5765" resname="home.title">
+        <source>Revenir à l'accueil</source>
+        <target>Revenir à l'accueil</target>
+        <jms:reference-file line="37">views/Exception/error404.html.twig</jms:reference-file>
+        <jms:reference-file line="39">views/Exception/error.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8e7d8aa48f9774ec444af377771d9a9450a3aa0b" resname="ooops.title">
+        <source>Ooops...</source>
+        <target>Ooops...</target>
+        <jms:reference-file line="33">views/Exception/error404.html.twig</jms:reference-file>
+        <jms:reference-file line="33">views/Exception/error.html.twig</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

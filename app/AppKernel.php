@@ -20,6 +20,8 @@ class AppKernel extends Kernel
 			new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
 			new Liip\ImagineBundle\LiipImagineBundle(),
+			new JMS\AopBundle\JMSAopBundle(),
+			new JMS\DiExtraBundle\JMSDiExtraBundle($this),
 			new JMS\TranslationBundle\JMSTranslationBundle(),
 			new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
