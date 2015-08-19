@@ -66,6 +66,7 @@ assetic:
     debug:          "%kernel.debug%"
     use_controller: false
     bundles:
+           - TwigBundle
            - MopaBootstrapBundle
            - eldoPagesBundle
            - eldoToolsBundle
