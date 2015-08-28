@@ -42,4 +42,4 @@ parameters:
 
     # Eldolink Affiliates
     affiliates.default: 12345
-    affiliates.no_exit: 12345
+    affiliates.no_exit: [12345]
