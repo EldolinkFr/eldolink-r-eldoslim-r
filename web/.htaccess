@@ -60,3 +60,8 @@ DirectoryIndex app.php
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
+
+# Eldolink® Custom :-)
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
