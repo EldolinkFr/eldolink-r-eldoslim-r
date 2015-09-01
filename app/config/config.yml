@@ -78,9 +78,15 @@ assetic:
             apply_to: "\.less$"
         cssrewrite: ~
         uglifyjs2:
-            bin: /usr/bin/uglifyjs
+            bin: "/usr/bin/uglifyjs"
         uglifycss:
-            bin: /usr/bin/uglifycss
+            bin: "/usr/bin/uglifycss"
+        yui_css:
+            jar: "/usr/share/yui-compressor/yui-compressor.jar"
+        yui_js:
+            jar: "/usr/share/yui-compressor/yui-compressor.jar"
+    variables:
+        locale: "%app.locales%"
 
 # Doctrine Configuration
 doctrine:
