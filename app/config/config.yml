@@ -17,7 +17,7 @@ framework:
     #serializer:      { enable_annotations: true }
     templating:
         engines: ['twig']
-        #assets_version: SomeVersionScheme
+#         assets_version: %assets_version%
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
@@ -85,6 +85,8 @@ assetic:
             jar: "/usr/share/yui-compressor/yui-compressor.jar"
         yui_js:
             jar: "/usr/share/yui-compressor/yui-compressor.jar"
+    workers:
+        cache_busting: ~
     variables:
         locale: "%app.locales%"
 
@@ -258,7 +260,7 @@ cravler_max_mind_geo_ip:
         connection_type: ~
         domain: ~
         isp: ~
-
+        
 # eldoMainBundle Configuration
 eldo_main:
     sendgrid:
