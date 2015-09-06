@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 //addons
 			new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
+            new SmartCore\Bundle\AcceleratorCacheBundle\AcceleratorCacheBundle(),
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
 			new Liip\ImagineBundle\LiipImagineBundle(),
 			new JMS\AopBundle\JMSAopBundle(),

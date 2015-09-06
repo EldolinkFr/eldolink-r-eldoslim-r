@@ -261,6 +261,12 @@ cravler_max_mind_geo_ip:
         domain: ~
         isp: ~
         
+# AcceleratorCacheBundle Configuration
+accelerator_cache:
+    mode: curl
+    host: https://www.eldoslim.com
+    web_dir: %kernel.root_dir%/../web
+
 # eldoMainBundle Configuration
 eldo_main:
     sendgrid:
