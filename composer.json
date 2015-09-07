@@ -30,7 +30,7 @@
         "stof/doctrine-extensions-bundle": "~1.1",
         "triplepoint/php-units-of-measure": "2.0.0",
         "mopa/bootstrap-bundle": "dev-master",
-        "twbs/bootstrap": "dev-master",
+        "twbs/bootstrap": "3.3.*",
         "bmatzner/fontawesome-bundle": "~4.3",
         "jquery/jquery":  "2.0.*",
         "misd/phone-number-bundle": "1.0.5",
