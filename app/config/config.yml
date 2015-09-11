@@ -86,8 +86,8 @@ assetic:
             jar: "/usr/share/yui-compressor/yui-compressor.jar"
         yui_js:
             jar: "/usr/share/yui-compressor/yui-compressor.jar"
-    workers:
-        cache_busting: ~
+#     workers:
+#         cache_busting: ~
     variables:
         locale: "%app.locales%"
 
