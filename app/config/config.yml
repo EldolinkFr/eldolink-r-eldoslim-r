@@ -18,6 +18,7 @@ framework:
     templating:
         engines: ['twig']
 #         assets_version: %assets_version%
+#         assets_version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
@@ -261,6 +262,9 @@ cravler_max_mind_geo_ip:
         domain: ~
         isp: ~
         
+# KachkaevAssetsVersionBundle Configuration
+kachkaev_assets_version: ~
+
 # AcceleratorCacheBundle Configuration
 accelerator_cache:
     mode: curl
