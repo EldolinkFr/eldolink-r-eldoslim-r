@@ -1,12 +1,19 @@
+# app/config/security.yml
 security:
+    encoders:
+        FOS\UserBundle\Model\UserInterface:
+            algorithm: sha512
+            iterations: 9616
+
     providers:
-        in_memory:
-            memory: ~
+         fos_userbundle:
+             id: fos_user.user_provider.username
 
     firewalls:
         dev:
-            pattern: ^/(_(profiler|wdt|error)|css|images|js)/
+            pattern:  ^/(_(profiler|wdt)|css|images|js)/
             security: false
+            context:  eldo
 
-        default:
+        main:
             anonymous: ~
