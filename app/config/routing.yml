@@ -4,10 +4,10 @@ _liip_imagine:
     schemes:  [%httpProtocol%]
 
 slimdoo_gateway:
-    pattern:  /g
+    path:  /g
     defaults: { _controller: eldoPagesBundle:Page:gateway }
     requirements:
-        _method:  GET|POST
+        methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_home:
