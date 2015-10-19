@@ -276,6 +276,16 @@ eldo_main:
     sendgrid:
         username:   %sendgrid_username%
         password:   %sendgrid_password%
+    neverbounce:
+        username:   %neverbounce_username%
+        secret_key: %neverbounce_secret_key%
+    messagebusiness:
+        url:        %messagebusiness_url%
+        account_id: %messagebusiness_account_id%
+        api_key:    %messagebusiness_api_key%
+    openweathermap:
+        url:        %openweathermap_url%
+        api_key:    %openweathermap_api_key%
     api:
         url:        %api_url%
         version:    %api_version%

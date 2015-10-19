@@ -30,8 +30,21 @@ parameters:
     force_index:        false
 
     # Sendgrid parameters
-    sendgrid_username: XXX
-    sendgrid_password: XXX
+    sendgrid_username:          XXX
+    sendgrid_password:          XXX
+
+    # NeverBounce parameters
+    neverbounce_username:       XXX
+    neverbounce_secret_key:     XXX
+
+    # MessageBusiness parameters
+    messagebusiness_url:        https://services.message-business.com/v3/api/PublicInterface.svc/wsdl
+    messagebusiness_account_id: XXX
+    messagebusiness_api_key:    XXX
+
+    # OpenWeatherMap API
+    openweathermap_url:         http://api.openweathermap.org/data/2.5/weather
+    openweathermap_api_key:     XXX
 
     # API config
     api_url: https://www.absolusecure.com/
@@ -45,4 +58,4 @@ parameters:
     affiliates.no_exit: [12345]
     
     # Assets version
-    assets_version: v1
+    assets_version:         v1
