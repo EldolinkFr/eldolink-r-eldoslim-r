@@ -20,6 +20,7 @@ parameters:
     app.admin_email:    error@example.com
     app.facebook.id:    XXX
     app.locales:        [en, fr]
+    app.templates:      [home, pdv1, pdv2, pdv3]
     app.maxItems:       50
 
     contact_plus.site.id:       xxx

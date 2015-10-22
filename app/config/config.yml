@@ -90,6 +90,7 @@ assetic:
 #         cache_busting: ~
     variables:
         locale: "%app.locales%"
+        template: "%app.templates%"
 
 # Doctrine Configuration
 doctrine:
