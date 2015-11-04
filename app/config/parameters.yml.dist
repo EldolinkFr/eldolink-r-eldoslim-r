@@ -53,6 +53,7 @@ parameters:
 
     # Offers config
     default_offer: slimdoo-1hour
+    testing_offers: []
 
     # Eldolink Affiliates
     affiliates.default: 12345

@@ -291,6 +291,7 @@ eldo_main:
         url:        %api_url%
         version:    %api_version%
     default_offer:  %default_offer%
+    testing_offers:  %testing_offers%
 
 parameters:
     httpProtocol: http
