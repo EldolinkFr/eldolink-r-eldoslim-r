@@ -74,8 +74,8 @@ assetic:
     #java: /usr/bin/java
     filters:
         less:
-            node: /usr/bin/node
-            node_paths: [/usr/lib/node_modules]
+            node: /usr/bin/nodejs
+            node_paths: [/usr/local/lib/node_modules]
             apply_to: "\.less$"
         cssrewrite: ~
         uglifyjs2:
@@ -268,7 +268,6 @@ kachkaev_assets_version: ~
 
 # AcceleratorCacheBundle Configuration
 accelerator_cache:
-    mode: curl
     host: https://www.eldoslim.com
     web_dir: %kernel.root_dir%/../web
 
