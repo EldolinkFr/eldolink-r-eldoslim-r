@@ -26,7 +26,6 @@
         "jms/di-extra-bundle": "dev-master",
         "liip/imagine-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "2.0.*@dev",
-        "stof/doctrine-extensions-bundle": "~1.1",
         "triplepoint/php-units-of-measure": "2.0.0",
         "mopa/bootstrap-bundle": "dev-master",
         "twbs/bootstrap": "3.3.*",
