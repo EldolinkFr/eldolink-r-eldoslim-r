@@ -38,6 +38,27 @@ slimdoo_pdv3:
         methods:  GET
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv4:
+    pattern:  /pdv/4
+    defaults: { _controller: eldoPagesBundle:Page:pdv4 }
+    requirements:
+        methods:  GET
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv5:
+    pattern:  /pdv/5
+    defaults: { _controller: eldoPagesBundle:Page:pdv5 }
+    requirements:
+        methods:  GET
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv6:
+    pattern:  /pdv/6
+    defaults: { _controller: eldoPagesBundle:Page:pdv6 }
+    requirements:
+        methods:  GET
+    schemes:  [%httpProtocol%]
+
 slimdoo_gifts:
     pattern:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
