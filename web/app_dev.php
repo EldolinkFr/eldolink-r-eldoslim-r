@@ -3,20 +3,14 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
-/*
-  apc_clear_cache();
-  apc_clear_cache('user');
-  apc_clear_cache('opcode');
-*/
-
 if (isset($_SERVER['HTTP_CLIENT_IP'])
     || (
-    	!in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '82.235.234.8', '217.128.196.239'))
-	    && !in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '82.235.234.8', '217.128.196.239'))
+    	!in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '82.235.234.8', '217.128.196.239', '37.0.72.194'))
+	    && !in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '82.235.234.8', '217.128.196.239', '37.0.72.194'))
 	)
 ) {
     header('HTTP/1.0 403 Forbidden');
-    exit('Welcome ;-)');
+    exit('Welcome ;-)'.$_SERVER['HTTP_CLIENT_IP'].$_SERVER['REMOTE_ADDR']);
 }
 
 $loader = require_once __DIR__.'/../app/bootstrap.php.cache';
