@@ -14,16 +14,29 @@ doctrine:
             enabled:            true
             log_enabled:        true
 
+# Monolog Configuration
 monolog:
     handlers:
         main:
             type:         fingers_crossed
-            action_level: error
-            handler:      nested
-        nested:
+            action_level: critical
+            handler:      grouped
+        grouped:
+            type:    group
+            members: [streamed, buffered]
+        streamed:
             type:  stream
             path:  "%kernel.logs_dir%/%kernel.environment%.log"
             level: debug
+        buffered:
+            type:    buffer
+            handler: swift
+        swift:
+            type:       swift_mailer
+            from_email: %app.admin_email%
+            to_email:   %app.admin_email%
+            subject:    "%app.name% : An Error Occurred!"
+            level:      debug
         console:
             type:  console
 
