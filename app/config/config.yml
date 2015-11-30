@@ -241,10 +241,16 @@ vich_uploader:
 #             upload_destination: database_fs
             namer:              vich_uploader.namer_uniqid
 
-# EndroidGoogleBundle Configuration
-endroid_google_analytics:
-    trackers:
-        default: UA-59826262-4
+# GoogleBundle Configuration
+google:
+    analytics:
+        enhanced_ecommerce: true
+        trackers:
+            default:
+                name: 'default'
+                accountId: %app.gg_analytics.id%
+                domain: 'auto'
+                includeNamePrefix: true
         
 # CravlerMaxmindGeoIPBundle Configuration
 cravler_max_mind_geo_ip:

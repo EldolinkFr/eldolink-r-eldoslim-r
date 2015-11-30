@@ -39,7 +39,6 @@
         "knplabs/knp-gaufrette-bundle": "dev-master",
         "misd/guzzle-bundle": "dev-master",
         "isometriks/spam-bundle":"dev-master",
-        "endroid/google-analytics-bundle": "1.0.9",
         "cravler/maxmind-geoip-bundle": "dev-master",
         "craue/formflow-bundle": "~2.0",
         "eldolink/pages-bundle": "dev-master",

@@ -39,7 +39,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
-            new Endroid\Bundle\GoogleAnalyticsBundle\EndroidGoogleAnalyticsBundle(),
+            new AntiMattr\GoogleBundle\GoogleBundle(),
 
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),
