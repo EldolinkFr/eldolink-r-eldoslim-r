@@ -244,7 +244,7 @@ vich_uploader:
 # GoogleBundle Configuration
 google:
     analytics:
-        enhanced_ecommerce: true
+        enhanced_ecommerce: false
         trackers:
             default:
                 name: 'default'
