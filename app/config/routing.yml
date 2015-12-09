@@ -56,7 +56,28 @@ slimdoo_pdv6:
     pattern:  /pdv/6
     defaults: { _controller: eldoPagesBundle:Page:pdv6 }
     requirements:
-        methods:  GET
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv7:
+    pattern:  /pdv/7
+    defaults: { _controller: eldoPagesBundle:Page:pdv7 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv8:
+    pattern:  /pdv/8
+    defaults: { _controller: eldoPagesBundle:Page:pdv8 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv9:
+    pattern:  /pdv/9
+    defaults: { _controller: eldoPagesBundle:Page:pdv9 }
+    requirements:
+        _method:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_gifts:
