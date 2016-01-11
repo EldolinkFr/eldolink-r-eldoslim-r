@@ -49,7 +49,7 @@ parameters:
     openweathermap_api_key:     XXX
 
     # API config
-    api_url: https://www.absolusecure.com/
+    api_url: www.absolusecure.com/
     api_version: v1
 
     # Offers config
