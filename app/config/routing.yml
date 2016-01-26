@@ -4,147 +4,161 @@ _liip_imagine:
     schemes:  [%httpProtocol%]
 
 slimdoo_gateway:
-    pattern:  /g
+    path:  /g
     defaults: { _controller: eldoPagesBundle:Page:gateway }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_home:
-    pattern:  /
+    path:  /
     defaults: { _controller: eldoPagesBundle:Page:home }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv1:
-    pattern:  /pdv/1
+    path:  /pdv/1
     defaults: { _controller: eldoPagesBundle:Page:pdv1 }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv2:
-    pattern:  /pdv/2
+    path:  /pdv/2
     defaults: { _controller: eldoPagesBundle:Page:pdv2 }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv3:
-    pattern:  /pdv/3
+    path:  /pdv/3
     defaults: { _controller: eldoPagesBundle:Page:pdv3 }
     requirements:
         methods:  GET
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv4:
-    pattern:  /pdv/4
+    path:  /pdv/4
     defaults: { _controller: eldoPagesBundle:Page:pdv4 }
     requirements:
         methods:  GET
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv5:
-    pattern:  /pdv/5
+    path:  /pdv/5
     defaults: { _controller: eldoPagesBundle:Page:pdv5 }
     requirements:
         methods:  GET
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv6:
-    pattern:  /pdv/6
+    path:  /pdv/6
     defaults: { _controller: eldoPagesBundle:Page:pdv6 }
     requirements:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv7:
-    pattern:  /pdv/7
+    path:  /pdv/7
     defaults: { _controller: eldoPagesBundle:Page:pdv7 }
     requirements:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv8:
-    pattern:  /pdv/8
+    path:  /pdv/8
     defaults: { _controller: eldoPagesBundle:Page:pdv8 }
     requirements:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv9:
-    pattern:  /pdv/9
+    path:  /pdv/9
     defaults: { _controller: eldoPagesBundle:Page:pdv9 }
     requirements:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv10:
+    path:  /pdv/10
+    defaults: { _controller: eldoPagesBundle:Page:pdv10 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv11:
+    path:  /pdv/11
+    defaults: { _controller: eldoPagesBundle:Page:pdv11 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
 slimdoo_gifts:
-    pattern:  /gifts
+    path:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
     requirements:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_internetplus_modal:
-    pattern:  /internetplusModal
+    path:  /internetplusModal
     defaults: { _controller: eldoPagesBundle:Page:internetplusModal }
     requirements:
         methods:  POST
     schemes:  [%httpProtocol%]
 
 slimdoo_internetplus:
-    pattern:  /internetplus
+    path:  /internetplus
     defaults: { _controller: eldoPagesBundle:Page:internetplus }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 slimdoo_audiotel_home:
-    pattern:  /audiotel
+    path:  /audiotel
     defaults: { _controller: eldoPagesBundle:Audiotel:home }
     requirements:
         methods:  GET
     schemes:  [%httpProtocol%]
 
 slimdoo_sms_home:
-    pattern:  /sms
+    path:  /sms
     defaults: { _controller: eldoPagesBundle:Sms:home }
     requirements:
         methods:  GET
     schemes:  [%httpProtocol%]
 
 slimdoo_check_email:
-    pattern:  /check_email
+    path:  /check_email
     defaults: { _controller: eldoPagesBundle:Page:checkEmail }
     requirements:
         methods:  POST
     schemes:  [%httpProtocol%]
 
 content_show:
-    pattern:  /content_show/{identifier}
+    path:  /content_show/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 content_show_image:
-    pattern:  /content/img/{identifier}
+    path:  /content/img/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:contentImage }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 example_home:
-    pattern:  /example/
+    path:  /example/
     defaults: { _controller: eldoPagesBundle:Example:home }
     requirements:
         methods:  GET|POST
     schemes:  [%httpProtocol%]
 
 check_email:
-    pattern:  /check_email
+    path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
     requirements:
         methods:  POST
