@@ -80,6 +80,20 @@ slimdoo_pdv9:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv10:
+    pattern:  /pdv/10
+    defaults: { _controller: eldoPagesBundle:Page:pdv10 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv11:
+    pattern:  /pdv/11
+    defaults: { _controller: eldoPagesBundle:Page:pdv11 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
 slimdoo_gifts:
     pattern:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
