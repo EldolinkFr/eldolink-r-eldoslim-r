@@ -48,6 +48,9 @@ parameters:
     openweathermap_url:         http://api.openweathermap.org/data/2.5/weather
     openweathermap_api_key:     XXX
 
+    # Geocoding
+    googlemap_api_key: XXX
+
     # API config
     api_url: www.absolusecure.com/
     api_version: v1

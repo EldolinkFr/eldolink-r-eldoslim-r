@@ -268,7 +268,10 @@ eldo_main:
     openweathermap:
         url:        %openweathermap_url%
         api_key:    %openweathermap_api_key%
+    googlemap:
+        api_key:    %googlemap_api_key%
     api:
+        url:        %api_url%
         url:        %api_url%
         version:    %api_version%
     default_offer:  %default_offer%
