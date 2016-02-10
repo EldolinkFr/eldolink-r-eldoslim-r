@@ -12,6 +12,12 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
+    local_mailer_transport:  smtp
+    local_mailer_host:       127.0.0.1
+    local_mailer_port:       ~
+    local_mailer_user:       ~
+    local_mailer_password:   ~
+
     locale:            fr
     secret:            ThisTokenIsNotSoSecretChangeIt
 

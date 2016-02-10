@@ -93,12 +93,22 @@ doctrine:
 
 # Swiftmailer Configuration
 swiftmailer:
-    transport: "%mailer_transport%"
-    host:      "%mailer_host%"
-    port:      "%mailer_port%"
-    username:  "%mailer_user%"
-    password:  "%mailer_password%"
-    spool:     { type: memory }
+    default_mailer: sendgrid
+    mailers:
+        local:
+            transport: "%local_mailer_transport%"
+            host:      "%local_mailer_host%"
+            port:      "%local_mailer_port%"
+            username:  "%local_mailer_user%"
+            password:  "%local_mailer_password%"
+            spool:     { type: memory }
+        sendgrid:
+            transport: "%mailer_transport%"
+            host:      "%mailer_host%"
+            port:      "%mailer_port%"
+            username:  "%mailer_user%"
+            password:  "%mailer_password%"
+            spool:     { type: memory }
     
 # LiipImagineBundle Configuration
 liip_imagine:
