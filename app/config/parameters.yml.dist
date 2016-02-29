@@ -33,7 +33,8 @@ parameters:
     contact_plus.site.id:       xxx
     contact_plus.service.id:    xxx
 
-    use_affiliate:      true
+    default_affiliate: 12345
+    use_affiliate: true
     # If use_affiliate is set to true, we can force to index pages by using robots meta tag
     force_index:        false
 
@@ -54,6 +55,9 @@ parameters:
     openweathermap_url:         http://api.openweathermap.org/data/2.5/weather
     openweathermap_api_key:     XXX
 
+    # GoogleAnalytics API
+    googleanalytics_config: XXX
+
     # Geocoding
     googlemap_api_key: XXX
 
@@ -66,7 +70,6 @@ parameters:
     testing_offers: []
 
     # Eldolink Affiliates
-    affiliates.default: 12345
     affiliates.no_exit: [12345]
     
     # Assets version

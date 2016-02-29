@@ -36,6 +36,7 @@ twig:
     globals:
         main_app_name: %app.name%
         main_facebook_app_ip: %app.facebook.id%
+        default_affiliate: %default_affiliate%
         use_affiliate: %use_affiliate%
 
 # Assetic Configuration
@@ -280,10 +281,13 @@ eldo_main:
         api_key:    %openweathermap_api_key%
     googlemap:
         api_key:    %googlemap_api_key%
+    googleanalytics:
+        config:    %googleanalytics_config%
     api:
         url:        %api_url%
         url:        %api_url%
         version:    %api_version%
+    default_affiliate:  %default_affiliate%
     default_offer:  %default_offer%
     testing_offers:  %testing_offers%
 
