@@ -94,19 +94,21 @@ slimdoo_pdv11:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
-slimdoo_pdv12:
-    path:  /pdv/12
-    defaults: { _controller: eldoPagesBundle:Page:pdv12 }
-    requirements:
-        _method:  GET|POST
-    schemes:  [%httpProtocol%]
-
-slimdoo_pdv13:
-    path:  /pdv/13
-    defaults: { _controller: eldoPagesBundle:Page:pdv13 }
-    requirements:
-        _method:  GET|POST
-    schemes:  [%httpProtocol%]
+# FOR VOTREMINCEUR.COM
+# slimdoo_pdv12:
+#     path:  /pdv/12
+#     defaults: { _controller: eldoPagesBundle:Page:pdv12 }
+#     requirements:
+#         _method:  GET|POST
+#     schemes:  [%httpProtocol%]
+# 
+# FOR SLIM-CEINTURE.COM
+# slimdoo_pdv13:
+#     path:  /pdv/13
+#     defaults: { _controller: eldoPagesBundle:Page:pdv13 }
+#     requirements:
+#         _method:  GET|POST
+#     schemes:  [%httpProtocol%]
 
 slimdoo_pdv14:
     path:  /pdv/14
