@@ -256,12 +256,21 @@ cravler_max_mind_geo_ip:
         domain: ~
         isp: ~
         
+#SncRedisBundle configuration
+snc_redis:
+    clients:
+        default:
+            type: predis
+            alias: default
+            dsn: redis://localhost
+            logging: %kernel.debug%
+
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
 
 # AcceleratorCacheBundle Configuration
 accelerator_cache:
-    host: https://www.eldoslim.com
+    host: %app.url%
     web_dir: %kernel.root_dir%/../web
 
 # eldoMainBundle Configuration
