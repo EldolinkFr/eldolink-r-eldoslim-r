@@ -22,6 +22,7 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
 
     # Application specific parameters
+    app.url:            https://www.eldoslim.com
     app.name:           AppName
     app.admin_email:    error@example.com
     app.facebook.id:    XXX
