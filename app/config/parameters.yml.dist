@@ -67,6 +67,7 @@ parameters:
     api_version: v1
 
     # Offers config
+    default_product: 1
     default_offer: slimdoo-1hour
     testing_offers: []
 
