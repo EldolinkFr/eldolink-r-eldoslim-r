@@ -47,6 +47,9 @@ parameters:
     neverbounce_username:       XXX
     neverbounce_secret_key:     XXX
 
+    # Leadiance parameters
+    leadiance_url:              http://www.leadcollecte.com/SingleSubscribe.api?ai=1336&ak=PQgsi0sQzoXYYqUTyUFRm611Zd
+
     # MessageBusiness parameters
     messagebusiness_url:        https://services.message-business.com/v3/api/PublicInterface.svc/wsdl
     messagebusiness_account_id: XXX

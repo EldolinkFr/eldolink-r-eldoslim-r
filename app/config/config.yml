@@ -281,6 +281,8 @@ eldo_main:
     neverbounce:
         username:   %neverbounce_username%
         secret_key: %neverbounce_secret_key%
+    leadiance:
+        url:        %leadiance_url%
     messagebusiness:
         url:        %messagebusiness_url%
         account_id: %messagebusiness_account_id%
