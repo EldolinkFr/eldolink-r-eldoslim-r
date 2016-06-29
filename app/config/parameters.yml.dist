@@ -71,6 +71,7 @@ parameters:
 
     # Offers config
     default_product: 1
+    default_pricing_model: share
     default_offer: slimdoo-1hour
     testing_offers: []
 
