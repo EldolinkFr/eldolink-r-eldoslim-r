@@ -32,7 +32,6 @@
         "jquery/jquery":  "2.0.*",
         "misd/phone-number-bundle": "1.0.5",
         "robertotru/to-inline-style-email-bundle": "dev-master",
-        "vich/uploader-bundle": "dev-master",
         "knplabs/doctrine-behaviors": "dev-master",
         "knplabs/knp-snappy-bundle": "dev-master",
         "KnpLabs/Gaufrette": "dev-master",
