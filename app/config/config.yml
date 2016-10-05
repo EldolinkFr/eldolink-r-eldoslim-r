@@ -294,6 +294,21 @@ eldo_main:
         api_key:    %googlemap_api_key%
     googleanalytics:
         config:    %googleanalytics_config%
+    onesignal:
+        default_app:            %onesignal_default_app%
+        configs:
+            slimdoo:
+                app_name:       %slimdoo_onesignal_app_name%
+                app_id:         %slimdoo_onesignal_app_id%
+                safari_web_id:  %slimdoo_onesignal_safari_web_id%
+                app_auth_key:   %slimdoo_onesignal_app_auth_key%
+                gcm_sender_id:  %slimdoo_onesignal_gcm_sender_id%
+            eldolink:
+                app_name:       %eldolink_onesignal_app_name%
+                app_id:         %eldolink_onesignal_app_id%
+                safari_web_id:  %eldolink_onesignal_safari_web_id%
+                app_auth_key:   %eldolink_onesignal_app_auth_key%
+                gcm_sender_id:  %eldolink_onesignal_gcm_sender_id%
     api:
         url:        %api_url%
         url:        %api_url%
