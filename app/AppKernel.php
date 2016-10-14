@@ -41,6 +41,7 @@ class AppKernel extends Kernel
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new AntiMattr\GoogleBundle\GoogleBundle(),
+            new SendinBlue\SendinBlueApiBundle\SendinBlueApiBundle(),
 
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),
