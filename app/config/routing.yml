@@ -159,6 +159,27 @@ slimdoo_pdv20:
         _method:  GET|POST
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv24:
+    path:  /pdv/24
+    defaults: { _controller: eldoPagesBundle:Page:pdv24 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv25:
+    path:  /pdv/25
+    defaults: { _controller: eldoPagesBundle:Page:pdv25 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv26:
+    path:  /pdv/26
+    defaults: { _controller: eldoPagesBundle:Page:pdv26 }
+    requirements:
+        _method:  GET|POST
+    schemes:  [%httpProtocol%]
+
 slimdoo_gifts:
     path:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
