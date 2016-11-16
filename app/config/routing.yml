@@ -35,19 +35,19 @@ slimdoo_pdv2:
 slimdoo_pdv3:
     path:  /pdv/3
     defaults: { _controller: eldoPagesBundle:Page:pdv3 }
-    methods:  [GET]
+    methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv4:
     path:  /pdv/4
     defaults: { _controller: eldoPagesBundle:Page:pdv4 }
-    methods:  [GET]
+    methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv5:
     path:  /pdv/5
     defaults: { _controller: eldoPagesBundle:Page:pdv5 }
-    methods:  [GET]
+    methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
 slimdoo_pdv6:
@@ -149,8 +149,7 @@ slimdoo_gifts:
 slimdoo_internetplus_modal:
     path:  /internetplusModal
     defaults: { _controller: eldoPagesBundle:Page:internetplusModal }
-    requirements:
-        methods:  POST
+    methods:  [POST]
     schemes:  [%httpProtocol%]
 
 slimdoo_internetplus:
@@ -174,8 +173,7 @@ slimdoo_sms_home:
 slimdoo_check_email:
     path:  /check_email
     defaults: { _controller: eldoPagesBundle:Page:checkEmail }
-    requirements:
-        methods:  POST
+    methods:  [POST]
     schemes:  [%httpProtocol%]
 
 content_show:
@@ -199,8 +197,7 @@ example_home:
 check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
-    requirements:
-        methods:  POST
+    methods:  [POST]
     schemes:  [%httpProtocol%]
 
 eldo_tools:
