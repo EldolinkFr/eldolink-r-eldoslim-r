@@ -14,6 +14,32 @@ slimdoo_gateway:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+slimdoo_portal_index:
+    path:  /index
+    defaults: { _controller: eldoPagesBundle:Portal:index }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_products:
+    path:  /products
+    defaults: { _controller: eldoPagesBundle:Portal:products }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_tips:
+    path:  /tips
+    defaults: { _controller: eldoPagesBundle:Portal:tips }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_tip_show:
+    path:  /{id}/{slug}
+    defaults: { _controller: eldoPagesBundle:Portal:tipShow }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+    requirements:
+        id: '\d+'
+
 slimdoo_home:
     path:  /
     defaults: { _controller: eldoPagesBundle:Page:home }
