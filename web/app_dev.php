@@ -5,8 +5,8 @@ use Symfony\Component\Debug\Debug;
 
 if (isset($_SERVER['HTTP_CLIENT_IP'])
     || (
-    	!in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '88.179.76.43', '217.128.196.239', '37.0.72.194'))
-	    && !in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '88.179.76.43', '217.128.196.239', '37.0.72.194'))
+    	!in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '88.179.76.43', '217.128.196.239', '78.239.178.236'))
+	    && !in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '88.179.76.43', '217.128.196.239', '78.239.178.236'))
 	)
 ) {
     header('HTTP/1.0 403 Forbidden');
