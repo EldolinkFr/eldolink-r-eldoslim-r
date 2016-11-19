@@ -3,6 +3,12 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
+/*
+  apc_clear_cache();
+  apc_clear_cache('user');
+  apc_clear_cache('opcode');
+*/
+
 if (isset($_SERVER['HTTP_CLIENT_IP'])
     || isset($_SERVER['HTTP_X_FORWARDED_FOR'])
     || !(in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '88.179.76.43', '217.128.196.239', '78.239.178.236')) || php_sapi_name() === 'cli-server')
