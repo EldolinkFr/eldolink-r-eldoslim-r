@@ -15,7 +15,7 @@ slimdoo_gateway:
     schemes:  [%httpProtocol%]
 
 slimdoo_portal_index:
-    path:  /index
+    path:  /
     defaults: { _controller: eldoPagesBundle:Portal:index }
     methods:  [GET]
     schemes:  [%httpProtocol%]
@@ -41,7 +41,7 @@ slimdoo_portal_tip_show:
         id: '\d+'
 
 slimdoo_home:
-    path:  /
+    path:  /slimdoo
     defaults: { _controller: eldoPagesBundle:Page:home }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
