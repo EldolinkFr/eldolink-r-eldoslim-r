@@ -202,15 +202,21 @@ slimdoo_check_email:
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
-content_show:
-    path:  /content_show/{identifier}
-    defaults: { _controller: eldoPagesBundle:Content:content }
-    methods:  [GET, POST]
-    schemes:  [%httpProtocol%]
-
 content_show_image:
     path:  /content/img/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:contentImage }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+content_show_pdf:
+    path:  /content/pdf/{identifier}
+    defaults: { _controller: eldoPagesBundle:Content:contentPdf }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+content_show:
+    path:  /content_show/{identifier}
+    defaults: { _controller: eldoPagesBundle:Content:content }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
