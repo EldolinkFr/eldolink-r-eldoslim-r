@@ -244,24 +244,6 @@ slimdoo_ajax_terms:
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
-slimdoo_ajax_catcher:
-    path:  /catcher
-    defaults: { _controller: eldoPagesBundle:Page:ajaxCatcher }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
-slimdoo_ajax_optin:
-    path:  /optin
-    defaults: { _controller: eldoPagesBundle:Page:ajaxOptin }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
-slimdoo_ajax_terms:
-    path:  /terms
-    defaults: { _controller: eldoPagesBundle:Page:ajaxTerms }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
 eldo_tools:
     resource: "@eldoToolsBundle/Controller/" 
     type: annotation
