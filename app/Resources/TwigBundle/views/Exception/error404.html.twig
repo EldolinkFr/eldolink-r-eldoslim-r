@@ -27,13 +27,13 @@
     <div class="row">
         <div class="col-md-12">
             <div class="error-container text-center">
-                <a href="{{ path('slimdoo_home') }}">
+                <a href="{{ path('slimdoo_portal_index') }}">
 					<img src="{{ asset('bundles/eldopages/img/logo.png') }}" alt=""/>
                 </a>
                 <h1>{{ 'ooops.title'|trans({}, 'slimdoo')|desc("Ooops...")|raw }}</h1>
                 <p>{{ 'app.twig.exception.404.txt'|trans({}, 'slimdoo')|desc("La page que vous recherchez n'a pas été trouvée")|raw }}</p>
                 <div class="error-actions">
-                    <a href="{{ path('slimdoo_home') }}" class="btn btn-primary btn-lg">
+                    <a href="{{ path('slimdoo_portal_index') }}" class="btn btn-primary btn-lg">
                         <span class="glyphicon glyphicon-home"></span> {{ 'home.title'|trans({}, 'slimdoo')|desc("Revenir à l'accueil") }}
                     </a>
                 </div>
