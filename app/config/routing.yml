@@ -196,12 +196,6 @@ slimdoo_sms_home:
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
-slimdoo_check_email:
-    path:  /check_email
-    defaults: { _controller: eldoPagesBundle:Page:checkEmail }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
 content_show_image:
     path:  /content/img/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:contentImage }
@@ -229,6 +223,24 @@ example_home:
 check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+    
+slimdoo_ajax_catcher:
+    path:  /catcher
+    defaults: { _controller: eldoPagesBundle:Page:ajaxCatcher }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_optin:
+    path:  /optin
+    defaults: { _controller: eldoPagesBundle:Page:ajaxOptin }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_terms:
+    path:  /terms
+    defaults: { _controller: eldoPagesBundle:Page:ajaxTerms }
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
