@@ -4,8 +4,8 @@
 {% block title %}{{ parent() }} - {{ 'app.twig.exception.title'|trans({'%status%':status_text}, 'slimdoo')|desc('Erreur %status%') }}{% endblock %}
 
 {% block metas %}
-    {{ parent() }}
-
+    <link href="{{ asset('favicon.ico') }}" rel="shortcut icon">
+    <link href="{{ asset('apple-touch-icon.png') }}" rel="apple-touch-icon" />
     <meta name="robots" content="noindex,nofollow" />
 {% endblock metas %}
 
