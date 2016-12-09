@@ -82,6 +82,9 @@ parameters:
     eldolink_onesignal_app_auth_key: XXX
     eldolink_onesignal_gcm_sender_id: XXX
 
+    # Newrelic parameters
+    newrelic_api_key:         XXX
+
     # API config
     api_url: www.absolusecure.com/
     api_version: v1
