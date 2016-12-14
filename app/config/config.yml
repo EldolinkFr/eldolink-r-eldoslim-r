@@ -342,6 +342,10 @@ ekino_new_relic:
 eldo_main:
     newrelic:
         api_key:    %newrelic_api_key%
+    mailjet:
+        api_key:    %mailjet_api_key%
+        api_secret: %mailjet_api_secret%
+        list_id:    %mailjet_list_id%
     sendgrid:
         username:   %sendgrid_username%
         password:   %sendgrid_password%
