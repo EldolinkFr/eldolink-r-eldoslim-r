@@ -74,6 +74,20 @@ parameters:
     # Geocoding
     googlemap_api_key: XXX
 
+    # Strandlink Configuration
+    strandlink_api_url: http://www.leadcollecte.com/
+    strandlink_api_key: XXX
+    default_strandlink_id: XXX
+    default_strandlink_key: XXX
+    tips_strandlink_id: XXX
+    tips_strandlink_key: XXX
+    imc_strandlink_id: XXX
+    imc_strandlink_key: XXX
+    ideal_weight_strandlink_id: XXX
+    ideal_weight_strandlink_key: XXX
+    calories_strandlink_id: XXX
+    calories_strandlink_key: XXX
+
     # OneSignal Configuration
     onesignal_default_app: XXX
     slimdoo_onesignal_app_name: XXX
