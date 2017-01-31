@@ -34,6 +34,7 @@ twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
     globals:
+        assets_version: %assets_version%
         main_app_name: %app.name%
         main_facebook_app_ip: %app.facebook.id%
         default_affiliate: %default_affiliate%
