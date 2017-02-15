@@ -58,6 +58,12 @@ slimdoo_portal_tool:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+slimdoo_portal_email_instructions:
+    path:  /email_instructions/{identifier}
+    defaults: { _controller: eldoPagesBundle:Portal:emailInstructions }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_home:
     path:  /slimdoo
     defaults: { _controller: eldoPagesBundle:Page:home }
