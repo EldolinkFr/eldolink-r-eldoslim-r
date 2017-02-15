@@ -40,6 +40,24 @@ slimdoo_portal_tip_show:
     requirements:
         id: '\d+'
 
+slimdoo_portal_confirm:
+    path:  /confirm/{identifier}/{token}
+    defaults: { _controller: eldoPagesBundle:Portal:confirm }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_result:
+    path:  /result/{identifier}/{token}
+    defaults: { _controller: eldoPagesBundle:Portal:result }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_tool:
+    path:  /tool/{identifier}
+    defaults: { _controller: eldoPagesBundle:Portal:tool }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_home:
     path:  /slimdoo
     defaults: { _controller: eldoPagesBundle:Page:home }

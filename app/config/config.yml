@@ -415,7 +415,6 @@ eldo_main:
                 gcm_sender_id:  %eldolink_onesignal_gcm_sender_id%
     api:
         url:        %api_url%
-        url:        %api_url%
         version:    %api_version%
     default_currency:  %default_currency%
     default_affiliate:  %default_affiliate%
