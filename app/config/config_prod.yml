@@ -7,28 +7,12 @@ framework:
 
 doctrine:
     orm:
-        metadata_cache_driver:
-            type: service
-            id: snc_redis.default
-        result_cache_driver:
-            type: service
-            id: snc_redis.default
-        query_cache_driver:
-            type: service
-            id: snc_redis.default
+        metadata_cache_driver: apc
+        result_cache_driver: apc
+        query_cache_driver: apc
         second_level_cache:
             enabled:            true
             log_enabled:        true
-            region_cache_driver:
-                type: service
-                id: snc_redis_cache_driver
-            region_lock_lifetime: 60
-            regions:
-                region_cached:
-                    lifetime: 600
-                    cache_driver:
-                        type: service
-                        id: snc_redis_cache_driver
 
 monolog:
     handlers:

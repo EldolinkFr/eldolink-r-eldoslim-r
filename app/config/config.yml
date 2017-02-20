@@ -307,19 +307,19 @@ snc_redis:
             alias: default
             dsn: redis://localhost
             logging: %kernel.debug%
-    doctrine:
-        metadata_cache:
-            client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
-        result_cache:
-            client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
-        query_cache:
-            client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
+#     doctrine:
+#         metadata_cache:
+#             client: default
+#             namespace: "%kernel.root_dir%"
+#             entity_manager: [default]
+#         result_cache:
+#             client: default
+#             namespace: "%kernel.root_dir%"
+#             entity_manager: [default]
+#         query_cache:
+#             client: default
+#             namespace: "%kernel.root_dir%"
+#             entity_manager: [default]
         
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
