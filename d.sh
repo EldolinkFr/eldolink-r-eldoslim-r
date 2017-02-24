@@ -19,6 +19,9 @@ shift `expr $OPTIND - 1`
 git pull
 composer update
 composer install --optimize-autoloader
+php -d memory_limit=1024M app/console doctrine:cache:clear-metadata
+php -d memory_limit=1024M app/console doctrine:cache:clear-result
+php -d memory_limit=1024M app/console doctrine:cache:clear-query
 php -d memory_limit=1024M app/console cache:accelerator:clear
 
 if [ $dumpflag = "on" ]; then
