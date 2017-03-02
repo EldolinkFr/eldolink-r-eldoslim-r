@@ -190,6 +190,12 @@ slimdoo_pdv25:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv31:
+    path:  /pdv/31
+    defaults: { _controller: eldoPagesBundle:Page:pdv31 }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
 slimdoo_gifts:
     path:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
