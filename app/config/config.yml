@@ -305,7 +305,7 @@ snc_redis:
         default:
             type: predis
             alias: default
-            dsn: redis://localhost
+            dsn: redis://%database_host%
             logging: %kernel.debug%
     doctrine:
         metadata_cache:
