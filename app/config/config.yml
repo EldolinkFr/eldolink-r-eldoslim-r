@@ -307,6 +307,8 @@ snc_redis:
             alias: default
             dsn: redis://%database_host%
             logging: %kernel.debug%
+    session:
+        client: default
     doctrine:
         metadata_cache:
             client: default
