@@ -19,7 +19,6 @@ class AppKernel extends Kernel
 //addons
 			new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
             new Kachkaev\AssetsVersionBundle\KachkaevAssetsVersionBundle(),
-            new SmartCore\Bundle\AcceleratorCacheBundle\AcceleratorCacheBundle(),
             new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
 			new Liip\ImagineBundle\LiipImagineBundle(),
 			new JMS\AopBundle\JMSAopBundle(),

@@ -326,11 +326,6 @@ snc_redis:
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
 
-# AcceleratorCacheBundle Configuration
-accelerator_cache:
-    host: %app.url%
-    web_dir: %kernel.root_dir%/../web
-
 # SendinBlueBundle Configuration
 sendin_blue_api:
     api_key: %sendinblue_api_key%
