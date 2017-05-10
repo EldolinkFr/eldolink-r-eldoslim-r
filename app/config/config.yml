@@ -197,6 +197,11 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: eldo\MainBundle\Entity\Customer
+    service:
+        user_manager: eldo_main.customer_manager
+    from_email:
+        address:        %app.admin_email%
+        sender_name:    %app.admin_email%
 
 # JMSTranslationBundle Configuration
 jms_translation:
