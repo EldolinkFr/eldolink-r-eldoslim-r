@@ -262,6 +262,12 @@ content_show_pdf:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+video_show:
+    path:  /video
+    defaults: { _controller: eldoPagesBundle:Content:video }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 content_show:
     path:  /content_show/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
@@ -289,6 +295,12 @@ slimdoo_ajax_catcher:
 slimdoo_ajax_optin:
     path:  /optin
     defaults: { _controller: eldoPagesBundle:Page:ajaxOptin }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_notify:
+    path:  /notify
+    defaults: { _controller: eldoPagesBundle:Page:ajaxNotify }
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
