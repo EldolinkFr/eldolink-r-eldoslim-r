@@ -250,6 +250,24 @@ slimdoo_sms_home:
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
+example_home:
+    path:  /example/
+    defaults: { _controller: eldoPagesBundle:Example:home }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+check_email:
+    path:  /check_email
+    defaults: { _controller: eldoToolsBundle:Api:checkEmail }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+video_show:
+    path:  /video
+    defaults: { _controller: eldoPagesBundle:Content:video }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 content_show_image:
     path:  /content/img/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:contentImage }
@@ -262,28 +280,10 @@ content_show_pdf:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
-video_show:
-    path:  /video
-    defaults: { _controller: eldoPagesBundle:Content:video }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
 content_show:
     path:  /content_show/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
     methods:  [GET, POST]
-    schemes:  [%httpProtocol%]
-
-example_home:
-    path:  /example/
-    defaults: { _controller: eldoPagesBundle:Example:home }
-    methods:  [GET, POST]
-    schemes:  [%httpProtocol%]
-
-check_email:
-    path:  /check_email
-    defaults: { _controller: eldoToolsBundle:Api:checkEmail }
-    methods:  [POST]
     schemes:  [%httpProtocol%]
     
 slimdoo_ajax_catcher:
@@ -298,15 +298,15 @@ slimdoo_ajax_optin:
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
-slimdoo_ajax_notify:
-    path:  /notify
-    defaults: { _controller: eldoPagesBundle:Page:ajaxNotify }
-    methods:  [POST]
-    schemes:  [%httpProtocol%]
-
 slimdoo_ajax_terms:
     path:  /terms
     defaults: { _controller: eldoPagesBundle:Page:ajaxTerms }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_notify:
+    path:  /notify
+    defaults: { _controller: eldoPagesBundle:Page:ajaxNotify }
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
