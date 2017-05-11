@@ -37,6 +37,7 @@ class AppKernel extends Kernel
             new Snc\RedisBundle\SncRedisBundle(),
             new Misd\GuzzleBundle\MisdGuzzleBundle(),
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
+            new Knp\Bundle\TimeBundle\KnpTimeBundle(),
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new AntiMattr\GoogleBundle\GoogleBundle(),
