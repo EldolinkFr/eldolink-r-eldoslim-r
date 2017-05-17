@@ -285,7 +285,9 @@ google:
                 name: 'default'
                 accountId: %app.gg_analytics.id%
                 domain: 'auto'
-                includeNamePrefix: true
+                trackPageLoadTime: true
+                anonymizeIp: false
+                crossDomain: %app.gg_analytics.domains%
         
 # CravlerMaxmindGeoIPBundle Configuration
 cravler_max_mind_geo_ip:

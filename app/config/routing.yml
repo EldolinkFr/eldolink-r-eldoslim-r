@@ -220,12 +220,6 @@ slimdoo_pdv35:
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
-landing001:
-    path:  /une-aide-originale-et-surprenante/
-    defaults: { _controller: eldoPagesBundle:Landing:landing001 }
-    methods:  [GET]
-    schemes:  [%httpProtocol%]
-
 slimdoo_gifts:
     path:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
