@@ -27,7 +27,7 @@ parameters:
     app.admin_email:    error@example.com
     app.facebook.id:    XXX
     app.gg_analytics.id: XXX
-    app.gg_analytics.domains: [slimorama.com, sukupuk.com, pomrakun.com, chopslim.com, yamamua.com, eldoslim.com, slimtouk.com, eldo4u.com, wellnessimo.com, maomakmak.com, keet-tun.com, chopfarang.com, rakniramon.com, doyouslim.com, slimdoo.com, younarak.com, mai-pompoui.com, chopkao.com, aornarak.com, slimdoo-stop.com, slimdoo-light.com, slimdoo-tonic.com, slimdoo-up.com, slimdoo-zen.com, slimdoo-relax.com, slimdoo-ring.com]
+    app.gg_analytics.domains: [slimorama.com, sukupuk.com, pomrakun.com, chopslim.com, yamamua.com, eldoslim.com, slimtouk.com, eldo4u.com, wellnessimo.com, maomakmak.com, keet-tun.com, chopfarang.com, rakniramon.com, doyouslim.com, slimdoo.com, younarak.com, mai-pompoui.com, chopkao.com, aornarak.com, slimdoo-stop.com, slimdoo-light.com, slimdoo-tonic.com, slimdoo-up.com, slimdoo-zen.com, slimdoo-relax.com, slimdoo-ring.com, wellness-and-smile.com]
     app.locales:        [en, fr]
     app.templates:      [home, pdv1, pdv2, pdv3]
     app.maxItems:       50
