@@ -184,6 +184,18 @@ slimdoo_pdv21:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+slimdoo_pdv22:
+    path:  /pdv/22
+    defaults: { _controller: eldoPagesBundle:Page:pdv22 }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_pdv23:
+    path:  /pdv/23
+    defaults: { _controller: eldoPagesBundle:Page:pdv23 }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_pdv24:
     path:  /pdv/24
     defaults: { _controller: eldoPagesBundle:Page:pdv24 }
