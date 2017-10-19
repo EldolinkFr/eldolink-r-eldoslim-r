@@ -39,6 +39,18 @@ slimdoo_portal_tip_show:
     schemes:  [%httpProtocol%]
     requirements:
         id: '\d+'
+        
+slimdoo_portal_testimonials:
+    path:  /testimonials
+    defaults: { _controller: eldoPagesBundle:Portal:testimonialShow, page: 1 }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_testimonials_page:
+    path:  /testimonials/page/{page}
+    defaults: { _controller: eldoPagesBundle:Portal:testimonialShow }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
 
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
@@ -320,6 +332,24 @@ check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
     methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+testimonial_show:
+    path:  /testimonial/{product}
+    defaults: { _controller: eldoPagesBundle:Testimonial:show, page: 1 }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+testimonial_show_product_page:
+    path:  /testimonial/{product}/page/{page}
+    defaults: { _controller: eldoPagesBundle:Testimonial:show }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+testimonial_show_page:
+    path:  /testimonial/page/{page}
+    defaults: { _controller: eldoPagesBundle:Testimonial:show }
+    methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
 video_show:
