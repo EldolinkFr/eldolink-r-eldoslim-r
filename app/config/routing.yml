@@ -8,12 +8,6 @@ eldoMainBundle:
     type: annotation
     prefix:   /
 
-slimdoo_gateway:
-    path:  /g
-    defaults: { _controller: eldoPagesBundle:Page:gateway }
-    methods:  [GET, POST]
-    schemes:  [%httpProtocol%]
-
 slimdoo_portal_index:
     path:  /
     defaults: { _controller: eldoPagesBundle:Portal:index }
@@ -325,6 +319,12 @@ slimdoo_sms_home:
 example_home:
     path:  /example/
     defaults: { _controller: eldoPagesBundle:Example:home }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_gateway:
+    path:  /g
+    defaults: { _controller: eldoPagesBundle:Page:gateway }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
