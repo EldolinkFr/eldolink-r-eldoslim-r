@@ -45,6 +45,8 @@ slimdoo_portal_testimonials_page:
     defaults: { _controller: eldoPagesBundle:Portal:testimonialShow }
     methods:  [GET]
     schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
 
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
@@ -345,12 +347,16 @@ testimonial_show_product_page:
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
 
 testimonial_show_page:
     path:  /testimonial/page/{page}
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
 
 video_show:
     path:  /video
