@@ -46,6 +46,11 @@ parameters:
     mailjet_api_secret:         XXX
     mailjet_list_id:            XXX
 
+    # Oxone parameters
+    oxone_api_url:              'http://smsgate1.oxonegroup.fr:8002/bin/'
+    oxone_username:             XXX
+    oxone_password:             XXX
+
     # Sendgrid parameters
     sendgrid_username:          XXX
     sendgrid_password:          XXX

@@ -365,6 +365,10 @@ eldo_main:
         api_key:    %mailjet_api_key%
         api_secret: %mailjet_api_secret%
         list_id:    %mailjet_list_id%
+    oxone:
+        api_url:    %oxone_api_url%
+        username:   %oxone_username%
+        password:   %oxone_password%
     sendgrid:
         username:   %sendgrid_username%
         password:   %sendgrid_password%
