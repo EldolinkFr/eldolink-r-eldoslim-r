@@ -330,6 +330,12 @@ slimdoo_gateway:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+_slimdoo_track:
+    path:  /track
+    defaults: { _controller: eldoPagesBundle:Page:track }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
 check_email:
     path:  /check_email
     defaults: { _controller: eldoToolsBundle:Api:checkEmail }
