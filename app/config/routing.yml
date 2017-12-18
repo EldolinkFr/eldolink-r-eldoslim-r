@@ -20,6 +20,14 @@ slimdoo_portal_products:
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
+slimdoo_portal_product_show:
+    path:  /product/{id}/{slug}
+    defaults: { _controller: eldoPagesBundle:Portal:productShow }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+    requirements:
+        id: '\d+'
+
 slimdoo_portal_tips:
     path:  /tips
     defaults: { _controller: eldoPagesBundle:Portal:tips }
@@ -387,7 +395,25 @@ content_show:
     defaults: { _controller: eldoPagesBundle:Content:content }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
-    
+
+slimdoo_ajax_cart:
+    path:  /getCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_addtocart:
+    path:  /addToCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxAddToCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_updatecart:
+    path:  /updateCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxUpdateCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_ajax_catcher:
     path:  /catcher
     defaults: { _controller: eldoPagesBundle:Page:ajaxCatcher }
