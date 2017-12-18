@@ -44,7 +44,7 @@ slimdoo_portal_tip_show:
         
 slimdoo_portal_testimonials:
     path:  /testimonials
-    defaults: { _controller: eldoPagesBundle:Portal:testimonialShow, page: 1 }
+    defaults: { _controller: eldoPagesBundle:Portal:testimonials, page: 1 }
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
