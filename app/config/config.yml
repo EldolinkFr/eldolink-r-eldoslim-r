@@ -39,6 +39,7 @@ twig:
         main_facebook_app_ip: %app.facebook.id%
         default_affiliate: %default_affiliate%
         use_affiliate: %use_affiliate%
+        maxQuantity: %app.maxQuantity%
 
 # Assetic Configuration
 assetic:
