@@ -28,6 +28,12 @@ slimdoo_portal_product_show:
     requirements:
         id: '\d+'
 
+slimdoo_portal_ajax_modal:
+    path:  /modal
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxModal }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_portal_tips:
     path:  /tips
     defaults: { _controller: eldoPagesBundle:Portal:tips }
