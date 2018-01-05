@@ -74,6 +74,12 @@ slimdoo_portal_testimonials_page:
     requirements:
         page: '\d+'
 
+slimdoo_portal_quality_charter:
+    path:  /quality
+    defaults: { _controller: eldoPagesBundle:Portal:qualityCharter }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
     defaults: { _controller: eldoPagesBundle:Portal:confirm }
