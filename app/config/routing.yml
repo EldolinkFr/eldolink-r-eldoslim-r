@@ -3,6 +3,18 @@ _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
     schemes:  [%httpProtocol%]
 
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+    schemes:  [%httpProtocol%]
+
+restful_services:
+    resource: "@eldoMainBundle/Resources/config/rest.yml"
+    type:     rest
+    prefix:   /api
+    options: { i18n: false }
+    schemes:  [%httpProtocol%]
+
 eldoMainBundle: 
     resource: "@eldoMainBundle/Controller/"
     type: annotation
@@ -352,7 +364,7 @@ _slimdoo_track:
 
 check_email:
     path:  /check_email
-    defaults: { _controller: eldoToolsBundle:Api:checkEmail }
+    defaults: { _controller: eldoMainBundle:Ajax:checkEmail }
     methods:  [POST]
     schemes:  [%httpProtocol%]
 

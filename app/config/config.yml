@@ -233,6 +233,42 @@ fos_user:
         address:        %app.admin_email%
         sender_name:    %app.admin_email%
 
+# FOSRestBundle Configuration
+fos_rest:
+    param_fetcher_listener: true
+    body_listener: true
+    format_listener:
+        rules:
+            - { path: '^/api', priorities: [ json, xml ], fallback_format: ~, prefer_extension: true }
+            - { path: '^/', stop: true }
+            
+    body_converter:
+        enabled: false
+        validate: false
+    
+    view:
+        view_response_listener: 'force'
+        formats:
+            xml:  true
+            json: true
+        templating_formats:
+            html: true
+
+    exception:
+        codes:
+            'Symfony\Component\Routing\Exception\ResourceNotFoundException': 404
+            'Doctrine\ORM\OptimisticLockException': HTTP_CONFLICT
+        messages:
+            'Symfony\Component\Routing\Exception\ResourceNotFoundException': true
+    allowed_methods_listener: true
+    access_denied_listener:
+        json: true
+
+    disable_csrf_role: ROLE_API
+
+# NelmioApiDocBundle Configuration
+nelmio_api_doc: ~
+
 # JMSTranslationBundle Configuration
 jms_translation:
     configs:
