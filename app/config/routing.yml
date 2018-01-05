@@ -8,7 +8,7 @@ NelmioApiDocBundle:
     prefix:   /api/doc
     schemes:  [%httpProtocol%]
 
-restful_services:
+eldo_main_restful_services:
     resource: "@eldoMainBundle/Resources/config/rest.yml"
     type:     rest
     prefix:   /api
