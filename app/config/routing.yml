@@ -40,6 +40,12 @@ slimdoo_portal_product_show:
     requirements:
         id: '\d+'
 
+slimdoo_portal_catcher_result:
+    path:  /catcher_result
+    defaults: { _controller: eldoPagesBundle:Portal:catcherResult }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_portal_ajax_modal:
     path:  /modal
     defaults: { _controller: eldoPagesBundle:Portal:ajaxModal }
