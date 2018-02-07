@@ -39,6 +39,7 @@ twig:
         main_facebook_app_ip: %app.facebook.id%
         default_affiliate: %default_affiliate%
         use_affiliate: %use_affiliate%
+        maxQuantity: %app.maxQuantity%
 
 # Assetic Configuration
 assetic:
@@ -92,6 +93,34 @@ doctrine:
                 dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Loggable/Entity"
                 alias: GedmoLoggable # this one is optional and will default to the name set for the mapping
                 is_bundle: false
+        dql:
+            datetime_functions:
+                date:           Oro\ORM\Query\AST\Functions\SimpleFunction
+                time:           Oro\ORM\Query\AST\Functions\SimpleFunction
+                timestamp:      Oro\ORM\Query\AST\Functions\SimpleFunction
+                convert_tz:     Oro\ORM\Query\AST\Functions\DateTime\ConvertTz
+            numeric_functions:
+                timestampdiff:  Oro\ORM\Query\AST\Functions\Numeric\TimestampDiff
+                dayofyear:      Oro\ORM\Query\AST\Functions\SimpleFunction
+                dayofmonth:     Oro\ORM\Query\AST\Functions\SimpleFunction
+                dayofweek:      Oro\ORM\Query\AST\Functions\SimpleFunction
+                week:           Oro\ORM\Query\AST\Functions\SimpleFunction
+                day:            Oro\ORM\Query\AST\Functions\SimpleFunction
+                hour:           Oro\ORM\Query\AST\Functions\SimpleFunction
+                minute:         Oro\ORM\Query\AST\Functions\SimpleFunction
+                month:          Oro\ORM\Query\AST\Functions\SimpleFunction
+                quarter:        Oro\ORM\Query\AST\Functions\SimpleFunction
+                second:         Oro\ORM\Query\AST\Functions\SimpleFunction
+                year:           Oro\ORM\Query\AST\Functions\SimpleFunction
+                sign:           Oro\ORM\Query\AST\Functions\Numeric\Sign
+                pow:            Oro\ORM\Query\AST\Functions\Numeric\Pow
+            string_functions:
+                md5:            Oro\ORM\Query\AST\Functions\SimpleFunction
+                group_concat:   Oro\ORM\Query\AST\Functions\String\GroupConcat
+                concat_ws:      Oro\ORM\Query\AST\Functions\String\ConcatWs
+                cast:           Oro\ORM\Query\AST\Functions\Cast
+                replace:        Oro\ORM\Query\AST\Functions\String\Replace
+                date_format:    Oro\ORM\Query\AST\Functions\String\DateFormat
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -205,6 +234,13 @@ liip_imagine:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
+        thumb_600x600:
+            quality: 75
+            filters:
+                thumbnail: { size: [600, 600], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_570x310:
             quality: 75
             filters:
@@ -242,6 +278,42 @@ fos_user:
     from_email:
         address:        %app.admin_email%
         sender_name:    %app.admin_email%
+
+# FOSRestBundle Configuration
+fos_rest:
+    param_fetcher_listener: true
+    body_listener: true
+    format_listener:
+        rules:
+            - { path: '^/api', priorities: [ json, xml ], fallback_format: ~, prefer_extension: true }
+            - { path: '^/', stop: true }
+            
+    body_converter:
+        enabled: false
+        validate: false
+    
+    view:
+        view_response_listener: 'force'
+        formats:
+            xml:  true
+            json: true
+        templating_formats:
+            html: true
+
+    exception:
+        codes:
+            'Symfony\Component\Routing\Exception\ResourceNotFoundException': 404
+            'Doctrine\ORM\OptimisticLockException': HTTP_CONFLICT
+        messages:
+            'Symfony\Component\Routing\Exception\ResourceNotFoundException': true
+    allowed_methods_listener: true
+    access_denied_listener:
+        json: true
+
+    disable_csrf_role: ROLE_API
+
+# NelmioApiDocBundle Configuration
+nelmio_api_doc: ~
 
 # JMSTranslationBundle Configuration
 jms_translation:
@@ -404,6 +476,10 @@ eldo_main:
         api_key:    %mailjet_api_key%
         api_secret: %mailjet_api_secret%
         list_id:    %mailjet_list_id%
+    oxone:
+        api_url:    %oxone_api_url%
+        username:   %oxone_username%
+        password:   %oxone_password%
     sendgrid:
         username:   %sendgrid_username%
         password:   %sendgrid_password%

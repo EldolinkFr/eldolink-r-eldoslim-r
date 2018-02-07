@@ -3,16 +3,22 @@ _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
     schemes:  [%httpProtocol%]
 
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
+    schemes:  [%httpProtocol%]
+
+eldo_main_restful_services:
+    resource: "@eldoMainBundle/Resources/config/rest.yml"
+    type:     rest
+    prefix:   /api
+    options: { i18n: false }
+    schemes:  [%httpProtocol%]
+
 eldoMainBundle: 
     resource: "@eldoMainBundle/Controller/"
     type: annotation
     prefix:   /
-
-slimdoo_gateway:
-    path:  /g
-    defaults: { _controller: eldoPagesBundle:Page:gateway }
-    methods:  [GET, POST]
-    schemes:  [%httpProtocol%]
 
 slimdoo_portal_index:
     path:  /
@@ -24,6 +30,26 @@ slimdoo_portal_products:
     path:  /products
     defaults: { _controller: eldoPagesBundle:Portal:products }
     methods:  [GET]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_product_show:
+    path:  /product/{id}/{slug}
+    defaults: { _controller: eldoPagesBundle:Portal:productShow }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+    requirements:
+        id: '\d+'
+
+slimdoo_portal_catcher_result:
+    path:  /catcher_result
+    defaults: { _controller: eldoPagesBundle:Portal:catcherResult }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_portal_ajax_modal:
+    path:  /modal
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxModal }
+    methods:  [POST]
     schemes:  [%httpProtocol%]
 
 slimdoo_portal_tips:
@@ -42,13 +68,21 @@ slimdoo_portal_tip_show:
         
 slimdoo_portal_testimonials:
     path:  /testimonials
-    defaults: { _controller: eldoPagesBundle:Portal:testimonialShow, page: 1 }
+    defaults: { _controller: eldoPagesBundle:Portal:testimonials, page: 1 }
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
 slimdoo_portal_testimonials_page:
     path:  /testimonials/page/{page}
-    defaults: { _controller: eldoPagesBundle:Portal:testimonialShow }
+    defaults: { _controller: eldoPagesBundle:Portal:testimonials }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
+
+slimdoo_portal_quality_charter:
+    path:  /quality
+    defaults: { _controller: eldoPagesBundle:Portal:qualityCharter }
     methods:  [GET]
     schemes:  [%httpProtocol%]
 
@@ -328,9 +362,21 @@ example_home:
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
 
+slimdoo_gateway:
+    path:  /g
+    defaults: { _controller: eldoPagesBundle:Page:gateway }
+    methods:  [GET, POST]
+    schemes:  [%httpProtocol%]
+
+_slimdoo_track:
+    path:  /track
+    defaults: { _controller: eldoPagesBundle:Page:track }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
 check_email:
     path:  /check_email
-    defaults: { _controller: eldoToolsBundle:Api:checkEmail }
+    defaults: { _controller: eldoMainBundle:Ajax:checkEmail }
     methods:  [POST]
     schemes:  [%httpProtocol%]
 
@@ -345,12 +391,16 @@ testimonial_show_product_page:
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
 
 testimonial_show_page:
     path:  /testimonial/page/{page}
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
+    requirements:
+        page: '\d+'
 
 video_show:
     path:  /video
@@ -375,7 +425,25 @@ content_show:
     defaults: { _controller: eldoPagesBundle:Content:content }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
-    
+
+slimdoo_ajax_cart:
+    path:  /getCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_addtocart:
+    path:  /addToCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxAddToCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
+slimdoo_ajax_updatecart:
+    path:  /updateCart
+    defaults: { _controller: eldoPagesBundle:Page:ajaxUpdateCart }
+    methods:  [POST]
+    schemes:  [%httpProtocol%]
+
 slimdoo_ajax_catcher:
     path:  /catcher
     defaults: { _controller: eldoPagesBundle:Page:ajaxCatcher }
