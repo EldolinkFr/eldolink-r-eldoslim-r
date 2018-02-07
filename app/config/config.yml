@@ -125,54 +125,93 @@ liip_imagine:
             quality: 75
             filters:
                 thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_70x70:
             quality: 75
             filters:
                 thumbnail: { size: [70, 70], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_50x50:
             quality: 75
             filters:
                 thumbnail: { size: [50, 50], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_36x36:
             quality: 75
             filters:
                 thumbnail: { size: [36, 36], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_30x30:
             quality: 75
             filters:
                 thumbnail: { size: [30, 30], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_20x20:
             quality: 75
             filters:
                 thumbnail: { size: [20, 20], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_16x16:
             quality: 75
             filters:
                 thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_196x196:
             quality: 75
             filters:
                 thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_152x152:
             quality: 75
             filters:
                 thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_170x170:
             quality: 75
             filters:
                 thumbnail: { size: [170, 170], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_200x200:
             quality: 75
             filters:
                 thumbnail: { size: [200, 200], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_400x400:
             quality: 75
             filters:
                 thumbnail: { size: [400, 400], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_570x310:
             quality: 75
             filters:
                 thumbnail: { size: [570, 310], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
                 
 # MopaBootstrapBundle Configuration
 mopa_bootstrap:
