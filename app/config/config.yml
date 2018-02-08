@@ -150,24 +150,6 @@ liip_imagine:
         default:
             filesystem: ~          
     filter_sets:
-        thumb_16x16:
-            filters:
-                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
-                optipng: { strip_all: true, level: 5 }
-        thumb_196x196:
-            filters:
-                thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
-                optipng: { strip_all: true, level: 5 }
-        thumb_152x152:
-            filters:
-                thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
-                optipng: { strip_all: true, level: 5 }
         thumb_110x110:
             filters:
                 thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
@@ -201,6 +183,24 @@ liip_imagine:
         thumb_20x20:
             filters:
                 thumbnail: { size: [20, 20], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        thumb_16x16:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        thumb_196x196:
+            filters:
+                thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        thumb_152x152:
+            filters:
+                thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
