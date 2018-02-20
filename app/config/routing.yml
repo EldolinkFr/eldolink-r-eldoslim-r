@@ -20,6 +20,12 @@ eldoMainBundle:
     type: annotation
     prefix:   /
 
+api_items:
+    path:  /data-api/items
+    defaults: { _controller: eldoPagesBundle:Api:itemsApi }
+    methods:  [GET]
+    schemes:  [%httpProtocol%]
+
 slimdoo_portal_index:
     path:  /
     defaults: { _controller: eldoPagesBundle:Portal:index }
