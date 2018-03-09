@@ -28,7 +28,6 @@
         "knplabs/doctrine-behaviors": "dev-master",
         "misd/guzzle-bundle": "dev-master",
         "isometriks/spam-bundle":"dev-master",
-        "cravler/maxmind-geoip-bundle": "dev-master",
         "craue/formflow-bundle": "~2.0",
         "eldolink/pages-bundle": "dev-master",
         "eldolink/tools-bundle": "dev-master",
