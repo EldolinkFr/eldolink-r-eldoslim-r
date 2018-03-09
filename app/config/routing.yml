@@ -427,7 +427,7 @@ content_show_pdf:
     schemes:  [%httpProtocol%]
 
 content_show:
-    path:  /content_show/{identifier}
+    path:  /content/{identifier}
     defaults: { _controller: eldoPagesBundle:Content:content }
     methods:  [GET, POST]
     schemes:  [%httpProtocol%]
