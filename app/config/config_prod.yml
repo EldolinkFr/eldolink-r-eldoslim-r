@@ -51,6 +51,3 @@ monolog:
             level:      debug
         console:
             type:  console
-
-parameters:
-    httpProtocol: https

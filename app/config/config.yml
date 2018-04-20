@@ -28,6 +28,7 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
+    trusted_proxies:  [192.168.232.10]
 
 # Twig Configuration
 twig:
@@ -528,6 +529,3 @@ eldo_main:
     default_product:  %default_product%
     default_offer:  %default_offer%
     testing_offers:  %testing_offers%
-
-parameters:
-    httpProtocol: http
