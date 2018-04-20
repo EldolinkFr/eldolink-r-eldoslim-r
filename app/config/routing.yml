@@ -305,7 +305,7 @@ slimdoo_pdv42:
 
 slimdoo_pdv43:
     path:  /pdv/43
-    defaults: { _controller: eldoPagesBundle:Page:pdv42 }
+    defaults: { _controller: eldoPagesBundle:Page:pdv43 }
     methods:  [GET]
 
 slimdoo_gifts:
