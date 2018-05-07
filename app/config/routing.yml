@@ -22,6 +22,161 @@ api_items:
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }
     methods:  [GET]
 
+landing001:
+    path:  /une-aide-originale-et-surprenante/boucles-magnetiques/
+    defaults: { _controller: eldoPagesBundle:Landing:landing001 }
+    methods:  [GET]
+
+landing002:
+    path:  /une-aide-originale-et-surprenante/boucles-energetiques/
+    defaults: { _controller: eldoPagesBundle:Landing:landing002 }
+    methods:  [GET]
+
+landing003:
+    path:  /perdez-du-poids-en-vous-relaxant/
+    defaults: { _controller: eldoPagesBundle:Landing:landing003 }
+    methods:  [GET]
+
+landing004:
+    path:  /une-aide-originale-et-surprenante/bracelet-magnetique/
+    defaults: { _controller: eldoPagesBundle:Landing:landing004 }
+    methods:  [GET]
+
+landing005:
+    path:  /une-aide-originale-et-surprenante/bracelet-minceur/
+    defaults: { _controller: eldoPagesBundle:Landing:landing005 }
+    methods:  [GET]
+
+landing006:
+    path:  /bracelet-magnetique/
+    defaults: { _controller: eldoPagesBundle:Landing:landing006 }
+    methods:  [GET]
+
+landing007:
+    path:  /bracelet-minceur/
+    defaults: { _controller: eldoPagesBundle:Landing:landing007 }
+    methods:  [GET]
+
+landing008:
+    path:  /une-aide-originale-et-surprenante/bracelet-regenerant/
+    defaults: { _controller: eldoPagesBundle:Landing:landing008 }
+    methods:  [GET]
+
+landing009:
+    path:  /une-aide-originale-et-surprenante/bracelet-zen/
+    defaults: { _controller: eldoPagesBundle:Landing:landing009 }
+    methods:  [GET]
+
+landing010:
+    path:  /une-aide-originale-et-surprenante/bracelet/
+    defaults: { _controller: eldoPagesBundle:Landing:landing010 }
+    methods:  [GET]
+
+landing011:
+    path:  /une-aide-originale-et-surprenante/braceletmagnetique/
+    defaults: { _controller: eldoPagesBundle:Landing:landing011 }
+    methods:  [GET]
+
+landing012:
+    path:  /une-aide-originale-et-surprenante/questionnaire-bracelet/
+    defaults: { _controller: eldoPagesBundle:Landing:landing012 }
+    methods:  [GET]
+
+landing013:
+    path:  /une-aide-originale-et-surprenante/questionnaire-minceur/
+    defaults: { _controller: eldoPagesBundle:Landing:landing013 }
+    methods:  [GET]
+
+landing014:
+    path:  /une-aide-originale-et-surprenante/bracelet-magnetique-zen/
+    defaults: { _controller: eldoPagesBundle:Landing:landing014 }
+    methods:  [GET]
+
+landing015:
+    path:  /une-aide-originale-et-surprenante/bracelet-magnetique-minceur/
+    defaults: { _controller: eldoPagesBundle:Landing:landing015 }
+    methods:  [GET]
+    
+landing016:
+    path:  /une-aide-originale-et-surprenante/questionnaire-tonic/
+    defaults: { _controller: eldoPagesBundle:Landing:landing016 }
+    methods:  [GET]
+    
+landing017:
+    path:  /une-aide-originale-et-surprenante/bracelet-slimdoo-zen/
+    defaults: { _controller: eldoPagesBundle:Landing:landing017 }
+    methods:  [GET]
+
+landing018:
+    path:  /une-aide-originale-et-surprenante/anneaux-minceur/
+    defaults: { _controller: eldoPagesBundle:Landing:landing018 }
+    methods:  [GET]
+    
+landing019:
+    path:  /5-accessoires-minceur-incroyables/slimdoo/
+    defaults: { _controller: eldoPagesBundle:Landing:landing019 }
+    methods:  [GET]
+    
+landing020:
+    path:  /5-accessoires-minceur-incroyables/slimdoo-products/
+    defaults: { _controller: eldoPagesBundle:Landing:landing020 }
+    methods:  [GET]
+    
+landing021:
+    path:  /une-aide-originale-et-surprenante/bracelet-slimdoo-tonic/
+    defaults: { _controller: eldoPagesBundle:Landing:landing021 }
+    methods:  [GET]
+    
+landing022:
+    path:  /une-aide-originale-et-surprenante/bracelet-tonic/
+    defaults: { _controller: eldoPagesBundle:Landing:landing022 }
+    methods:  [GET]
+
+landing023:
+    path:  /une-aide-originale-et-surprenante/bracelet-relaxant/
+    defaults: { _controller: eldoPagesBundle:Landing:landing023 }
+    methods:  [GET]
+    
+landing024:
+    path:  /5-accessoires-minceur-incroyables/
+    defaults: { _controller: eldoPagesBundle:Landing:landing024 }
+    methods:  [GET]
+
+landing025:
+    path:  /5-accessoires-anti-stress-incroyables/001/
+    defaults: { _controller: eldoPagesBundle:Landing:landing025 }
+    methods:  [GET]
+
+landing026:
+    path:  /5-accessoires-anti-stress-incroyables/002/
+    defaults: { _controller: eldoPagesBundle:Landing:landing026 }
+    methods:  [GET]
+    
+landing027:
+    path:  /une-aide-originale-et-surprenante/bracelet-regenerant-tonus/
+    defaults: { _controller: eldoPagesBundle:Landing:landing027 }
+    methods:  [GET]
+    
+landing028:
+    path:  /une-aide-originale-et-surprenante/bague-relaxante/
+    defaults: { _controller: eldoPagesBundle:Landing:landing028 }
+    methods:  [GET]
+
+# landing029:
+#     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
+#     defaults: { _controller: eldoPagesBundle:Landing:landing029 }
+#     methods:  [GET]
+# 
+landing030:
+    path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
+    defaults: { _controller: eldoPagesBundle:Landing:landing030 }
+    methods:  [GET]
+
+slimdoo_lead_result:
+    path:  /lead_result
+    defaults: { _controller: eldoPagesBundle:Landing:leadResult }
+    methods:  [POST]
+
 slimdoo_portal_index:
     path:  /
     defaults: { _controller: eldoPagesBundle:Portal:index }
