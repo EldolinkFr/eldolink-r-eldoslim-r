@@ -177,6 +177,11 @@ landing031:
     defaults: { _controller: eldoPagesBundle:Landing:landing031 }
     methods:  [GET]
 
+landing032:
+    path:  /slimdoo-zen/032/
+    defaults: { _controller: eldoPagesBundle:Landing:landing032 }
+    methods:  [GET]
+
 slimdoo_lead_result:
     path:  /lead_result
     defaults: { _controller: eldoPagesBundle:Landing:leadResult }
