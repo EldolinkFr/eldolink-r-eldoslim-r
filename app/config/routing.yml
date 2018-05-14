@@ -162,10 +162,10 @@ landing028:
     defaults: { _controller: eldoPagesBundle:Landing:landing028 }
     methods:  [GET]
 
-# landing029:
-#     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
-#     defaults: { _controller: eldoPagesBundle:Landing:landing029 }
-#     methods:  [GET]
+landing029:
+    path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
+    defaults: { _controller: eldoPagesBundle:Landing:landing029 }
+    methods:  [GET]
 
 landing030:
     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
@@ -180,6 +180,11 @@ landing031:
 landing032:
     path:  /slimdoo-zen/032/
     defaults: { _controller: eldoPagesBundle:Landing:landing032 }
+    methods:  [GET]
+
+landing033:
+    path:  /slimdoo-zen/033/
+    defaults: { _controller: eldoPagesBundle:Landing:landing033 }
     methods:  [GET]
 
 slimdoo_lead_result:
