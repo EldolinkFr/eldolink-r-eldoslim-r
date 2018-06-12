@@ -258,6 +258,16 @@ slimdoo_portal_quality_charter:
     defaults: { _controller: eldoPagesBundle:Portal:qualityCharter }
     methods:  [GET]
 
+slimdoo_portal_medias:
+    path:  /medias
+    defaults: { _controller: eldoPagesBundle:Portal:medias }
+    methods:  [GET]
+
+slimdoo_portal_partners:
+    path:  /partners
+    defaults: { _controller: eldoPagesBundle:Portal:partners }
+    methods:  [GET]
+
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
     defaults: { _controller: eldoPagesBundle:Portal:confirm }
