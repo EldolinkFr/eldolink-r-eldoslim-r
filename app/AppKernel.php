@@ -43,7 +43,6 @@ class AppKernel extends Kernel
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new AntiMattr\GoogleBundle\GoogleBundle(),
-            new Ekino\Bundle\NewRelicBundle\EkinoNewRelicBundle(),
             new SendinBlue\SendinBlueApiBundle\SendinBlueApiBundle(),
 
 //eldolink bundles
@@ -53,6 +52,10 @@ class AppKernel extends Kernel
             new eldo\PagesBundle\eldoPagesBundle(),
             new eldo\ToolsBundle\eldoToolsBundle(),
         );
+
+        if (in_array($this->getEnvironment(), array('prod'))) {
+            $bundles[] = new Ekino\Bundle\NewRelicBundle\EkinoNewRelicBundle();
+        }
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();

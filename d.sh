@@ -32,6 +32,6 @@ fi
 php app/console assets_version:increment
 php -d memory_limit=1024M app/console cache:clear --env=prod --no-debug
 
-php -d memory_limit=1024M app/console newrelic:notify-deployment
+php -d memory_limit=1024M app/console newrelic:notify-deployment --env=prod
 
 exit 0
