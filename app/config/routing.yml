@@ -268,6 +268,11 @@ slimdoo_portal_partners:
     defaults: { _controller: eldoPagesBundle:Portal:partners }
     methods:  [GET]
 
+slimdoo_portal_contact:
+    path:  /contact
+    defaults: { _controller: eldoPagesBundle:Portal:contact }
+    methods:  [GET]
+
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
     defaults: { _controller: eldoPagesBundle:Portal:confirm }
