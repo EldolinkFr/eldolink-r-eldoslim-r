@@ -271,7 +271,7 @@ slimdoo_portal_partners:
 slimdoo_portal_contact:
     path:  /contact
     defaults: { _controller: eldoPagesBundle:Portal:contact }
-    methods:  [GET]
+    methods:  [GET, POST]
 
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
