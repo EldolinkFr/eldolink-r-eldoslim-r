@@ -441,7 +441,7 @@ sendin_blue_api:
 google_tag_manager:
     enabled: true
     id: "GTM-%gtm_id%"
-    autoAppend: true
+    autoAppend: false
 
 # eldoMainBundle Configuration
 eldo_main:

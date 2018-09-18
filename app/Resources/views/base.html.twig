@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head {% block headclass %}{% endblock %}>
+    {{ google_tag_manager_head() }}
 	<title>{% block title %}{% endblock %}</title>
     {% block robots %}{% endblock %}
     {% block description %}{% endblock %}
@@ -14,10 +15,12 @@
 	{% endblock %}
 </head>
 <body {% block bodyclass %}{% endblock %}>
+    {{ google_tag_manager_body() }}
 	{% block body %}
 		{% block header %}{% endblock %}
 		{% block content %}{% endblock %}
 	{% endblock %}
 	{% block javascripts %}{% endblock %}
+    {{ google_tag_manager_body_end() }}
 </body>
 </html>
