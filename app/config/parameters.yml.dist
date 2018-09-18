@@ -78,6 +78,9 @@ parameters:
     # GoogleAnalytics API
     googleanalytics_config: XXX
 
+    # GTM ID
+    gtm_id: XXX
+
     # Geocoding
     googlemap_api_key: XXX
 

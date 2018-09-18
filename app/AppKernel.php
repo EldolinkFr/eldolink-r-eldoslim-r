@@ -44,6 +44,7 @@ class AppKernel extends Kernel
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new AntiMattr\GoogleBundle\GoogleBundle(),
             new SendinBlue\SendinBlueApiBundle\SendinBlueApiBundle(),
+            new Xynnn\GoogleTagManagerBundle\GoogleTagManagerBundle(),
 
 //eldolink bundles
             new eldo\MainBundle\eldoMainBundle(),

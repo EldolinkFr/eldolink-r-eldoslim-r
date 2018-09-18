@@ -437,6 +437,12 @@ sendin_blue_api:
     api_key: %sendinblue_api_key%
     timeout: 5000
 
+# GoogleTagManagerBundle Configuration
+google_tag_manager:
+    enabled: true
+    id: "GTM-%gtm_id%"
+    autoAppend: true
+
 # eldoMainBundle Configuration
 eldo_main:
     newrelic:
@@ -468,6 +474,8 @@ eldo_main:
         api_key:    %googlemap_api_key%
     googleanalytics:
         config:    %googleanalytics_config%
+    gtm:
+        id:        %gtm_id%
     strandlink:
         api_url:        %strandlink_api_url%
         api_key:        %strandlink_api_key%
