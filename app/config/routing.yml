@@ -22,6 +22,11 @@ api_items:
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }
     methods:  [GET]
 
+slimdoo_lead_result:
+    path:  /lead_result
+    defaults: { _controller: eldoPagesBundle:Landing:leadResult }
+    methods:  [POST]
+
 landing001:
     path:  /une-aide-originale-et-surprenante/boucles-magnetiques/
     defaults: { _controller: eldoPagesBundle:Landing:landing001 }
@@ -108,7 +113,7 @@ landing017:
     methods:  [GET]
 
 landing018:
-    path:  /une-aide-originale-et-surprenante/anneaux-minceur/
+    path:  /landing/018/
     defaults: { _controller: eldoPagesBundle:Landing:landing018 }
     methods:  [GET]
     
@@ -197,9 +202,19 @@ landing035:
     defaults: { _controller: eldoPagesBundle:Landing:landing035 }
     methods:  [GET]
 
-slimdoo_lead_result:
-    path:  /lead_result
-    defaults: { _controller: eldoPagesBundle:Landing:leadResult }
+landing036:
+    path:  /landing/036/
+    defaults: { _controller: eldoPagesBundle:Landing:landing036 }
+    methods:  [GET]
+
+landing037:
+    path:  /landing/037/
+    defaults: { _controller: eldoPagesBundle:Landing:landing037 }
+    methods:  [GET]
+    
+landing_catcher_result:
+    path:  /landing_catcher_result
+    defaults: { _controller: eldoPagesBundle:Landing:catcherResult }
     methods:  [POST]
 
 slimdoo_portal_index:
@@ -531,6 +546,11 @@ slimdoo_pdv48:
 slimdoo_pdv49:
     path:  /pdv/49
     defaults: { _controller: eldoPagesBundle:Page:pdv49 }
+    methods:  [GET]
+
+slimdoo_pdv50:
+    path:  /pdv/50
+    defaults: { _controller: eldoPagesBundle:Page:pdv50 }
     methods:  [GET]
 
 slimdoo_gifts:
