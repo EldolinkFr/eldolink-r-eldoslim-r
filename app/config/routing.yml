@@ -573,6 +573,16 @@ slimdoo_pdv56:
     defaults: { _controller: eldoPagesBundle:Page:pdv56 }
     methods:  [GET]
 
+slimdoo_pdv57:
+    path:  /pdv/57
+    defaults: { _controller: eldoPagesBundle:Page:pdv57 }
+    methods:  [GET]
+
+slimdoo_pdv58:
+    path:  /pdv/58
+    defaults: { _controller: eldoPagesBundle:Page:pdv58 }
+    methods:  [GET]
+
 slimdoo_gifts:
     path:  /gifts
     defaults: { _controller: eldoPagesBundle:Page:gifts }
