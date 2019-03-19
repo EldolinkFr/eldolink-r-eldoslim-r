@@ -472,6 +472,8 @@ eldo_main:
         api_key:    %googlemap_api_key%
     googleanalytics:
         config:    %googleanalytics_config%
+    googleurlshortener:
+        config:    %googleurlshortener_config%
     gtm:
         id:        %gtm_id%
     strandlink:

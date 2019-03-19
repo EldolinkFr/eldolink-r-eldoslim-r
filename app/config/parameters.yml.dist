@@ -78,6 +78,9 @@ parameters:
     # GoogleAnalytics API
     googleanalytics_config: XXX
 
+    # GoogleUrlShortener API
+    googleurlshortener_config: XXX
+
     # GTM ID
     gtm_id: XXX
 
