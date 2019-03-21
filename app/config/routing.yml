@@ -692,12 +692,12 @@ slimdoo_ajax_optin:
     defaults: { _controller: eldoPagesBundle:Page:ajaxOptin }
     methods:  [POST]
 
-slimdoo_ajax_terms:
+customers_ajax_terms:
     path:  /terms
     defaults: { _controller: eldoPagesBundle:Page:ajaxTerms }
     methods:  [POST]
 
-slimdoo_ajax_notify:
+customers_ajax_notify:
     path:  /notify
     defaults: { _controller: eldoPagesBundle:Page:ajaxNotify }
     methods:  [POST]
