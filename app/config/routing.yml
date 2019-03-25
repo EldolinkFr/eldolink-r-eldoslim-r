@@ -558,6 +558,16 @@ slimdoo_pdv51:
     defaults: { _controller: eldoPagesBundle:Page:pdv51 }
     methods:  [GET]
 
+slimdoo_pdv52:
+    path:  /pdv/52
+    defaults: { _controller: eldoPagesBundle:Page:pdv52 }
+    methods:  [GET]
+
+slimdoo_pdv53:
+    path:  /pdv/53
+    defaults: { _controller: eldoPagesBundle:Page:pdv53 }
+    methods:  [GET]
+
 slimdoo_pdv54:
     path:  /pdv/54
     defaults: { _controller: eldoPagesBundle:Page:pdv54 }
@@ -581,6 +591,86 @@ slimdoo_pdv57:
 slimdoo_pdv58:
     path:  /pdv/58
     defaults: { _controller: eldoPagesBundle:Page:pdv58 }
+    methods:  [GET]
+
+slimdoo_pdv59:
+    path:  /pdv/59
+    defaults: { _controller: eldoPagesBundle:Page:pdv59 }
+    methods:  [GET]
+
+slimdoo_pdv60:
+    path:  /pdv/60
+    defaults: { _controller: eldoPagesBundle:Page:pdv60 }
+    methods:  [GET]
+
+slimdoo_pdv61:
+    path:  /pdv/61
+    defaults: { _controller: eldoPagesBundle:Page:pdv61 }
+    methods:  [GET]
+
+slimdoo_pdv62:
+    path:  /pdv/62
+    defaults: { _controller: eldoPagesBundle:Page:pdv62 }
+    methods:  [GET]
+
+slimdoo_pdv63:
+    path:  /pdv/63
+    defaults: { _controller: eldoPagesBundle:Page:pdv63 }
+    methods:  [GET]
+
+slimdoo_pdv64:
+    path:  /pdv/64
+    defaults: { _controller: eldoPagesBundle:Page:pdv64 }
+    methods:  [GET]
+
+slimdoo_pdv65:
+    path:  /pdv/65
+    defaults: { _controller: eldoPagesBundle:Page:pdv65 }
+    methods:  [GET]
+
+slimdoo_pdv66:
+    path:  /pdv/66
+    defaults: { _controller: eldoPagesBundle:Page:pdv66 }
+    methods:  [GET]
+
+slimdoo_pdv67:
+    path:  /pdv/67
+    defaults: { _controller: eldoPagesBundle:Page:pdv67 }
+    methods:  [GET]
+
+slimdoo_pdv68:
+    path:  /pdv/68
+    defaults: { _controller: eldoPagesBundle:Page:pdv68 }
+    methods:  [GET]
+
+slimdoo_pdv69:
+    path:  /pdv/69
+    defaults: { _controller: eldoPagesBundle:Page:pdv69 }
+    methods:  [GET]
+
+slimdoo_pdv70:
+    path:  /pdv/70
+    defaults: { _controller: eldoPagesBundle:Page:pdv70 }
+    methods:  [GET]
+
+slimdoo_pdv71:
+    path:  /pdv/71
+    defaults: { _controller: eldoPagesBundle:Page:pdv71 }
+    methods:  [GET]
+
+slimdoo_pdv72:
+    path:  /pdv/72
+    defaults: { _controller: eldoPagesBundle:Page:pdv72 }
+    methods:  [GET]
+
+slimdoo_pdv73:
+    path:  /pdv/73
+    defaults: { _controller: eldoPagesBundle:Page:pdv73 }
+    methods:  [GET]
+
+slimdoo_pdv74:
+    path:  /pdv/74
+    defaults: { _controller: eldoPagesBundle:Page:pdv74 }
     methods:  [GET]
 
 slimdoo_gifts:
