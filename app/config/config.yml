@@ -472,8 +472,10 @@ eldo_main:
         api_key:    %googlemap_api_key%
     googleanalytics:
         config:    %googleanalytics_config%
-    googleurlshortener:
-        config:    %googleurlshortener_config%
+    firebase:
+        api_key:                %firebase_api_key%
+        dynamic_link_url:       %firebase_dynamic_link_url%
+        dynamic_link_domain:    %firebase_dynamic_link_domain%
     gtm:
         id:        %gtm_id%
     strandlink:

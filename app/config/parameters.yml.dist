@@ -78,8 +78,10 @@ parameters:
     # GoogleAnalytics API
     googleanalytics_config: XXX
 
-    # GoogleUrlShortener API
-    googleurlshortener_config: XXX
+    # Firebase Config
+    firebase_api_key: XXX
+    firebase_dynamic_link_url: https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=
+    firebase_dynamic_link_domain: XXX
 
     # GTM ID
     gtm_id: XXX
