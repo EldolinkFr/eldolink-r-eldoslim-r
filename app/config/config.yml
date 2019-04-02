@@ -151,6 +151,18 @@ liip_imagine:
         default:
             filesystem: ~          
     filter_sets:
+        ico:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        apple_touch_icon:
+            filters:
+                thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         thumb_110x110:
             filters:
                 thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
