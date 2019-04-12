@@ -37,6 +37,7 @@ twig:
         assets_version: %assets_version%
         main_app_name: %app.name%
         main_facebook_app_ip: %app.facebook.id%
+        default_currency: %default_currency%
         default_locale: %locale%
         default_affiliate: %default_affiliate%
         use_affiliate: %use_affiliate%
