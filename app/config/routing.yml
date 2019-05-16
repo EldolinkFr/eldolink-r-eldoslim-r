@@ -817,7 +817,7 @@ slimdoo_ajax_optin:
     defaults: { _controller: eldoPagesBundle:Page:ajaxOptin }
     methods:  [POST]
 
-customers_ajax_terms:
+slimdoo_ajax_terms:
     path:  /terms
     defaults: { _controller: eldoPagesBundle:Page:ajaxTerms }
     methods:  [POST]
