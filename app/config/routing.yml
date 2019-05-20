@@ -683,11 +683,6 @@ thetoujours_pdv201:
     defaults: { _controller: eldoPagesBundle:Page:pdv201 }
     methods:  [GET]
 
-thetoujours_pdv202:
-    path:  /pdv/202
-    defaults: { _controller: eldoPagesBundle:Page:pdv202 }
-    methods:  [GET]
-
 thetoujours_pdv203:
     path:  /pdv/203
     defaults: { _controller: eldoPagesBundle:Page:pdv203 }
@@ -706,6 +701,31 @@ thetoujours_pdv205:
 thetoujours_pdv206:
     path:  /pdv/206
     defaults: { _controller: eldoPagesBundle:Page:pdv206 }
+    methods:  [GET]
+
+thetoujours_pdv211:
+    path:  /pdv/211
+    defaults: { _controller: eldoPagesBundle:Page:pdv211 }
+    methods:  [GET]
+
+thetoujours_pdv213:
+    path:  /pdv/213
+    defaults: { _controller: eldoPagesBundle:Page:pdv213 }
+    methods:  [GET]
+
+thetoujours_pdv214:
+    path:  /pdv/214
+    defaults: { _controller: eldoPagesBundle:Page:pdv214 }
+    methods:  [GET]
+
+thetoujours_pdv215:
+    path:  /pdv/215
+    defaults: { _controller: eldoPagesBundle:Page:pdv215 }
+    methods:  [GET]
+
+thetoujours_pdv216:
+    path:  /pdv/216
+    defaults: { _controller: eldoPagesBundle:Page:pdv216 }
     methods:  [GET]
 
 slimdoo_gifts:
