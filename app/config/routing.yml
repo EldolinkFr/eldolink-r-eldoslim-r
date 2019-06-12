@@ -211,6 +211,31 @@ landing037:
     path:  /landing/037/
     defaults: { _controller: eldoPagesBundle:Landing:landing037 }
     methods:  [GET]
+
+landing038:
+    path:  /landing/038/
+    defaults: { _controller: eldoPagesBundle:Landing:landing038 }
+    methods:  [GET]
+
+landing039:
+    path:  /landing/039/
+    defaults: { _controller: eldoPagesBundle:Landing:landing039 }
+    methods:  [GET]
+
+landing040:
+    path:  /landing/040/
+    defaults: { _controller: eldoPagesBundle:Landing:landing040 }
+    methods:  [GET]
+
+landing041:
+    path:  /landing/041/
+    defaults: { _controller: eldoPagesBundle:Landing:landing041 }
+    methods:  [GET]
+
+landing042:
+    path:  /landing/042/
+    defaults: { _controller: eldoPagesBundle:Landing:landing042 }
+    methods:  [GET]
     
 landing_catcher_result:
     path:  /landing_catcher_result
@@ -711,6 +736,21 @@ thetoujours_pdv206:
 thetoujours_pdv207:
     path:  /pdv/207
     defaults: { _controller: eldoPagesBundle:Page:pdv207 }
+    methods:  [GET]
+
+thetoujours_pdv208:
+    path:  /pdv/208
+    defaults: { _controller: eldoPagesBundle:Page:pdv208 }
+    methods:  [GET]
+
+thetoujours_pdv209:
+    path:  /pdv/209
+    defaults: { _controller: eldoPagesBundle:Page:pdv209 }
+    methods:  [GET]
+
+thetoujours_pdv210:
+    path:  /pdv/210
+    defaults: { _controller: eldoPagesBundle:Page:pdv210 }
     methods:  [GET]
 
 thetoujours_pdv211:
