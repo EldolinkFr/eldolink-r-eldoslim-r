@@ -758,6 +758,11 @@ thetoujours_pdv211:
     defaults: { _controller: eldoPagesBundle:Page:pdv211 }
     methods:  [GET]
 
+thetoujours_pdv212:
+    path:  /pdv/212
+    defaults: { _controller: eldoPagesBundle:Page:pdv212 }
+    methods:  [GET]
+
 thetoujours_pdv213:
     path:  /pdv/213
     defaults: { _controller: eldoPagesBundle:Page:pdv213 }
