@@ -4,4 +4,10 @@
 User-agent: *
 Disallow: /addToCart
 Disallow: /getCart
+Disallow: /de/notify
+Disallow: /en/notify
+Disallow: /es/notify
 Disallow: /notify
+Disallow: /it/notify
+Disallow: /pt/notify
+Disallow: /catcher_result
