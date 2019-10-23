@@ -17,9 +17,23 @@ DirectoryIndex app.php
     RewriteEngine On
     
     #BLACKLIST UN AFFILIE
-    #RewriteCond %{QUERY_STRING} ^.*(&a=13701).* [NC]
-    #RewriteRule ^(.*)$ - [F,L]
-    
+    RewriteCond %{QUERY_STRING} ^.*(&a=13701).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{QUERY_STRING} ^.*(a=test).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{QUERY_STRING} ^.*(domain=test).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
+
+    #BLACKLIST UN REFERER
+    RewriteCond %{HTTP_REFERER} monthe\.shop [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{HTTP_REFERER} guide-eco\.vip [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{HTTP_REFERER} toujours-the\.com [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{HTTP_REFERER} slimdoo-light\.club [NC]
+    RewriteRule ^(.*)$ - [F,L]
+
     RewriteCond %{HTTP_HOST} .
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
