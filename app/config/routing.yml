@@ -22,6 +22,16 @@ api_items:
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }
     methods:  [GET]
 
+api_products:
+    path:  /data-api/products
+    defaults: { _controller: eldoPagesBundle:Api:productsApi }
+    methods:  [GET]
+
+api_customers:
+    path:  /data-api/customers
+    defaults: { _controller: eldoPagesBundle:Api:customersApi }
+    methods:  [GET]
+
 slimdoo_lead_result:
     path:  /lead_result
     defaults: { _controller: eldoPagesBundle:Landing:leadResult }
@@ -703,6 +713,16 @@ slimdoo_pdv75:
     defaults: { _controller: eldoPagesBundle:Page:pdv75 }
     methods:  [GET]
 
+slimdoo_pdv76:
+    path:  /pdv/76
+    defaults: { _controller: eldoPagesBundle:Page:pdv76 }
+    methods:  [GET]
+
+slimdoo_pdv77:
+    path:  /pdv/77
+    defaults: { _controller: eldoPagesBundle:Page:pdv77 }
+    methods:  [GET]
+
 thetoujours_pdv201:
     path:  /pdv/201
     defaults: { _controller: eldoPagesBundle:Page:pdv201 }
@@ -781,6 +801,11 @@ thetoujours_pdv215:
 thetoujours_pdv216:
     path:  /pdv/216
     defaults: { _controller: eldoPagesBundle:Page:pdv216 }
+    methods:  [GET]
+
+thetoujours_pdv217:
+    path:  /pdv/217
+    defaults: { _controller: eldoPagesBundle:Page:pdv217 }
     methods:  [GET]
 
 slimdoo_gifts:
