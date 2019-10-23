@@ -17,9 +17,10 @@ framework:
     #serializer:      { enable_annotations: true }
     templating:
         engines: ['twig']
-        assets_version: %assets_version%
-        assets_base_urls: 'https://cdn.eldoslim.com'
-#         assets_version_format: 'v-%%2$s/%%1$s'
+    assets:
+        version: %assets_version%
+        base_urls: 'https://cdn.eldoslim.com'
+#       version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
     session:
