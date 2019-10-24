@@ -19,7 +19,7 @@ framework:
         engines: ['twig']
     assets:
         version: %assets_version%
-        base_urls: 'https://cdn.eldoslim.com'
+        base_urls: '%app.cdn_url%'
 #       version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
@@ -455,6 +455,16 @@ google_tag_manager:
     enabled: true
     id: "GTM-%gtm_id%"
     autoAppend: false
+
+# AlekittoCompressorBundle Configuration
+kcs_compressor:
+    enabled:              true      # Set to false to disable the compressor
+    compress_html:        true      # Enable HTML optimizations
+    preserve_line_breaks: false     # Enable the line breaks preservation
+    remove_comments:      true      # Remove HTML comments while compressing
+    remove_extra_spaces:  true      # Remove extra spaces in HTML
+    compress_js:          false     # Enable inline js compression
+    compress_css:         false     # Enable inline css compression
 
 # eldoMainBundle Configuration
 eldo_main:
