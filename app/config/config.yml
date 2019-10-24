@@ -463,8 +463,11 @@ kcs_compressor:
     preserve_line_breaks: false     # Enable the line breaks preservation
     remove_comments:      true      # Remove HTML comments while compressing
     remove_extra_spaces:  true      # Remove extra spaces in HTML
-    compress_js:          false     # Enable inline js compression
-    compress_css:         false     # Enable inline css compression
+    compress_js:          true     # Enable inline js compression
+    compress_css:         true     # Enable inline css compression
+    js_compressor:        yui       # Can be none (disabled), yui or custom
+    css_compressor:       yui       # Can be none (disabled), yui or custom
+    yui_jar:              "/usr/share/yui-compressor/yui-compressor.jar"
 
 # eldoMainBundle Configuration
 eldo_main:
