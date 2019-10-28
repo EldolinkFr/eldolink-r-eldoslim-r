@@ -104,6 +104,13 @@ parameters:
     calories_strandlink_id: XXX
     calories_strandlink_key: XXX
 
+    # Amazon S3 parameters
+    amazon_s3.region: 'eu-west-3'
+    amazon_s3.key: username
+    amazon_s3.secret: password
+    amazon_s3.bucket_name: bucket
+    amazon_s3.base_url: https://s3.amazonaws.com/
+
     # OneSignal Configuration
     onesignal_default_app: XXX
     slimdoo_onesignal_app_name: XXX

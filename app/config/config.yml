@@ -20,7 +20,7 @@ framework:
     assets:
         version: %assets_version%
 # #         base_urls: '%app.cdn_url%'
-#       version_format: 'v-%%2$s/%%1$s'
+      version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
     session:
@@ -456,19 +456,6 @@ google_tag_manager:
     id: "GTM-%gtm_id%"
     autoAppend: false
 
-# AlekittoCompressorBundle Configuration
-# kcs_compressor:
-#     enabled:              true      # Set to false to disable the compressor
-#     compress_html:        true      # Enable HTML optimizations
-#     preserve_line_breaks: false     # Enable the line breaks preservation
-#     remove_comments:      true      # Remove HTML comments while compressing
-#     remove_extra_spaces:  true      # Remove extra spaces in HTML
-#     compress_js:          true     # Enable inline js compression
-#     compress_css:         true     # Enable inline css compression
-#     js_compressor:        yui       # Can be none (disabled), yui or custom
-#     css_compressor:       yui       # Can be none (disabled), yui or custom
-#     yui_jar:              "/usr/share/yui-compressor/yui-compressor.jar"
-
 # eldoMainBundle Configuration
 eldo_main:
     newrelic:
@@ -477,6 +464,12 @@ eldo_main:
         api_key:    %mailjet_api_key%
         api_secret: %mailjet_api_secret%
         list_id:    %mailjet_list_id%
+    amazon_s3:
+        base_url:    %amazon_s3.base_url%
+        region:      %amazon_s3.region%
+        key:         %amazon_s3.key%
+        secret:      %amazon_s3.secret%
+        bucket_name: %amazon_s3.bucket_name%
     oxone:
         api_url:    %oxone_api_url%
         username:   %oxone_username%
