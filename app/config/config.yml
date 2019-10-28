@@ -37,6 +37,7 @@ twig:
     strict_variables: "%kernel.debug%"
     globals:
         assets_version: %assets_version%
+        cdn_url: %app.cdn_url%
         main_app_name: %app.name%
         main_facebook_app_ip: %app.facebook.id%
         default_currency: %default_currency%
