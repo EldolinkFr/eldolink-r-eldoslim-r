@@ -372,12 +372,22 @@ knp_gaufrette:
                     content: file_data
                     mtime: uploadedat
                     checksum: file_checksum
-
+        document_s3_adapter:
+            aws_s3:
+                service_id: 'eldo_main.document.s3'
+                bucket_name: '%amazon_s3.bucket_name%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: document
+                    
     filesystems:
-        media_fs:
+        media_local_fs:
             adapter:    media_local_adapter
-        database_fs:
+        media_database_fs:
             adapter:    media_database_adapter
+        document_s3_fs:
+            adapter:    document_s3_adapter
 
 # VichUploaderBundle configuration
 vich_uploader:
@@ -385,11 +395,17 @@ vich_uploader:
     storage:   gaufrette
 
     mappings:
-        file:
+        media:
             uri_prefix:         /uploads/files
-            upload_destination: media_fs
+            upload_destination: media_local_fs
 #             upload_destination: database_fs
             namer:              vich_uploader.namer_uniqid
+        document:
+            inject_on_load: true
+            uri_prefix: "%amazon_s3.base_url%/%amazon_s3.bucket_name%"
+            upload_destination: document_s3_fs
+            delete_on_update:   false
+            delete_on_remove:   false 
 
 # GoogleBundle Configuration
 google:
