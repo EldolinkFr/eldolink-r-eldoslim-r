@@ -403,6 +403,7 @@ vich_uploader:
         document:
             inject_on_load: true
             uri_prefix: "%amazon_s3.base_url%/%amazon_s3.bucket_name%"
+            directory_namer:    eldo_main.directory_namer
             upload_destination: document_s3_fs
             delete_on_update:   false
             delete_on_remove:   false 
