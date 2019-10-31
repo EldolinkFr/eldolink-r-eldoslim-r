@@ -783,12 +783,12 @@ thetoujours_pdv212:
     defaults: { _controller: eldoPagesBundle:Page:pdv212 }
     methods:  [GET]
 
-thetoujours_pdv213:
+slimdoo_pdv213:
     path:  /pdv/213
     defaults: { _controller: eldoPagesBundle:Page:pdv213 }
     methods:  [GET]
 
-thetoujours_pdv214:
+slimdoo_pdv214:
     path:  /pdv/214
     defaults: { _controller: eldoPagesBundle:Page:pdv214 }
     methods:  [GET]
