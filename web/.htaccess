@@ -17,7 +17,9 @@ DirectoryIndex app.php
     RewriteEngine On
     
     #BLACKLIST UN AFFILIE
-    RewriteCond %{QUERY_STRING} ^.*(&a=13701).* [NC]
+    RewriteCond %{QUERY_STRING} ^.*(a=13701).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{QUERY_STRING} ^.*(a=13057).* [NC]
     RewriteRule ^(.*)$ - [F,L]
     RewriteCond %{QUERY_STRING} ^.*(a=test).* [NC]
     RewriteRule ^(.*)$ - [F,L]
