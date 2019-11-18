@@ -3,8 +3,6 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
-date_default_timezone_set('Europe/Paris');
-
 if (isset($_SERVER['HTTP_CLIENT_IP'])
     || !(in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '109.190.99.187')) || php_sapi_name() === 'cli-server')
 ) {
