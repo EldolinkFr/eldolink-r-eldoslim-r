@@ -269,6 +269,28 @@ slimdoo_portal_product_show:
     requirements:
         id: '\d+'
 
+slimdoo_portal_related_products:
+    path:  /related_products/{id}
+    defaults: { _controller: eldoPagesBundle:Portal:relatedProductsGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+
+slimdoo_portal_testimonials_section:
+    path:  /testimonials_section
+    defaults: { _controller: eldoPagesBundle:Portal:testimonialsSectionGet }
+    methods:  [POST]
+    
+slimdoo_portal_partners_native:
+    path:  /partners_native
+    defaults: { _controller: eldoPagesBundle:Portal:partnersNativeGet }
+    methods:  [POST]
+    
+slimdoo_portal_latests_tips:
+    path:  /latests_tips
+    defaults: { _controller: eldoPagesBundle:Portal:latestsTipsGet }
+    methods:  [POST]
+
 slimdoo_portal_catcher_result:
     path:  /catcher_result
     defaults: { _controller: eldoPagesBundle:Portal:catcherResult }
