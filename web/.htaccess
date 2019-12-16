@@ -233,7 +233,7 @@ DirectoryIndex app.php
          Header unset Set-Cookie
     </IfModule>
 </FilesMatch>
-<FilesMatch "\.(ttf|ttc|otf|eot|woff|font.css|css)$">
+<FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css)$">
     <IfModule mod_headers.c>
         Header set Access-Control-Allow-Origin "*"
     </IfModule>
