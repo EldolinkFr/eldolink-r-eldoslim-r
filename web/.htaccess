@@ -25,6 +25,12 @@ DirectoryIndex app.php
     RewriteRule ^(.*)$ - [F,L]
     RewriteCond %{QUERY_STRING} ^.*(domain=test).* [NC]
     RewriteRule ^(.*)$ - [F,L]
+    RewriteCond %{QUERY_STRING} ^.*(o=test).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
+
+    #BLACKLIST UNE QUERY
+    RewriteCond %{QUERY_STRING} ^.*(UNION).* [NC]
+    RewriteRule ^(.*)$ - [F,L]
 
     #BLACKLIST UN REFERER
     RewriteCond %{HTTP_REFERER} monthe\.shop [NC]
