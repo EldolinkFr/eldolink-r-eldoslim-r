@@ -251,6 +251,24 @@ liip_imagine:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
+        thumb_352x191:
+            filters:
+                thumbnail: { size: [352, 191], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        thumb_291x158:
+            filters:
+                thumbnail: { size: [291, 158], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        thumb_261x142:
+            filters:
+                thumbnail: { size: [261, 142], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
                 
 # MopaBootstrapBundle Configuration
 mopa_bootstrap:
