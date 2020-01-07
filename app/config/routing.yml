@@ -262,6 +262,18 @@ slimdoo_portal_products:
     defaults: { _controller: eldoPagesBundle:Portal:products }
     methods:  [GET]
 
+slimdoo_portal_products_list:
+    path:  /products_list
+    defaults: { _controller: eldoPagesBundle:Portal:productsList, page: 1 }
+    methods:  [GET]
+
+slimdoo_portal_products_list_page:
+    path:  /products_list/page/{page}
+    defaults: { _controller: eldoPagesBundle:Portal:productsList }
+    methods:  [GET]
+    requirements:
+        page: '\d+'
+
 slimdoo_portal_product_show:
     path:  /product/{id}/{slug}
     defaults: { _controller: eldoPagesBundle:Portal:productShow }
