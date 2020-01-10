@@ -777,6 +777,11 @@ slimdoo_pdv81:
     defaults: { _controller: eldoPagesBundle:Page:pdv81 }
     methods:  [GET]
 
+slimdoo_pdv82:
+    path:  /pdv/82
+    defaults: { _controller: eldoPagesBundle:Page:pdv82 }
+    methods:  [GET]
+
 thetoujours_pdv201:
     path:  /pdv/201
     defaults: { _controller: eldoPagesBundle:Page:pdv201 }
@@ -948,17 +953,17 @@ content_show:
 
 slimdoo_ajax_cart:
     path:  /getCart
-    defaults: { _controller: eldoPagesBundle:Page:ajaxCart }
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxCart }
     methods:  [POST]
 
 slimdoo_ajax_addtocart:
     path:  /addToCart
-    defaults: { _controller: eldoPagesBundle:Page:ajaxAddToCart }
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxAddToCart }
     methods:  [POST]
 
 slimdoo_ajax_updatecart:
     path:  /updateCart
-    defaults: { _controller: eldoPagesBundle:Page:ajaxUpdateCart }
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxUpdateCart }
     methods:  [POST]
 
 slimdoo_ajax_catcher:
