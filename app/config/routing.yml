@@ -282,11 +282,12 @@ slimdoo_portal_product_show:
         id: '\d+'
 
 slimdoo_portal_related_products:
-    path:  /related_products/{id}
+    path:  /related_products/{id}/{tool}
     defaults: { _controller: eldoPagesBundle:Portal:relatedProductsGet }
     methods:  [POST]
     requirements:
         id: '\d+'
+        tool: '\d+'
 
 slimdoo_portal_testimonials_section:
     path:  /testimonials_section
@@ -780,6 +781,11 @@ slimdoo_pdv81:
 slimdoo_pdv82:
     path:  /pdv/82
     defaults: { _controller: eldoPagesBundle:Page:pdv82 }
+    methods:  [GET]
+
+slimdoo_pdv83:
+    path:  /pdv/83
+    defaults: { _controller: eldoPagesBundle:Page:pdv83 }
     methods:  [GET]
 
 thetoujours_pdv201:
