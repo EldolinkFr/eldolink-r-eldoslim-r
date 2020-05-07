@@ -127,6 +127,9 @@ parameters:
     # Newrelic parameters
     newrelic_api_key:         XXX
 
+    # Back Office config
+    backoffice_url: back.eldolink.com/
+
     # API config
     api_url: www.absolusecure.com/
     api_version: v1

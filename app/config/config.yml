@@ -570,6 +570,8 @@ eldo_main:
                 safari_web_id:  %eldolink_onesignal_safari_web_id%
                 app_auth_key:   %eldolink_onesignal_app_auth_key%
                 gcm_sender_id:  %eldolink_onesignal_gcm_sender_id%
+    backoffice:
+        url:        %backoffice_url%
     api:
         url:        %api_url%
         version:    %api_version%
