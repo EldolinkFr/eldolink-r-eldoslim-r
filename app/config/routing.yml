@@ -32,6 +32,11 @@ api_customers:
     defaults: { _controller: eldoPagesBundle:Api:customersApi }
     methods:  [GET]
 
+api_content:
+    path:  /data-api/content
+    defaults: { _controller: eldoPagesBundle:Api:contentApi }
+    methods:  [GET]
+
 slimdoo_lead_result:
     path:  /lead_result
     defaults: { _controller: eldoPagesBundle:Landing:leadResult }
@@ -901,6 +906,11 @@ slimdoo_pdv216:
 thetoujours_pdv217:
     path:  /pdv/217
     defaults: { _controller: eldoPagesBundle:Page:pdv217 }
+    methods:  [GET]
+
+slimdoo_pdv218:
+    path:  /pdv/218
+    defaults: { _controller: eldoPagesBundle:Page:pdv218 }
     methods:  [GET]
 
 slimdoo_gifts:
