@@ -325,8 +325,20 @@ slimdoo_portal_tips:
     methods:  [GET]
 
 slimdoo_portal_tip_show:
-    path:  /{id}/{slug}
+    path:  /tip/{id}/{slug}
     defaults: { _controller: eldoPagesBundle:Portal:tipShow }
+    methods:  [GET]
+    requirements:
+        id: '\d+'
+        
+slimdoo_portal_recipes:
+    path:  /recipes
+    defaults: { _controller: eldoPagesBundle:Portal:recipes }
+    methods:  [GET]
+
+slimdoo_portal_recipe_show:
+    path:  /recipe/{id}/{slug}
+    defaults: { _controller: eldoPagesBundle:Portal:recipeShow }
     methods:  [GET]
     requirements:
         id: '\d+'
