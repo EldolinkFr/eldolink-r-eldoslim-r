@@ -251,6 +251,11 @@ landing042:
     path:  /landing/042/
     defaults: { _controller: eldoPagesBundle:Landing:landing042 }
     methods:  [GET]
+
+landing043:
+    path:  /landing/043/
+    defaults: { _controller: eldoPagesBundle:Landing:landing043 }
+    methods:  [GET]
     
 landing_catcher_result:
     path:  /landing_catcher_result
