@@ -482,11 +482,6 @@ snc_redis:
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
 
-# SendinBlueBundle Configuration
-sendin_blue_api:
-    api_key: %sendinblue_api_key%
-    timeout: 5000
-
 # GoogleTagManagerBundle Configuration
 google_tag_manager:
     enabled: true
@@ -514,6 +509,8 @@ eldo_main:
     sendgrid:
         username:   %sendgrid_username%
         password:   %sendgrid_password%
+    sendinblue:
+        api_key: %sendinblue_api_key%
     neverbounce:
         username:   %neverbounce_username%
         secret_key: %neverbounce_secret_key%
