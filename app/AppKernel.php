@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new SunCat\MobileDetectBundle\MobileDetectBundle(),
+            new Nmure\CrawlerDetectBundle\CrawlerDetectBundle(),
             new RobertoTru\ToInlineStyleEmailBundle\RobertoTruToInlineStyleEmailBundle(),
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
@@ -45,7 +46,6 @@ class AppKernel extends Kernel
             new Cravler\MaxMindGeoIpBundle\CravlerMaxMindGeoIpBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
             new AntiMattr\GoogleBundle\GoogleBundle(),
-            new SendinBlue\SendinBlueApiBundle\SendinBlueApiBundle(),
             new Xynnn\GoogleTagManagerBundle\GoogleTagManagerBundle(),
 
 //eldolink bundles
