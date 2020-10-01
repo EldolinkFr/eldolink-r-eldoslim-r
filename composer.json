@@ -21,7 +21,7 @@
         "sensio/framework-extra-bundle": "3.0.12",
         "incenteev/composer-parameter-handler": "~2.0",
         "twig/extensions": "~1.0",
-        "mopa/bootstrap-bundle": "dev-master",
+        "mopa/bootstrap-bundle": "3.0.0",
         "twbs/bootstrap": "3.3.*",
         "bmatzner/fontawesome-bundle": "~4.3",
         "jquery/jquery":  "2.0.*",
