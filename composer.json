@@ -27,9 +27,9 @@
         "jquery/jquery":  "2.0.*",
         "misd/guzzle-bundle": "dev-master",
         "craue/formflow-bundle": "~2.0",
-        "eldolink/pages-bundle": "dev-master",
-        "eldolink/tools-bundle": "dev-master",
-        "eldolink/main-bundle": "dev-master"
+        "eldolink/pages-bundle": "2.0.0",
+        "eldolink/tools-bundle": "2.0.0",
+        "eldolink/main-bundle": "2.0.0"
     },
     "repositories": [
         {

@@ -18,8 +18,8 @@ framework:
     templating:
         engines: ['twig']
     assets:
-        version: %assets_version%
-        base_urls: '%app.cdn_url%'
+        version: "%assets_version%"
+        base_urls: "%app.cdn_url%"
 #       version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
@@ -36,15 +36,15 @@ twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
     globals:
-        assets_version: %assets_version%
-        cdn_url: %app.cdn_url%
-        main_app_name: %app.name%
-        main_facebook_app_ip: %app.facebook.id%
-        default_currency: %default_currency%
-        default_locale: %locale%
-        default_affiliate: %default_affiliate%
-        use_affiliate: %use_affiliate%
-        maxQuantity: %app.maxQuantity%
+        assets_version: "%assets_version%"
+        cdn_url: "%app.cdn_url%"
+        main_app_name: "%app.name%"
+        main_facebook_app_ip: "%app.facebook.id%"
+        default_currency: "%default_currency%"
+        default_locale: "%locale%"
+        default_affiliate: "%default_affiliate%"
+        use_affiliate: "%use_affiliate%"
+        maxQuantity: "%app.maxQuantity%"
 
 # Assetic Configuration
 assetic:
@@ -297,8 +297,8 @@ fos_user:
     service:
         user_manager: eldo_main.customer_manager
     from_email:
-        address:        %app.admin_email%
-        sender_name:    %app.admin_email%
+        address:        "%app.admin_email%"
+        sender_name:    "%app.admin_email%"
 
 # FOSRestBundle Configuration
 fos_rest:
@@ -434,7 +434,7 @@ google:
         trackers:
             default:
                 name: 'default'
-                accountId: %app.gg_analytics.id%
+                accountId: "%app.gg_analytics.id%"
                 domain: 'auto'
                 trackPageLoadTime: true
                 anonymizeIp: false
@@ -464,7 +464,7 @@ snc_redis:
             type: predis
             alias: default
             dsn: redis://%database_host%
-            logging: %kernel.debug%
+            logging: "%kernel.debug%"
     doctrine:
         metadata_cache:
             client: default
@@ -572,8 +572,8 @@ eldo_main:
     api:
         url:        %api_url%
         version:    %api_version%
-    default_currency:  %default_currency%
-    default_affiliate:  %default_affiliate%
+    default_currency:  "%default_currency%"
+    default_affiliate:  "%default_affiliate%"
     default_pricing_model:  %default_pricing_model%
     default_product:  %default_product%
     default_offer:  %default_offer%

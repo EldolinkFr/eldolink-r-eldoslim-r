@@ -46,8 +46,8 @@ monolog:
             handler: swift
         swift:
             type:       swift_mailer
-            from_email: %app.admin_email%
-            to_email:   %app.admin_email%
+            from_email: "%app.admin_email%"
+            to_email:   "%app.admin_email%"
             subject:    "%app.name% : An Error Occurred!"
             level:      debug
         console:
@@ -56,9 +56,9 @@ monolog:
 # EkinoNewRelicBundle Configuration
 ekino_new_relic:
     enabled: true
-    application_name: %app.name%
+    application_name: "%app.name%"
     deployment_names: ~
-    api_key: %newrelic_api_key%
+    api_key: "%newrelic_api_key%"
     xmit: false
     logging: true
     instrument: false

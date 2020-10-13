@@ -71,4 +71,4 @@ assetic:
     use_controller: true
 
 swiftmailer:
-    delivery_address: %app.admin_email%
+    delivery_address: "%app.admin_email%"
