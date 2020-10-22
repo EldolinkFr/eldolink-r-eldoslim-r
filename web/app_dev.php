@@ -3,17 +3,25 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
+date_default_timezone_set('Europe/Paris');
+
+/*
+exec('rm -rf '.__DIR__.'/../app/logs/');
+exec('rm -rf '.__DIR__.'/../app/cache/d*');
+exec('rm -rf '.__DIR__.'/../app/cache/p*');
+die;
+*/
+
 if (isset($_SERVER['HTTP_CLIENT_IP'])
-    || !(in_array(@$_SERVER['HTTP_X_FORWARDED_FOR'], array('127.0.0.1', 'fe80::1', '::1', '109.190.99.187')) || php_sapi_name() === 'cli-server')
+    || isset($_SERVER['HTTP_X_FORWARDED_FOR'])
+    || !(in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1', '90.63.234.151', '82.64.108.167')) || php_sapi_name() === 'cli-server')
 ) {
     header('HTTP/1.0 403 Forbidden');
     exit('Welcome ;-)');
 }
 
-$loader = require_once __DIR__.'/../app/bootstrap.php.cache';
+require __DIR__.'/../app/autoload.php';
 Debug::enable();
-
-require_once __DIR__.'/../app/AppKernel.php';
 
 $kernel = new AppKernel('dev', true);
 $kernel->loadClassCache();
