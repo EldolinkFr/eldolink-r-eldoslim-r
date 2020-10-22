@@ -6,7 +6,8 @@
         "psr-4": {
             "": "src/",
             "SymfonyStandard\\": "app/"
-        }
+        },
+        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
     "require": {
         "php": ">=5.3.9",
@@ -27,9 +28,9 @@
         "jquery/jquery":  "2.0.*",
         "misd/guzzle-bundle": "dev-master",
         "craue/formflow-bundle": "~2.0",
-        "eldolink/pages-bundle": "2.0.0",
-        "eldolink/tools-bundle": "2.0.0",
-        "eldolink/main-bundle": "2.0.0"
+        "eldolink/pages-bundle": "2.0.21",
+        "eldolink/tools-bundle": "2.0.1",
+        "eldolink/main-bundle": "2.0.2"
     },
     "repositories": [
         {
