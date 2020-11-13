@@ -54,8 +54,7 @@ parameters:
     oxone_password:             XXX
 
     # Sendgrid parameters
-    sendgrid_username:          XXX
-    sendgrid_password:          XXX
+    sendgrid_api_key:           XXX
 
     # Sendinblue parameters
     sendinblue_api_key:         XXX
