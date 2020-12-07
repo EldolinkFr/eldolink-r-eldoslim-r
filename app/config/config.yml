@@ -142,7 +142,7 @@ swiftmailer:
             transport: "%mailer_transport%"
             host:      "%mailer_host%"
             port:      "%mailer_port%"
-            username:  "apiKey"
+            username:  "apikey"
             password:  "%sendgrid_api_key%"
             spool:     { type: memory }
     
