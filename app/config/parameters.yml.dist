@@ -47,9 +47,25 @@ parameters:
     mailjet_list_id:            XXX
 
     # Oxone parameters
-    oxone_api_url:              'http://smsgate1.oxonegroup.fr:8002/bin/'
-    oxone_username:             XXX
-    oxone_password:             XXX
+    oxone_api_url:                  'http://smsgate1.oxonegroup.fr:8002/bin/'
+    oxone_username:                 XXX
+    oxone_password:                 XXX
+    oxone_slimdoo_account_id:       XXX
+    oxone_slimdoo_shortcode:        XXX
+    oxone_slimdoo_sender:           XXX
+    oxone_thetoujours_account_id:   XXX
+    oxone_thetoujours_shortcode:    XXX
+    oxone_thetoujours_sender:       XXX
+
+    # Esendex parameters
+    esendex_login:                  XXX
+    esendex_password:               XXX
+    esendex_slimdoo_account_id:     XXX
+    esendex_slimdoo_shortcode:      XXX
+    esendex_slimdoo_sender:         XXX
+    esendex_thetoujours_account_id: XXX
+    esendex_thetoujours_shortcode:  XXX
+    esendex_thetoujours_sender:     XXX
 
     # Sendgrid parameters
     sendgrid_api_key:           XXX
