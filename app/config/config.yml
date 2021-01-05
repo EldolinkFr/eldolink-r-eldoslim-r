@@ -503,9 +503,30 @@ eldo_main:
         secret:      %amazon_s3.secret%
         bucket_name: %amazon_s3.bucket_name%
     oxone:
-        api_url:    %oxone_api_url%
-        username:   %oxone_username%
-        password:   %oxone_password%
+        api_url:    "%oxone_api_url%"
+        username:   "%oxone_username%"
+        password:   "%oxone_password%"
+        accounts:
+            slimdoo:
+                sender:     "%oxone_slimdoo_sender%"
+                shortcode:  "%oxone_slimdoo_shortcode%"
+                account_id: "%oxone_slimdoo_account_id%"
+            thetoujours:
+                sender:     "%oxone_thetoujours_sender%"
+                shortcode:  "%oxone_thetoujours_shortcode%"
+                account_id: "%oxone_thetoujours_account_id%"
+    esendex:
+        login:      "%esendex_login%"
+        password:   "%esendex_password%"
+        accounts:
+            slimdoo:
+                sender:     "%esendex_slimdoo_sender%"
+                shortcode:  "%esendex_slimdoo_shortcode%"
+                account_id: "%esendex_slimdoo_account_id%"
+            thetoujours:
+                sender:     "%esendex_thetoujours_sender%"
+                shortcode:  "%esendex_thetoujours_shortcode%"
+                account_id: "%esendex_thetoujours_account_id%"
     sendgrid:
         api_key:   %sendgrid_api_key%
     sendinblue:
