@@ -1094,14 +1094,14 @@ slimdoo_ajax_addtocart:
     defaults: { _controller: eldoPagesBundle:Portal:ajaxAddToCart }
     methods:  [POST]
 
+slimdoo_ajax_chooseforcart:
+    path:  /chooseForCart
+    defaults: { _controller: eldoPagesBundle:Portal:ajaxChooseForCart }
+    methods:  [POST]
+
 slimdoo_ajax_updatecart:
     path:  /updateCart
     defaults: { _controller: eldoPagesBundle:Portal:ajaxUpdateCart }
-    methods:  [POST]
-
-slimdoo_ajax_emptycart:
-    path:  /emptyCart
-    defaults: { _controller: eldoPagesBundle:Portal:ajaxEmptyCart }
     methods:  [POST]
 
 slimdoo_ajax_catcher:
