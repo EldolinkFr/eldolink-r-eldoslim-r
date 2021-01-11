@@ -592,6 +592,7 @@ eldo_main:
     api:
         url:        %api_url%
         version:    %api_version%
+    default_locale:  "%locale%"
     default_currency:  "%default_currency%"
     default_affiliate:  "%default_affiliate%"
     default_pricing_model:  %default_pricing_model%
