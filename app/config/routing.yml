@@ -900,6 +900,26 @@ slimdoo_pdv102:
     defaults: { _controller: eldoPagesBundle:Page:pdv102 }
     methods:  [GET]
 
+slimdoo_pdv103:
+    path:  /pdv/103
+    defaults: { _controller: eldoPagesBundle:Page:pdv103 }
+    methods:  [GET]
+
+slimdoo_pdv104:
+    path:  /pdv/104
+    defaults: { _controller: eldoPagesBundle:Page:pdv104 }
+    methods:  [GET]
+
+slimdoo_pdv105:
+    path:  /pdv/105
+    defaults: { _controller: eldoPagesBundle:Page:pdv105 }
+    methods:  [GET]
+
+slimdoo_pdv106:
+    path:  /pdv/106
+    defaults: { _controller: eldoPagesBundle:Page:pdv106 }
+    methods:  [GET]
+
 thetoujours_pdv201:
     path:  /pdv/201
     defaults: { _controller: eldoPagesBundle:Page:pdv201 }
