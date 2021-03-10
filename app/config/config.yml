@@ -588,10 +588,13 @@ eldo_main:
                 app_auth_key:   %eldolink_onesignal_app_auth_key%
                 gcm_sender_id:  %eldolink_onesignal_gcm_sender_id%
     backoffice:
-        url:        %backoffice_url%
+        url:        "%backoffice_url%"
     api:
-        url:        %api_url%
+        url:        "%api_url%"
         version:    "%api_version%"
+    cookie_consent:
+        name:       "%cookie_consent_name%"
+        categories: "%cookie_consent_categories%"
     default_locale:         "%locale%"
     default_currency:       "%default_currency%"
     default_affiliate:  "%default_affiliate%"
