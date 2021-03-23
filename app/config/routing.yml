@@ -1070,11 +1070,6 @@ check_email:
     defaults: { _controller: eldoMainBundle:Ajax:checkEmail }
     methods:  [POST]
 
-testimonial_show:
-    path:  /testimonial/{product}
-    defaults: { _controller: eldoPagesBundle:Testimonial:show, page: 1 }
-    methods:  [GET, POST]
-
 testimonial_show_product_page:
     path:  /testimonial/{product}/page/{page}
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
@@ -1082,12 +1077,22 @@ testimonial_show_product_page:
     requirements:
         page: '\d+'
 
+testimonial_show_product:
+    path:  /testimonial/{product}
+    defaults: { _controller: eldoPagesBundle:Testimonial:show, page: 1 }
+    methods:  [GET, POST]
+
 testimonial_show_page:
     path:  /testimonial/page/{page}
     defaults: { _controller: eldoPagesBundle:Testimonial:show }
     methods:  [GET, POST]
     requirements:
         page: '\d+'
+
+testimonial_show:
+    path:  /testimonial
+    defaults: { _controller: eldoPagesBundle:Testimonial:show, page: 1 }
+    methods:  [GET, POST]
 
 video_show:
     path:  /video
