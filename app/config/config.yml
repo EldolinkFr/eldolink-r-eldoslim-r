@@ -593,8 +593,9 @@ eldo_main:
         url:        "%api_url%"
         version:    "%api_version%"
     cookie_consent:
-        name:       "%cookie_consent_name%"
-        categories: "%cookie_consent_categories%"
+        name:           "%cookie_consent_name%"
+        user_manager:   "%cookie_consent_user_manager%"
+        categories:     "%cookie_consent_categories%"
     default_locale:         "%locale%"
     default_currency:       "%default_currency%"
     default_affiliate:  "%default_affiliate%"
