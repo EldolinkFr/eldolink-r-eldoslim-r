@@ -1,0 +1,101 @@
+{# src/eldo/PagesBundle/Resources/views/layout.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ main_app_name }}{% endblock %}
+
+{% block metas %}
+    <meta name="apple-mobile-web-app-title" content="{{ main_app_name }}">
+	{% block icons %}
+    <link href="{{ asset('bundles/eldopages/img/favicon.ico') }}" rel="shortcut icon" />
+    <link href="{{ asset('bundles/eldopages/img/apple-touch-icon.png') }}" rel="apple-touch-icon" />
+    <link rel="shortcut icon" sizes="16x16" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_16x16')) }}">
+    <link rel="shortcut icon" sizes="196x196" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_196x196')) }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_152x152')) }}">
+	{% endblock icons %}
+    <link rel="dns-prefetch" href="//www.absolusecure.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="//fonts.gstatic.com/" crossorigin="anonymous">
+    <link rel="preconnect" href="//www.googletagmanager.com" crossorigin="anonymous">
+    <link rel="preconnect" href="{{ cdn_url }}" crossorigin="anonymous">
+	{% block hrefLangs %}
+		{{ render(controller("eldoPagesBundle:Page:hrefLangs", {'request': app.request})) }}
+	{% endblock hrefLangs %}
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet" type="text/css">
+	{% stylesheets
+		'bundles/eldopages/css/bootstrap.css'
+		'bundles/eldopages/css/topbar.css'
+		'bundles/eldopages/css/score.css'
+		'bundles/eldopages/css/notify.css'
+		'bundles/eldopages/css/animate.css'
+		'bundles/eldopages/css/bootstrap-social.css'
+		'bundles/bmatznerfontawesome/css/font-awesome.min.css'
+		'bundles/eldopages/js/plugins/magnific-popup/magnific-popup.css'
+        'bundles/eldopages/js/plugins/intlTelInput/css/intlTelInput.css'
+		'bundles/eldopages/css/owl.carousel.css'
+		'bundles/eldopages/css/owl.theme.css'
+		'bundles/eldopages/css/owl.transitions.css'
+        'bundles/eldopages/js/lib/video-js/video-js.min.css'
+		'bundles/eldomain/css/cookie_consent.css'
+        'bundles/eldopages/css/cookie_consent.css'
+		filter='yui_css'
+		filter='cssrewrite'
+		output='css/compiled/app-pages.css'
+    %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+	{% endstylesheets %}
+{% endblock %}
+
+{% block headjs %}
+    {{ parent() }}
+    <!--[if lt IE 9]>
+        <script src="{{ asset('bundles/eldopages/js/html5shiv.js') }}"></script>
+        <script src="{{ asset('bundles/eldopages/js/respond.min.js') }}"></script>
+    <![endif]-->
+{% endblock %}
+
+{% block bodyclass %}{% endblock %}
+
+{% block body %}
+<div class="container">
+    {% block header %}
+        {{ render(controller("eldoPagesBundle:Page:header")) }}
+    {% endblock %}
+    
+    {% block content %}{% endblock %}
+</div>
+<div class="cookie_consent" data-banner="{{ path('cookie_consent_banner') }}"></div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+
+{% block javascripts %}
+	{% javascripts
+		'bundles/eldopages/js/jquery.js'
+        'bundles/eldopages/js/jquery.cookie.js'
+		'bundles/eldopages/js/bootstrap.js'
+        'bundles/eldopages/js/lib/video-js/video.js'
+        'bundles/eldopages/js/plugins/jquery.countdown.min.js'
+		'bundles/eldopages/js/plugins/jquery-lazy/jquery.lazy.js'
+		'bundles/eldopages/js/plugins/jquery-validate/jquery.validate.min.js'
+		'bundles/eldopages/js/plugins/jquery-validate/localization/messages_{locale}.js'
+		'bundles/eldopages/js/plugins/magnific-popup/jquery.magnific-popup.min.js'
+        'bundles/eldopages/js/plugins/intlTelInput/js/intlTelInput.min.js'
+        'bundles/eldopages/js/lib/libphonenumber/build/utils.js'
+        'bundles/eldopages/js/plugins/bootstrap-notify/bootstrap-notify.js'
+		'bundles/eldopages/js/plugins/owl.carousel.min.js'
+		'bundles/eldopages/js/custom.js'
+		'bundles/eldomain/js/cookie_consent.js'
+		'bundles/eldotools/js/plugins/bounceback.js'
+        'bundles/eldotools/js/general.js'
+		filter='yui_js'
+		output='js/compiled/app-pages.{locale}.js'
+		vars=['locale']
+	%}
+		 <script {% if tracking.mb == '1' %}async{% endif %} src="{{ asset_url }}"></script>
+	{% endjavascripts %}
+{% endblock %}
