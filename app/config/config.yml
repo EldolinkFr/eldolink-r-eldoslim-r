@@ -527,6 +527,10 @@ eldo_main:
                 sender:     "%esendex_thetoujours_sender%"
                 shortcode:  "%esendex_thetoujours_shortcode%"
                 account_id: "%esendex_thetoujours_account_id%"
+            eldolink:
+                sender:     "%esendex_eldolink_sender%"
+                shortcode:  "%esendex_eldolink_shortcode%"
+                account_id: "%esendex_eldolink_account_id%"
     sendgrid:
         api_key:   %sendgrid_api_key%
     sendinblue:
