@@ -429,19 +429,6 @@ vich_uploader:
             delete_on_update:   false
             delete_on_remove:   false 
 
-# GoogleBundle Configuration
-google:
-    analytics:
-        enhanced_ecommerce: false
-        trackers:
-            default:
-                name: 'default'
-                accountId: "%app.gg_analytics.id%"
-                domain: 'auto'
-                trackPageLoadTime: true
-                anonymizeIp: false
-                crossDomain: %app.gg_analytics.domains%
-        
 # CravlerMaxmindGeoIPBundle Configuration
 cravler_max_mind_geo_ip:
 #    path: '%kernel.root_dir%/Resources/MaxMind'
