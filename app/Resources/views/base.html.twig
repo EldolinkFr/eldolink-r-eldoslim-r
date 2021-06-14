@@ -10,9 +10,6 @@
 	<meta charset="utf-8">
 	{% block metas %}{% endblock %}
 	{% block stylesheets %}{% endblock %}
-	{% block headjs %}
-        {% include "eldoMainBundle:Analytics:async.html.twig" %}
-	{% endblock %}
 </head>
 <body {% block bodyclass %}{% endblock %}>
     {{ google_tag_manager_body() }}
