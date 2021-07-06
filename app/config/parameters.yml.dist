@@ -77,8 +77,7 @@ parameters:
     sendinblue_api_key:         XXX
 
     # NeverBounce parameters
-    neverbounce_username:       XXX
-    neverbounce_secret_key:     XXX
+    neverbounce_api_key:       XXX
 
     # Leadiance parameters
     leadiance_url:              http://www.leadcollecte.com/SingleSubscribe.api?ai=1336&ak=PQgsi0sQzoXYYqUTyUFRm611Zd

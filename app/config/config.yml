@@ -525,8 +525,7 @@ eldo_main:
     sendinblue:
         api_key: %sendinblue_api_key%
     neverbounce:
-        username:   %neverbounce_username%
-        secret_key: %neverbounce_secret_key%
+        api_key:   "%neverbounce_api_key%"
     leadiance:
         url:        %leadiance_url%
     messagebusiness:
