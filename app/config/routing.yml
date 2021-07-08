@@ -298,6 +298,30 @@ slimdoo_portal_related_products:
     requirements:
         id: '\d+'
         tool: '\d+'
+        
+slimdoo_portal_variant_products:
+    path:  /variant_products/{id}/{tool}
+    defaults: { _controller: eldoPagesBundle:Portal:variantProductsGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+        tool: '\d+'
+        
+slimdoo_portal_linked_products:
+    path:  /linked_products/{id}/{tool}
+    defaults: { _controller: eldoPagesBundle:Portal:linkedProductsGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+        tool: '\d+'
+        
+slimdoo_portal_product_comments:
+    path:  /product_comments/{id}/{tool}
+    defaults: { _controller: eldoPagesBundle:Portal:productCommentsGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+        tool: '\d+'
 
 slimdoo_portal_testimonials_section:
     path:  /testimonials_section
@@ -928,6 +952,16 @@ slimdoo_pdv107:
 slimdoo_pdv108:
     path:  /pdv/108
     defaults: { _controller: eldoPagesBundle:Page:pdv108 }
+    methods:  [GET]
+
+slimdoo_pdv109:
+    path:  /pdv/109
+    defaults: { _controller: eldoPagesBundle:Page:pdv109 }
+    methods:  [GET]
+
+slimdoo_pdv110:
+    path:  /pdv/110
+    defaults: { _controller: eldoPagesBundle:Page:pdv110 }
     methods:  [GET]
 
 thetoujours_pdv201:
