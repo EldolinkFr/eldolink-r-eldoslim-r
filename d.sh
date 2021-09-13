@@ -20,18 +20,18 @@ git pull
 composer update
 composer install --optimize-autoloader
 composer dump-autoload --optimize --no-dev --classmap-authoritative
-php -d memory_limit=2048M app/console doctrine:cache:clear-metadata
-php -d memory_limit=2048M app/console doctrine:cache:clear-result
-php -d memory_limit=2048M app/console doctrine:cache:clear-query
-php -d memory_limit=2048M app/console cache:clear --env=prod --no-debug
+php -d memory_limit=2048M bin/console doctrine:cache:clear-metadata
+php -d memory_limit=2048M bin/console doctrine:cache:clear-result
+php -d memory_limit=2048M bin/console doctrine:cache:clear-query
+php -d memory_limit=2048M bin/console cache:clear --env=prod --no-debug
 
 if [ $dumpflag = "on" ]; then
-    php -d memory_limit=2048M app/console assetic:dump --env=prod --no-debug
+    php -d memory_limit=2048M bin/console assetic:dump --env=prod --no-debug
 fi
 
-php app/console assets_version:increment
-php -d memory_limit=2048M app/console cache:clear --env=prod --no-debug
+php bin/console assets_version:increment
+php -d memory_limit=2048M bin/console cache:clear --env=prod --no-debug
 
-php -d memory_limit=2048M app/console newrelic:notify-deployment --env=prod
+php -d memory_limit=2048M bin/console newrelic:notify-deployment --env=prod
 
 exit 0

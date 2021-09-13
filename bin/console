@@ -6,9 +6,9 @@
 //umask(0000);
 
 set_time_limit(0);
+date_default_timezone_set('Europe/Paris');
 
-require_once __DIR__.'/bootstrap.php.cache';
-require_once __DIR__.'/AppKernel.php';
+require __DIR__.'/../app/autoload.php';
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;

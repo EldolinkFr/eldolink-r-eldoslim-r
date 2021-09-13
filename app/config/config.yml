@@ -6,7 +6,8 @@ imports:
 
 framework:
     #esi:             ~
-    translator:      { fallbacks: ["%locale%"] }
+    assets: ~
+    translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -14,13 +15,8 @@ framework:
     form:            ~
     csrf_protection: ~
     validation:      { enable_annotations: true }
-    #serializer:      { enable_annotations: true }
     templating:
         engines: ['twig']
-    assets:
-        version: "%assets_version%"
-        base_urls: "%app.cdn_url%"
-#       version_format: 'v-%%2$s/%%1$s'
     default_locale:  "%locale%"
     trusted_hosts:   ~
     session:
@@ -29,13 +25,13 @@ framework:
         handler_id:  ~
     fragments:       ~
     http_method_override: true
-    trusted_proxies:  [192.168.232.10]
 
 # Twig Configuration
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
     globals:
+        locales: "%app.locales%"
         assets_version: "%assets_version%"
         cdn_url: "%app.cdn_url%"
         main_app_name: "%app.name%"
@@ -55,26 +51,65 @@ assetic:
            - MopaBootstrapBundle
            - eldoPagesBundle
            - eldoToolsBundle
-    #java: /usr/bin/java
     filters:
-        less:
-            node: /usr/bin/nodejs
-            node_paths: [/usr/local/lib/node_modules]
-            apply_to: "\.less$"
         cssrewrite: ~
-        uglifyjs2:
-            bin: "/usr/bin/uglifyjs"
-        uglifycss:
-            bin: "/usr/bin/uglifycss"
-        yui_css:
-            jar: "/usr/share/yui-compressor/yui-compressor.jar"
-        yui_js:
-            jar: "/usr/share/yui-compressor/yui-compressor.jar"
-#     workers:
-#         cache_busting: ~
+        jsqueeze: ~
+        scssphp:
+            formatter: 'Leafo\ScssPhp\Formatter\Compressed'
+    assets:
+        jquery:
+            inputs:
+                - "%kernel.root_dir%/../vendor/components/jquery/jquery.js"
+        fontawesome_css:
+            inputs:
+                - "%kernel.root_dir%/../vendor/components/font-awesome/css/font-awesome.css"
+            filters: [ cssrewrite ]
+        fontawesome_webfont_woff2:
+            inputs:
+                - "%kernel.root_dir%/../vendor/components/font-awesome/fonts/fontawesome-webfont.woff2"
+            output: "fonts/fontawesome-webfont.woff2"
+        fontawesome_webfont_woff:
+            inputs:
+                - "%kernel.root_dir%/../vendor/components/font-awesome/fonts/fontawesome-webfont.woff"
+            output: "fonts/fontawesome-webfont.woff"
+        fontawesome_webfont_ttf:
+            inputs:
+                - "%kernel.root_dir%/../vendor/components/font-awesome/fonts/fontawesome-webfont.ttf"
+            output: "fonts/fontawesome-webfont.ttf"
+        bootstrap_js:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/js/bootstrap.js"
+        bootstrap_css:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/css/bootstrap.css"
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/css/bootstrap-theme.css"
+            filters: [ cssrewrite ]
+        bootstrap_glyphicons_ttf:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf"
+            output: "fonts/glyphicons-halflings-regular.ttf"
+        bootstrap_glyphicons_eot:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"
+            output: "fonts/glyphicons-halflings-regular.eot"
+        bootstrap_glyphicons_svg:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/fonts/glyphicons-halflings-regular.svg"
+            output: "fonts/glyphicons-halflings-regular.svg"
+        bootstrap_glyphicons_woff:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/fonts/glyphicons-halflings-regular.woff"
+            output: "fonts/glyphicons-halflings-regular.woff"
     variables:
         locale: "%app.locales%"
         template: "%app.templates%"
+
+doctrine_migrations:
+    migrations_paths:
+        'eldo\MainBundle\Doctrine\Migrations': '%kernel.root_dir%/../vendor/eldolink/main-bundle/Doctrine/Migrations'
+    storage:
+        table_storage:
+            table_name: 'migration_versions'
 
 # Doctrine Configuration
 doctrine:
@@ -454,6 +489,8 @@ snc_redis:
             alias: default
             dsn: redis://%database_host%
             logging: "%kernel.debug%"
+    session:
+        client: default
     doctrine:
         metadata_cache:
             client: default

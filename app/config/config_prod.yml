@@ -1,6 +1,11 @@
 imports:
     - { resource: config.yml }
 
+framework:
+    assets:
+        version: "%assets_version%"
+        base_urls: "%app.cdn_url%"
+
 doctrine:
     orm:
         metadata_cache_driver:
@@ -19,10 +24,10 @@ doctrine:
                 type: service
                 id: snc_redis_cache_driver
             region_lock_lifetime: 60
-            region_lifetime: 600
+            region_lifetime: 300
             regions:
                 region_cached:
-                    lifetime: 3600
+                    lifetime: 600
                     cache_driver:
                         type: service
                         id: snc_redis_cache_driver
