@@ -11,3 +11,4 @@ Disallow: /notify
 Disallow: /it/notify
 Disallow: /pt/notify
 Disallow: /catcher_result
+Disallow: /as/tool
