@@ -17,6 +17,10 @@ eldoMainBundle:
     type: annotation
     prefix:   /
 
+routing-electrostimulateur-fitness.com:
+    resource: "routing-electrostimulateur-fitness.com.yml"
+    host:     "www.electrostimulateur-fitness.com"
+
 api_items:
     path:  /data-api/items
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }
@@ -263,7 +267,7 @@ landing_catcher_result:
     methods:  [POST]
 
 slimdoo_portal_index:
-    path:  /
+    path: /
     defaults: { _controller: eldoPagesBundle:Portal:index }
     methods:  [GET]
 
@@ -977,6 +981,26 @@ slimdoo_pdv112:
 slimdoo_pdv113:
     path:  /pdv/113
     defaults: { _controller: eldoPagesBundle:Page:pdv113 }
+    methods:  [GET]
+
+slimdoo_pdv114:
+    path:  /pdv/114
+    defaults: { _controller: eldoPagesBundle:Page:pdv114 }
+    methods:  [GET]
+
+slimdoo_pdv115:
+    path:  /pdv/115
+    defaults: { _controller: eldoPagesBundle:Page:pdv115 }
+    methods:  [GET]
+
+slimdoo_pdv116:
+    path:  /pdv/116
+    defaults: { _controller: eldoPagesBundle:Page:pdv116 }
+    methods:  [GET]
+
+slimdoo_pdv117:
+    path:  /pdv/117
+    defaults: { _controller: eldoPagesBundle:Page:pdv117 }
     methods:  [GET]
 
 thetoujours_pdv201:
