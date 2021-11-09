@@ -17,9 +17,25 @@ eldoMainBundle:
     type: annotation
     prefix:   /
 
+routing-depil-poil.com:
+    resource: "routing-depil-poil.com.yml"
+    host:     "www.depil-poil.com"
+
 routing-electrostimulateur-fitness.com:
     resource: "routing-electrostimulateur-fitness.com.yml"
     host:     "www.electrostimulateur-fitness.com"
+
+routing-minceur-facile.com:
+    resource: "routing-minceur-facile.com.yml"
+    host:     "www.minceur-facile.com"
+
+routing-mince-heure.com:
+    resource: "routing-mince-heure.com.yml"
+    host:     "www.mince-heure.com"
+
+routing-sublym-body.com:
+    resource: "routing-sublym-body.com.yml"
+    host:     "www.sublym-body.com"
 
 api_items:
     path:  /data-api/items
@@ -1001,6 +1017,11 @@ slimdoo_pdv116:
 slimdoo_pdv117:
     path:  /pdv/117
     defaults: { _controller: eldoPagesBundle:Page:pdv117 }
+    methods:  [GET]
+
+slimdoo_pdv118:
+    path:  /pdv/118
+    defaults: { _controller: eldoPagesBundle:Page:pdv118 }
     methods:  [GET]
 
 thetoujours_pdv201:

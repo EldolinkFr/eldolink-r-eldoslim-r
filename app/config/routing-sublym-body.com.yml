@@ -1,0 +1,6 @@
+# app/config/routing-sublym-body.com.yml
+
+sublym-body.com-index:
+    path: /
+    defaults: { _controller: eldoPagesBundle:Page:pdv103 }
+    methods:  [GET, POST]
