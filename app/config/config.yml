@@ -380,18 +380,6 @@ knp_gaufrette:
     stream_wrapper: ~
 
     adapters:
-        media_local_adapter:
-            local:
-                directory: %kernel.root_dir%/../web/uploads/files
-        media_database_adapter:
-            doctrine_dbal:
-                connection_name: default
-                table: eldo_media
-                columns:
-                    key: file_name
-                    content: file_data
-                    mtime: uploadedat
-                    checksum: file_checksum
         media_s3_adapter:
             aws_s3:
                 service_id: 'eldo_main.media.s3'
@@ -410,10 +398,6 @@ knp_gaufrette:
                     directory: document
                     
     filesystems:
-        media_local_fs:
-            adapter:    media_local_adapter
-        media_database_fs:
-            adapter:    media_database_adapter
         media_s3_fs:
             adapter:    media_s3_adapter
         document_s3_fs:
@@ -426,11 +410,6 @@ vich_uploader:
 
     mappings:
         media:
-            uri_prefix:         /uploads/files
-            upload_destination: media_local_fs
-#             upload_destination: database_fs
-            namer:              vich_uploader.namer_uniqid
-        upload_media:
             inject_on_load: true
             uri_prefix: "%amazon_s3.base_url%/%amazon_s3.medias_bucket_name%"
             namer:              vich_uploader.namer_uniqid
