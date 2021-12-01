@@ -387,7 +387,7 @@ knp_gaufrette:
                 detect_content_type: true
                 options:
                     create: true
-                    directory: document
+                    directory: 'media'
         document_s3_adapter:
             aws_s3:
                 service_id: 'eldo_main.document.s3'
@@ -395,7 +395,7 @@ knp_gaufrette:
                 detect_content_type: true
                 options:
                     create: true
-                    directory: document
+                    directory: 'document'
                     
     filesystems:
         media_s3_fs:
