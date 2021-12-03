@@ -488,7 +488,9 @@ eldo_main:
         key:         "%amazon_s3.key%"
         secret:      "%amazon_s3.secret%"
         medias_bucket_name: "%amazon_s3.medias_bucket_name%"
+        medias_directory_name: "%amazon_s3.medias_directory_name%"
         documents_bucket_name: "%amazon_s3.documents_bucket_name%"
+        documents_directory_name: "%amazon_s3.documents_directory_name%"
     oxone:
         api_url:    "%oxone_api_url%"
         username:   "%oxone_username%"
