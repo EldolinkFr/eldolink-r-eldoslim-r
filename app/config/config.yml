@@ -411,7 +411,7 @@ vich_uploader:
     mappings:
         media:
             inject_on_load: true
-            uri_prefix: "%amazon_s3.base_url%/%amazon_s3.medias_bucket_name%"
+            uri_prefix: 'https://%amazon_s3.medias_bucket_name%.%amazon_s3.base_url%/%amazon_s3.medias_directory_name%'
             namer:              vich_uploader.namer_uniqid
             directory_namer:    eldo_main.directory_namer
             upload_destination: media_s3_fs
