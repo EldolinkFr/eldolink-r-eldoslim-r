@@ -155,6 +155,10 @@ liip_imagine:
         default:
             filesystem: ~          
     filter_sets:
+        original:
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         ico:
             filters:
                 thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
