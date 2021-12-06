@@ -415,7 +415,7 @@ vich_uploader:
     mappings:
         media:
             inject_on_load: true
-            uri_prefix: "%amazon_s3.base_url%/%amazon_s3.medias_bucket_name%"
+            uri_prefix: 'https://%amazon_s3.medias_bucket_name%.%amazon_s3.base_url%/%amazon_s3.medias_directory_name%'
             namer:              vich_uploader.namer_uniqid
             directory_namer:    eldo_main.directory_namer
             upload_destination: media_s3_fs
@@ -492,7 +492,9 @@ eldo_main:
         key:         "%amazon_s3.key%"
         secret:      "%amazon_s3.secret%"
         medias_bucket_name: "%amazon_s3.medias_bucket_name%"
+        medias_directory_name: "%amazon_s3.medias_directory_name%"
         documents_bucket_name: "%amazon_s3.documents_bucket_name%"
+        documents_directory_name: "%amazon_s3.documents_directory_name%"
     oxone:
         api_url:    "%oxone_api_url%"
         username:   "%oxone_username%"
