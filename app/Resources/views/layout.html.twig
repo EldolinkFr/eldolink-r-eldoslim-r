@@ -8,9 +8,9 @@
 	{% block icons %}
     <link href="{{ asset('bundles/eldopages/img/favicon.ico') }}" rel="shortcut icon" />
     <link href="{{ asset('bundles/eldopages/img/apple-touch-icon.png') }}" rel="apple-touch-icon" />
-    <link rel="shortcut icon" sizes="16x16" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_16x16')) }}">
-    <link rel="shortcut icon" sizes="196x196" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_196x196')) }}">
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('thumb_152x152')) }}">
+    <link rel="shortcut icon" sizes="16x16" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('default_16x16'))|relative }}">
+    <link rel="shortcut icon" sizes="196x196" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('default_196x196'))|relative }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('default_152x152'))|relative }}">
 	{% endblock icons %}
     <link rel="dns-prefetch" href="//www.absolusecure.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
