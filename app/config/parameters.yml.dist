@@ -123,8 +123,11 @@ parameters:
     amazon_s3.region: 'eu-west-3'
     amazon_s3.key: username
     amazon_s3.secret: password
-    amazon_s3.bucket_name: bucket
-    amazon_s3.base_url: https://s3.amazonaws.com/
+    amazon_s3.medias_bucket_name: eldomedias
+    amazon_s3.medias_directory_name: media
+    amazon_s3.documents_bucket_name: eldodocuments
+    amazon_s3.documents_directory_name: document
+    amazon_s3.base_url: s3.amazonaws.com
 
     # OneSignal Configuration
     onesignal_default_app: XXX
