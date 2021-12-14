@@ -30,7 +30,7 @@ if [ $dumpflag = "on" ]; then
     php -d memory_limit=256M bin/console assetic:dump --env=prod --no-debug
 fi
 
-php bin/console assets_version:increment
+php bin/console assets-version:increment
 php -d memory_limit=1024M bin/console cache:clear --env=prod --no-debug
 
 php $EXEC --fcgi="/run/php/php-fpm-$FCGI_SOCKET.sock" stat:clear
