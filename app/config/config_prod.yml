@@ -6,32 +6,6 @@ framework:
         version: "%assets_version%"
         base_urls: "%app.cdn_url%"
 
-doctrine:
-    orm:
-        metadata_cache_driver:
-            type: service
-            id: snc_redis.default
-        result_cache_driver:
-            type: service
-            id: snc_redis.default
-        query_cache_driver:
-            type: service
-            id: snc_redis.default
-        second_level_cache:
-            enabled:            true
-            log_enabled:        true
-            region_cache_driver:
-                type: service
-                id: snc_redis_cache_driver
-            region_lock_lifetime: 60
-            region_lifetime: 300
-            regions:
-                region_cached:
-                    lifetime: 600
-                    cache_driver:
-                        type: service
-                        id: snc_redis_cache_driver
-
 monolog:
     handlers:
         main:

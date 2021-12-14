@@ -614,23 +614,29 @@ snc_redis:
         default:
             type: predis
             alias: default
-            dsn: redis://%database_host%
-            logging: "%kernel.debug%"
+            dsn: 'redis://%database_host%'
+            logging: '%kernel.debug%'
+        session:
+            type: predis
+            alias: session
+            dsn: 'redis://%database_host%/1'
+            logging: true
     session:
         client: default
     doctrine:
         metadata_cache:
             client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
+            entity_manager: default
+            document_manager: default
         result_cache:
             client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
+            entity_manager: default
         query_cache:
             client: default
-            namespace: "%kernel.root_dir%"
-            entity_manager: [default]
+            entity_manager: default
+        second_level_cache:
+            client: default
+            entity_manager: default
         
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
