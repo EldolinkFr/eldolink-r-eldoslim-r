@@ -699,8 +699,6 @@ eldo_main:
         api_key: %sendinblue_api_key%
     neverbounce:
         api_key:   "%neverbounce_api_key%"
-    leadiance:
-        url:        %leadiance_url%
     messagebusiness:
         url:        %messagebusiness_url%
         account_id: %messagebusiness_account_id%
@@ -718,25 +716,6 @@ eldo_main:
         dynamic_link_domain:    %firebase_dynamic_link_domain%
     gtm:
         id:        %gtm_id%
-    strandlink:
-        api_url:        %strandlink_api_url%
-        api_key:        %strandlink_api_key%
-        configs:
-            default:
-                id:         %default_strandlink_id%
-                key:        %default_strandlink_key%
-            tips:
-                id:         %tips_strandlink_id%
-                key:        %tips_strandlink_key%
-            imc:
-                id:         %imc_strandlink_id%
-                key:        %imc_strandlink_key%
-            ideal_weight:
-                id:         %ideal_weight_strandlink_id%
-                key:        %ideal_weight_strandlink_key%
-            calories:
-                id:         %calories_strandlink_id%
-                key:        %calories_strandlink_key%
     onesignal:
         default_app:            %onesignal_default_app%
         configs:

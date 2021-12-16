@@ -79,9 +79,6 @@ parameters:
     # NeverBounce parameters
     neverbounce_api_key:       XXX
 
-    # Leadiance parameters
-    leadiance_url:              http://www.leadcollecte.com/SingleSubscribe.api?ai=1336&ak=PQgsi0sQzoXYYqUTyUFRm611Zd
-
     # MessageBusiness parameters
     messagebusiness_url:        https://services.message-business.com/v3/api/PublicInterface.svc/wsdl
     messagebusiness_account_id: XXX
@@ -104,20 +101,6 @@ parameters:
 
     # Geocoding
     googlemap_api_key: XXX
-
-    # Strandlink Configuration
-    strandlink_api_url: http://www.leadcollecte.com/
-    strandlink_api_key: XXX
-    default_strandlink_id: XXX
-    default_strandlink_key: XXX
-    tips_strandlink_id: XXX
-    tips_strandlink_key: XXX
-    imc_strandlink_id: XXX
-    imc_strandlink_key: XXX
-    ideal_weight_strandlink_id: XXX
-    ideal_weight_strandlink_key: XXX
-    calories_strandlink_id: XXX
-    calories_strandlink_key: XXX
 
     # Amazon S3 parameters
     amazon_s3.region: 'eu-west-3'
