@@ -20,7 +20,9 @@ EXEC=vendor/gordalina/cachetool/bin/cachetool
 FCGI_SOCKET=eldoslim
 
 git pull
+composer update
 composer install --optimize-autoloader
+composer dump-autoload --optimize --no-dev --classmap-authoritative
 php -d memory_limit=1024M bin/console doctrine:cache:clear-metadata
 php -d memory_limit=1024M bin/console doctrine:cache:clear-result
 php -d memory_limit=1024M bin/console doctrine:cache:clear-query
