@@ -2212,7 +2212,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git",
-                "reference": "4a61a497d7a4384be6e7e954968ca64717538e41"
+                "reference": "0e7a6039cf9c1a8fb29b4ca803497e37b2bb1969"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2247,7 +2247,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2021-12-14T10:44:34+00:00"
+            "time": "2021-12-19T20:56:02+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -4443,16 +4443,16 @@
         },
         {
             "name": "laminas/laminas-code",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-code.git",
-                "reference": "c99ef8e5629c33bfaa3a8f1df773e916af564cd6"
+                "reference": "6fd96d4d913571a2cd056a27b123fa28cb90ac4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/c99ef8e5629c33bfaa3a8f1df773e916af564cd6",
-                "reference": "c99ef8e5629c33bfaa3a8f1df773e916af564cd6",
+                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/6fd96d4d913571a2cd056a27b123fa28cb90ac4e",
+                "reference": "6fd96d4d913571a2cd056a27b123fa28cb90ac4e",
                 "shasum": ""
             },
             "require": {
@@ -4505,7 +4505,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-12-07T06:00:32+00:00"
+            "time": "2021-12-19T18:06:55+00:00"
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
