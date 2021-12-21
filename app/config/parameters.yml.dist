@@ -41,6 +41,10 @@ parameters:
     # If use_affiliate is set to true, we can force to index pages by using robots meta tag
     force_index:        false
 
+    # Maxmind parameters
+    maxmind_geoip_user_id:      XXX
+    maxmind_geoip_license_key:  XXX
+
     # Mailjet parameters
     mailjet_api_key:            XXX
     mailjet_api_secret:         XXX

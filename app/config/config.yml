@@ -104,6 +104,7 @@ assetic:
         locale: "%app.locales%"
         template: "%app.templates%"
 
+# Doctrine Migrations
 doctrine_migrations:
     migrations_paths:
         'eldo\MainBundle\Doctrine\Migrations': '%kernel.root_dir%/../vendor/eldolink/main-bundle/Doctrine/Migrations'
@@ -133,6 +134,20 @@ doctrine:
                 dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Loggable/Entity"
                 alias: GedmoLoggable # this one is optional and will default to the name set for the mapping
                 is_bundle: false
+        second_level_cache:
+            enabled:            true
+            log_enabled:        true
+            region_cache_driver:
+                type: service
+                id: snc_redis_cache_driver
+            enabled: true
+            region_lifetime: 86400
+            regions:
+                region_cached:
+                    lifetime: 600
+                    cache_driver:
+                        type: service
+                        id: snc_redis_cache_driver
         dql:
             datetime_functions:
                 date:           Oro\ORM\Query\AST\Functions\SimpleFunction
@@ -593,20 +608,22 @@ vich_uploader:
 
 # CravlerMaxmindGeoIPBundle Configuration
 cravler_max_mind_geo_ip:
-#    path: '%kernel.root_dir%/Resources/MaxMind'
-    path: '/usr/local/share/GeoIP'
+    path: '%kernel.project_dir%/var/MaxMind'
+    client:
+        user_id: '%maxmind_geoip_user_id%'
+        license_key: '%maxmind_geoip_license_key%'
     db:
         country: 'GeoIP2-Country.mmdb'
-        city: 'GeoLite2-City.mmdb'
-        connection_type: 'GeoIP2-Connection-Type.mmdb'
-        domain: 'GeoIP2-Domain.mmdb'
+#         city: 'GeoLite2-City.mmdb'
+#         connection_type: 'GeoIP2-Connection-Type.mmdb'
+#         domain: 'GeoIP2-Domain.mmdb'
         isp: 'GeoIP2-ISP.mmdb'
     source:
-        country: ~
-        city: ~
-        connection_type: ~
-        domain: ~
-        isp: ~
+        country: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Country&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
+#         city: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-City&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
+#         connection_type: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Connection-Type&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
+#         domain: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Domain&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
+        isp: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-ISP&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
         
 #SncRedisBundle configuration
 snc_redis:
@@ -620,23 +637,26 @@ snc_redis:
             type: predis
             alias: session
             dsn: 'redis://%database_host%/1'
-            logging: true
+            logging: '%kernel.debug%'
     session:
         client: default
     doctrine:
         metadata_cache:
             client: default
             entity_manager: default
-            document_manager: default
+            namespace: 'dmc:'
         result_cache:
             client: default
             entity_manager: default
+            namespace: 'drc:'
         query_cache:
             client: default
             entity_manager: default
+            namespace: 'dqc:'
         second_level_cache:
             client: default
             entity_manager: default
+            namespace: 'dslc:'
         
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
