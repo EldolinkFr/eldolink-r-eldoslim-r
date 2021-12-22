@@ -619,11 +619,11 @@ cravler_max_mind_geo_ip:
 #         domain: 'GeoIP2-Domain.mmdb'
         isp: 'GeoIP2-ISP.mmdb'
     source:
-        country: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Country&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
-#         city: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-City&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
-#         connection_type: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Connection-Type&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
-#         domain: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Domain&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
-        isp: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-ISP&suffix=tar.gz&license_key=%env(resolve:maxmind_geoip_license_key)%'
+        country: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Country&suffix=tar.gz&license_key=%maxmind_geoip_license_key%'
+#         city: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-City&suffix=tar.gz&license_key=%maxmind_geoip_license_key%'
+#         connection_type: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Connection-Type&suffix=tar.gz&license_key=%maxmind_geoip_license_key%'
+#         domain: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-Domain&suffix=tar.gz&license_key=%maxmind_geoip_license_key%'
+        isp: 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-ISP&suffix=tar.gz&license_key=%maxmind_geoip_license_key%'
         
 #SncRedisBundle configuration
 snc_redis:

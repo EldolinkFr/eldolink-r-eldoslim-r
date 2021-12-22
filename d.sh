@@ -20,20 +20,18 @@ EXEC=vendor/gordalina/cachetool/bin/cachetool
 FCGI_SOCKET=eldoslim
 
 git pull
-composer update
-composer install --optimize-autoloader
-composer dump-autoload --optimize --no-dev --classmap-authoritative
-php -d memory_limit=1024M bin/console doctrine:cache:clear-metadata
-php -d memory_limit=1024M bin/console doctrine:cache:clear-result
-php -d memory_limit=1024M bin/console doctrine:cache:clear-query
-php -d memory_limit=1024M bin/console cache:clear --env=prod --no-debug
+composer update --optimize-autoloader
+php -d memory_limit=-1 bin/console doctrine:cache:clear-metadata
+php -d memory_limit=-1 bin/console doctrine:cache:clear-result
+php -d memory_limit=-1 bin/console doctrine:cache:clear-query
+php -d memory_limit=-1 bin/console cache:clear --env=prod --no-debug
 
 if [ $dumpflag = "on" ]; then
     php -d memory_limit=256M bin/console assetic:dump --env=prod --no-debug
 fi
 
 php bin/console assets-version:increment
-php -d memory_limit=1024M bin/console cache:clear --env=prod --no-debug
+php -d memory_limit=-1 bin/console cache:clear --env=prod --no-debug
 
 php $EXEC --fcgi="/run/php/php-fpm-$FCGI_SOCKET.sock" stat:clear
 echo "Stat cache cleared."
@@ -42,6 +40,6 @@ echo "Opcache cleared."
 php $EXEC --fcgi="/run/php/php-fpm-$FCGI_SOCKET.sock" opcache:status
 echo "done."
 
-php -d memory_limit=1024M bin/console newrelic:notify-deployment --env=prod
+php -d memory_limit=-1 bin/console newrelic:notify-deployment --env=prod
 
 exit 0
