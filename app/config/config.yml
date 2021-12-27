@@ -22,7 +22,7 @@ framework:
     session:
         gc_probability: 0
         # handler_id set to null will use default session handler from php.ini
-        handler_id:  ~
+        handler_id: "snc_redis.session.handler"
     fragments:       ~
     http_method_override: true
 
@@ -639,7 +639,9 @@ snc_redis:
             dsn: 'redis://%database_host%/1'
             logging: '%kernel.debug%'
     session:
-        client: default
+        client: session
+        prefix: "sess:"
+        ttl: 86400
     doctrine:
         metadata_cache:
             client: default
