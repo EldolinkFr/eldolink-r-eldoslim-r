@@ -11,6 +11,7 @@
 /web/assetic/
 /web/fonts/
 /web/uploads/
+/web/media/
 /web/js/bootstrap.js
 /web/js/jquery.js
 /web/css/bootstrap.css
