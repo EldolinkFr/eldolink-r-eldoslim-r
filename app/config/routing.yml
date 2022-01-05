@@ -37,6 +37,10 @@ routing-sublym-body.com:
     resource: "routing-sublym-body.com.yml"
     host:     "www.sublym-body.com"
 
+routing-the-toujours.fr:
+    resource: "routing-the-toujours.fr.yml"
+    host:     "www.the-toujours.fr"
+
 api_items:
     path:  /data-api/items
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }

@@ -1,0 +1,6 @@
+# app/config/routing-the-toujours.fr.yml
+
+the-toujours.fr-index:
+    path: /
+    defaults: { _controller: eldoPagesBundle:Page:pdv203 }
+    methods:  [GET, POST]
