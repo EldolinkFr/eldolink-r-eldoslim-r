@@ -37,6 +37,10 @@ routing-sublym-body.com:
     resource: "routing-sublym-body.com.yml"
     host:     "www.sublym-body.com"
 
+routing-the-toujours.fr:
+    resource: "routing-the-toujours.fr.yml"
+    host:     "www.the-toujours.fr"
+
 api_items:
     path:  /data-api/items
     defaults: { _controller: eldoPagesBundle:Api:itemsApi }
@@ -1032,6 +1036,11 @@ slimdoo_pdv119:
 slimdoo_pdv120:
     path:  /pdv/120
     defaults: { _controller: eldoPagesBundle:Page:pdv120 }
+    methods:  [GET]
+
+slimdoo_pdv121:
+    path:  /pdv/121
+    defaults: { _controller: eldoPagesBundle:Page:pdv121 }
     methods:  [GET]
 
 thetoujours_pdv201:
