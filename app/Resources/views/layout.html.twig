@@ -23,28 +23,7 @@
 {% endblock %}
 
 {% block stylesheets %}
-	{% stylesheets
-		'@bootstrap_css'
-		'bundles/eldopages/js/lib/video-js/video-js.css'
-		'bundles/eldopages/css/topbar.css'
-		'bundles/eldopages/css/score.css'
-		'bundles/eldopages/css/notify.css'
-		'bundles/eldopages/css/animate.css'
-		'bundles/eldopages/css/bootstrap-social.css'
-		'@fontawesome_css'
-		'bundles/eldopages/js/plugins/magnific-popup/magnific-popup.css'
-        'bundles/eldopages/js/plugins/intlTelInput/css/intlTelInput.css'
-		'bundles/eldopages/css/owl.carousel.css'
-		'bundles/eldopages/css/owl.theme.css'
-		'bundles/eldopages/css/owl.transitions.css'
-		'bundles/eldomain/css/cookie_consent.css'
-        'bundles/eldopages/css/cookie_consent.css'
-		filter='scssphp'
-		filter='cssrewrite'
-		output='css/compiled/app-pages.css'
-    %}
-        <link rel="stylesheet" href="{{ asset_url }}" />
-	{% endstylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/css/app_pdv.min.css') }}" />
 {% endblock %}
 
 {% block headjs %}
@@ -72,29 +51,5 @@
 {% endblock %}
 
 {% block javascripts %}
-	{% javascripts
-        '@jquery'
-        'bundles/eldopages/js/jquery.cookie.js'
-        '@bootstrap_js'
-        'bundles/eldopages/js/plugins/jquery.countdown.min.js'
-		'bundles/eldopages/js/plugins/jquery-lazy/jquery.lazy.js'
-		'bundles/eldopages/js/plugins/jquery-validate/jquery.validate.min.js'
-		'bundles/eldopages/js/plugins/magnific-popup/jquery.magnific-popup.min.js'
-        'bundles/eldopages/js/plugins/intlTelInput/js/intlTelInput.min.js'
-        'bundles/eldopages/js/lib/libphonenumber/build/utils.js'
-        'bundles/eldopages/js/plugins/bootstrap-notify/bootstrap-notify.js'
-		'bundles/eldopages/js/plugins/owl.carousel.min.js'
-		'bundles/eldopages/js/custom.js'
-		'bundles/eldomain/js/cookie_consent.js'
-		'bundles/eldotools/js/plugins/bounceback.eldo.js'
-        'bundles/eldotools/js/general.js'
-		filter='?jsqueeze'
-		output='js/compiled/app-pages.js'		
-	%}
-		 <script {% if tracking.mb == '1' %}async{% endif %} src="{{ asset_url }}"></script>
-	{% endjavascripts %}
-
-    {% if app.request.getLocale() != 'en' %}
-    <script src="{{ asset('bundles/eldopages/js/plugins/jquery-validate/localization/messages_' ~ app.request.getLocale() ~ '.js') }}"> </script>
-    {% endif %}
+    <script {% if tracking.mb == '1' %}async{% endif %} src="{{ asset('bundles/eldopages/assets/js/app_pdv.' ~ app.request.getLocale() ~ '.min.js') }}"></script>
 {% endblock %}

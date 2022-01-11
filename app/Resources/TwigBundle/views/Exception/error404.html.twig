@@ -11,15 +11,7 @@
 
 {% block stylesheets %}
     {{ parent() }}
-
-	{% stylesheets
-        'css/errors.css'
-		filter='scssphp'
-		filter='cssrewrite'
-		output='css/compiled/errors.css'
-    %}
-        <link rel="stylesheet" href="{{ asset_url }}" />
-	{% endstylesheets %}
+    <link rel="stylesheet" href="{{ asset('assets/css/errors.min.css') }}" />
 {% endblock stylesheets %}
 
 {% block body %}
