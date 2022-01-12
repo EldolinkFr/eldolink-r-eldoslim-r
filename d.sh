@@ -26,10 +26,6 @@ php -d memory_limit=-1 bin/console doctrine:cache:clear-result
 php -d memory_limit=-1 bin/console doctrine:cache:clear-query
 php -d memory_limit=-1 bin/console cache:clear --env=prod --no-debug
 
-if [ $dumpflag = "on" ]; then
-    php -d memory_limit=256M bin/console assetic:dump --env=prod --no-debug
-fi
-
 php bin/console assets-version:increment
 php -d memory_limit=-1 bin/console cache:clear --env=prod --no-debug
 
