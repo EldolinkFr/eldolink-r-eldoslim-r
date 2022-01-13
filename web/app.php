@@ -8,7 +8,7 @@ $loader = require __DIR__.'/../app/autoload.php';
 include_once __DIR__.'/../var/bootstrap.php.cache';
 
 $kernel = new AppKernel('prod', false);
-Request::setTrustedProxies(['192.168.10.10'], Request::HEADER_X_FORWARDED_ALL);
+Request::setTrustedProxies(['192.168.10.50'], Request::HEADER_X_FORWARDED_ALL);
 //$kernel = new AppCache($kernel);
 
 // When using the HttpCache, you need to call the method in your front controller instead of relying on the configuration parameter
