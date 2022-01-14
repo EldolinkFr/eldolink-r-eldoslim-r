@@ -78,7 +78,6 @@ doctrine:
             region_cache_driver:
                 type: service
                 id: snc_redis_cache_driver
-            enabled: true
             region_lifetime: 86400
             regions:
                 region_cached:
