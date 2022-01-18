@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "47d810d9f4c666155282f7dd9a1a85d18bd72c49"
+                "reference": "89009cba4730c1b4e427a3e6c33ce38f97d3dbd3"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2162,7 +2162,6 @@
                 "php": "^5.5.9 || ^7.0",
                 "php-units-of-measure/php-units-of-measure": "2.*",
                 "predis/predis": "1.0.*",
-                "robertotru/to-inline-style-email-bundle": "~1.2",
                 "sendgrid/sendgrid": "~7.0",
                 "sendinblue/api-v3-sdk": "^7.0.0",
                 "snc/redis-bundle": "~3.0",
@@ -2171,6 +2170,7 @@
                 "symfony/form": "^2.8 || ^3.0 || ^4.0",
                 "symfony/framework-bundle": "^2.8 || ^3.0 || ^4.0",
                 "symfony/twig-bundle": "^2.8 || ^3.0 || ^4.0",
+                "tijsverkoyen/css-to-inline-styles": "^2.2",
                 "twig/extensions": "1.5.4",
                 "vich/uploader-bundle": "1.0.1",
                 "xynnn/google-tag-manager-bundle": "~3.0"
@@ -2200,7 +2200,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-01-13T15:15:24+00:00"
+            "time": "2022-01-18T12:02:58+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2251,7 +2251,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
-                "reference": "99ac58f7031158a1be394246a121d9caeafe3e39"
+                "reference": "9ee0db2d8002ffbef00408af22e23c5d6734bb84"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2281,7 +2281,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-01-12T15:30:22+00:00"
+            "time": "2022-01-18T11:43:58+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -6751,67 +6751,6 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "robertotru/to-inline-style-email-bundle",
-            "version": "1.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gushphp/ToInlineStyleEmailBundle.git",
-                "reference": "95a454ca7d7ec667baeaca2a5ddc24fce9f1a401"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gushphp/ToInlineStyleEmailBundle/zipball/95a454ca7d7ec667baeaca2a5ddc24fce9f1a401",
-                "reference": "95a454ca7d7ec667baeaca2a5ddc24fce9f1a401",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5",
-                "tijsverkoyen/css-to-inline-styles": "~2.2.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.4",
-                "symfony/framework-bundle": "*"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "RobertoTru\\ToInlineStyleEmailBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roberto Trunfio",
-                    "email": "rtrunfio@deis.unical.it",
-                    "homepage": "http://www.trunfio.it",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A Symfony2 bundle for using the CssToInlineStyles translator by tijsverkoyen",
-            "homepage": "http://github.com/gushphp/ToInlineStyleEmailBundle",
-            "keywords": [
-                "bundle",
-                "css",
-                "email",
-                "inline",
-                "style",
-                "symfony"
-            ],
-            "support": {
-                "issues": "https://github.com/gushphp/ToInlineStyleEmailBundle/issues",
-                "source": "https://github.com/gushphp/ToInlineStyleEmailBundle/tree/1.5.2"
-            },
-            "time": "2018-01-14T12:37:39+00:00"
         },
         {
             "name": "robloach/component-installer",
