@@ -33,7 +33,6 @@ class AppKernel extends Kernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new SunCat\MobileDetectBundle\MobileDetectBundle(),
             new Nmure\CrawlerDetectBundle\CrawlerDetectBundle(),
-            new RobertoTru\ToInlineStyleEmailBundle\RobertoTruToInlineStyleEmailBundle(),
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
             new Snc\RedisBundle\SncRedisBundle(),
