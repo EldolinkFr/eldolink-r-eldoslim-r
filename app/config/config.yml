@@ -653,43 +653,43 @@ eldo_main:
                 shortcode:  "%esendex_eldolink_shortcode%"
                 account_id: "%esendex_eldolink_account_id%"
     sendgrid:
-        api_key:   %sendgrid_api_key%
+        api_key:    "%sendgrid_api_key%"
     sendinblue:
-        api_key: %sendinblue_api_key%
+        api_key:    "%sendinblue_api_key%"
     neverbounce:
         api_key:   "%neverbounce_api_key%"
     messagebusiness:
-        url:        %messagebusiness_url%
-        account_id: %messagebusiness_account_id%
-        api_key:    %messagebusiness_api_key%
+        url:        "%messagebusiness_url%"
+        account_id: "%messagebusiness_account_id%"
+        api_key:    "%messagebusiness_api_key%"
     openweathermap:
-        url:        %openweathermap_url%
-        api_key:    %openweathermap_api_key%
+        url:        "%openweathermap_url%"
+        api_key:    "%openweathermap_api_key%"
     googlemap:
-        api_key:    %googlemap_api_key%
+        api_key:    "%googlemap_api_key%"
     googleanalytics:
-        config:    %googleanalytics_config%
+        config:     "%googleanalytics_config%"
     firebase:
-        api_key:                %firebase_api_key%
-        dynamic_link_url:       %firebase_dynamic_link_url%
-        dynamic_link_domain:    %firebase_dynamic_link_domain%
+        api_key:                "%firebase_api_key%"
+        dynamic_link_url:       "%firebase_dynamic_link_url%"
+        dynamic_link_domain:    "%firebase_dynamic_link_domain%"
     gtm:
-        id:        %gtm_id%
+        id:        "%gtm_id%"
     onesignal:
-        default_app:            %onesignal_default_app%
+        default_app:            "%onesignal_default_app%"
         configs:
             slimdoo:
-                app_name:       %slimdoo_onesignal_app_name%
-                app_id:         %slimdoo_onesignal_app_id%
-                safari_web_id:  %slimdoo_onesignal_safari_web_id%
-                app_auth_key:   %slimdoo_onesignal_app_auth_key%
-                gcm_sender_id:  %slimdoo_onesignal_gcm_sender_id%
+                app_name:       "%slimdoo_onesignal_app_name%"
+                app_id:         "%slimdoo_onesignal_app_id%"
+                safari_web_id:  "%slimdoo_onesignal_safari_web_id%"
+                app_auth_key:   "%slimdoo_onesignal_app_auth_key%"
+                gcm_sender_id:  "%slimdoo_onesignal_gcm_sender_id%"
             eldolink:
-                app_name:       %eldolink_onesignal_app_name%
-                app_id:         %eldolink_onesignal_app_id%
-                safari_web_id:  %eldolink_onesignal_safari_web_id%
-                app_auth_key:   %eldolink_onesignal_app_auth_key%
-                gcm_sender_id:  %eldolink_onesignal_gcm_sender_id%
+                app_name:       "%eldolink_onesignal_app_name%"
+                app_id:         "%eldolink_onesignal_app_id%"
+                safari_web_id:  "%eldolink_onesignal_safari_web_id%"
+                app_auth_key:   "%eldolink_onesignal_app_auth_key%"
+                gcm_sender_id:  "%eldolink_onesignal_gcm_sender_id%"
     backoffice:
         url:        "%backoffice_url%"
     api:
@@ -701,8 +701,8 @@ eldo_main:
         categories:     "%cookie_consent_categories%"
     default_locale:         "%locale%"
     default_currency:       "%default_currency%"
-    default_affiliate:  "%default_affiliate%"
-    default_pricing_model:  %default_pricing_model%
-    default_product:  %default_product%
-    default_offer:  %default_offer%
-    testing_offers:  %testing_offers%
+    default_affiliate:      "%default_affiliate%"
+    default_pricing_model:  "%default_pricing_model%"
+    default_product:        "%default_product%"
+    default_offer:          "%default_offer%"
+    testing_offers:         "%testing_offers%"
