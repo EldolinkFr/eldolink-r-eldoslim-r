@@ -644,14 +644,20 @@ eldo_main:
                 sender:     "%esendex_slimdoo_sender%"
                 shortcode:  "%esendex_slimdoo_shortcode%"
                 account_id: "%esendex_slimdoo_account_id%"
+                richcontent_api_key: "%esendex_slimdoo_richcontent_api_key%"
+                webhooks_subscription_key: "%esendex_slimdoo_webhooks_subscription_key%"
             thetoujours:
                 sender:     "%esendex_thetoujours_sender%"
                 shortcode:  "%esendex_thetoujours_shortcode%"
                 account_id: "%esendex_thetoujours_account_id%"
+                richcontent_api_key: "%esendex_thetoujours_richcontent_api_key%"
+                webhooks_subscription_key: "%esendex_thetoujours_webhooks_subscription_key%"
             eldolink:
                 sender:     "%esendex_eldolink_sender%"
                 shortcode:  "%esendex_eldolink_shortcode%"
                 account_id: "%esendex_eldolink_account_id%"
+                richcontent_api_key: "%esendex_eldolink_richcontent_api_key%"
+                webhooks_subscription_key: "%esendex_eldolink_webhooks_subscription_key%"
     sendgrid:
         api_key:    "%sendgrid_api_key%"
     sendinblue:
