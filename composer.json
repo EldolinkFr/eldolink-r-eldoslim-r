@@ -30,7 +30,7 @@
         "craue/formflow-bundle": "~2.0",
         "eldolink/pages-bundle": "2.0.x-dev",
         "eldolink/tools-bundle": "2.0.x-dev",
-        "eldolink/main-bundle": "2.0.x-dev"
+        "eldolink/main-bundle": "2.1.x-dev"
     },
     "repositories": [
         {

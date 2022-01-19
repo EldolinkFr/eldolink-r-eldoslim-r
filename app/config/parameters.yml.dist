@@ -58,17 +58,23 @@ parameters:
     oxone_thetoujours_sender:       XXX
 
     # Esendex parameters
-    esendex_login:                  XXX
-    esendex_password:               XXX
-    esendex_slimdoo_account_id:     XXX
-    esendex_slimdoo_shortcode:      XXX
-    esendex_slimdoo_sender:         XXX
-    esendex_thetoujours_account_id: XXX
-    esendex_thetoujours_shortcode:  XXX
-    esendex_thetoujours_sender:     XXX
-    esendex_eldolink_account_id:    XXX
-    esendex_eldolink_shortcode:     XXX
-    esendex_eldolink_sender:        XXX
+    esendex_login:                                  XXX
+    esendex_password:                               XXX
+    esendex_slimdoo_account_id:                     XXX
+    esendex_slimdoo_richcontent_api_key:            XXX
+    esendex_slimdoo_webhooks_subscription_key:      XXX
+    esendex_slimdoo_shortcode:                      XXX
+    esendex_slimdoo_sender:                         XXX
+    esendex_thetoujours_account_id:                 XXX
+    esendex_thetoujours_richcontent_api_key:        XXX
+    esendex_thetoujours_webhooks_subscription_key:  XXX
+    esendex_thetoujours_shortcode:                  XXX
+    esendex_thetoujours_sender:                     XXX
+    esendex_eldolink_account_id:                    XXX
+    esendex_eldolink_richcontent_api_key:           XXX
+    esendex_eldolink_webhooks_subscription_key:     XXX
+    esendex_eldolink_shortcode:                     XXX
+    esendex_eldolink_sender:                        XXX
 
     # Sendgrid parameters
     sendgrid_api_key:           XXX
