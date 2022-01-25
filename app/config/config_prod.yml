@@ -4,7 +4,7 @@ imports:
 framework:
     assets:
         version: "%assets_version%"
-        base_urls: "%app.cdn_url%"
+#         base_urls: "%app.cdn_url%"
 
 monolog:
     handlers:
