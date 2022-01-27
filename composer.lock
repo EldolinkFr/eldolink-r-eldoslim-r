@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "07551a6767ec879bc381e3d595a493af0278d98f"
+                "reference": "3ae7405bd52006bb17030dab64e53c84d9198003"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-01-26T08:12:45+00:00"
+            "time": "2022-01-27T11:18:57+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2252,7 +2252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
-                "reference": "d0e690fa9834cd0fd129e9e984d996a38c4569e8"
+                "reference": "1902b86033f4d7d8ee9fe960efe59a91874ef617"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2282,7 +2282,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-01-26T09:22:44+00:00"
+            "time": "2022-01-27T15:37:49+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -6733,16 +6733,16 @@
         },
         {
             "name": "sendgrid/php-http-client",
-            "version": "3.14.1",
+            "version": "3.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sendgrid/php-http-client.git",
-                "reference": "457bfeb199e01cf7a8b96a60789306d7ea16307e"
+                "reference": "25377871773a49b508129eb07c9c387020fb97f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/457bfeb199e01cf7a8b96a60789306d7ea16307e",
-                "reference": "457bfeb199e01cf7a8b96a60789306d7ea16307e",
+                "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/25377871773a49b508129eb07c9c387020fb97f1",
+                "reference": "25377871773a49b508129eb07c9c387020fb97f1",
                 "shasum": ""
             },
             "require": {
@@ -6791,22 +6791,22 @@
             ],
             "support": {
                 "issues": "https://github.com/sendgrid/php-http-client/issues",
-                "source": "https://github.com/sendgrid/php-http-client/tree/3.14.1"
+                "source": "https://github.com/sendgrid/php-http-client/tree/3.14.2"
             },
-            "time": "2022-01-12T20:15:12+00:00"
+            "time": "2022-01-26T20:07:48+00:00"
         },
         {
             "name": "sendgrid/sendgrid",
-            "version": "7.11.2",
+            "version": "7.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sendgrid/sendgrid-php.git",
-                "reference": "bfe41f9404479e486104c5ff5a22afb38e2a5334"
+                "reference": "6fd1c0c0f30cb9d0e6bc27fe85d54e137b6911d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/bfe41f9404479e486104c5ff5a22afb38e2a5334",
-                "reference": "bfe41f9404479e486104c5ff5a22afb38e2a5334",
+                "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/6fd1c0c0f30cb9d0e6bc27fe85d54e137b6911d2",
+                "reference": "6fd1c0c0f30cb9d0e6bc27fe85d54e137b6911d2",
                 "shasum": ""
             },
             "require": {
@@ -6856,9 +6856,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sendgrid/sendgrid-php/issues",
-                "source": "https://github.com/sendgrid/sendgrid-php/tree/7.11.2"
+                "source": "https://github.com/sendgrid/sendgrid-php/tree/7.11.3"
             },
-            "time": "2022-01-12T20:12:19+00:00"
+            "time": "2022-01-26T20:09:40+00:00"
         },
         {
             "name": "sendinblue/api-v3-sdk",
