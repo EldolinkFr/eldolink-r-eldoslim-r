@@ -2252,7 +2252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
-                "reference": "1902b86033f4d7d8ee9fe960efe59a91874ef617"
+                "reference": "5b3aec563a789188b3373081357e05a0a8638b01"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2282,7 +2282,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-01-27T15:37:49+00:00"
+            "time": "2022-01-31T19:37:11+00:00"
         },
         {
             "name": "esendex/sdk",
