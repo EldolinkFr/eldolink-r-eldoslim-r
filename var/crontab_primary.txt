@@ -1,0 +1,7 @@
+# m h  dom mon dow   command
+## REFRESH ALL LIIPIMAGINE CACHE
+0 2 * * 0 /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:warmup --refresh --env=prod >> /dev/null 2>&1
+## REFRESH LATESTS LIIPIMAGINE CACHE
+*/5 * * * * /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:warmup --latests --env=prod >> /dev/null 2>&1
+## GENERATE LIIPIMAGINE CACHE
+*/2 * * * * /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:warmup --env=prod >> /dev/null 2>&1

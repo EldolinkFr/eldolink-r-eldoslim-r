@@ -36,6 +36,5 @@ echo "Opcache cleared."
 php $EXEC --fcgi="/run/php/php-fpm-$FCGI_SOCKET.sock" opcache:status
 echo "done."
 
-php -d memory_limit=-1 bin/console newrelic:notify-deployment --env=prod
 
 exit 0
