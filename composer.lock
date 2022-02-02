@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "86f62014630dfb2a6ef011da6c9cb8059a062dd1"
+                "reference": "74ea03fb7b9b3bdbf7c45d778ac9cc53839d0881"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-02-01T10:37:09+00:00"
+            "time": "2022-02-02T14:56:58+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2209,7 +2209,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git",
-                "reference": "e56b51b6ee668c49d40f73b17c5a5eb2b3a73004"
+                "reference": "02dba4f315d51d33beec49e4d1f979bed3e1d13b"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2244,7 +2244,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-01-31T09:14:42+00:00"
+            "time": "2022-02-02T14:57:22+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2252,7 +2252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
-                "reference": "5b3aec563a789188b3373081357e05a0a8638b01"
+                "reference": "73d53f619d193cb161a6975e0c9f1e3c21a1fa60"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2282,7 +2282,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-01-31T19:37:11+00:00"
+            "time": "2022-02-02T14:57:40+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -3142,12 +3142,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
