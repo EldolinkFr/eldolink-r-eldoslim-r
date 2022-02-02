@@ -170,112 +170,112 @@ liip_imagine:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_20x20:
+        local_20x20:
             data_loader: default
             filters:
                 thumbnail: { size: [20, 20], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_30x30:
+        local_30x30:
             data_loader: default
             filters:
                 thumbnail: { size: [30, 30], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_36x36:
+        local_36x36:
             data_loader: default
             filters:
                 thumbnail: { size: [36, 36], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_50x50:
+        local_50x50:
             data_loader: default
             filters:
                 thumbnail: { size: [50, 50], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_70x70:
+        local_70x70:
             data_loader: default
             filters:
                 thumbnail: { size: [70, 70], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_110x110:
+        local_110x110:
             data_loader: default
             filters:
                 thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_152x152:
+        local_152x152:
             data_loader: default
             filters:
                 thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_170x170:
+        local_170x170:
             data_loader: default
             filters:
                 thumbnail: { size: [170, 170], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_196x196:
+        local_196x196:
             data_loader: default
             filters:
                 thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_200x200:
+        local_200x200:
             data_loader: default
             filters:
                 thumbnail: { size: [200, 200], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_261x142:
+        local_261x142:
             data_loader: default
             filters:
                 thumbnail: { size: [261, 142], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_291x158:
+        local_291x158:
             data_loader: default
             filters:
                 thumbnail: { size: [291, 158], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_352x191:
+        local_352x191:
             data_loader: default
             filters:
                 thumbnail: { size: [352, 191], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_400x400:
+        local_400x400:
             data_loader: default
             filters:
                 thumbnail: { size: [400, 400], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_570x310:
+        local_570x310:
             data_loader: default
             filters:
                 thumbnail: { size: [570, 310], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        default_600x600:
+        local_600x600:
             data_loader: default
             filters:
                 thumbnail: { size: [600, 600], mode: outbound, allow_upscale: true }
