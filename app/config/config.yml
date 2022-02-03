@@ -163,7 +163,7 @@ liip_imagine:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
 # Default Loader
-        default_16x16:
+        local_16x16:
             data_loader: default
             filters:
                 thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
