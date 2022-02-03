@@ -150,19 +150,21 @@ liip_imagine:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        ico:
+# Local Loader
+        local_ico:
+            data_loader: default
             filters:
                 thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-        apple_touch_icon:
+        local_apple_touch_icon:
+            data_loader: default
             filters:
                 thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-# Default Loader
         local_16x16:
             data_loader: default
             filters:
@@ -283,6 +285,18 @@ liip_imagine:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
 # S3 Loader
+        s3_ico:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_apple_touch_icon:
+            filters:
+                thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         s3_16x16:
             filters:
                 thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
