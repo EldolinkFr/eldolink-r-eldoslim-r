@@ -140,7 +140,8 @@ liip_imagine:
            web_path: ~ 
     loaders:
         default:
-            filesystem: ~          
+            filesystem:
+                data_root: ["%kernel.root_dir%/../web", "%kernel.root_dir%/../vendor"]
         loader_s3_medias:
             stream:
                 wrapper: gaufrette://media_s3_fs/
