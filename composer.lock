@@ -5899,8 +5899,8 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Oro\\DBAL": "src/",
-                    "Oro\\ORM": "src/"
+                    "Oro\\ORM": "src/",
+                    "Oro\\DBAL": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
