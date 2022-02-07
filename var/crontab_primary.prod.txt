@@ -4,4 +4,4 @@
 ## REFRESH LATESTS LIIPIMAGINE CACHE
 */5 * * * * /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:cache --latests --env=prod >> /dev/null 2>&1
 ## GENERATE LIIPIMAGINE CACHE
-*/2 * * * * /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:cache --env=prod >> /dev/null 2>&1
+* * * * * /usr/bin/php -d memory_limit=-1 /var/www/vhosts/eldoslim.com/www/current/bin/console liip:cache --env=prod >> /dev/null 2>&1
