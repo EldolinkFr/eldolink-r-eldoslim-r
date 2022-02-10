@@ -42,10 +42,10 @@ DirectoryIndex app.php
     RewriteCond %{HTTP_REFERER} slimdoo-light\.club [NC]
     RewriteRule ^(.*)$ - [F,L]
 
+    RewriteCond %{HTTP_HOST} !^d\. [NC]
+    RewriteCond %{HTTP_HOST} !^t\. [NC]
+    RewriteCond %{HTTP_HOST} !^s\. [NC]
     RewriteCond %{HTTP_HOST} .
-    #RewriteCond %{HTTP_HOST} ^d\.www\. [NC]
-    #RewriteCond %{HTTP_HOST} ^t\.www\. [NC]
-    #RewriteCond %{HTTP_HOST} ^s\.www\. [NC]
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
