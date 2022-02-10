@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.21",
+            "version": "3.209.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3f5b867920f422d605c38aad95f5c334183b39bb"
+                "reference": "2f8a8c885daf45fe9f919312a66a68115d6733b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3f5b867920f422d605c38aad95f5c334183b39bb",
-                "reference": "3f5b867920f422d605c38aad95f5c334183b39bb",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2f8a8c885daf45fe9f919312a66a68115d6733b5",
+                "reference": "2f8a8c885daf45fe9f919312a66a68115d6733b5",
                 "shasum": ""
             },
             "require": {
@@ -184,9 +184,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.21"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.22"
             },
-            "time": "2022-02-09T19:17:07+00:00"
+            "time": "2022-02-10T19:14:07+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "136fd5cb4d8d72d2d399172dcfee5f599fa9538d"
+                "reference": "a23cc7f4482f11547139d9ceeccd74cc8e4a5c4e"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-02-10T14:17:18+00:00"
+            "time": "2022-02-10T19:13:26+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
