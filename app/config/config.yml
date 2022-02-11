@@ -588,7 +588,7 @@ snc_redis:
         session:
             type: predis
             alias: session
-            dsn: 'redis://%database_host%'
+            dsn: 'redis://%database_host%/1'
             logging: '%kernel.debug%'
     session:
         client: session
