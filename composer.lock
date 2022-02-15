@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.209.23",
+            "version": "3.209.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6082f5df05e5c725a44a310649a922b32bbeec54"
+                "reference": "ce68bfc141863a25f4b870f10cfa996312fb1813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6082f5df05e5c725a44a310649a922b32bbeec54",
-                "reference": "6082f5df05e5c725a44a310649a922b32bbeec54",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce68bfc141863a25f4b870f10cfa996312fb1813",
+                "reference": "ce68bfc141863a25f4b870f10cfa996312fb1813",
                 "shasum": ""
             },
             "require": {
@@ -184,9 +184,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.23"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.209.24"
             },
-            "time": "2022-02-11T19:13:32+00:00"
+            "time": "2022-02-14T19:15:07+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "240c02aae85ae266693afaefcaa4ae0c2265e463"
+                "reference": "6cedf6a532ba321ea38e0453b7fd82e325da19e1"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-02-11T12:28:58+00:00"
+            "time": "2022-02-15T11:36:35+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -3766,16 +3766,16 @@
         },
         {
             "name": "jms/translation-bundle",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSTranslationBundle.git",
-                "reference": "9d8df7f184805919dc81b4d8121e73f6c5a76a5d"
+                "reference": "abb7df81fc5066368bbd50b2a80c12901e84561d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/9d8df7f184805919dc81b4d8121e73f6c5a76a5d",
-                "reference": "9d8df7f184805919dc81b4d8121e73f6c5a76a5d",
+                "url": "https://api.github.com/repos/schmittjoh/JMSTranslationBundle/zipball/abb7df81fc5066368bbd50b2a80c12901e84561d",
+                "reference": "abb7df81fc5066368bbd50b2a80c12901e84561d",
                 "shasum": ""
             },
             "require": {
@@ -3841,9 +3841,9 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/JMSTranslationBundle/issues",
-                "source": "https://github.com/schmittjoh/JMSTranslationBundle/tree/1.6.1"
+                "source": "https://github.com/schmittjoh/JMSTranslationBundle/tree/1.6.2"
             },
-            "time": "2021-11-26T13:18:39+00:00"
+            "time": "2022-02-15T08:17:38+00:00"
         },
         {
             "name": "kachkaev/assets-version-bundle",
