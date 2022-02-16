@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "8a3f28fb59ee5ae7178c401cb2cfbb7bfee9807b"
+                "reference": "2aee5cd1ca9a6ef44c5f8c4248c8d4e46d3d1369"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-02-16T07:44:54+00:00"
+            "time": "2022-02-16T08:43:34+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2209,7 +2209,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git",
-                "reference": "67c0d5654bf6df09ed77de239c88d9959b2619dd"
+                "reference": "ec0a157c661e899a4d448e96a7dd7d6f1cf0801d"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2244,7 +2244,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-02-16T08:06:24+00:00"
+            "time": "2022-02-16T08:56:05+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
