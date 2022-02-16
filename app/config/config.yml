@@ -20,9 +20,8 @@ framework:
     default_locale:  "%locale%"
     trusted_hosts:   ~
     session:
-        gc_probability: 1
-        handler_id: null
-        # handler_id set to null will use default session handler from php.ini
+        gc_probability: 0
+        handler_id: 'snc_redis.session.handler'
     fragments:       ~
     http_method_override: true
 
@@ -585,6 +584,15 @@ snc_redis:
             alias: default
             dsn: 'redis://%database_host%'
             logging: '%kernel.debug%'
+        session:
+            type: predis
+            alias: session
+            dsn: 'redis://%database_host%/1'
+            logging: '%kernel.debug%'
+    session:
+        client: session
+        prefix: "sess:"
+        ttl: 86400
     doctrine:
         metadata_cache:
             client: default
