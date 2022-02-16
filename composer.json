@@ -48,7 +48,8 @@
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
         "doctrine/doctrine-migrations-bundle": "3.0.3",
-        "doctrine/doctrine-fixtures-bundle": "2.4.1"
+        "doctrine/doctrine-fixtures-bundle": "2.4.1",
+        "rector/rector": "^0.12.16"
     },
     "scripts": {
         "post-root-package-install": [
