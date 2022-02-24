@@ -2125,7 +2125,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
-                "reference": "12de476ec7da783afa3517dbc724ae8e85bf92c7"
+                "reference": "6d3e8d89f8ed0be90ee634dea6b3091d4c267906"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-02-22T16:11:29+00:00"
+            "time": "2022-02-24T11:17:53+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2209,7 +2209,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git",
-                "reference": "564781a1e57fdf0cc1650998a44397e5e70f7978"
+                "reference": "ca1cbf6ad67f0f044571120b0e5e08ddf3d1b510"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2244,7 +2244,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-02-23T22:59:33+00:00"
+            "time": "2022-02-24T11:31:45+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2252,7 +2252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
-                "reference": "d1be52baab84ee5738c6d2bb28ff34aaf4a1bb1b"
+                "reference": "1637fa4c86ab93f73078be45621cd9a76162603b"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2282,7 +2282,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-02-23T16:17:15+00:00"
+            "time": "2022-02-24T11:32:40+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -2763,16 +2763,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.43",
+            "version": "8.12.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "27bc97a4941f42d320fb6da3de0dcaaf7db69f5d"
+                "reference": "a726990faf05bfffdd826f75d9b41a1580dad4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/27bc97a4941f42d320fb6da3de0dcaaf7db69f5d",
-                "reference": "27bc97a4941f42d320fb6da3de0dcaaf7db69f5d",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/a726990faf05bfffdd826f75d9b41a1580dad4a7",
+                "reference": "a726990faf05bfffdd826f75d9b41a1580dad4a7",
                 "shasum": ""
             },
             "require": {
@@ -2832,7 +2832,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-02-09T07:46:55+00:00"
+            "time": "2022-02-24T09:38:54+00:00"
         },
         {
             "name": "giggsey/locale",
