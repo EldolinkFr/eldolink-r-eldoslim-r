@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a100c3361c575d457b51c126127be47",
+    "content-hash": "39526961d7b1142c2506d6f8fd92c2d2",
     "packages": [
         {
             "name": "adoy/fastcgi-client",
@@ -2124,7 +2124,7 @@
             "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-main-bundle.git",
+                "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
                 "reference": "aa3935709049a112dedf11cf0fee44561bdc69ce"
             },
             "require": {
@@ -2208,7 +2208,7 @@
             "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git",
+                "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
                 "reference": "b030b0d08ce54c426c300462476d06c917e274a9"
             },
             "require": {
@@ -2251,7 +2251,7 @@
             "version": "3.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git",
+                "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
                 "reference": "11f5cbbaae5ac4a056dfa2de0369c13d36990b80"
             },
             "require": {
