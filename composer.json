@@ -34,15 +34,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-pages-bundle.git"
+            "url":  "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-toolsbundle.git"
+            "url":  "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-main-bundle.git"
+            "url":  "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git"
         }
     ],
     "require-dev": {
