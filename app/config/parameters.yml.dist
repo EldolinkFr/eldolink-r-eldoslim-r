@@ -122,18 +122,6 @@ parameters:
     amazon_s3.documents_directory_name: document
     amazon_s3.base_url: s3.amazonaws.com
 
-    # OneSignal Configuration
-    onesignal_default_app: XXX
-    slimdoo_onesignal_app_name: XXX
-    slimdoo_onesignal_app_id: XXX
-    slimdoo_onesignal_safari_web_id: XXX
-    slimdoo_onesignal_app_auth_key: XXX
-    slimdoo_onesignal_gcm_sender_id: XXX
-    eldolink_onesignal_app_name: XXX
-    eldolink_onesignal_app_id: XXX
-    eldolink_onesignal_safari_web_id: XXX
-    eldolink_onesignal_app_auth_key: XXX
-    eldolink_onesignal_gcm_sender_id: XXX
 
     # Newrelic parameters
     newrelic_api_key:         XXX
