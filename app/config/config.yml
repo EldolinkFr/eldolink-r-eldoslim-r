@@ -686,21 +686,23 @@ eldo_main:
         dynamic_link_domain:    "%firebase_dynamic_link_domain%"
     gtm:
         id:        "%gtm_id%"
-    onesignal:
-        default_app:            "%onesignal_default_app%"
+    wonderpush:
         configs:
             slimdoo:
-                app_name:       "%slimdoo_onesignal_app_name%"
-                app_id:         "%slimdoo_onesignal_app_id%"
-                safari_web_id:  "%slimdoo_onesignal_safari_web_id%"
-                app_auth_key:   "%slimdoo_onesignal_app_auth_key%"
-                gcm_sender_id:  "%slimdoo_onesignal_gcm_sender_id%"
+                app_name:       "%slimdoo_wonderpush_app_name%"
+                app_id:         "%slimdoo_wonderpush_app_id%"
+                app_access_token:  "%slimdoo_wonderpush_app_access_token%"
+                app_web_key:  "%slimdoo_wonderpush_app_web_key%"
+            thetoujours:
+                app_name:       "%thetoujours_wonderpush_app_name%"
+                app_id:         "%thetoujours_wonderpush_app_id%"
+                app_access_token:  "%thetoujours_wonderpush_app_access_token%"
+                app_web_key:  "%thetoujours_wonderpush_app_web_key%"
             eldolink:
-                app_name:       "%eldolink_onesignal_app_name%"
-                app_id:         "%eldolink_onesignal_app_id%"
-                safari_web_id:  "%eldolink_onesignal_safari_web_id%"
-                app_auth_key:   "%eldolink_onesignal_app_auth_key%"
-                gcm_sender_id:  "%eldolink_onesignal_gcm_sender_id%"
+                app_name:       "%eldolink_wonderpush_app_name%"
+                app_id:         "%eldolink_wonderpush_app_id%"
+                app_access_token:  "%eldolink_wonderpush_app_access_token%"
+                app_web_key:  "%eldolink_wonderpush_app_web_key%"
     backoffice:
         url:        "%backoffice_url%"
     api:

@@ -122,18 +122,21 @@ parameters:
     amazon_s3.documents_directory_name: document
     amazon_s3.base_url: s3.amazonaws.com
 
-    # OneSignal Configuration
-    onesignal_default_app: XXX
-    slimdoo_onesignal_app_name: XXX
-    slimdoo_onesignal_app_id: XXX
-    slimdoo_onesignal_safari_web_id: XXX
-    slimdoo_onesignal_app_auth_key: XXX
-    slimdoo_onesignal_gcm_sender_id: XXX
-    eldolink_onesignal_app_name: XXX
-    eldolink_onesignal_app_id: XXX
-    eldolink_onesignal_safari_web_id: XXX
-    eldolink_onesignal_app_auth_key: XXX
-    eldolink_onesignal_gcm_sender_id: XXX
+    # Wonderpush Configuration
+    slimdoo_wonderpush_app_name: XXX
+    slimdoo_wonderpush_app_id: XXX
+    slimdoo_wonderpush_app_access_token: XXX
+    slimdoo_wonderpush_app_web_key: XXX
+
+    thetoujours_wonderpush_app_name: XXX
+    thetoujours_wonderpush_app_id: XXX
+    thetoujours_wonderpush_app_access_token: XXX
+    thetoujours_wonderpush_app_web_key: XXX
+
+    eldolink_wonderpush_app_name: XXX
+    eldolink_wonderpush_app_id: XXX
+    eldolink_wonderpush_app_access_token: XXX
+    eldolink_wonderpush_app_web_key: XXX
 
     # Newrelic parameters
     newrelic_api_key:         XXX
