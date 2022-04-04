@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.217.0",
+            "version": "3.218.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a8cca383b13fe6cde479a4745b4d3dfe893fdc69"
+                "reference": "fd902a4766d61afac98f7e7746736ba741d4dcce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a8cca383b13fe6cde479a4745b4d3dfe893fdc69",
-                "reference": "a8cca383b13fe6cde479a4745b4d3dfe893fdc69",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fd902a4766d61afac98f7e7746736ba741d4dcce",
+                "reference": "fd902a4766d61afac98f7e7746736ba741d4dcce",
                 "shasum": ""
             },
             "require": {
@@ -184,9 +184,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.217.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.218.1"
             },
-            "time": "2022-03-30T18:18:30+00:00"
+            "time": "2022-04-01T18:14:25+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2126,7 +2126,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "4a2c12685ce5781e81e35ec3e55f86afaef07020"
+                "reference": "de52a0e3f7d1d9629dbc3a5f3e7984cb6789b3b5"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2203,7 +2203,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-03-31T14:38:56+00:00"
+            "time": "2022-04-04T10:56:13+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -7483,16 +7483,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.5",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "fab84798694e45b4571d305125215699eb2b1f73"
+                "reference": "88b6909f74fd1f2147e068411f71870a3b27ac56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/fab84798694e45b4571d305125215699eb2b1f73",
-                "reference": "fab84798694e45b4571d305125215699eb2b1f73",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/88b6909f74fd1f2147e068411f71870a3b27ac56",
+                "reference": "88b6909f74fd1f2147e068411f71870a3b27ac56",
                 "shasum": ""
             },
             "require": {
@@ -7550,7 +7550,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.5"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -7566,7 +7566,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-27T08:46:18+00:00"
+            "time": "2022-04-01T12:27:37+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -7648,16 +7648,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.4.3",
+            "version": "v5.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "e1503cfb5c9a225350f549d3bb99296f4abfb80f"
+                "reference": "92d27a34dea2e199fa9b687e3fff3a7d169b7b1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/e1503cfb5c9a225350f549d3bb99296f4abfb80f",
-                "reference": "e1503cfb5c9a225350f549d3bb99296f4abfb80f",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/92d27a34dea2e199fa9b687e3fff3a7d169b7b1c",
+                "reference": "92d27a34dea2e199fa9b687e3fff3a7d169b7b1c",
                 "shasum": ""
             },
             "require": {
@@ -7711,7 +7711,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.4.3"
+                "source": "https://github.com/symfony/mime/tree/v5.4.7"
             },
             "funding": [
                 {
@@ -7727,7 +7727,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2022-03-11T16:08:05+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -10001,16 +10001,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "39953ac1452a8843702ee41a35b4861d3e8207a7"
+                "reference": "bbf68cae24f6dc023c607ea0f87da55dd9d55c2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/39953ac1452a8843702ee41a35b4861d3e8207a7",
-                "reference": "39953ac1452a8843702ee41a35b4861d3e8207a7",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/bbf68cae24f6dc023c607ea0f87da55dd9d55c2b",
+                "reference": "bbf68cae24f6dc023c607ea0f87da55dd9d55c2b",
                 "shasum": ""
             },
             "require": {
@@ -10036,7 +10036,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.5.3"
+                "source": "https://github.com/phpstan/phpstan/tree/1.5.4"
             },
             "funding": [
                 {
@@ -10056,7 +10056,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-30T21:55:08+00:00"
+            "time": "2022-04-03T12:39:00+00:00"
         },
         {
             "name": "rector/rector",
