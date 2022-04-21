@@ -25,6 +25,10 @@ routing-electrostimulateur-fitness.com:
     resource: "routing-electrostimulateur-fitness.com.yml"
     host:     "www.electrostimulateur-fitness.com"
 
+routing-electro-bien.com:
+    resource: "routing-electro-bien.com.yml"
+    host:     "www.electro-bien.com"
+
 routing-minceur-facile.com:
     resource: "routing-minceur-facile.com.yml"
     host:     "www.minceur-facile.com"
@@ -32,6 +36,10 @@ routing-minceur-facile.com:
 routing-mince-heure.com:
     resource: "routing-mince-heure.com.yml"
     host:     "www.mince-heure.com"
+
+routing-neo-ventre.com:
+    resource: "routing-neo-ventre.com.yml"
+    host:     "www.neo-ventre.com"
 
 routing-sublym-body.com:
     resource: "routing-sublym-body.com.yml"
