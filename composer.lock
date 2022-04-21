@@ -2126,7 +2126,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "2a337a62aa432767e53ade63641b8afc78843feb"
+                "reference": "e23234ff124ac7a7205c92aa011a475733e09144"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2161,7 +2161,7 @@
                 "oro/doctrine-extensions": "~1.1",
                 "ovh/ovh": "^2.1",
                 "paragonie/random_compat": "~2.0",
-                "php": "^5.5.9 || ^7.0",
+                "php": ">=7.0",
                 "php-units-of-measure/php-units-of-measure": "2.*",
                 "predis/predis": "1.0.*",
                 "sendgrid/sendgrid": "~7.0",
@@ -2203,7 +2203,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-04-14T13:32:06+00:00"
+            "time": "2022-04-21T13:52:36+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2211,13 +2211,13 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "7361c2315b2b71798774069130f85119d9e0c060"
+                "reference": "14545e28cf5b53cee95311d19c90200900153076"
             },
             "require": {
                 "components/font-awesome": "^4.7",
                 "components/jquery": "2.0.3",
                 "mopa/bootstrap-bundle": "3.3.1",
-                "php": "^5.5.9 || ^7.0",
+                "php": ">=7.0",
                 "presta/sitemap-bundle": "^1.7",
                 "twbs/bootstrap": "3.3.7"
             },
@@ -2246,7 +2246,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-04-21T12:33:26+00:00"
+            "time": "2022-04-21T13:46:45+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
