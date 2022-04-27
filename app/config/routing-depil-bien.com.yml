@@ -1,0 +1,6 @@
+# app/config/routing-depil-bien.com.yml
+
+depil-poil.com-index:
+    path: /
+    defaults: { _controller: eldoPagesBundle:Page:pdv108 }
+    methods:  [GET, POST]

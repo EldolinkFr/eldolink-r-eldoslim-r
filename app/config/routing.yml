@@ -17,6 +17,10 @@ eldoMainBundle:
     type: annotation
     prefix:   /
 
+routing-depil-bien.com:
+    resource: "routing-depil-bien.com.yml"
+    host:     "www.depil-bien.com"
+
 routing-depil-poil.com:
     resource: "routing-depil-poil.com.yml"
     host:     "www.depil-poil.com"
