@@ -460,6 +460,11 @@ slimdoo_portal_email_instructions:
     defaults: { _controller: eldoPagesBundle:Portal:emailInstructions }
     methods:  [GET, POST]
 
+slimdoo_portal_catalog:
+    path:  /catalog
+    defaults: { _controller: eldoPagesBundle:Portal:catalog }
+    methods:  [GET]
+
 slimdoo_home:
     path:  /slimdoo
     defaults: { _controller: eldoPagesBundle:Page:home }
