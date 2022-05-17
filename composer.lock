@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.12",
+            "version": "3.222.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8503d393b3ebef20241931b1abc20cb2af494cb2"
+                "reference": "007ddbbded7b753c2ceda61f3648774597a2615f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8503d393b3ebef20241931b1abc20cb2af494cb2",
-                "reference": "8503d393b3ebef20241931b1abc20cb2af494cb2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/007ddbbded7b753c2ceda61f3648774597a2615f",
+                "reference": "007ddbbded7b753c2ceda61f3648774597a2615f",
                 "shasum": ""
             },
             "require": {
@@ -184,9 +184,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.12"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.13"
             },
-            "time": "2022-05-13T18:15:34+00:00"
+            "time": "2022-05-16T18:15:06+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2211,7 +2211,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "e568e95e08e5dea13ed8ff6ad8a8dad2e7f9f4d5"
+                "reference": "ee2c49b1299173872a6dc0bb90e813f30413941e"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2246,7 +2246,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-05-16T15:01:09+00:00"
+            "time": "2022-05-17T08:20:28+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -9251,16 +9251,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.15.0",
+            "version": "v2.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "2fcc95728fbe9278773edcb605c7cf8bdc426c22"
+                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/2fcc95728fbe9278773edcb605c7cf8bdc426c22",
-                "reference": "2fcc95728fbe9278773edcb605c7cf8bdc426c22",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
+                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
                 "shasum": ""
             },
             "require": {
@@ -9315,7 +9315,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.15.0"
+                "source": "https://github.com/twigphp/Twig/tree/v2.15.1"
             },
             "funding": [
                 {
@@ -9327,7 +9327,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-15T06:21:48+00:00"
+            "time": "2022-05-17T05:46:24+00:00"
         },
         {
             "name": "vich/uploader-bundle",
