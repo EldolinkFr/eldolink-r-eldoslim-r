@@ -2126,7 +2126,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "794849fb162fde478bf6d8ba53ddc7c0e59e2f92"
+                "reference": "ad3da62be38573a0981b76706f0e05f30bb67e81"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2186,7 +2186,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "eldo\\MainBundle\\": ""
+                    "eldo\\MainBundle\\": "src"
                 }
             },
             "license": [
@@ -2203,7 +2203,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-05-13T12:46:26+00:00"
+            "time": "2022-05-18T09:40:29+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2211,7 +2211,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "fcccfb1c46065ec4d034d34555ee1f7ad4f433e3"
+                "reference": "3dc91221f81ef3b74312d4ee15cbb2a397c00b97"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2229,7 +2229,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "eldo\\PagesBundle\\": ""
+                    "eldo\\PagesBundle\\": "src"
                 }
             },
             "license": [
@@ -2246,7 +2246,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-05-18T09:16:40+00:00"
+            "time": "2022-05-18T10:59:19+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2254,7 +2254,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "b02848edade413d2bc449243210b06c39f7090f2"
+                "reference": "553700245e3daf308f0371bf9245e42efa815500"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2267,7 +2267,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "eldo\\ToolsBundle\\": ""
+                    "eldo\\ToolsBundle\\": "src"
                 }
             },
             "license": [
@@ -2284,7 +2284,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-05-17T08:51:07+00:00"
+            "time": "2022-05-18T10:22:00+00:00"
         },
         {
             "name": "esendex/sdk",
