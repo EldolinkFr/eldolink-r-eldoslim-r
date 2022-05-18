@@ -44,7 +44,7 @@ twig:
 # Doctrine Migrations
 doctrine_migrations:
     migrations_paths:
-        'eldo\MainBundle\Doctrine\Migrations': '%kernel.root_dir%/../vendor/eldolink/main-bundle/Doctrine/Migrations'
+        'eldo\MainBundle\Doctrine\Migrations': '%kernel.root_dir%/../vendor/eldolink/main-bundle/src/Doctrine/Migrations'
     storage:
         table_storage:
             table_name: 'migration_versions'
