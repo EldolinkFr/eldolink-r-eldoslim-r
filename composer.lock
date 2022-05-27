@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.222.18",
+            "version": "3.223.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "223ca25ed10b4d4a3b1e986795b5aa86f3c04466"
+                "reference": "78fcf4a43f7201c01cc623c5092827b1f072aec6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/223ca25ed10b4d4a3b1e986795b5aa86f3c04466",
-                "reference": "223ca25ed10b4d4a3b1e986795b5aa86f3c04466",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/78fcf4a43f7201c01cc623c5092827b1f072aec6",
+                "reference": "78fcf4a43f7201c01cc623c5092827b1f072aec6",
                 "shasum": ""
             },
             "require": {
@@ -184,9 +184,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.222.18"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.223.0"
             },
-            "time": "2022-05-23T18:16:59+00:00"
+            "time": "2022-05-26T18:18:03+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2955,16 +2955,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.5",
+            "version": "6.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+                "reference": "f092dd734083473658de3ee4bef093ed77d2689c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f092dd734083473658de3ee4bef093ed77d2689c",
+                "reference": "f092dd734083473658de3ee4bef093ed77d2689c",
                 "shasum": ""
             },
             "require": {
@@ -3002,9 +3002,39 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
             "description": "Guzzle is a PHP HTTP client library",
@@ -3020,9 +3050,23 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/6.5"
+                "source": "https://github.com/guzzle/guzzle/tree/6.5.6"
             },
-            "time": "2020-06-16T21:01:06+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-25T13:19:12+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -7483,16 +7527,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "0dabec4e3898d3e00451dd47b5ef839168f9bbf5"
+                "reference": "dc0b15e42b762c040761c1eb9ce86a55d47cf672"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/0dabec4e3898d3e00451dd47b5ef839168f9bbf5",
-                "reference": "0dabec4e3898d3e00451dd47b5ef839168f9bbf5",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/dc0b15e42b762c040761c1eb9ce86a55d47cf672",
+                "reference": "dc0b15e42b762c040761c1eb9ce86a55d47cf672",
                 "shasum": ""
             },
             "require": {
@@ -7550,7 +7594,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.8"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -7566,7 +7610,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-12T16:02:29+00:00"
+            "time": "2022-05-21T08:57:05+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -7648,16 +7692,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "af49bc163ec3272f677bde3bc44c0d766c1fd662"
+                "reference": "2b3802a24e48d0cfccf885173d2aac91e73df92e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/af49bc163ec3272f677bde3bc44c0d766c1fd662",
-                "reference": "af49bc163ec3272f677bde3bc44c0d766c1fd662",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/2b3802a24e48d0cfccf885173d2aac91e73df92e",
+                "reference": "2b3802a24e48d0cfccf885173d2aac91e73df92e",
                 "shasum": ""
             },
             "require": {
@@ -7711,7 +7755,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.4.8"
+                "source": "https://github.com/symfony/mime/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -7727,7 +7771,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-12T15:48:08+00:00"
+            "time": "2022-05-21T10:24:18+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -10001,16 +10045,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e3baed2ee2ef322e0f9b8fe8f87fdbe024c7c719"
+                "reference": "c602f80d66ba425943b0f4aaa27010c822dd8f87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e3baed2ee2ef322e0f9b8fe8f87fdbe024c7c719",
-                "reference": "e3baed2ee2ef322e0f9b8fe8f87fdbe024c7c719",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c602f80d66ba425943b0f4aaa27010c822dd8f87",
+                "reference": "c602f80d66ba425943b0f4aaa27010c822dd8f87",
                 "shasum": ""
             },
             "require": {
@@ -10036,7 +10080,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.7.1"
+                "source": "https://github.com/phpstan/phpstan/tree/1.7.2"
             },
             "funding": [
                 {
@@ -10056,7 +10100,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T09:05:09+00:00"
+            "time": "2022-05-26T12:59:20+00:00"
         },
         {
             "name": "rector/rector",
