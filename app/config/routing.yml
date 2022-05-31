@@ -470,6 +470,11 @@ slimdoo_portal_catalog_download:
     defaults: { _controller: eldoPagesBundle:Portal:catalogDownload }
     methods:  [GET]
 
+slimdoo_portal_catalog_show:
+    path:  /catalog_show
+    defaults: { _controller: eldoPagesBundle:Portal:catalogShow }
+    methods:  [GET]
+
 slimdoo_portal_catalog_footer:
     path:  /catalog_footer
     defaults: { _controller: eldoPagesBundle:Portal:catalogFooter }
