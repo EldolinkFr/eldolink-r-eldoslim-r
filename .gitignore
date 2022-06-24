@@ -14,5 +14,6 @@
 .DS_Store
 .rev
 .rules
+/shared/
 /node_modules/
 /app/Resources/lib
