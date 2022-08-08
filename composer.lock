@@ -2120,7 +2120,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "f4d07a794c7bbf075a7bc9238e68a618d53b4804"
+                "reference": "c3c993858c36a583baff97ed88427099475317b2"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2197,7 +2197,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-07-12T11:27:20+00:00"
+            "time": "2022-08-08T08:27:41+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2248,7 +2248,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "a804c4b1d1d99075be4ff9fe39587b0a73df5a25"
+                "reference": "1396c1bcae3def5c23199b27ca0aca69d06fb844"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2278,7 +2278,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-06-29T11:33:52+00:00"
+            "time": "2022-08-08T12:42:42+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -2701,16 +2701,16 @@
         },
         {
             "name": "geoip2/geoip2",
-            "version": "v2.12.2",
+            "version": "v2.13.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/maxmind/GeoIP2-php.git",
-                "reference": "83adb44ac4b9553d36b579a14673ed124583082f"
+                "url": "git@github.com:maxmind/GeoIP2-php.git",
+                "reference": "6a41d8fbd6b90052bc34dff3b4252d0f88067b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/GeoIP2-php/zipball/83adb44ac4b9553d36b579a14673ed124583082f",
-                "reference": "83adb44ac4b9553d36b579a14673ed124583082f",
+                "url": "https://api.github.com/repos/maxmind/GeoIP2-php/zipball/6a41d8fbd6b90052bc34dff3b4252d0f88067b23",
+                "reference": "6a41d8fbd6b90052bc34dff3b4252d0f88067b23",
                 "shasum": ""
             },
             "require": {
@@ -2751,24 +2751,20 @@
                 "geolocation",
                 "maxmind"
             ],
-            "support": {
-                "issues": "https://github.com/maxmind/GeoIP2-php/issues",
-                "source": "https://github.com/maxmind/GeoIP2-php/tree/v2.12.2"
-            },
-            "time": "2021-11-30T18:15:25+00:00"
+            "time": "2022-08-05T20:32:58+00:00"
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.52",
+            "version": "8.12.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "9a5269012e21d5a357f93d413fcc7a854a36b69d"
+                "reference": "2e39201ca4b88c1ec0594cd78128d21e94929d04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/9a5269012e21d5a357f93d413fcc7a854a36b69d",
-                "reference": "9a5269012e21d5a357f93d413fcc7a854a36b69d",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2e39201ca4b88c1ec0594cd78128d21e94929d04",
+                "reference": "2e39201ca4b88c1ec0594cd78128d21e94929d04",
                 "shasum": ""
             },
             "require": {
@@ -2828,7 +2824,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-07-20T12:38:47+00:00"
+            "time": "2022-08-08T06:53:30+00:00"
         },
         {
             "name": "giggsey/locale",
