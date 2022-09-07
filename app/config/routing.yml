@@ -303,6 +303,13 @@ slimdoo_portal_index:
     defaults: { _controller: eldoPagesBundle:Portal:index }
     methods:  [GET]
 
+slimdoo_portal_free_products:
+    path:  /free_products
+    defaults: { _controller: eldoPagesBundle:Portal:freeProducts }
+    methods:  [GET]
+    options:
+        sitemap: false
+
 slimdoo_portal_products:
     path:  /products
     defaults: { _controller: eldoPagesBundle:Portal:products }
