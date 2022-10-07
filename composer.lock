@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.238.1",
+            "version": "3.238.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "451346e1581d10fbecd23e83bb8357e777036f05"
+                "reference": "f2a1351b5eb5fe17508cc5c907a786955882b93c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/451346e1581d10fbecd23e83bb8357e777036f05",
-                "reference": "451346e1581d10fbecd23e83bb8357e777036f05",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f2a1351b5eb5fe17508cc5c907a786955882b93c",
+                "reference": "f2a1351b5eb5fe17508cc5c907a786955882b93c",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.238.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.238.2"
             },
-            "time": "2022-10-05T18:17:54+00:00"
+            "time": "2022-10-06T18:29:40+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2208,7 +2208,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "7bbbabb1d235c7b1e32e101429b769d2932877d0"
+                "reference": "c8d1339aa67a57a91ed79ac6ae4cb7d2784793e8"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2243,7 +2243,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-10-06T14:26:08+00:00"
+            "time": "2022-10-07T08:35:28+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -3374,16 +3374,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.111",
+            "version": "v1.2.112",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "d572ed4a65a70a2d2871dc5137c9c5b7e69745ab"
+                "reference": "2c555ce35a07a5c1c808cee7d5bb52c41a4c7b2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d572ed4a65a70a2d2871dc5137c9c5b7e69745ab",
-                "reference": "d572ed4a65a70a2d2871dc5137c9c5b7e69745ab",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/2c555ce35a07a5c1c808cee7d5bb52c41a4c7b2f",
+                "reference": "2c555ce35a07a5c1c808cee7d5bb52c41a4c7b2f",
                 "shasum": ""
             },
             "require": {
@@ -3420,9 +3420,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.111"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.112"
             },
-            "time": "2022-03-15T22:19:01+00:00"
+            "time": "2022-10-05T21:52:44+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
