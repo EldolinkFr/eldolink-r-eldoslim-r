@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.2",
+            "version": "3.240.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c4eb7c0a775758cfc8506082a0ebc8736970c411"
+                "reference": "69c7fa97862694d8c0c03f2e905c7fe05683bee9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c4eb7c0a775758cfc8506082a0ebc8736970c411",
-                "reference": "c4eb7c0a775758cfc8506082a0ebc8736970c411",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69c7fa97862694d8c0c03f2e905c7fe05683bee9",
+                "reference": "69c7fa97862694d8c0c03f2e905c7fe05683bee9",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.4"
             },
-            "time": "2022-10-25T18:15:27+00:00"
+            "time": "2022-10-27T19:19:40+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2252,7 +2252,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "b0a400ed2ce64479b84cd99de89d5de7a57c95cf"
+                "reference": "bae7114009a4a8df2aa8feef2059c31357060cda"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2282,7 +2282,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2022-09-26T10:18:45+00:00"
+            "time": "2022-10-28T09:44:42+00:00"
         },
         {
             "name": "esendex/sdk",
