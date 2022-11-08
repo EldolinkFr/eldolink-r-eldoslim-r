@@ -2124,7 +2124,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "c867098a32d8b4d047c089a55e7a48673a51074a"
+                "reference": "431627cb324a76fd635122446530fc180e8b396f"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-11-08T10:37:42+00:00"
+            "time": "2022-11-08T13:54:57+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
