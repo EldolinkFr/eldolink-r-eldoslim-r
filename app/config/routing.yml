@@ -350,6 +350,14 @@ slimdoo_portal_variant_products:
         id: '\d+'
         tool: '\d+'
         
+slimdoo_portal_variant_sizes:
+    path:  /variant_sizes/{id}/{tool}
+    defaults: { _controller: eldoPagesBundle:Portal:variantSizesGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+        tool: '\d+'
+        
 slimdoo_portal_linked_products:
     path:  /linked_products/{id}/{tool}
     defaults: { _controller: eldoPagesBundle:Portal:linkedProductsGet }
