@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.247.2",
+            "version": "3.252.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c"
+                "reference": "5cc35b5f66d026d99ba843dba6fe1783571c20af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00542e760d8464e0ee635f916841fdfbd1ceb95c",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5cc35b5f66d026d99ba843dba6fe1783571c20af",
+                "reference": "5cc35b5f66d026d99ba843dba6fe1783571c20af",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.247.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.1"
             },
-            "time": "2022-11-23T19:35:36+00:00"
+            "time": "2022-12-02T19:21:15+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2124,7 +2124,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "6addab9bca2b050aceae82062527d99629a72397"
+                "reference": "13dfb076a724dc9e39ffc9710457c422a23a3a8a"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2201,7 +2201,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2022-11-25T10:37:13+00:00"
+            "time": "2022-12-01T15:57:52+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2209,7 +2209,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "20d53a3c2f82abf61028fc5ceecf805c2a1d456b"
+                "reference": "193801dfe84028c4d146eef15bb0fdd6367dcb24"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2244,7 +2244,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2022-11-25T10:27:05+00:00"
+            "time": "2022-12-05T13:04:41+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2759,16 +2759,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.0",
+            "version": "8.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "eb1cea72dc8d020e149062371a2c6717457cf561"
+                "reference": "58285eaba7cb388f57b5b1b3689a566694b4e043"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/eb1cea72dc8d020e149062371a2c6717457cf561",
-                "reference": "eb1cea72dc8d020e149062371a2c6717457cf561",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/58285eaba7cb388f57b5b1b3689a566694b4e043",
+                "reference": "58285eaba7cb388f57b5b1b3689a566694b4e043",
                 "shasum": ""
             },
             "require": {
@@ -2827,7 +2827,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-11-07T12:16:34+00:00"
+            "time": "2022-11-28T12:02:06+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -7078,6 +7078,7 @@
                 "issues": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/issues",
                 "source": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/tree/master"
             },
+            "abandoned": "Symfony",
             "time": "2015-12-18T17:39:27+00:00"
         },
         {
@@ -7524,16 +7525,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.15",
+            "version": "v5.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b"
+                "reference": "0f43af12a27733a060b92396b7bde84a4376da0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b",
-                "reference": "8f29b0f06c9ff48c8431e78eb90c8bd6f82cb12b",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/0f43af12a27733a060b92396b7bde84a4376da0a",
+                "reference": "0f43af12a27733a060b92396b7bde84a4376da0a",
                 "shasum": ""
             },
             "require": {
@@ -7591,7 +7592,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.15"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.16"
             },
             "funding": [
                 {
@@ -7607,7 +7608,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-25T16:22:13+00:00"
+            "time": "2022-11-09T11:27:39+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
