@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.259.0",
+            "version": "3.260.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "096711644ebe5c956a97ef449fa2cb3b66443c25"
+                "reference": "25a14f63cc927d72adad3cc24d6bcdadfe6e0fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/096711644ebe5c956a97ef449fa2cb3b66443c25",
-                "reference": "096711644ebe5c956a97ef449fa2cb3b66443c25",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/25a14f63cc927d72adad3cc24d6bcdadfe6e0fc7",
+                "reference": "25a14f63cc927d72adad3cc24d6bcdadfe6e0fc7",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.259.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.260.0"
             },
-            "time": "2023-02-17T19:21:38+00:00"
+            "time": "2023-02-21T20:26:17+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -10045,16 +10045,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.18",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "f2d5cf71be91172a57c649770b73c20ebcffb0bf"
+                "reference": "1cd5fc530a8b68702f3733ad64294b2a39564198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/f2d5cf71be91172a57c649770b73c20ebcffb0bf",
-                "reference": "f2d5cf71be91172a57c649770b73c20ebcffb0bf",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1cd5fc530a8b68702f3733ad64294b2a39564198",
+                "reference": "1cd5fc530a8b68702f3733ad64294b2a39564198",
                 "shasum": ""
             },
             "require": {
@@ -10084,7 +10084,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.18"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.1"
             },
             "funding": [
                 {
@@ -10100,7 +10100,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-17T15:01:27+00:00"
+            "time": "2023-02-21T21:57:23+00:00"
         },
         {
             "name": "rector/rector",
