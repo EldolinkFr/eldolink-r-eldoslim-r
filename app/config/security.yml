@@ -1,13 +1,14 @@
 # app/config/security.yml
 security:
     encoders:
-        FOS\UserBundle\Model\UserInterface:
+        eldo\MainBundle\Entity\Customer:
             algorithm: sha512
             iterations: 9616
 
     providers:
-         fos_userbundle:
-             id: fos_user.user_provider.username
+         app_user_customer:
+            entity:
+                class: eldo\MainBundle\Entity\Customer
 
     firewalls:
         dev:

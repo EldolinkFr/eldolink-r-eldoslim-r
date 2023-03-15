@@ -49,3 +49,47 @@ ekino_new_relic:
     ignored_routes: []                    # No transaction recorded for this routes
     ignored_paths: []                     # No transaction recorded for this paths
     ignored_commands: []                  # No transaction recorded for this commands (background tasks)
+
+# DoctrineBundle Configuration
+doctrine:
+    orm:
+        second_level_cache:
+            enabled:            true
+            log_enabled:        true
+            region_cache_driver:
+                type: service
+                id: snc_redis_cache_driver
+            region_lifetime: 3600
+            regions:
+                region_cached:
+                    lifetime: 60
+                    cache_driver:
+                        type: service
+                        id: snc_redis_cache_driver
+
+# DoctrineCacheBundle Configuration
+doctrine_cache:
+    providers:
+        memcached_cache:
+            namespace: memcached_ns
+            type: memcached
+
+#SncRedisBundle configuration
+snc_redis:
+    doctrine:
+        metadata_cache:
+            client: default
+            entity_manager: default
+            namespace: 'dmc:'
+        result_cache:
+            client: default
+            entity_manager: default
+            namespace: 'drc:'
+        query_cache:
+            client: default
+            entity_manager: default
+            namespace: 'dqc:'
+        second_level_cache:
+            client: default
+            entity_manager: default
+            namespace: 'dslc:'

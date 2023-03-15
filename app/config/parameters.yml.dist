@@ -89,10 +89,10 @@ parameters:
     # NeverBounce parameters
     neverbounce_api_key:       XXX
 
-    # MessageBusiness parameters
-    messagebusiness_url:        https://services.message-business.com/v3/api/PublicInterface.svc/wsdl
-    messagebusiness_account_id: XXX
-    messagebusiness_api_key:    XXX
+    # sendethic parameters
+    sendethic_url:        https://services.message-business.com/v3/api/PublicInterface.svc/wsdl
+    sendethic_account_id: XXX
+    sendethic_api_key:    XXX
 
     # OpenWeatherMap API
     openweathermap_url:         http://api.openweathermap.org/data/2.5/weather

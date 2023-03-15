@@ -71,19 +71,6 @@ doctrine:
                 dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Loggable/Entity"
                 alias: GedmoLoggable # this one is optional and will default to the name set for the mapping
                 is_bundle: false
-        second_level_cache:
-            enabled:            true
-            log_enabled:        true
-            region_cache_driver:
-                type: service
-                id: snc_redis_cache_driver
-            region_lifetime: 86400
-            regions:
-                region_cached:
-                    lifetime: 600
-                    cache_driver:
-                        type: service
-                        id: snc_redis_cache_driver
         dql:
             datetime_functions:
                 date:           Oro\ORM\Query\AST\Functions\SimpleFunction
@@ -135,8 +122,15 @@ swiftmailer:
 # LiipImagineBundle Configuration
 liip_imagine:
     resolvers:
-       default:
-           web_path: ~ 
+        resolver_s3_medias:
+            aws_s3:
+                client_config:
+                    credentials:
+                        key: '%amazon_s3.key%'
+                        secret: '%amazon_s3.secret%'
+                    region: '%amazon_s3.region%'
+                    version: 'latest'
+                bucket: '%amazon_s3.medias_bucket_name%cache'
     loaders:
         default:
             filesystem:
@@ -144,13 +138,20 @@ liip_imagine:
         loader_s3_medias:
             stream:
                 wrapper: gaufrette://media_s3_fs/
+    cache: resolver_s3_medias
     data_loader: loader_s3_medias
     filter_sets:
         original:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
-# Local Loader
+        logo:
+            filters:
+                thumbnail: { size: [300, 95], mode: inset }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+# Default Loader
         local_ico:
             data_loader: default
             filters:
@@ -419,17 +420,6 @@ knp_snappy:
         binary:     /usr/local/bin/wkhtmltoimage
         options:    []
 
-# FOSUserBundle Configuration
-fos_user:
-    db_driver: orm
-    firewall_name: main
-    user_class: eldo\MainBundle\Entity\Customer
-    service:
-        user_manager: eldo_main.customer_manager
-    from_email:
-        address:        "%app.admin_email%"
-        sender_name:    "%app.admin_email%"
-
 # FOSRestBundle Configuration
 fos_rest:
     param_fetcher_listener: true
@@ -483,13 +473,6 @@ jms_i18n_routing:
     strategy: prefix_except_default
     cookie:
         enabled: false
-    
-# DoctrineCacheBundle Configuration
-doctrine_cache:
-    providers:
-        memcached_cache:
-            namespace: memcached_ns
-            type: memcached
 
 # MobileDetectBundle Configuration
 mobile_detect:
@@ -584,23 +567,6 @@ snc_redis:
             alias: default
             dsn: 'redis://%database_host%'
             logging: '%kernel.debug%'
-    doctrine:
-        metadata_cache:
-            client: default
-            entity_manager: default
-            namespace: 'dmc:'
-        result_cache:
-            client: default
-            entity_manager: default
-            namespace: 'drc:'
-        query_cache:
-            client: default
-            entity_manager: default
-            namespace: 'dqc:'
-        second_level_cache:
-            client: default
-            entity_manager: default
-            namespace: 'dslc:'
         
 # KachkaevAssetsVersionBundle Configuration
 kachkaev_assets_version: ~
@@ -669,10 +635,10 @@ eldo_main:
         api_key:    "%sendinblue_api_key%"
     neverbounce:
         api_key:   "%neverbounce_api_key%"
-    messagebusiness:
-        url:        "%messagebusiness_url%"
-        account_id: "%messagebusiness_account_id%"
-        api_key:    "%messagebusiness_api_key%"
+    sendethic:
+        url:        "%sendethic_url%"
+        account_id: "%sendethic_account_id%"
+        api_key:    "%sendethic_api_key%"
     openweathermap:
         url:        "%openweathermap_url%"
         api_key:    "%openweathermap_api_key%"

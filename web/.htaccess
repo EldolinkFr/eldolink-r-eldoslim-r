@@ -43,6 +43,7 @@ DirectoryIndex app.php
     RewriteRule ^(.*)$ - [F,L]
 
     RewriteCond %{HTTP_HOST} !^d\. [NC]
+    RewriteCond %{HTTP_HOST} !^m\. [NC]
     RewriteCond %{HTTP_HOST} !^t\. [NC]
     RewriteCond %{HTTP_HOST} !^s\. [NC]
     RewriteCond %{HTTP_HOST} .
