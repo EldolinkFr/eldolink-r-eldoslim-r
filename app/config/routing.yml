@@ -350,6 +350,14 @@ slimdoo_portal_variant_products:
         id: '\d+'
         tool: '\d+'
         
+slimdoo_portal_variant_sizes:
+    path:  /variant_sizes/{id}/{tool}
+    defaults: { _controller: eldoPagesBundle:Portal:variantSizesGet }
+    methods:  [POST]
+    requirements:
+        id: '\d+'
+        tool: '\d+'
+        
 slimdoo_portal_linked_products:
     path:  /linked_products/{id}/{tool}
     defaults: { _controller: eldoPagesBundle:Portal:linkedProductsGet }
@@ -1162,6 +1170,26 @@ slimdoo_pdv137:
     defaults: { _controller: eldoPagesBundle:Page:pdv137 }
     methods:  [GET]
 
+slimdoo_pdv138:
+    path:  /pdv/138
+    defaults: { _controller: eldoPagesBundle:Page:pdv138 }
+    methods:  [GET]
+
+slimdoo_pdv139:
+    path:  /pdv/139
+    defaults: { _controller: eldoPagesBundle:Page:pdv139 }
+    methods:  [GET]
+
+slimdoo_pdv140:
+    path:  /pdv/140
+    defaults: { _controller: eldoPagesBundle:Page:pdv140 }
+    methods:  [GET]
+
+slimdoo_pdv141:
+    path:  /pdv/141
+    defaults: { _controller: eldoPagesBundle:Page:pdv141 }
+    methods:  [GET]
+
 thetoujours_pdv201:
     path:  /pdv/201
     defaults: { _controller: eldoPagesBundle:Page:pdv201 }
@@ -1266,11 +1294,6 @@ thetoujours_pdv221:
     path:  /pdv/221
     defaults: { _controller: eldoPagesBundle:Page:pdv221 }
     methods:  [GET]
-
-slimdoo_gifts:
-    path:  /gifts
-    defaults: { _controller: eldoPagesBundle:Page:gifts }
-    methods:  [GET, POST]
 
 slimdoo_internetplus_modal:
     path:  /internetplusModal
