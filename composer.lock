@@ -99,16 +99,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.261.6",
+            "version": "3.261.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "63b03ec821473861af58439f1a35173e904d0f8c"
+                "reference": "121638bb7e62ee2f71838c52e79884f4301a9400"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/63b03ec821473861af58439f1a35173e904d0f8c",
-                "reference": "63b03ec821473861af58439f1a35173e904d0f8c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/121638bb7e62ee2f71838c52e79884f4301a9400",
+                "reference": "121638bb7e62ee2f71838c52e79884f4301a9400",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.14"
             },
-            "time": "2023-03-07T19:21:12+00:00"
+            "time": "2023-03-17T18:21:00+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2127,7 +2127,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "e9ce07d15cfb76f387b37075acbe6c1dbc5de3ea"
+                "reference": "723721001272615e1dd159d4b227dd72876e4e9d"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2204,7 +2204,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2023-02-28T12:07:36+00:00"
+            "time": "2023-03-15T16:01:42+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2212,7 +2212,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "7e602374f5c65c063eb965b8f02902ab3535e74a"
+                "reference": "2c4efbd7f184bb460d007cbbafc08761ca50dff2"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2247,7 +2247,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2023-01-11T10:17:00+00:00"
+            "time": "2023-03-20T10:24:13+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -4189,16 +4189,16 @@
         },
         {
             "name": "knplabs/knp-snappy",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/snappy.git",
-                "reference": "5126fb5b335ec929a226314d40cd8dad497c3d67"
+                "reference": "b66f79334421c26d9c244427963fa2d92980b5d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/5126fb5b335ec929a226314d40cd8dad497c3d67",
-                "reference": "5126fb5b335ec929a226314d40cd8dad497c3d67",
+                "url": "https://api.github.com/repos/KnpLabs/snappy/zipball/b66f79334421c26d9c244427963fa2d92980b5d3",
+                "reference": "b66f79334421c26d9c244427963fa2d92980b5d3",
                 "shasum": ""
             },
             "require": {
@@ -4257,9 +4257,9 @@
             ],
             "support": {
                 "issues": "https://github.com/KnpLabs/snappy/issues",
-                "source": "https://github.com/KnpLabs/snappy/tree/v1.4.1"
+                "source": "https://github.com/KnpLabs/snappy/tree/v1.4.2"
             },
-            "time": "2022-01-07T13:03:38+00:00"
+            "time": "2023-03-17T14:47:54+00:00"
         },
         {
             "name": "knplabs/knp-snappy-bundle",
@@ -10045,16 +10045,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.5",
+            "version": "1.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "1fb6f494d82455151ecf15c5c191923f5d84324e"
+                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1fb6f494d82455151ecf15c5c191923f5d84324e",
-                "reference": "1fb6f494d82455151ecf15c5c191923f5d84324e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b10ceb526d9607903c5b2673f1fc8775dbe48975",
+                "reference": "b10ceb526d9607903c5b2673f1fc8775dbe48975",
                 "shasum": ""
             },
             "require": {
@@ -10083,8 +10083,11 @@
                 "static analysis"
             ],
             "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.10.5"
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
             },
             "funding": [
                 {
@@ -10100,7 +10103,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-07T16:48:45+00:00"
+            "time": "2023-03-16T15:24:20+00:00"
         },
         {
             "name": "rector/rector",
