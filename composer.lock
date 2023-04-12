@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.263.7",
+            "version": "3.263.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48"
+                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2517042b226ca5b690ba55a383d728af4a5d2d48",
-                "reference": "2517042b226ca5b690ba55a383d728af4a5d2d48",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bf8a3d90eecbe66405a0598d6423d897e917f66c",
+                "reference": "bf8a3d90eecbe66405a0598d6423d897e917f66c",
                 "shasum": ""
             },
             "require": {
@@ -191,9 +191,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.263.8"
             },
-            "time": "2023-04-10T18:21:53+00:00"
+            "time": "2023-04-11T19:32:30+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2215,7 +2215,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "580a25c274fbfd73eb05384b767b78325bb03be5"
+                "reference": "fa6d5bd2b3e9f0badeac036b0f8242e436c7128a"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2250,7 +2250,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2023-04-10T14:50:56+00:00"
+            "time": "2023-04-12T05:17:08+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2258,7 +2258,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "2455d006950ac45b8a71af8c0cebe4cf0e07595c"
+                "reference": "89cae3c7435a9d57eb9b2d81746edd1dab997d63"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2288,7 +2288,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2023-03-27T08:03:48+00:00"
+            "time": "2023-04-12T05:17:31+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -2684,16 +2684,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.8",
+            "version": "8.13.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "2d3f07bb56daa44b9a2f5ff72e41db762f9573d1"
+                "reference": "7cb665df423d453a1fd8e3af50cd4df55ed31c94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2d3f07bb56daa44b9a2f5ff72e41db762f9573d1",
-                "reference": "2d3f07bb56daa44b9a2f5ff72e41db762f9573d1",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/7cb665df423d453a1fd8e3af50cd4df55ed31c94",
+                "reference": "7cb665df423d453a1fd8e3af50cd4df55ed31c94",
                 "shasum": ""
             },
             "require": {
@@ -2752,7 +2752,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2023-03-27T15:36:27+00:00"
+            "time": "2023-04-11T13:48:23+00:00"
         },
         {
             "name": "giggsey/locale",
