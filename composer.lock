@@ -2215,7 +2215,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "6c3b4d5a26837e2630065576638230b62abbeb03"
+                "reference": "4599739c3e123e35c5735d938ff7dd79c2a2ed79"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2250,7 +2250,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2023-04-13T07:39:21+00:00"
+            "time": "2023-04-13T08:54:42+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2258,7 +2258,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "788181688f3b32823df277935e4be647bfced39c"
+                "reference": "af47a31ca8f525c9a9b6353b11faf852266b4fb4"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2288,7 +2288,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2023-04-12T15:28:39+00:00"
+            "time": "2023-04-13T09:09:24+00:00"
         },
         {
             "name": "esendex/sdk",
