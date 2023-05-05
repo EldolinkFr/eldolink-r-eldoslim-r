@@ -646,6 +646,9 @@ eldo_main:
         api_key:    "%googlemap_api_key%"
     googleanalytics:
         config:     "%googleanalytics_config%"
+        id:         "%googleanalytics_id%"
+    googleanalyticsv4:
+        id:         "%googleanalyticsv4_id%"
     firebase:
         api_key:                "%firebase_api_key%"
         dynamic_link_url:       "%firebase_dynamic_link_url%"
