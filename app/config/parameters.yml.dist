@@ -22,6 +22,7 @@ parameters:
     # Application specific parameters
     app.url:            https://www.eldoslim.com
     app.cdn_url:        https://cdn.eldoslim.com
+    app.cache_url:      https://cld.eldoslim.com
     app.name:           AppName
     app.admin_email:    error@example.com
     app.facebook.id:    XXX

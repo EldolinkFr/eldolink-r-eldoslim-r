@@ -131,6 +131,7 @@ liip_imagine:
                     region: '%amazon_s3.region%'
                     version: 'latest'
                 bucket: '%amazon_s3.medias_bucket_name%cache'
+                proxies: ["%app.cache_url%"]
     loaders:
         default:
             filesystem:
