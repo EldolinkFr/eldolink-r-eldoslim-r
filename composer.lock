@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.277.4",
+            "version": "3.277.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9f36e76a3e1f8c7eba8cacbfa1d5f1257cd04241"
+                "reference": "014d8eef8a24a2ef66a8284a7785a7aa48cb9b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9f36e76a3e1f8c7eba8cacbfa1d5f1257cd04241",
-                "reference": "9f36e76a3e1f8c7eba8cacbfa1d5f1257cd04241",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/014d8eef8a24a2ef66a8284a7785a7aa48cb9b57",
+                "reference": "014d8eef8a24a2ef66a8284a7785a7aa48cb9b57",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.277.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.277.6"
             },
-            "time": "2023-07-28T22:10:53+00:00"
+            "time": "2023-08-01T18:07:27+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -4687,16 +4687,16 @@
         },
         {
             "name": "matomo/device-detector",
-            "version": "6.1.3",
+            "version": "6.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "3e0fac7e77f3faadc3858fea9f5fa7efeb9cf239"
+                "reference": "74f6c4f6732b3ad6cdf25560746841d522969112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/3e0fac7e77f3faadc3858fea9f5fa7efeb9cf239",
-                "reference": "3e0fac7e77f3faadc3858fea9f5fa7efeb9cf239",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/74f6c4f6732b3ad6cdf25560746841d522969112",
+                "reference": "74f6c4f6732b3ad6cdf25560746841d522969112",
                 "shasum": ""
             },
             "require": {
@@ -4752,7 +4752,7 @@
                 "source": "https://github.com/matomo-org/matomo",
                 "wiki": "https://dev.matomo.org/"
             },
-            "time": "2023-06-06T11:58:07+00:00"
+            "time": "2023-08-02T08:48:53+00:00"
         },
         {
             "name": "maxmind-db/reader",
