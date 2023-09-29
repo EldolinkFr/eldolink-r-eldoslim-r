@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "f5cc3a6398fbf218d9791677d341b561ce51e541"
+                "reference": "0b0f5ca6219f5af0f32dd714311cb9c946e95a69"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2213,7 +2213,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2023-09-28T11:56:07+00:00"
+            "time": "2023-09-29T18:35:59+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2691,16 +2691,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.21",
+            "version": "8.13.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "f21468b182b4e1983496fb0b8cb6a948d521f374"
+                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/f21468b182b4e1983496fb0b8cb6a948d521f374",
-                "reference": "f21468b182b4e1983496fb0b8cb6a948d521f374",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
+                "reference": "fc69cbcaff14c1af1f935b79033bdc5c0fa4a846",
                 "shasum": ""
             },
             "require": {
@@ -2759,7 +2759,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2023-09-20T12:06:46+00:00"
+            "time": "2023-09-29T14:53:55+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -10093,16 +10093,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.35",
+            "version": "1.10.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e730e5facb75ffe09dfb229795e8c01a459f26c3"
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e730e5facb75ffe09dfb229795e8c01a459f26c3",
-                "reference": "e730e5facb75ffe09dfb229795e8c01a459f26c3",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ffa3089511121a672e62969404e4fddc753f9b15",
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15",
                 "shasum": ""
             },
             "require": {
@@ -10151,7 +10151,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-19T15:27:56+00:00"
+            "time": "2023-09-29T14:07:45+00:00"
         },
         {
             "name": "rector/rector",
