@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.285.3",
+            "version": "3.285.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be"
+                "reference": "c462af819d81cba49939949032b20799f5ef0fff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/afa1e722f1b2c95644f375dc1a19072e4daf67be",
-                "reference": "afa1e722f1b2c95644f375dc1a19072e4daf67be",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c462af819d81cba49939949032b20799f5ef0fff",
+                "reference": "c462af819d81cba49939949032b20799f5ef0fff",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.285.4"
             },
-            "time": "2023-11-09T19:07:19+00:00"
+            "time": "2023-11-10T19:25:49+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2221,7 +2221,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "e956d244afb2a05388af13ca4c298e83513bd9e0"
+                "reference": "5fa6a73eba0f1ac313e9f7ae8594cd8a37fa23e9"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2256,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2023-11-10T12:26:56+00:00"
+            "time": "2023-11-13T12:42:12+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2691,16 +2691,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.24",
+            "version": "8.13.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "746ca6a565b9d4167c94c80824f43fa6fb463fd1"
+                "reference": "fe9c0b201941977b91b6b086c9551aff07a733ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/746ca6a565b9d4167c94c80824f43fa6fb463fd1",
-                "reference": "746ca6a565b9d4167c94c80824f43fa6fb463fd1",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fe9c0b201941977b91b6b086c9551aff07a733ae",
+                "reference": "fe9c0b201941977b91b6b086c9551aff07a733ae",
                 "shasum": ""
             },
             "require": {
@@ -2759,7 +2759,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2023-10-31T08:12:54+00:00"
+            "time": "2023-11-13T09:34:15+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -6223,16 +6223,16 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e"
+                "reference": "80735db690fe4fc5c76dfa7f9b770634285fa820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dd3a383e599f49777d8b628dadbb90cae435b87e",
-                "reference": "dd3a383e599f49777d8b628dadbb90cae435b87e",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/80735db690fe4fc5c76dfa7f9b770634285fa820",
+                "reference": "80735db690fe4fc5c76dfa7f9b770634285fa820",
                 "shasum": ""
             },
             "require": {
@@ -6240,7 +6240,7 @@
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-                "phpunit/phpunit": "^8.5.32 || ^9.6.3 || ^10.0.12"
+                "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
             },
             "type": "library",
             "extra": {
@@ -6282,7 +6282,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.1"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.2"
             },
             "funding": [
                 {
@@ -6294,7 +6294,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-25T19:38:58+00:00"
+            "time": "2023-11-12T21:59:55+00:00"
         },
         {
             "name": "predis/predis",
@@ -7578,16 +7578,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.29",
+            "version": "v5.4.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "04784c66cbee613a827363ee1e65db65392893c1"
+                "reference": "6cdf6cdf48101454f014a9ab4e0905f0b902389d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/04784c66cbee613a827363ee1e65db65392893c1",
-                "reference": "04784c66cbee613a827363ee1e65db65392893c1",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/6cdf6cdf48101454f014a9ab4e0905f0b902389d",
+                "reference": "6cdf6cdf48101454f014a9ab4e0905f0b902389d",
                 "shasum": ""
             },
             "require": {
@@ -7649,7 +7649,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.29"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.31"
             },
             "funding": [
                 {
@@ -7665,7 +7665,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-09-14T20:49:15+00:00"
+            "time": "2023-10-29T12:33:05+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
