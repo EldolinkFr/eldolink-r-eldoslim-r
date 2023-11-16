@@ -1397,7 +1397,7 @@ testimonial_show:
 video_show:
     path:  /video
     defaults: { _controller: eldoPagesBundle:Content:video }
-    methods:  [GET, POST]
+    methods:  [POST]
 
 content_show_image:
     path:  /content/img/{identifier}
