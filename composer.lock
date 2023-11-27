@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.288.1",
+            "version": "3.289.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a1dfa12c7165de0b731ae8074c4ba1f3ae733f89"
+                "reference": "c8aafbfb34e33b8fb002f2f81c241c1df3a82b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a1dfa12c7165de0b731ae8074c4ba1f3ae733f89",
-                "reference": "a1dfa12c7165de0b731ae8074c4ba1f3ae733f89",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c8aafbfb34e33b8fb002f2f81c241c1df3a82b54",
+                "reference": "c8aafbfb34e33b8fb002f2f81c241c1df3a82b54",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.288.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.289.0"
             },
-            "time": "2023-11-22T19:35:38+00:00"
+            "time": "2023-11-27T03:48:32+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2221,7 +2221,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "4ed7cb6d7cbc89c6c071c40969e3a84e8c70fd95"
+                "reference": "9d8a204d457d0589bf92bc8efe0de62dc6ae04b8"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2256,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2023-11-23T16:09:33+00:00"
+            "time": "2023-11-24T10:21:52+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -4525,6 +4525,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2021-09-03T17:53:30+00:00"
         },
         {
@@ -5294,20 +5295,19 @@
         },
         {
             "name": "mopa/composer-bridge",
-            "version": "v1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phiamo/MopaComposerBridge.git",
-                "reference": "58661a5c588ce9c3eff7d36c4030f6caa4de1ae2"
+                "reference": "1bc40e7fa1a7853bf001f765e1c0564d56490b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phiamo/MopaComposerBridge/zipball/58661a5c588ce9c3eff7d36c4030f6caa4de1ae2",
-                "reference": "58661a5c588ce9c3eff7d36c4030f6caa4de1ae2",
+                "url": "https://api.github.com/repos/phiamo/MopaComposerBridge/zipball/1bc40e7fa1a7853bf001f765e1c0564d56490b46",
+                "reference": "1bc40e7fa1a7853bf001f765e1c0564d56490b46",
                 "shasum": ""
             },
             "require": {
-                "symfony/class-loader": ">=2.0.0",
                 "symfony/console": ">=2.0.0"
             },
             "type": "symfony-bridge",
@@ -5327,12 +5327,12 @@
             ],
             "authors": [
                 {
-                    "name": "Community contributions",
-                    "homepage": "https://github.com/phiamo/MopaComposerBridge/contributors"
-                },
-                {
                     "name": "Philipp A. Mohrenweiser",
                     "email": "phiamo@googlemail.com"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/phiamo/MopaComposerBridge/contributors"
                 }
             ],
             "description": "Symfony2 Composer Bridge",
@@ -5343,9 +5343,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phiamo/MopaComposerBridge/issues",
-                "source": "https://github.com/phiamo/MopaComposerBridge/tree/master"
+                "source": "https://github.com/phiamo/MopaComposerBridge/tree/1.6.0"
             },
-            "time": "2015-10-01T19:20:19+00:00"
+            "time": "2022-12-29T11:23:59+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
