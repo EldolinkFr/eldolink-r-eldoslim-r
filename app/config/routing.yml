@@ -1225,6 +1225,11 @@ slimdoo_pdv148:
     defaults: { _controller: eldoPagesBundle:Page:pdv148 }
     methods:  [GET]
         
+slimdoo_pdv149:
+    path:  /pdv/149
+    defaults: { _controller: eldoPagesBundle:Page:pdv149 }
+    methods:  [GET]
+        
 slimdoo_pdv150:
     path:  /pdv/150
     defaults: { _controller: eldoPagesBundle:Page:pdv150 }
