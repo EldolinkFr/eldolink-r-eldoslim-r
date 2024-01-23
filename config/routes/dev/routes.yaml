@@ -1,0 +1,22 @@
+main:
+    resource: ../../routes.yaml
+
+controllers:
+    resource: ../../../src/Controller/
+    type: annotation
+
+eldoMainBundle: 
+    resource: "@eldoMainBundle/Controller/"
+    type: annotation
+    prefix:   /
+
+eldoPagesBundle:
+    resource: "@eldoPagesBundle/Controller/"
+    type: annotation
+    prefix:   /
+
+# JMSTranslationBundle Routing
+JMSTranslationBundle_ui:
+    resource: "@JMSTranslationBundle/Controller/"
+    type:     annotation
+    prefix:   /_trans

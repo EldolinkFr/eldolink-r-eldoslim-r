@@ -1,0 +1,13 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    exception_controller: null
+    globals:
+        cdn_url: '%env(resolve:app_cdn_url)%'
+        app_name: '%env(resolve:app_name)%'
+        default_currency: '%env(resolve:app_default_currency)%'
+        default_locale: '%env(resolve:app_default_locale)%'
+        default_affiliate: '%env(resolve:app_default_affiliate)%'
+        use_affiliate: '%env(resolve:app_use_affiliate)%'
+        maxQuantity: '%env(resolve:app_maxQuantity)%'

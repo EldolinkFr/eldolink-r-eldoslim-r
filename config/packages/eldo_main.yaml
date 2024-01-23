@@ -1,0 +1,114 @@
+# eldoMainBundle Configuration
+eldo_main:
+    newrelic:
+        api_key:    '%env(resolve:newrelic_api_key)%'
+    mailjet:
+        api_key:    '%env(resolve:mailjet_api_key)%'
+        api_secret: '%env(resolve:mailjet_api_secret)%'
+        list_id:    '%env(resolve:mailjet_list_id)%'
+    amazon_s3:
+        base_url:    '%env(resolve:amazon_s3_base_url)%'
+        region:      '%env(resolve:amazon_s3_region)%'
+        key:         '%env(resolve:amazon_s3_key)%'
+        secret:      '%env(resolve:amazon_s3_secret)%'
+        medias_bucket_name: '%env(resolve:amazon_s3_medias_bucket_name)%'
+        medias_directory_name: '%env(resolve:amazon_s3_medias_directory_name)%'
+        documents_bucket_name: '%env(resolve:amazon_s3_documents_bucket_name)%'
+        documents_directory_name: '%env(resolve:amazon_s3_documents_directory_name)%'
+    oxone:
+        api_url:    '%env(resolve:oxone_api_url)%'
+        username:   '%env(resolve:oxone_username)%'
+        password:   '%env(resolve:oxone_password)%'
+        accounts:
+            slimdoo:
+                sender:     '%env(resolve:oxone_slimdoo_sender)%'
+                shortcode:  '%env(resolve:oxone_slimdoo_shortcode)%'
+                account_id: '%env(resolve:oxone_slimdoo_account_id)%'
+            thetoujours:
+                sender:     '%env(resolve:oxone_thetoujours_sender)%'
+                shortcode:  '%env(resolve:oxone_thetoujours_shortcode)%'
+                account_id: '%env(resolve:oxone_thetoujours_account_id)%'
+    esendex:
+        login:      '%env(resolve:esendex_login)%'
+        password:   '%env(resolve:esendex_password)%'
+        accounts:
+            slimdoo:
+                sender:     '%env(resolve:esendex_slimdoo_sender)%'
+                shortcode:  '%env(resolve:esendex_slimdoo_shortcode)%'
+                account_id: '%env(resolve:esendex_slimdoo_account_id)%'
+                richcontent_api_key: '%env(resolve:esendex_slimdoo_richcontent_api_key)%'
+                webhooks_subscription_key: '%env(resolve:esendex_slimdoo_webhooks_subscription_key)%'
+            thetoujours:
+                sender:     '%env(resolve:esendex_thetoujours_sender)%'
+                shortcode:  '%env(resolve:esendex_thetoujours_shortcode)%'
+                account_id: '%env(resolve:esendex_thetoujours_account_id)%'
+                richcontent_api_key: '%env(resolve:esendex_thetoujours_richcontent_api_key)%'
+                webhooks_subscription_key: '%env(resolve:esendex_thetoujours_webhooks_subscription_key)%'
+            eldolink:
+                sender:     '%env(resolve:esendex_eldolink_sender)%'
+                shortcode:  '%env(resolve:esendex_eldolink_shortcode)%'
+                account_id: '%env(resolve:esendex_eldolink_account_id)%'
+                richcontent_api_key: '%env(resolve:esendex_eldolink_richcontent_api_key)%'
+                webhooks_subscription_key: '%env(resolve:esendex_eldolink_webhooks_subscription_key)%'
+    sendgrid:
+        api_key:    '%env(resolve:sendgrid_api_key)%'
+    sendinblue:
+        api_key:    '%env(resolve:sendinblue_api_key)%'
+    neverbounce:
+        api_key:   '%env(resolve:neverbounce_api_key)%'
+    sendethic:
+        url:        '%env(resolve:sendethic_url)%'
+        account_id: '%env(resolve:sendethic_account_id)%'
+        api_key:    '%env(resolve:sendethic_api_key)%'
+    openweathermap:
+        url:        '%env(resolve:openweathermap_url)%'
+        api_key:    '%env(resolve:openweathermap_api_key)%'
+    googlemap:
+        api_key:    '%env(resolve:googlemap_api_key)%'
+    googleanalytics:
+        id:        '%env(resolve:googleanalytics_id)%'
+        config:    '%env(resolve:googleanalytics_config)%'
+    googleanalyticsv4:
+        id:         '%env(resolve:googleanalyticsv4_id)%'
+    firebase:
+        api_key:                '%env(resolve:firebase_api_key)%'
+        dynamic_link_url:       '%env(resolve:firebase_dynamic_link_url)%'
+        dynamic_link_domain:    '%env(resolve:firebase_dynamic_link_domain)%'
+    gtm:
+        id:        '%env(resolve:gtm_id)%'
+    wonderpush:
+        configs:
+            slimdoo:
+                app_name:       '%env(resolve:slimdoo_wonderpush_app_name)%'
+                app_id:         '%env(resolve:slimdoo_wonderpush_app_id)%'
+                app_access_token:  '%env(resolve:slimdoo_wonderpush_app_access_token)%'
+                app_web_key:   '%env(resolve:slimdoo_wonderpush_app_web_key)%'
+            thetoujours:
+                app_name:       '%env(resolve:thetoujours_wonderpush_app_name)%'
+                app_id:         '%env(resolve:thetoujours_wonderpush_app_id)%'
+                app_access_token:  '%env(resolve:thetoujours_wonderpush_app_access_token)%'
+                app_web_key:   '%env(resolve:thetoujours_wonderpush_app_web_key)%'
+            eldolink:
+                app_name:       '%env(resolve:eldolink_wonderpush_app_name)%'
+                app_id:         '%env(resolve:eldolink_wonderpush_app_id)%'
+                app_access_token:  '%env(resolve:eldolink_wonderpush_app_access_token)%'
+                app_web_key:   '%env(resolve:eldolink_wonderpush_app_web_key)%'
+    backoffice:
+        url:        '%env(resolve:backoffice_url)%'
+    api:
+        url:        '%env(resolve:api_url)%'
+        version:    '%env(resolve:api_version)%'
+    cookie_consent:
+        name:           '%env(resolve:cookie_consent_name)%'
+        user_manager:   '%env(resolve:cookie_consent_user_manager)%'
+        categories:     '%env(json:cookie_consent_categories)%'
+    default_locale:         '%env(resolve:app_default_locale)%'
+    default_currency:       '%env(resolve:app_default_currency)%'
+    default_affiliate:  '%env(resolve:app_default_affiliate)%'
+    default_pricing_model:  '%env(resolve:app_default_pricing_model)%'
+    default_product:  '%env(resolve:app_default_product)%'
+    default_offer:  '%env(resolve:app_default_offer)%'
+    testing_offers:  '%app_testing_offers%'
+    no_exit:  '%app_no_exit%'
+    use_affiliate:  '%env(bool:app_use_affiliate)%'
+    force_index:  '%env(bool:app_force_index)%'

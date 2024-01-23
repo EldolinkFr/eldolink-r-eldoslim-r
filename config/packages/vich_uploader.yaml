@@ -1,0 +1,21 @@
+vich_uploader:
+    db_driver: orm
+    storage:   gaufrette
+
+    mappings:
+        media:
+            inject_on_load: true
+            uri_prefix: 'https://%env(resolve:amazon_s3_medias_bucket_name)%.%env(resolve:amazon_s3_base_url)%/%env(resolve:amazon_s3_medias_directory_name)%'
+            namer: Vich\UploaderBundle\Naming\UniqidNamer
+            directory_namer: eldo_main.directory_namer
+            upload_destination: media_s3_fs
+            delete_on_update: false
+            delete_on_remove: false 
+        document:
+            inject_on_load: true
+            uri_prefix: 'https://%env(resolve:amazon_s3_documents_bucket_name)%.%env(resolve:amazon_s3_base_url)%/%env(resolve:amazon_s3_documents_directory_name)%'
+            namer: Vich\UploaderBundle\Naming\UniqidNamer
+            directory_namer: eldo_main.directory_namer
+            upload_destination: document_s3_fs
+            delete_on_update: false
+            delete_on_remove: false 

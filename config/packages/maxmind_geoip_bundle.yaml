@@ -1,0 +1,15 @@
+cravler_max_mind_geo_ip:
+#    path: '%kernel.root_dir%/Resources/MaxMind'
+    path: '/usr/share/GeoIP'
+    db:
+        country: 'GeoIP2-Country.mmdb'
+        city: 'GeoLite2-City.mmdb'
+        connection_type: 'GeoIP2-Connection-Type.mmdb'
+        domain: 'GeoIP2-Domain.mmdb'
+        isp: 'GeoIP2-ISP.mmdb'
+    source:
+        country: ~
+        city: ~
+        connection_type: ~
+        domain: ~
+        isp: ~

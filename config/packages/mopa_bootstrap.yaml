@@ -1,0 +1,6 @@
+mopa_bootstrap:
+    form:
+        checkbox_label: 'label'
+        show_legend: false
+        render_fieldset: false
+        render_optional_text: false

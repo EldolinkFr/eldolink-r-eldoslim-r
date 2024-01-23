@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head {% block headclass %}{% endblock %}>
+		{{ google_tag_manager_head() }}
+		<title>{% block title %}{% endblock %}</title>
+		{% block robots %}{% endblock %}
+		{% block description %}{% endblock %}
+		{% block keywords %}{% endblock %}
+		{% block author %}{% endblock %}
+		<meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		{% block metas %}{% endblock %}
+        {% block stylesheets %}{{ encore_entry_link_tags('app') }}{% endblock %}
+        {% block javascripts %}{{ encore_entry_script_tags('app') }}{% endblock %}
+	</head>
+    <body data-locale='{{ app.request.getLocale() }}' {% if tracking is defined %}data-tracking='{{ tracking.tracking_params|json_encode()|raw }}'{% endif %} {% block bodyclass %}{% endblock %}>
+		{{ google_tag_manager_body() }}
+		{% block body %}
+			{% block header %}{% endblock %}
+			{% block content %}{% endblock %}
+		{% endblock %}
+        {{ google_tag_manager_body_end() }}
+    </body>
+</html>

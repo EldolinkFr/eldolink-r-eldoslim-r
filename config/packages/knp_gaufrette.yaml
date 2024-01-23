@@ -1,0 +1,26 @@
+knp_gaufrette:
+    stream_wrapper: ~
+
+    adapters:
+        media_s3_adapter:
+            aws_s3:
+                service_id: 'eldo_main.media.s3'
+                bucket_name: '%eldo_main.amazon_s3.medias_bucket_name%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: 'media'
+        document_s3_adapter:
+            aws_s3:
+                service_id: 'eldo_main.document.s3'
+                bucket_name: '%eldo_main.amazon_s3.documents_bucket_name%'
+                detect_content_type: true
+                options:
+                    create: true
+                    directory: 'document'
+                    
+    filesystems:
+        media_s3_fs:
+            adapter:    media_s3_adapter
+        document_s3_fs:
+            adapter:    document_s3_adapter

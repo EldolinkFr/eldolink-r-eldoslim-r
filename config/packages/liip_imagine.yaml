@@ -1,0 +1,276 @@
+# See dos how to configure the bundle: https://symfony.com/doc/current/bundles/LiipImagineBundle/basic-usage.html
+liip_imagine:
+    resolvers:
+        resolver_s3_medias:
+            aws_s3:
+                client_config:
+                    credentials:
+                        key: '%env(resolve:amazon_s3_key)%'
+                        secret: '%env(resolve:amazon_s3_secret)%'
+                    region: '%env(resolve:amazon_s3_region)%'
+                    version: 'latest'
+                bucket: '%env(resolve:amazon_s3_medias_bucket_name)%cache'
+                proxies: ['%env(resolve:app_cache_url)%cache']
+    loaders:
+        default:
+            filesystem:
+                data_root: ["%kernel.root_dir%/../public", "%kernel.root_dir%/../vendor"]
+        loader_s3_medias:
+            stream:
+                wrapper: gaufrette://media_s3_fs/
+    cache: resolver_s3_medias
+    data_loader: loader_s3_medias
+    filter_sets:
+        original:
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+# Local Loader
+        local_ico:
+            data_loader: default
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_apple_touch_icon:
+            data_loader: default
+            filters:
+                thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_16x16:
+            data_loader: default
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_20x20:
+            data_loader: default
+            filters:
+                thumbnail: { size: [20, 20], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_30x30:
+            data_loader: default
+            filters:
+                thumbnail: { size: [30, 30], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_36x36:
+            data_loader: default
+            filters:
+                thumbnail: { size: [36, 36], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_50x50:
+            data_loader: default
+            filters:
+                thumbnail: { size: [50, 50], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_70x70:
+            data_loader: default
+            filters:
+                thumbnail: { size: [70, 70], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_110x110:
+            data_loader: default
+            filters:
+                thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_152x152:
+            data_loader: default
+            filters:
+                thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_170x170:
+            data_loader: default
+            filters:
+                thumbnail: { size: [170, 170], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_196x196:
+            data_loader: default
+            filters:
+                thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_200x200:
+            data_loader: default
+            filters:
+                thumbnail: { size: [200, 200], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_261x142:
+            data_loader: default
+            filters:
+                thumbnail: { size: [261, 142], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_291x158:
+            data_loader: default
+            filters:
+                thumbnail: { size: [291, 158], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_352x191:
+            data_loader: default
+            filters:
+                thumbnail: { size: [352, 191], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_400x400:
+            data_loader: default
+            filters:
+                thumbnail: { size: [400, 400], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_570x310:
+            data_loader: default
+            filters:
+                thumbnail: { size: [570, 310], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        local_600x600:
+            data_loader: default
+            filters:
+                thumbnail: { size: [600, 600], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+# S3 Loader
+        s3_ico:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_apple_touch_icon:
+            filters:
+                thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_16x16:
+            filters:
+                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_20x20:
+            filters:
+                thumbnail: { size: [20, 20], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_30x30:
+            filters:
+                thumbnail: { size: [30, 30], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_36x36:
+            filters:
+                thumbnail: { size: [36, 36], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_50x50:
+            filters:
+                thumbnail: { size: [50, 50], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_70x70:
+            filters:
+                thumbnail: { size: [70, 70], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_110x110:
+            filters:
+                thumbnail: { size: [110, 110], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_152x152:
+            filters:
+                thumbnail: { size: [152, 152], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_170x170:
+            filters:
+                thumbnail: { size: [170, 170], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_196x196:
+            filters:
+                thumbnail: { size: [196, 196], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_200x200:
+            filters:
+                thumbnail: { size: [200, 200], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_261x142:
+            filters:
+                thumbnail: { size: [261, 142], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_291x158:
+            filters:
+                thumbnail: { size: [291, 158], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_352x191:
+            filters:
+                thumbnail: { size: [352, 191], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_400x400:
+            filters:
+                thumbnail: { size: [400, 400], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_570x310:
+            filters:
+                thumbnail: { size: [570, 310], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
+        s3_600x600:
+            filters:
+                thumbnail: { size: [600, 600], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }

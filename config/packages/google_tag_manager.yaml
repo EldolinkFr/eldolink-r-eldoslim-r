@@ -1,0 +1,4 @@
+google_tag_manager:
+    enabled: false
+    id: 'GTM-%env(resolve:gtm_id)%'
+    autoAppend: false
