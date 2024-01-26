@@ -18,7 +18,7 @@
     <link rel="preconnect" href="//www.googletagmanager.com" crossorigin="anonymous">
     <link rel="preconnect" href="{{ cdn_url }}" crossorigin="anonymous">
 	{% block hrefLangs %}
-        {{ render(controller("eldo\\PagesBundle\\Controller\\PageController::hrefLangsAction", {'request': app.request})) }}
+		{{ render(controller("eldoPagesBundle:Page:hrefLangs", {'request': app.request})) }}
 	{% endblock hrefLangs %}
 {% endblock %}
 
@@ -39,7 +39,7 @@
 {% block body %}
 <div class="container">
     {% block header %}
-        {{ render(controller("eldo\\PagesBundle\\Controller\\PageController::headerAction")) }}
+        {{ render(controller("eldoPagesBundle:Page:header")) }}
     {% endblock %}
     
     {% block content %}{% endblock %}
