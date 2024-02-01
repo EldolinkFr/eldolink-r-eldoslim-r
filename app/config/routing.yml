@@ -29,6 +29,10 @@ routing-electrostimulateur-fitness.com:
     resource: "routing-electrostimulateur-fitness.com.yml"
     host:     "www.electrostimulateur-fitness.com"
 
+routing-electro-abdo.com:
+    resource: "routing-electro-abdo.com.yml"
+    host:     "www.electro-abdo.com"
+    
 routing-electro-bien.com:
     resource: "routing-electro-bien.com.yml"
     host:     "www.electro-bien.com"
