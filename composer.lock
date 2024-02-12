@@ -2221,7 +2221,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "0bbb45964ad9595bb6bd52e777e54141df7c0b8d"
+                "reference": "d7ab8d333c570cb8611d6ef44d22b270def055d3"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2256,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-02-12T13:13:04+00:00"
+            "time": "2024-02-12T15:27:46+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
