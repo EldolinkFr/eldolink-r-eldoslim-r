@@ -650,10 +650,6 @@ eldo_main:
         id:         "%googleanalytics_id%"
     googleanalyticsv4:
         id:         "%googleanalyticsv4_id%"
-    firebase:
-        api_key:                "%firebase_api_key%"
-        dynamic_link_url:       "%firebase_dynamic_link_url%"
-        dynamic_link_domain:    "%firebase_dynamic_link_domain%"
     gtm:
         id:        "%gtm_id%"
     wonderpush:
@@ -689,3 +685,4 @@ eldo_main:
     default_product:        "%default_product%"
     default_offer:          "%default_offer%"
     testing_offers:         "%testing_offers%"
+    short_link_domain:      "%short_link_domain%"

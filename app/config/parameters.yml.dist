@@ -105,10 +105,8 @@ parameters:
     # GoogleAnalyticsV4
     googleanalyticsv4_id: XXX
 
-    # Firebase Config
-    firebase_api_key: XXX
-    firebase_dynamic_link_url: https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=
-    firebase_dynamic_link_domain: XXX
+    # Short Link Config
+    short_link_domain: slns.fr
 
     # GTM ID
     gtm_id: XXX
