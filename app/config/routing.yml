@@ -49,6 +49,10 @@ routing-neo-ventre.com:
     resource: "routing-neo-ventre.com.yml"
     host:     "www.neo-ventre.com"
 
+routing-slns.fr:
+    resource: "routing-slns.fr"
+    host:     "www.slns.fr"
+
 routing-sublym-body.com:
     resource: "routing-sublym-body.com.yml"
     host:     "www.sublym-body.com"
