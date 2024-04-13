@@ -50,7 +50,7 @@ routing-neo-ventre.com:
     host:     "www.neo-ventre.com"
 
 routing-slns.fr:
-    resource: "routing-slns.fr"
+    resource: "routing-slns.fr.yml"
     host:     "www.slns.fr"
 
 routing-sublym-body.com:
