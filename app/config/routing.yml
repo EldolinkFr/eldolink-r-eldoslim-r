@@ -49,10 +49,6 @@ routing-neo-ventre.com:
     resource: "routing-neo-ventre.com.yml"
     host:     "www.neo-ventre.com"
 
-routing-slns.fr:
-    resource: "routing-slns.fr.yml"
-    host:     "www.slns.fr"
-
 routing-sublym-body.com:
     resource: "routing-sublym-body.com.yml"
     host:     "www.sublym-body.com"
@@ -1391,6 +1387,11 @@ slimdoo_gateway:
 _slimdoo_track:
     path:  /track
     defaults: { _controller: eldoPagesBundle:Page:track }
+    methods:  [GET]
+
+_page_redirect:
+    path:  /r/{shortCode}
+    defaults: { _controller: eldoPagesBundle:Page:redirect }
     methods:  [GET]
 
 check_email:

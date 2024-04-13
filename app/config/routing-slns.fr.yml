@@ -1,6 +1,0 @@
-# app/config/routing-slns.fr.yml
-
-slns.fr-index:
-    path: /
-    defaults: { _controller: eldoPagesBundle:Page:redirect }
-    methods:  [GET, POST]
