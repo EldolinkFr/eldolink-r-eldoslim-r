@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.305.1",
+            "version": "3.305.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3af1c6925b95a0f4303a1859dd56aa8374560c42"
+                "reference": "f4108b0222fdc0f0d96c5dbc8055b957d06f1cae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3af1c6925b95a0f4303a1859dd56aa8374560c42",
-                "reference": "3af1c6925b95a0f4303a1859dd56aa8374560c42",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f4108b0222fdc0f0d96c5dbc8055b957d06f1cae",
+                "reference": "f4108b0222fdc0f0d96c5dbc8055b957d06f1cae",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.7"
             },
-            "time": "2024-04-23T18:10:07+00:00"
+            "time": "2024-05-01T18:05:51+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "d613ddbf0f0898b414b378b2f30b8d5a71d85dcb"
+                "reference": "22cd22887cc88b0103f0d7918d8fd8ed806b173d"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2213,7 +2213,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-04-23T13:48:09+00:00"
+            "time": "2024-04-26T11:40:24+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2221,7 +2221,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "760cf465c985cd2756f602624bf1998d8cd28ef4"
+                "reference": "a435008d82986f15d241de45bf08ef29b333bf3f"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2256,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-04-23T13:15:00+00:00"
+            "time": "2024-05-02T15:14:19+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -7589,16 +7589,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.38",
+            "version": "v5.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "2a292194f6d4cf22d2348248d1c637750f72309d"
+                "reference": "3cdc551aa98173bb8bac7e5ee49f3526abde0b04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/2a292194f6d4cf22d2348248d1c637750f72309d",
-                "reference": "2a292194f6d4cf22d2348248d1c637750f72309d",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/3cdc551aa98173bb8bac7e5ee49f3526abde0b04",
+                "reference": "3cdc551aa98173bb8bac7e5ee49f3526abde0b04",
                 "shasum": ""
             },
             "require": {
@@ -7660,7 +7660,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.38"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.39"
             },
             "funding": [
                 {
@@ -7676,7 +7676,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-01T18:54:44+00:00"
+            "time": "2024-04-18T08:26:06+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
