@@ -51,7 +51,21 @@ ekino_new_relic:
     ignored_commands: []                  # No transaction recorded for this commands (background tasks)
 
 # DoctrineBundle Configuration
+doctrine:
+    orm:
+        entity_managers:
+            default:
+                query_cache_driver:
+                    type: service
+                    id: 'doctrine.cache.memcached'
+                result_cache_driver:
+                    type: service
+                    id: 'doctrine.cache.memcached'
+                metadata_cache_driver:
+                    type: service
+                    id: 'doctrine.cache.memcached'
 # doctrine:
+
 #     orm:
 #         second_level_cache:
 #             enabled:            true

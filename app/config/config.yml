@@ -24,6 +24,10 @@ framework:
         handler_id: ~
     fragments:       ~
     http_method_override: true
+    cache:
+        pools:
+            cache.app.memcached:
+                adapter: cache.adapter.memcached
 
 # Twig Configuration
 twig:
