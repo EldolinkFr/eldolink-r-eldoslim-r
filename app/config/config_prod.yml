@@ -65,7 +65,6 @@ doctrine:
                     type: service
                     id: 'doctrine.cache.memcached'
 # doctrine:
-
 #     orm:
 #         second_level_cache:
 #             enabled:            true
