@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.306.4",
+            "version": "3.306.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f50ff987dbe6d3e60d68794970422eae71ffb525"
+                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f50ff987dbe6d3e60d68794970422eae71ffb525",
-                "reference": "f50ff987dbe6d3e60d68794970422eae71ffb525",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
+                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.5"
             },
-            "time": "2024-05-10T18:23:57+00:00"
+            "time": "2024-05-13T18:04:50+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "d9ed6bf548734cb8e176f54bfc875f009a9c5783"
+                "reference": "33c9af6100f4c55ea47f09b1ea20f5d5818d4a31"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2213,7 +2213,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-05-13T12:19:00+00:00"
+            "time": "2024-05-14T08:52:51+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2221,7 +2221,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "0a03bf0801797ca4901956b7aa6160a6f111cb0b"
+                "reference": "f727dc9c01639f40dbbedbbe05b7059ad5cd4342"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2256,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-05-13T12:50:36+00:00"
+            "time": "2024-05-14T08:50:29+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2264,7 +2264,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "0bd3bb2d1d1c7aaccd83f65333631ced49dcac32"
+                "reference": "34007cee40ce90b650c61aadfb7c90044cad3172"
             },
             "require": {
                 "php": "^5.5.9 || ^7.0"
@@ -2294,7 +2294,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2024-04-19T10:00:36+00:00"
+            "time": "2024-05-14T08:51:33+00:00"
         },
         {
             "name": "esendex/sdk",
