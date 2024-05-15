@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.306.5",
+            "version": "3.306.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2"
+                "reference": "79a618bb5624e52f31de7083a26d1749050aa5a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
-                "reference": "07fa90825034bf64ab3fdddc1e1f1ca2fa33d6c2",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/79a618bb5624e52f31de7083a26d1749050aa5a0",
+                "reference": "79a618bb5624e52f31de7083a26d1749050aa5a0",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.306.6"
             },
-            "time": "2024-05-13T18:04:50+00:00"
+            "time": "2024-05-14T18:05:44+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "cd9c8b4c54d0a8ae35d84007678c03dce44db3ec"
+                "reference": "f7fcb57ef0e2aa691b9641acd8e81d4b5ec990e5"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2213,7 +2213,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-05-14T15:12:33+00:00"
+            "time": "2024-05-14T15:34:59+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -10083,16 +10083,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "666cb1703742cea9cc80fee631f0940e1592fa6e"
+                "reference": "e524358f930e41a2b4cca1320e3b04fc26b39e0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/666cb1703742cea9cc80fee631f0940e1592fa6e",
-                "reference": "666cb1703742cea9cc80fee631f0940e1592fa6e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e524358f930e41a2b4cca1320e3b04fc26b39e0b",
+                "reference": "e524358f930e41a2b4cca1320e3b04fc26b39e0b",
                 "shasum": ""
             },
             "require": {
@@ -10137,7 +10137,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-13T06:02:22+00:00"
+            "time": "2024-05-15T08:00:59+00:00"
         },
         {
             "name": "rector/rector",
