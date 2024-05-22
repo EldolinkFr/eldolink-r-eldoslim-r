@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "69a4167f1ac5eb428a6b23cc1a3d2c8c1184b99c"
+                "reference": "05112ed3d626ed0a169874488a58e033fd31f368"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2150,7 +2150,7 @@
                 "friendsofsymfony/rest-bundle": "1.7.*",
                 "gordalina/cachetool": "^3.0",
                 "guzzlehttp/guzzle": "^6.0",
-                "isometriks/spam-bundle": "1.0.*",
+                "isometriks/spam-bundle": "1.0.5",
                 "jms/i18n-routing-bundle": "2.0.2",
                 "jms/serializer-bundle": "^2.4",
                 "jms/translation-bundle": "^1.6",
@@ -2213,7 +2213,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-05-21T15:36:06+00:00"
+            "time": "2024-05-22T09:34:43+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -3303,16 +3303,16 @@
         },
         {
             "name": "isometriks/spam-bundle",
-            "version": "v1.0.7",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/isometriks/IsometriksSpamBundle.git",
-                "reference": "dbb17cdcaa76d91b6d1b0d3c6b03fa735dfec30f"
+                "reference": "c988bac5e372b1963b31bef039f36d43d3e2460d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/isometriks/IsometriksSpamBundle/zipball/dbb17cdcaa76d91b6d1b0d3c6b03fa735dfec30f",
-                "reference": "dbb17cdcaa76d91b6d1b0d3c6b03fa735dfec30f",
+                "url": "https://api.github.com/repos/isometriks/IsometriksSpamBundle/zipball/c988bac5e372b1963b31bef039f36d43d3e2460d",
+                "reference": "c988bac5e372b1963b31bef039f36d43d3e2460d",
                 "shasum": ""
             },
             "require": {
@@ -3344,9 +3344,9 @@
             ],
             "support": {
                 "issues": "https://github.com/isometriks/IsometriksSpamBundle/issues",
-                "source": "https://github.com/isometriks/IsometriksSpamBundle/tree/v1.0.7"
+                "source": "https://github.com/isometriks/IsometriksSpamBundle/tree/master"
             },
-            "time": "2020-09-14T15:31:16+00:00"
+            "time": "2020-08-03T19:47:17+00:00"
         },
         {
             "name": "jaybizzle/crawler-detect",
