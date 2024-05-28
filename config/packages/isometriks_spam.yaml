@@ -1,17 +1,13 @@
-nucleos_antispam:
-#     twig:
-#         mail:
-#             css_class: 'custom_class'
-#             at_text:   [ '[AT]', '(AT)', '[ÄT]' ]
-#             dot_text:  [ '[DOT]', '(DOT)', '[.]' ]
+isometriks_spam:
     # Time protection
-    time:
+    timed:
         min: 5
         max: 3600
         global: false
+
     # Honeypot protection
     honeypot:
         field: 'email_address'
-        class: 'hidden'
+        use_class: false
+        hide_class: hidden
         global: false
-        provider: 'nucleos_antispam.provider.session'
