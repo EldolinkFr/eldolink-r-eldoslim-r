@@ -4,21 +4,21 @@
 
 {% block metas %}
     <meta name="apple-mobile-web-app-title" content="{{ app_name }}">
-	{% block icons %}
+    {% block icons %}
     <link href="{{ asset('bundles/eldopages/img/favicon.ico') }}" rel="shortcut icon" />
     <link href="{{ asset('bundles/eldopages/img/apple-touch-icon.png') }}" rel="apple-touch-icon" />
     <link rel="shortcut icon" sizes="16x16" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('local_16x16')) }}">
     <link rel="shortcut icon" sizes="196x196" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('local_196x196')) }}">
     <link rel="apple-touch-icon-precomposed" href="{{ asset('bundles/eldopages/img/icon.png'|imagine_filter('local_152x152')) }}">
-	{% endblock icons %}
+    {% endblock icons %}
     <link rel="dns-prefetch" href="//www.absolusecure.com" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="preconnect" href="//fonts.gstatic.com/" crossorigin="anonymous">
     <link rel="preconnect" href="//www.googletagmanager.com" crossorigin="anonymous">
     <link rel="preconnect" href="{{ cdn_url }}" crossorigin="anonymous">
-	{% block hrefLangs %}
-		{{ render(path("slimdoo_page_hrefLangs", {'request': app.request})) }}
-	{% endblock hrefLangs %}
+    {% block hrefLangs %}
+        {{ render(controller("eldo\\PagesBundle\\Controller\\PageController::hrefLangsAction", {'request': app.request})) }}
+    {% endblock hrefLangs %}
 {% endblock %}
 
 {% block stylesheets %}
@@ -38,7 +38,7 @@
 {% block body %}
 <div class="container">
     {% block header %}
-        {{ render(path("slimdoo_page_header")) }}
+        {{ render(controller("eldo\\PagesBundle\\Controller\\PageController::headerAction")) }}
     {% endblock %}
     
     {% block content %}{% endblock %}
