@@ -1,14 +1,3 @@
-eldo_main_restful_services:
-    resource: "@eldoMainBundle/Resources/config/rest.yml"
-    type:     rest
-    prefix:   /api
-    options: { i18n: false' }
-
-eldoMainBundle: 
-    resource: "@eldoMainBundle/Controller/"
-    type: annotation
-    prefix:   /
-
 routes-depil-bien.com:
     resource: "routes/routes-depil-bien.com.yaml"
     host:     "www.depil-bien.com"

@@ -1,0 +1,4 @@
+eldoMainBundle: 
+    resource: "@eldoMainBundle/Controller/"
+    type: annotation
+    prefix:   /
