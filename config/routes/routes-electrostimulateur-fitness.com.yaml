@@ -1,5 +1,3 @@
-# app/config/routing-electrostimulateur-fitness.com.yml
-
 electrostimulateur-fitness.com-index:
     path: /
     defaults: { _controller: eldoPagesBundle:Page:pdv103 }

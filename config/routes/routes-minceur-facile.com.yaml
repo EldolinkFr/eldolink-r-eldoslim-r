@@ -1,5 +1,3 @@
-# app/config/routing-minceur-facile.com.yml
-
 minceur-facile.com-index:
     path: /
     defaults: { _controller: eldoPagesBundle:Page:pdv106 }

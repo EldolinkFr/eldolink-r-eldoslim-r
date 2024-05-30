@@ -1,5 +1,3 @@
-# app/config/routing-neo-ventre.com.yml
-
 neo-ventre.com-index:
     path: /
     defaults: { _controller: eldoPagesBundle:Page:pdv129 }

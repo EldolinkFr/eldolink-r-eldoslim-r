@@ -10,8 +10,12 @@ routes-electrostimulateur-fitness.com:
     resource: "routes/routes-electrostimulateur-fitness.com.yaml"
     host:     "www.electrostimulateur-fitness.com"
 
+routes-electro-abdo.com:
+    resource: "routes/routes-electro-abdo.com.yml"
+    host:     "www.electro-abdo.com"
+    
 routes-electro-bien.com:
-    resource: "routes/routes-electro-bien.com.yaml"
+    resource: "routes/routes-electro-bien.com.yml"
     host:     "www.electro-bien.com"
 
 routes-minceur-facile.com:
@@ -1215,6 +1219,21 @@ slimdoo_pdv150:
     path:  /pdv/150
     defaults: { _controller: 'eldoPagesBundle:Page:pdv150' }
     methods:  [GET]
+        
+slimdoo_pdv151:
+    path:  /pdv/151
+    defaults: { _controller: eldoPagesBundle:Page:pdv151 }
+    methods:  [GET]
+        
+slimdoo_pdv152:
+    path:  /pdv/152
+    defaults: { _controller: eldoPagesBundle:Page:pdv152 }
+    methods:  [GET]
+        
+slimdoo_pdv153:
+    path:  /pdv/153
+    defaults: { _controller: eldoPagesBundle:Page:pdv153 }
+    methods:  [GET]
 
 thetoujours_pdv201:
     path:  /pdv/201
@@ -1354,6 +1373,11 @@ slimdoo_gateway:
 _slimdoo_track:
     path:  /track
     defaults: { _controller: 'eldoPagesBundle:Page:track' }
+    methods:  [GET]
+
+_page_redirect:
+    path:  /r/{shortCode}
+    defaults: { _controller: eldoPagesBundle:Page:redirect }
     methods:  [GET]
 
 check_email:

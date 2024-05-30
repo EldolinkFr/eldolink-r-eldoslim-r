@@ -1,5 +1,3 @@
-# app/config/routing-mince-heure.com.yml
-
 mince-heure.com-index:
     path: /
     defaults: { _controller: eldoPagesBundle:Page:pdv117 }

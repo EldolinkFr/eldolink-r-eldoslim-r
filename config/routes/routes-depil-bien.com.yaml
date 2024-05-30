@@ -1,5 +1,3 @@
-# app/config/routing-depil-bien.com.yml
-
 depil-bien.com-index:
     path: /
     defaults: { _controller: eldoPagesBundle:Page:pdv108 }

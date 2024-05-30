@@ -1,0 +1,4 @@
+electro-abdo.com-index:
+    path: /
+    defaults: { _controller: eldoPagesBundle:Page:pdv150 }
+    methods:  [GET, POST]
