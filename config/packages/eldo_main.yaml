@@ -70,10 +70,6 @@ eldo_main:
         config:    '%env(resolve:googleanalytics_config)%'
     googleanalyticsv4:
         id:         '%env(resolve:googleanalyticsv4_id)%'
-    firebase:
-        api_key:                '%env(resolve:firebase_api_key)%'
-        dynamic_link_url:       '%env(resolve:firebase_dynamic_link_url)%'
-        dynamic_link_domain:    '%env(resolve:firebase_dynamic_link_domain)%'
     gtm:
         id:        '%env(resolve:gtm_id)%'
     wonderpush:
@@ -112,3 +108,4 @@ eldo_main:
     no_exit:  '%app_no_exit%'
     use_affiliate:  '%env(bool:app_use_affiliate)%'
     force_index:  '%env(bool:app_force_index)%'
+    short_link_domain: '%env(resolve:short_link_domain)%'
