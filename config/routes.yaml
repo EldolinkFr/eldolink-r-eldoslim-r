@@ -11,11 +11,11 @@ routes-electrostimulateur-fitness.com:
     host:     "www.electrostimulateur-fitness.com"
 
 routes-electro-abdo.com:
-    resource: "routes/routes-electro-abdo.com.yml"
+    resource: "routes/routes-electro-abdo.com.yaml"
     host:     "www.electro-abdo.com"
     
 routes-electro-bien.com:
-    resource: "routes/routes-electro-bien.com.yml"
+    resource: "routes/routes-electro-bien.com.yaml"
     host:     "www.electro-bien.com"
 
 routes-minceur-facile.com:
