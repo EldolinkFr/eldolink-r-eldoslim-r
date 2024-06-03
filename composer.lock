@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.308.3",
+            "version": "3.308.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7fa0625056fa1fcf6732f89ba37b3f630d78de59"
+                "reference": "97074bd8cdd9fe498570821cefa4868fa3353cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7fa0625056fa1fcf6732f89ba37b3f630d78de59",
-                "reference": "7fa0625056fa1fcf6732f89ba37b3f630d78de59",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/97074bd8cdd9fe498570821cefa4868fa3353cf3",
+                "reference": "97074bd8cdd9fe498570821cefa4868fa3353cf3",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.7"
             },
-            "time": "2024-05-24T18:29:40+00:00"
+            "time": "2024-05-31T18:17:12+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -7547,16 +7547,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.39",
+            "version": "v5.4.40",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "3cdc551aa98173bb8bac7e5ee49f3526abde0b04"
+                "reference": "970a4d5a3393be3ba987b91a018e98ee332db63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/3cdc551aa98173bb8bac7e5ee49f3526abde0b04",
-                "reference": "3cdc551aa98173bb8bac7e5ee49f3526abde0b04",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/970a4d5a3393be3ba987b91a018e98ee332db63b",
+                "reference": "970a4d5a3393be3ba987b91a018e98ee332db63b",
                 "shasum": ""
             },
             "require": {
@@ -7618,7 +7618,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.39"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.40"
             },
             "funding": [
                 {
@@ -7634,7 +7634,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T08:26:06+00:00"
+            "time": "2024-05-31T14:33:22+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -10041,16 +10041,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.2",
+            "version": "1.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0d5d4294a70deb7547db655c47685d680e39cfec"
+                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0d5d4294a70deb7547db655c47685d680e39cfec",
-                "reference": "0d5d4294a70deb7547db655c47685d680e39cfec",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
+                "reference": "e64220a05c1209fc856d58e789c3b7a32c0bb9a5",
                 "shasum": ""
             },
             "require": {
@@ -10095,7 +10095,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-24T13:23:04+00:00"
+            "time": "2024-05-31T13:53:37+00:00"
         },
         {
             "name": "rector/rector",
