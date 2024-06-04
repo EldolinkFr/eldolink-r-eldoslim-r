@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.308.7",
+            "version": "3.309.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "97074bd8cdd9fe498570821cefa4868fa3353cf3"
+                "reference": "9213b2101afa17fe8ea99b8ea2dad85c1b1166a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/97074bd8cdd9fe498570821cefa4868fa3353cf3",
-                "reference": "97074bd8cdd9fe498570821cefa4868fa3353cf3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9213b2101afa17fe8ea99b8ea2dad85c1b1166a8",
+                "reference": "9213b2101afa17fe8ea99b8ea2dad85c1b1166a8",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.308.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.309.0"
             },
-            "time": "2024-05-31T18:17:12+00:00"
+            "time": "2024-06-03T18:10:07+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "7b441972c4d57c24decfb9d4d6cc612958b6971c"
+                "reference": "af78fc0a70a10cda78963ee26070018050dbd37b"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2184,6 +2184,7 @@
                 "symfony/twig-bundle": "^2.8 || ^3.0 || ^4.0",
                 "tijsverkoyen/css-to-inline-styles": "^2.2",
                 "twig/extensions": "1.5.4",
+                "ua-parser/uap-php": "^3.0",
                 "vich/uploader-bundle": "1.0.1",
                 "wonderpush/wonderpush-php-lib": "^2.1",
                 "xynnn/google-tag-manager-bundle": "~3.0"
@@ -2213,7 +2214,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-05-23T09:01:27+00:00"
+            "time": "2024-06-04T09:41:36+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2221,7 +2222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "8099d63f6a920b5838573f5e7c313d07ac96d0c5"
+                "reference": "761105b11f02d4b6fd74a9d9af69231555831c91"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2256,7 +2257,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-05-28T10:57:53+00:00"
+            "time": "2024-06-04T08:38:59+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -9369,6 +9370,69 @@
                 }
             ],
             "time": "2023-12-22T07:22:15+00:00"
+        },
+        {
+            "name": "ua-parser/uap-php",
+            "version": "v3.9.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ua-parser/uap-php.git",
+                "reference": "b796c5ea5df588e65aeb4e2c6cce3811dec4fed6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/b796c5ea5df588e65aeb4e2c6cce3811dec4fed6",
+                "reference": "b796c5ea5df588e65aeb4e2c6cce3811dec4fed6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.1",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.33",
+                "phpunit/phpunit": "^8 || ^9",
+                "symfony/console": "^3.4 || ^4.2 || ^4.3 || ^5.0",
+                "symfony/filesystem": "^3.4 || ^4.2 ||  ^4.3 || ^5.0",
+                "symfony/finder": "^3.4 || ^4.2 || ^4.3 || ^5.0",
+                "symfony/yaml": "^3.4 || ^4.2 || ^4.3 || ^5.0",
+                "vimeo/psalm": "^3.12"
+            },
+            "suggest": {
+                "symfony/console": "Required for CLI usage - ^3.4 || ^4.3 || ^5.0",
+                "symfony/filesystem": "Required for CLI usage - ^3.4 || ^4.3 || ^5.0",
+                "symfony/finder": "Required for CLI usage - ^3.4 || ^4.3 || ^5.0",
+                "symfony/yaml": "Required for CLI usage - ^3.4 || ^4.3 || ^5.0"
+            },
+            "bin": [
+                "bin/uaparser"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UAParser\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Olsen",
+                    "email": "dmolsen@gmail.com"
+                },
+                {
+                    "name": "Lars Strojny",
+                    "email": "lars@strojny.net"
+                }
+            ],
+            "description": "A multi-language port of Browserscope's user agent parser.",
+            "support": {
+                "issues": "https://github.com/ua-parser/uap-php/issues",
+                "source": "https://github.com/ua-parser/uap-php/tree/v3.9.14"
+            },
+            "time": "2020-10-02T23:36:20+00:00"
         },
         {
             "name": "vich/uploader-bundle",
