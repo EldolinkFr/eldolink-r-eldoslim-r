@@ -2222,7 +2222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "9cfa6b917196febb24d066171b8a03179573a281"
+                "reference": "9527bad9f8a65128e24a4b3e758c62243e87ce55"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2257,7 +2257,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-06-07T07:50:04+00:00"
+            "time": "2024-06-07T08:26:04+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -3351,16 +3351,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.2.118",
+            "version": "v1.2.119",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd"
+                "reference": "275002e22b0333c15a7c6792fdae5d5deefc9ef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd",
-                "reference": "9b8912ac5b78b780a0ead552b4c3dc9ddfdea4fd",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/275002e22b0333c15a7c6792fdae5d5deefc9ef0",
+                "reference": "275002e22b0333c15a7c6792fdae5d5deefc9ef0",
                 "shasum": ""
             },
             "require": {
@@ -3397,9 +3397,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.118"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.119"
             },
-            "time": "2024-04-23T17:07:05+00:00"
+            "time": "2024-06-07T07:58:43+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
