@@ -103,16 +103,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.311.1",
+            "version": "3.313.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "90218b9372469babf294f97bdd764c9d47ec8a57"
+                "reference": "2f5f173300888d6f630ce24751a6ee0f1e6d72e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/90218b9372469babf294f97bdd764c9d47ec8a57",
-                "reference": "90218b9372469babf294f97bdd764c9d47ec8a57",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2f5f173300888d6f630ce24751a6ee0f1e6d72e8",
+                "reference": "2f5f173300888d6f630ce24751a6ee0f1e6d72e8",
                 "shasum": ""
             },
             "require": {
@@ -192,9 +192,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.311.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.313.0"
             },
-            "time": "2024-06-06T18:05:50+00:00"
+            "time": "2024-06-11T18:20:58+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2136,7 +2136,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "37f0c79a9d69cd46d424573bb8e85e873d02dd78"
+                "reference": "f41e3cf700a7f23055c7d61799ab1ec0fc9d34a3"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.0",
@@ -2214,7 +2214,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-06-04T12:34:01+00:00"
+            "time": "2024-06-12T12:12:54+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2696,16 +2696,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.13.37",
+            "version": "8.13.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "536c747ff1af433dddc615b26b9674047e013076"
+                "reference": "2cba3d628e52a1dd436f647fb55a7fd8b1f5c2a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/536c747ff1af433dddc615b26b9674047e013076",
-                "reference": "536c747ff1af433dddc615b26b9674047e013076",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2cba3d628e52a1dd436f647fb55a7fd8b1f5c2a7",
+                "reference": "2cba3d628e52a1dd436f647fb55a7fd8b1f5c2a7",
                 "shasum": ""
             },
             "require": {
@@ -2767,7 +2767,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2024-05-16T09:01:39+00:00"
+            "time": "2024-06-10T08:32:03+00:00"
         },
         {
             "name": "giggsey/locale",
