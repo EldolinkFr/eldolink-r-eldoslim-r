@@ -40,288 +40,288 @@ routes-the-toujours.fr:
 
 api_items:
     path:  /data-api/items
-    defaults: { _controller: 'eldoPagesBundle:Api:itemsApi' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ApiController::itemsApiAction' }
     methods:  [GET]
 
 api_products:
     path:  /data-api/products
-    defaults: { _controller: 'eldoPagesBundle:Api:productsApi' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ApiController::productsApiAction' }
     methods:  [GET]
 
 api_customers:
     path:  /data-api/customers
-    defaults: { _controller: 'eldoPagesBundle:Api:customersApi' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ApiController::customersApiAction' }
     methods:  [GET]
 
 api_content:
     path:  /data-api/content
-    defaults: { _controller: 'eldoPagesBundle:Api:contentApi' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ApiController::contentApiAction' }
     methods:  [GET]
 
 slimdoo_lead_result:
     path:  /lead_result
-    defaults: { _controller: 'eldoPagesBundle:Landing:leadResult' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::leadResultAction' }
     methods:  [POST]
 
 landing001:
     path:  /une-aide-originale-et-surprenante/boucles-magnetiques/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing001' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing001Action' }
     methods:  [GET]
 
 landing002:
     path:  /une-aide-originale-et-surprenante/boucles-energetiques/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing002' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing002Action' }
     methods:  [GET]
 
 landing003:
     path:  /perdez-du-poids-en-vous-relaxant/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing003' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing003Action' }
     methods:  [GET]
 
 landing004:
     path:  /une-aide-originale-et-surprenante/bracelet-magnetique/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing004' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing004Action' }
     methods:  [GET]
 
 landing005:
     path:  /une-aide-originale-et-surprenante/bracelet-minceur/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing005' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing005Action' }
     methods:  [GET]
 
 landing006:
     path:  /bracelet-magnetique/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing006' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing006Action' }
     methods:  [GET]
 
 landing007:
     path:  /bracelet-minceur/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing007' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing007Action' }
     methods:  [GET]
 
 landing008:
     path:  /une-aide-originale-et-surprenante/bracelet-regenerant/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing008' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing008Action' }
     methods:  [GET]
 
 landing009:
     path:  /une-aide-originale-et-surprenante/bracelet-zen/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing009' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing009Action' }
     methods:  [GET]
 
 landing010:
     path:  /une-aide-originale-et-surprenante/bracelet/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing010' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing010Action' }
     methods:  [GET]
 
 landing011:
     path:  /une-aide-originale-et-surprenante/braceletmagnetique/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing011' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing011Action' }
     methods:  [GET]
 
 landing012:
     path:  /une-aide-originale-et-surprenante/questionnaire-bracelet/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing012' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing012Action' }
     methods:  [GET]
 
 landing013:
     path:  /une-aide-originale-et-surprenante/questionnaire-minceur/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing013' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing013Action' }
     methods:  [GET]
 
 landing014:
     path:  /une-aide-originale-et-surprenante/bracelet-magnetique-zen/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing014' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing014Action' }
     methods:  [GET]
 
 landing015:
     path:  /une-aide-originale-et-surprenante/bracelet-magnetique-minceur/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing015' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing015Action' }
     methods:  [GET]
     
 landing016:
     path:  /une-aide-originale-et-surprenante/questionnaire-tonic/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing016' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing016Action' }
     methods:  [GET]
     
 landing017:
     path:  /une-aide-originale-et-surprenante/bracelet-slimdoo-zen/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing017' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing017Action' }
     methods:  [GET]
 
 landing018:
     path:  /landing/018/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing018' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing018Action' }
     methods:  [GET]
     
 landing019:
     path:  /5-accessoires-minceur-incroyables/slimdoo/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing019' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing019Action' }
     methods:  [GET]
     
 landing020:
     path:  /5-accessoires-minceur-incroyables/slimdoo-products/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing020' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing020Action' }
     methods:  [GET]
     
 landing021:
     path:  /une-aide-originale-et-surprenante/bracelet-slimdoo-tonic/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing021' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing021Action' }
     methods:  [GET]
     
 landing022:
     path:  /une-aide-originale-et-surprenante/bracelet-tonic/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing022' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing022Action' }
     methods:  [GET]
 
 landing023:
     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing023' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing023Action' }
     methods:  [GET]
     
 landing024:
     path:  /5-accessoires-minceur-incroyables/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing024' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing024Action' }
     methods:  [GET]
 
 landing025:
     path:  /5-accessoires-anti-stress-incroyables/001/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing025' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing025Action' }
     methods:  [GET]
 
 landing026:
     path:  /5-accessoires-anti-stress-incroyables/002/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing026' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing026Action' }
     methods:  [GET]
     
 landing027:
     path:  /une-aide-originale-et-surprenante/bracelet-regenerant-tonus/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing027' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing027Action' }
     methods:  [GET]
     
 landing028:
     path:  /une-aide-originale-et-surprenante/bague-relaxante/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing028' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing028Action' }
     methods:  [GET]
 
 landing029:
     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing029' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing029Action' }
     methods:  [GET]
 
 landing030:
     path:  /une-aide-originale-et-surprenante/bracelet-relaxant/002/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing030' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing030Action' }
     methods:  [GET]
 
 landing031:
     path:  /slimdoo-zen/031/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing031' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing031Action' }
     methods:  [GET]
 
 landing032:
     path:  /slimdoo-zen/032/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing032' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing032Action' }
     methods:  [GET]
 
 landing033:
     path:  /slimdoo-zen/033/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing033' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing033Action' }
     methods:  [GET]
 
 landing034:
     path:  /slimdoo-zen/034/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing034' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing034Action' }
     methods:  [GET]
 
 landing035:
     path:  /slimdoo-zen/035/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing035' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing035Action' }
     methods:  [GET]
 
 landing036:
     path:  /landing/036/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing036' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing036Action' }
     methods:  [GET]
 
 landing037:
     path:  /landing/037/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing037' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing037Action' }
     methods:  [GET]
 
 landing038:
     path:  /landing/038/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing038' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing038Action' }
     methods:  [GET]
 
 landing039:
     path:  /landing/039/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing039' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing039Action' }
     methods:  [GET]
 
 landing040:
     path:  /landing/040/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing040' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing040Action' }
     methods:  [GET]
 
 landing041:
     path:  /landing/041/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing041' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing041Action' }
     methods:  [GET]
 
 landing042:
     path:  /landing/042/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing042' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing042Action' }
     methods:  [GET]
 
 landing043:
     path:  /landing/043/
-    defaults: { _controller: 'eldoPagesBundle:Landing:landing043' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::landing043Action' }
     methods:  [GET]
     
 landing_catcher_result:
     path:  /landing_catcher_result
-    defaults: { _controller: 'eldoPagesBundle:Landing:catcherResult' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\LandingController::catcherResultAction' }
     methods:  [POST]
 
 slimdoo_portal_index:
     path: /
-    defaults: { _controller: 'eldoPagesBundle:Portal:index' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::indexAction' }
     methods:  [GET]
 
 slimdoo_portal_free_products:
     path:  /free_products
-    defaults: { _controller: 'eldoPagesBundle:Portal:freeProducts' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::freeProductsAction' }
     methods:  [GET]
     options:
         sitemap: false
 
 slimdoo_portal_products:
     path:  /products
-    defaults: { _controller: 'eldoPagesBundle:Portal:products' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productsAction' }
     methods:  [GET]
 
 slimdoo_portal_products_list:
     path:  /products_list
-    defaults: { _controller: 'eldoPagesBundle:Portal:productsList', page: 1 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productsListAction', page: 1 }
     methods:  [GET]
 
 slimdoo_portal_products_list_page:
     path:  /products_list/page/{page}
-    defaults: { _controller: 'eldoPagesBundle:Portal:productsList' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productsListAction' }
     methods:  [GET]
     requirements:
         page: '\d+'
 
 slimdoo_portal_product_show:
     path:  /product/{id}/{slug}
-    defaults: { _controller: 'eldoPagesBundle:Portal:productShow' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productShowAction' }
     methods:  [GET]
     requirements:
         id: '\d+'
 
 slimdoo_portal_related_products:
     path:  /related_products/{id}/{tool}
-    defaults: { _controller: 'eldoPagesBundle:Portal:relatedProductsGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::relatedProductsGetAction' }
     methods:  [POST]
     requirements:
         id: '\d+'
@@ -329,7 +329,7 @@ slimdoo_portal_related_products:
         
 slimdoo_portal_variant_products:
     path:  /variant_products/{id}/{tool}
-    defaults: { _controller: 'eldoPagesBundle:Portal:variantProductsGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::variantProductsGetAction' }
     methods:  [POST]
     requirements:
         id: '\d+'
@@ -337,7 +337,7 @@ slimdoo_portal_variant_products:
         
 slimdoo_portal_variant_sizes:
     path:  /variant_sizes/{id}/{tool}
-    defaults: { _controller: 'eldoPagesBundle:Portal:variantSizesGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::variantSizesGetAction' }
     methods:  [POST]
     requirements:
         id: '\d+'
@@ -345,7 +345,7 @@ slimdoo_portal_variant_sizes:
         
 slimdoo_portal_linked_products:
     path:  /linked_products/{id}/{tool}
-    defaults: { _controller: 'eldoPagesBundle:Portal:linkedProductsGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::linkedProductsGetAction' }
     methods:  [POST]
     requirements:
         id: '\d+'
@@ -353,7 +353,7 @@ slimdoo_portal_linked_products:
         
 slimdoo_portal_product_comments:
     path:  /product_comments/{id}/{tool}
-    defaults: { _controller: 'eldoPagesBundle:Portal:productCommentsGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productCommentsGetAction' }
     methods:  [POST]
     requirements:
         id: '\d+'
@@ -361,1112 +361,1112 @@ slimdoo_portal_product_comments:
 
 slimdoo_portal_testimonials_section:
     path:  /testimonials_section
-    defaults: { _controller: 'eldoPagesBundle:Portal:testimonialsSectionGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::testimonialsSectionGetAction' }
     methods:  [POST]
     
 slimdoo_portal_partners_native:
     path:  /partners_native
-    defaults: { _controller: 'eldoPagesBundle:Portal:partnersNativeGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::partnersNativeGetAction' }
     methods:  [POST]
     
 slimdoo_portal_latests_tips:
     path:  /latests_tips
-    defaults: { _controller: 'eldoPagesBundle:Portal:latestsTipsGet' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::latestsTipsGetAction' }
     methods:  [POST]
 
 slimdoo_portal_catcher_result:
     path:  /catcher_result
-    defaults: { _controller: 'eldoPagesBundle:Portal:catcherResult' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catcherResultAction' }
     methods:  [POST]
 
 slimdoo_portal_ajax_modal:
     path:  /modal
-    defaults: { _controller: 'eldoPagesBundle:Portal:ajaxModal' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxModalAction' }
     methods:  [POST]
 
 slimdoo_portal_tips:
     path:  /tips
-    defaults: { _controller: 'eldoPagesBundle:Portal:tips' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::tipsAction' }
     methods:  [GET]
 
 slimdoo_portal_tip_show:
     path:  /tip/{id}/{slug}
-    defaults: { _controller: 'eldoPagesBundle:Portal:tipShow' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::tipShowAction' }
     methods:  [GET]
     requirements:
         id: '\d+'
         
 slimdoo_portal_recipes:
     path:  /recipes
-    defaults: { _controller: 'eldoPagesBundle:Portal:recipes' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::recipesAction' }
     methods:  [GET]
 
 slimdoo_portal_recipe_show:
     path:  /recipe/{id}/{slug}
-    defaults: { _controller: 'eldoPagesBundle:Portal:recipeShow' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::recipeShowAction' }
     methods:  [GET]
     requirements:
         id: '\d+'
         
 slimdoo_portal_testimonials:
     path:  /testimonials
-    defaults: { _controller: 'eldoPagesBundle:Portal:testimonials', page: 1 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::testimonialsAction', page: 1 }
     methods:  [GET]
 
 slimdoo_portal_testimonials_page:
     path:  /testimonials/page/{page}
-    defaults: { _controller: 'eldoPagesBundle:Portal:testimonials' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::testimonialsAction' }
     methods:  [GET]
     requirements:
         page: '\d+'
 
 slimdoo_portal_quality_charter:
     path:  /quality
-    defaults: { _controller: 'eldoPagesBundle:Portal:qualityCharter' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::qualityCharterAction' }
     methods:  [GET]
 
 slimdoo_portal_medias:
     path:  /medias
-    defaults: { _controller: 'eldoPagesBundle:Portal:medias' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::mediasAction' }
     methods:  [GET]
 
 slimdoo_portal_partners:
     path:  /partners
-    defaults: { _controller: 'eldoPagesBundle:Portal:partners' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::partnersAction' }
     methods:  [GET]
 
 slimdoo_portal_contact:
     path:  /contact
-    defaults: { _controller: 'eldoPagesBundle:Portal:contact' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::contactAction' }
     methods:  [GET, POST]
 
 slimdoo_portal_confirm:
     path:  /confirm/{identifier}/{token}
-    defaults: { _controller: 'eldoPagesBundle:Portal:confirm' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::confirmAction' }
     methods:  [GET, POST]
 
 slimdoo_portal_result:
     path:  /result/{identifier}/{token}
-    defaults: { _controller: 'eldoPagesBundle:Portal:result' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::resultAction' }
     methods:  [GET, POST]
 
 slimdoo_portal_tool:
     path:  /tool/{identifier}
-    defaults: { _controller: 'eldoPagesBundle:Portal:tool' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::toolAction' }
     methods:  [GET, POST]
 
 slimdoo_portal_email_instructions:
     path:  /email_instructions/{identifier}
-    defaults: { _controller: 'eldoPagesBundle:Portal:emailInstructions' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::emailInstructionsAction' }
     methods:  [GET, POST]
 
 slimdoo_portal_catalog:
     path:  /catalog
-    defaults: { _controller: 'eldoPagesBundle:Portal:catalog' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catalogAction' }
     methods:  [GET]
 
 slimdoo_portal_catalog_download:
     path:  /catalog_download
-    defaults: { _controller: 'eldoPagesBundle:Portal:catalogDownload' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catalogDownloadAction' }
     methods:  [GET]
 
 slimdoo_portal_catalog_show:
     path:  /catalog_show
-    defaults: { _controller: 'eldoPagesBundle:Portal:catalogShow' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catalogShowAction' }
     methods:  [GET]
 
 slimdoo_portal_catalog_footer:
     path:  /catalog_footer
-    defaults: { _controller: 'eldoPagesBundle:Portal:catalogFooter' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catalogFooterAction' }
     methods:  [GET]
 
 slimdoo_home:
     path:  /slimdoo
-    defaults: { _controller: 'eldoPagesBundle:Page:home' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::homeAction' }
     methods:  [GET, POST]
 
 slimdoo_pdv1:
     path:  /pdv/1
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv1' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv1Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv2:
     path:  /pdv/2
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv2' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv2Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv3:
     path:  /pdv/3
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv3' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv3Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv4:
     path:  /pdv/4
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv4' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv4Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv5:
     path:  /pdv/5
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv5' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv5Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv6:
     path:  /pdv/6
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv6' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv6Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv7:
     path:  /pdv/7
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv7' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv7Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv8:
     path:  /pdv/8
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv8' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv8Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv9:
     path:  /pdv/9
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv9' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv9Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv10:
     path:  /pdv/10
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv10' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv10Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv11:
     path:  /pdv/11
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv11' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv11Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv14:
     path:  /pdv/14
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv14' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv14Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv15:
     path:  /pdv/15
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv15' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv15Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv16:
     path:  /pdv/16
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv16' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv16Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv17:
     path:  /pdv/17
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv17' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv17Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv18:
     path:  /pdv/18
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv18' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv18Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv19:
     path:  /pdv/19
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv19' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv19Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv20:
     path:  /pdv/20
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv20' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv20Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv21:
     path:  /pdv/21
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv21' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv21Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv22:
     path:  /pdv/22
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv22' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv22Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv23:
     path:  /pdv/23
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv23' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv23Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv24:
     path:  /pdv/24
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv24' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv24Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv25:
     path:  /pdv/25
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv25' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv25Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv26:
     path:  /pdv/26
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv26' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv26Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv27:
     path:  /pdv/27
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv27' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv27Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv28:
     path:  /pdv/28
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv28' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv28Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv29:
     path:  /pdv/29
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv29' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv29Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv30:
     path:  /pdv/30
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv30' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv30Action' }
     methods:  [GET, POST]
 
 slimdoo_pdv31:
     path:  /pdv/31
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv31' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv31Action' }
     methods:  [GET]
 
 slimdoo_pdv32:
     path:  /pdv/32
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv32' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv32Action' }
     methods:  [GET]
 
 slimdoo_pdv33:
     path:  /pdv/33
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv33' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv33Action' }
     methods:  [GET]
 
 slimdoo_pdv34:
     path:  /pdv/34
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv34' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv34Action' }
     methods:  [GET]
 
 slimdoo_pdv35:
     path:  /pdv/35
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv35' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv35Action' }
     methods:  [GET]
 
 slimdoo_pdv36:
     path:  /pdv/36
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv36' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv36Action' }
     methods:  [GET]
 
 slimdoo_pdv37:
     path:  /pdv/37
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv37' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv37Action' }
     methods:  [GET]
 
 slimdoo_pdv38:
     path:  /pdv/38
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv38' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv38Action' }
     methods:  [GET]
 
 slimdoo_pdv39:
     path:  /pdv/39
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv39' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv39Action' }
     methods:  [GET]
 
 slimdoo_pdv40:
     path:  /pdv/40
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv40' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv40Action' }
     methods:  [GET]
 
 slimdoo_pdv41:
     path:  /pdv/41
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv41' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv41Action' }
     methods:  [GET]
 
 slimdoo_pdv42:
     path:  /pdv/42
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv42' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv42Action' }
     methods:  [GET]
 
 slimdoo_pdv43:
     path:  /pdv/43
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv43' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv43Action' }
     methods:  [GET]
 
 slimdoo_pdv44:
     path:  /pdv/44
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv44' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv44Action' }
     methods:  [GET]
 
 slimdoo_pdv45:
     path:  /pdv/45
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv45' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv45Action' }
     methods:  [GET]
 
 slimdoo_pdv46:
     path:  /pdv/46
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv46' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv46Action' }
     methods:  [GET]
 
 slimdoo_pdv47:
     path:  /pdv/47
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv47' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv47Action' }
     methods:  [GET]
 
 slimdoo_pdv48:
     path:  /pdv/48
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv48' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv48Action' }
     methods:  [GET]
 
 slimdoo_pdv49:
     path:  /pdv/49
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv49' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv49Action' }
     methods:  [GET]
 
 slimdoo_pdv50:
     path:  /pdv/50
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv50' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv50Action' }
     methods:  [GET]
 
 slimdoo_pdv51:
     path:  /pdv/51
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv51' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv51Action' }
     methods:  [GET]
 
 slimdoo_pdv52:
     path:  /pdv/52
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv52' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv52Action' }
     methods:  [GET]
 
 slimdoo_pdv53:
     path:  /pdv/53
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv53' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv53Action' }
     methods:  [GET]
 
 slimdoo_pdv54:
     path:  /pdv/54
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv54' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv54Action' }
     methods:  [GET]
 
 slimdoo_pdv55:
     path:  /pdv/55
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv55' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv55Action' }
     methods:  [GET]
 
 slimdoo_pdv56:
     path:  /pdv/56
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv56' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv56Action' }
     methods:  [GET]
 
 slimdoo_pdv57:
     path:  /pdv/57
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv57' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv57Action' }
     methods:  [GET]
 
 slimdoo_pdv58:
     path:  /pdv/58
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv58' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv58Action' }
     methods:  [GET]
 
 slimdoo_pdv59:
     path:  /pdv/59
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv59' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv59Action' }
     methods:  [GET]
 
 slimdoo_pdv60:
     path:  /pdv/60
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv60' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv60Action' }
     methods:  [GET]
 
 slimdoo_pdv61:
     path:  /pdv/61
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv61' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv61Action' }
     methods:  [GET]
 
 slimdoo_pdv62:
     path:  /pdv/62
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv62' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv62Action' }
     methods:  [GET]
 
 slimdoo_pdv63:
     path:  /pdv/63
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv63' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv63Action' }
     methods:  [GET]
 
 slimdoo_pdv64:
     path:  /pdv/64
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv64' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv64Action' }
     methods:  [GET]
 
 slimdoo_pdv65:
     path:  /pdv/65
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv65' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv65Action' }
     methods:  [GET]
 
 slimdoo_pdv66:
     path:  /pdv/66
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv66' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv66Action' }
     methods:  [GET]
 
 slimdoo_pdv67:
     path:  /pdv/67
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv67' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv67Action' }
     methods:  [GET]
 
 slimdoo_pdv68:
     path:  /pdv/68
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv68' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv68Action' }
     methods:  [GET]
 
 slimdoo_pdv69:
     path:  /pdv/69
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv69' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv69Action' }
     methods:  [GET]
 
 slimdoo_pdv70:
     path:  /pdv/70
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv70' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv70Action' }
     methods:  [GET]
 
 slimdoo_pdv71:
     path:  /pdv/71
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv71' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv71Action' }
     methods:  [GET]
 
 slimdoo_pdv72:
     path:  /pdv/72
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv72' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv72Action' }
     methods:  [GET]
 
 slimdoo_pdv73:
     path:  /pdv/73
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv73' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv73Action' }
     methods:  [GET]
 
 slimdoo_pdv74:
     path:  /pdv/74
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv74' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv74Action' }
     methods:  [GET]
 
 slimdoo_pdv75:
     path:  /pdv/75
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv75' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv75Action' }
     methods:  [GET]
 
 slimdoo_pdv76:
     path:  /pdv/76
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv76' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv76Action' }
     methods:  [GET]
 
 slimdoo_pdv77:
     path:  /pdv/77
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv77' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv77Action' }
     methods:  [GET]
 
 slimdoo_pdv78:
     path:  /pdv/78
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv78' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv78Action' }
     methods:  [GET]
 
 slimdoo_pdv79:
     path:  /pdv/79
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv79' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv79Action' }
     methods:  [GET]
 
 slimdoo_pdv80:
     path:  /pdv/80
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv80' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv80Action' }
     methods:  [GET]
 
 slimdoo_pdv81:
     path:  /pdv/81
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv81' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv81Action' }
     methods:  [GET]
 
 slimdoo_pdv82:
     path:  /pdv/82
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv82' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv82Action' }
     methods:  [GET]
 
 slimdoo_pdv83:
     path:  /pdv/83
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv83' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv83Action' }
     methods:  [GET]
 
 slimdoo_pdv84:
     path:  /pdv/84
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv84' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv84Action' }
     methods:  [GET]
 
 slimdoo_pdv85:
     path:  /pdv/85
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv85' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv85Action' }
     methods:  [GET]
 
 slimdoo_pdv86:
     path:  /pdv/86
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv86' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv86Action' }
     methods:  [GET]
 
 slimdoo_pdv87:
     path:  /pdv/87
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv87' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv87Action' }
     methods:  [GET]
 
 slimdoo_pdv88:
     path:  /pdv/88
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv88' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv88Action' }
     methods:  [GET]
 
 slimdoo_pdv89:
     path:  /pdv/89
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv89' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv89Action' }
     methods:  [GET]
 
 slimdoo_pdv90:
     path:  /pdv/90
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv90' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv90Action' }
     methods:  [GET]
 
 slimdoo_pdv91:
     path:  /pdv/91
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv91' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv91Action' }
     methods:  [GET]
 
 slimdoo_pdv92:
     path:  /pdv/92
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv92' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv92Action' }
     methods:  [GET]
 
 slimdoo_pdv93:
     path:  /pdv/93
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv93' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv93Action' }
     methods:  [GET]
 
 slimdoo_pdv94:
     path:  /pdv/94
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv94' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv94Action' }
     methods:  [GET]
 
 slimdoo_pdv95:
     path:  /pdv/95
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv95' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv95Action' }
     methods:  [GET]
 
 slimdoo_pdv96:
     path:  /pdv/96
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv96' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv96Action' }
     methods:  [GET]
 
 slimdoo_pdv97:
     path:  /pdv/97
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv97' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv97Action' }
     methods:  [GET]
 
 slimdoo_pdv98:
     path:  /pdv/98
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv98' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv98Action' }
     methods:  [GET]
 
 slimdoo_pdv99:
     path:  /pdv/99
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv99' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv99Action' }
     methods:  [GET]
 
 slimdoo_pdv100:
     path:  /pdv/100
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv100' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv100Action' }
     methods:  [GET]
 
 slimdoo_pdv102:
     path:  /pdv/102
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv102' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv102Action' }
     methods:  [GET]
 
 slimdoo_pdv103:
     path:  /pdv/103
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv103' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv103Action' }
     methods:  [GET]
 
 slimdoo_pdv104:
     path:  /pdv/104
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv104' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv104Action' }
     methods:  [GET]
 
 slimdoo_pdv105:
     path:  /pdv/105
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv105' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv105Action' }
     methods:  [GET]
 
 slimdoo_pdv106:
     path:  /pdv/106
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv106' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv106Action' }
     methods:  [GET]
 
 slimdoo_pdv107:
     path:  /pdv/107
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv107' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv107Action' }
     methods:  [GET]
 
 slimdoo_pdv108:
     path:  /pdv/108
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv108' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv108Action' }
     methods:  [GET]
 
 slimdoo_pdv109:
     path:  /pdv/109
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv109' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv109Action' }
     methods:  [GET]
 
 slimdoo_pdv110:
     path:  /pdv/110
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv110' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv110Action' }
     methods:  [GET]
 
 slimdoo_pdv111:
     path:  /pdv/111
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv111' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv111Action' }
     methods:  [GET]
 
 slimdoo_pdv112:
     path:  /pdv/112
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv112' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv112Action' }
     methods:  [GET]
 
 slimdoo_pdv113:
     path:  /pdv/113
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv113' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv113Action' }
     methods:  [GET]
 
 slimdoo_pdv114:
     path:  /pdv/114
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv114' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv114Action' }
     methods:  [GET]
 
 slimdoo_pdv115:
     path:  /pdv/115
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv115' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv115Action' }
     methods:  [GET]
 
 slimdoo_pdv116:
     path:  /pdv/116
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv116' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv116Action' }
     methods:  [GET]
 
 slimdoo_pdv117:
     path:  /pdv/117
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv117' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv117Action' }
     methods:  [GET]
 
 slimdoo_pdv118:
     path:  /pdv/118
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv118' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv118Action' }
     methods:  [GET]
 
 slimdoo_pdv119:
     path:  /pdv/119
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv119' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv119Action' }
     methods:  [GET]
 
 slimdoo_pdv120:
     path:  /pdv/120
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv120' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv120Action' }
     methods:  [GET]
 
 slimdoo_pdv121:
     path:  /pdv/121
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv121' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv121Action' }
     methods:  [GET]
 
 slimdoo_pdv122:
     path:  /pdv/122
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv122' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv122Action' }
     methods:  [GET]
 
 slimdoo_pdv123:
     path:  /pdv/123
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv123' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv123Action' }
     methods:  [GET]
 
 slimdoo_pdv124:
     path:  /pdv/124
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv124' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv124Action' }
     methods:  [GET]
 
 slimdoo_pdv125:
     path:  /pdv/125
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv125' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv125Action' }
     methods:  [GET]
 
 slimdoo_pdv126:
     path:  /pdv/126
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv126' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv126Action' }
     methods:  [GET]
 
 slimdoo_pdv127:
     path:  /pdv/127
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv127' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv127Action' }
     methods:  [GET]
 
 slimdoo_pdv128:
     path:  /pdv/128
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv128' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv128Action' }
     methods:  [GET]
 
 slimdoo_pdv129:
     path:  /pdv/129
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv129' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv129Action' }
     methods:  [GET]
 
 slimdoo_pdv130:
     path:  /pdv/130
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv130' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv130Action' }
     methods:  [GET]
 
 slimdoo_pdv131:
     path:  /pdv/131
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv131' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv131Action' }
     methods:  [GET]
 
 slimdoo_pdv132:
     path:  /pdv/132
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv132' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv132Action' }
     methods:  [GET]
 
 slimdoo_pdv133:
     path:  /pdv/133
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv133' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv133Action' }
     methods:  [GET]
 
 slimdoo_pdv134:
     path:  /pdv/134
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv134' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv134Action' }
     methods:  [GET]
 
 slimdoo_pdv135:
     path:  /pdv/135
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv135' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv135Action' }
     methods:  [GET]
 
 slimdoo_pdv136:
     path:  /pdv/136
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv136' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv136Action' }
     methods:  [GET]
 
 slimdoo_pdv137:
     path:  /pdv/137
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv137' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv137Action' }
     methods:  [GET]
 
 slimdoo_pdv138:
     path:  /pdv/138
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv138' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv138Action' }
     methods:  [GET]
 
 slimdoo_pdv139:
     path:  /pdv/139
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv139' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv139Action' }
     methods:  [GET]
 
 slimdoo_pdv140:
     path:  /pdv/140
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv140' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv140Action' }
     methods:  [GET]
 
 slimdoo_pdv141:
     path:  /pdv/141
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv141' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv141Action' }
     methods:  [GET]
 
 slimdoo_pdv142:
     path:  /pdv/142
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv142' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv142Action' }
     methods:  [GET]
 
 slimdoo_pdv143:
     path:  /pdv/143
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv143' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv143Action' }
     methods:  [GET]
 
 slimdoo_pdv144:
     path:  /pdv/144
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv144' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv144Action' }
     methods:  [GET]
 
 slimdoo_pdv145:
     path:  /pdv/145
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv145' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv145Action' }
     methods:  [GET]
 
 slimdoo_pdv146:
     path:  /pdv/146
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv146' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv146Action' }
     methods:  [GET]
 
 slimdoo_pdv147:
     path:  /pdv/147
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv147' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv147Action' }
     methods:  [GET]
 
 slimdoo_pdv148:
     path:  /pdv/148
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv148' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv148Action' }
     methods:  [GET]
         
 slimdoo_pdv149:
     path:  /pdv/149
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv149' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv149Action' }
     methods:  [GET]
         
 slimdoo_pdv150:
     path:  /pdv/150
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv150' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv150Action' }
     methods:  [GET]
         
 slimdoo_pdv151:
     path:  /pdv/151
-    defaults: { _controller: eldoPagesBundle:Page:pdv151 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv151Action' }
     methods:  [GET]
         
 slimdoo_pdv152:
     path:  /pdv/152
-    defaults: { _controller: eldoPagesBundle:Page:pdv152 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv152Action' }
     methods:  [GET]
         
 slimdoo_pdv153:
     path:  /pdv/153
-    defaults: { _controller: eldoPagesBundle:Page:pdv153 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv153Action' }
     methods:  [GET]
 
 thetoujours_pdv201:
     path:  /pdv/201
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv201' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv201Action' }
     methods:  [GET]
 
 thetoujours_pdv202:
     path:  /pdv/202
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv202' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv202Action' }
     methods:  [GET]
 
 thetoujours_pdv203:
     path:  /pdv/203
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv203' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv203Action' }
     methods:  [GET]
 
 thetoujours_pdv204:
     path:  /pdv/204
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv204' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv204Action' }
     methods:  [GET]
 
 thetoujours_pdv205:
     path:  /pdv/205
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv205' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv205Action' }
     methods:  [GET]
 
 thetoujours_pdv206:
     path:  /pdv/206
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv206' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv206Action' }
     methods:  [GET]
 
 thetoujours_pdv207:
     path:  /pdv/207
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv207' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv207Action' }
     methods:  [GET]
 
 thetoujours_pdv208:
     path:  /pdv/208
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv208' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv208Action' }
     methods:  [GET]
 
 thetoujours_pdv209:
     path:  /pdv/209
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv209' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv209Action' }
     methods:  [GET]
 
 thetoujours_pdv210:
     path:  /pdv/210
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv210' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv210Action' }
     methods:  [GET]
 
 thetoujours_pdv211:
     path:  /pdv/211
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv211' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv211Action' }
     methods:  [GET]
 
 thetoujours_pdv212:
     path:  /pdv/212
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv212' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv212Action' }
     methods:  [GET]
 
 slimdoo_pdv213:
     path:  /pdv/213
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv213' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv213Action' }
     methods:  [GET]
 
 slimdoo_pdv214:
     path:  /pdv/214
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv214' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv214Action' }
     methods:  [GET]
 
 slimdoo_pdv215:
     path:  /pdv/215
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv215' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv215Action' }
     methods:  [GET]
 
 slimdoo_pdv216:
     path:  /pdv/216
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv216' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv216Action' }
     methods:  [GET]
 
 thetoujours_pdv217:
     path:  /pdv/217
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv217' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv217Action' }
     methods:  [GET]
 
 slimdoo_pdv218:
     path:  /pdv/218
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv218' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv218Action' }
     methods:  [GET]
 
 slimdoo_pdv219:
     path:  /pdv/219
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv219' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv219Action' }
     methods:  [GET]
 
 slimdoo_pdv220:
     path:  /pdv/220
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv220' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv220Action' }
     methods:  [GET]
 
 thetoujours_pdv221:
     path:  /pdv/221
-    defaults: { _controller: 'eldoPagesBundle:Page:pdv221' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv221Action' }
     methods:  [GET]
 
 slimdoo_internetplus_modal:
     path:  /internetplusModal
-    defaults: { _controller: 'eldoPagesBundle:Page:internetplusModal' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::internetplusModalAction' }
     methods:  [POST]
 
 slimdoo_internetplus:
     path:  /internetplus
-    defaults: { _controller: 'eldoPagesBundle:Page:internetplus' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::internetplusAction' }
     methods:  [GET, POST]
 
 slimdoo_audiotel_home:
     path:  /audiotel
-    defaults: { _controller: 'eldoPagesBundle:Audiotel:home' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\AudiotelController::homeAction' }
     methods:  [GET]
 
 slimdoo_sms_home:
     path:  /sms
-    defaults: { _controller: 'eldoPagesBundle:Sms:home' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\SmsController::homeAction' }
     methods:  [GET]
 
 example_home:
     path:  /example/
-    defaults: { _controller: 'eldoPagesBundle:Example:home' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ExampleController::homeAction' }
     methods:  [GET, POST]
 
 slimdoo_gateway:
     path:  /g
-    defaults: { _controller: 'eldoPagesBundle:Page:gateway' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::gatewayAction' }
     methods:  [GET, POST]
 
 _slimdoo_track:
     path:  /track
-    defaults: { _controller: 'eldoPagesBundle:Page:track' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::trackAction' }
     methods:  [GET]
 
 _page_redirect:
     path:  /r/{shortCode}
-    defaults: { _controller: eldoPagesBundle:Page:redirect }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::redirectAction' }
     methods:  [GET]
 
 check_email:
     path:  /check_email
-    defaults: { _controller: eldoMainBundle:Ajax:checkEmail' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\AjaxController::checkEmailAction' }
     methods:  [POST]
 
 testimonial_show_product_page:
     path:  /testimonial/{product}/page/{page}
-    defaults: { _controller: 'eldoPagesBundle:Testimonial:show' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\TestimonialController::showAction' }
     methods:  [GET, POST]
     requirements:
         page: '\d+'
 
 testimonial_show_product:
     path:  /testimonial/{product}
-    defaults: { _controller: 'eldoPagesBundle:Testimonial:show', page: 1 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\TestimonialController::showAction', page: 1 }
     methods:  [GET, POST]
 
 testimonial_show_page:
     path:  /testimonial/page/{page}
-    defaults: { _controller: 'eldoPagesBundle:Testimonial:show' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\TestimonialController::showAction' }
     methods:  [GET, POST]
     requirements:
         page: '\d+'
 
 testimonial_show:
     path:  /testimonial
-    defaults: { _controller: 'eldoPagesBundle:Testimonial:show', page: 1 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\TestimonialController::showAction', page: 1 }
     methods:  [GET, POST]
 
 video_show:
     path:  /video
-    defaults: { _controller: 'eldoPagesBundle:Content:video' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ContentController::videoAction' }
     methods:  [POST]
 
 content_show_image:
     path:  /content/img/{identifier}
-    defaults: { _controller: 'eldoPagesBundle:Content:contentImage' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ContentController::contentImageAction' }
     methods:  [GET, POST]
 
 content_show_pdf:
     path:  /content/pdf/{identifier}
-    defaults: { _controller: 'eldoPagesBundle:Content:contentPdf' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ContentController::contentPdfAction' }
     methods:  [GET, POST]
 
 content_show:
     path:  /content/{identifier}
-    defaults: { _controller: 'eldoPagesBundle:Content:content' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\ContentController::contentAction' }
     methods:  [GET, POST]
 
 slimdoo_ajax_cart:
     path:  /getCart
-    defaults: { _controller: 'eldoPagesBundle:Portal:ajaxCart' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxCartAction' }
     methods:  [POST]
 
 slimdoo_ajax_addtocart:
     path:  /addToCart
-    defaults: { _controller: 'eldoPagesBundle:Portal:ajaxAddToCart' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxAddToCartAction' }
     methods:  [POST]
 
 slimdoo_ajax_chooseforcart:
     path:  /chooseForCart
-    defaults: { _controller: 'eldoPagesBundle:Portal:ajaxChooseForCart' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxChooseForCartAction' }
     methods:  [POST]
 
 slimdoo_ajax_updatecart:
     path:  /updateCart
-    defaults: { _controller: 'eldoPagesBundle:Portal:ajaxUpdateCart' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxUpdateCartAction' }
     methods:  [POST]
 
 slimdoo_ajax_catcher:
     path:  /catcher
-    defaults: { _controller: 'eldoPagesBundle:Page:ajaxCatcher' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::ajaxCatcherAction' }
     methods:  [POST]
 
 slimdoo_ajax_optin:
     path:  /optin
-    defaults: { _controller: 'eldoPagesBundle:Page:ajaxOptin' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::ajaxOptinAction' }
     methods:  [POST]
 
 slimdoo_ajax_terms:
     path:  /terms
-    defaults: { _controller: 'eldoPagesBundle:Page:ajaxTerms' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::ajaxTermsAction' }
     methods:  [POST]
 
 customers_ajax_notify:
     path:  /notify
-    defaults: { _controller: 'eldoPagesBundle:Page:ajaxNotify' }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::ajaxNotifyAction' }
     methods:  [POST]
 
 eldo_tools:
