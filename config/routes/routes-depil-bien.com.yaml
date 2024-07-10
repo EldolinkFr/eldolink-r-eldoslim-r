@@ -1,4 +1,4 @@
 depil-bien.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv108 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv108Action' }
     methods:  [GET, POST]

@@ -1,4 +1,4 @@
 electro-bien.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv128 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv128Action' }
     methods:  [GET, POST]

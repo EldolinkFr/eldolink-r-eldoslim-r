@@ -1,4 +1,4 @@
 minceur-facile.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv106 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv106Action' }
     methods:  [GET, POST]

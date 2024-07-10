@@ -1,4 +1,4 @@
 sublym-body.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv103 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv103Action' }
     methods:  [GET, POST]

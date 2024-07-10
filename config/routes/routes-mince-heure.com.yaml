@@ -1,4 +1,4 @@
 mince-heure.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv117 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv117Action' }
     methods:  [GET, POST]

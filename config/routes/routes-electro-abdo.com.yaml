@@ -1,4 +1,4 @@
 electro-abdo.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv150 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv150Action' }
     methods:  [GET, POST]

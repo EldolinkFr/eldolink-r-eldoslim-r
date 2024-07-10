@@ -1,4 +1,4 @@
 neo-ventre.com-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv129 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv129Action' }
     methods:  [GET, POST]

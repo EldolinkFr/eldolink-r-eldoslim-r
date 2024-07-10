@@ -1,4 +1,4 @@
 the-toujours.fr-index:
     path: /
-    defaults: { _controller: eldoPagesBundle:Page:pdv203 }
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv203Action' }
     methods:  [GET, POST]
