@@ -17,8 +17,8 @@
         <jms:reference-file line="35">views/Exception/error.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="730f688824fb2873dbcb562c172dd5ac16865485" resname="app.twig.exception.title">
-        <source>Erreur %status%</source>
-        <target>Erreur %status%</target>
+        <source>Erreur {status}</source>
+        <target>Erreur {status}</target>
         <jms:reference-file line="4">views/Exception/error404.html.twig</jms:reference-file>
         <jms:reference-file line="4">views/Exception/error.html.twig</jms:reference-file>
       </trans-unit>

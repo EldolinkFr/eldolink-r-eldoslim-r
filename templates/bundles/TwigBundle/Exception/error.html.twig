@@ -1,6 +1,6 @@
 {% extends '@eldoPages/layout.html.twig' %}
 
-{% block title %}{{ parent() }} - {{ 'app.twig.exception.title'|trans({'%status%':status_text}, 'slimdoo')|desc('Erreur %status%') }}{% endblock %}
+{% block title %}{{ parent() }} - {{ 'app.twig.exception.title'|trans({'{status}':status_text}, 'slimdoo')|desc('Erreur {status}') }}{% endblock %}
 
 {% block metas %}
     <link href="{{ asset('favicon.ico') }}" rel="shortcut icon">
