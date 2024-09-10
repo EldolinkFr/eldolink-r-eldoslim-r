@@ -26,20 +26,6 @@ liip_imagine:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
 # Local Loader
-        local_ico:
-            data_loader: default
-            filters:
-                thumbnail: { size: [16, 16], mode: outbound, allow_upscale: true }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
-                optipng: { strip_all: true, level: 5 }
-        local_apple_touch_icon:
-            data_loader: default
-            filters:
-                thumbnail: { size: [129, 129], mode: outbound, allow_upscale: true }
-            post_processors:
-                jpegoptim: { strip_all: true, max: 70, progressive: true }
-                optipng: { strip_all: true, level: 5 }
         local_16x16:
             data_loader: default
             filters:
