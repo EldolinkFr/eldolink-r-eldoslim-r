@@ -224,6 +224,12 @@ liip_imagine:
             post_processors:
                 jpegoptim: { strip_all: true, max: 70, progressive: true }
                 optipng: { strip_all: true, level: 5 }
+        s3_270x270:
+            filters:
+                thumbnail: { size: [270, 270], mode: outbound, allow_upscale: true }
+            post_processors:
+                jpegoptim: { strip_all: true, max: 70, progressive: true }
+                optipng: { strip_all: true, level: 5 }
         s3_261x142:
             filters:
                 thumbnail: { size: [261, 142], mode: outbound, allow_upscale: true }
