@@ -9,7 +9,7 @@ parameters:
     app_name: '%env(resolve:app_name)%'
     app_admin_email: '%env(resolve:app_admin_email)%'
     app_cdn_url: '%env(resolve:app_cdn_url)%'
-    app_default_locale: fr
+    app_default_locale: 'fr'
     app_locales: ['en', 'fr', 'es', 'de', 'it', 'pt']
     app_testing_offers: {}
     app_no_exit: {}
