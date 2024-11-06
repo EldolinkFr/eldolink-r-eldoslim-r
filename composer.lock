@@ -2225,7 +2225,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "9946d4b4d1dffde3c9c1be5aa820d2f9d330b209"
+                "reference": "b0f309c4587d8c747e7b247191c5bd6a708069e7"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2260,7 +2260,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-11-05T09:53:23+00:00"
+            "time": "2024-11-06T10:44:35+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -7555,16 +7555,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.45",
+            "version": "v5.4.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "54118c6340dc6831a00f10b296ea6e80592ec89d"
+                "reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/54118c6340dc6831a00f10b296ea6e80592ec89d",
-                "reference": "54118c6340dc6831a00f10b296ea6e80592ec89d",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
+                "reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
                 "shasum": ""
             },
             "require": {
@@ -7626,7 +7626,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.45"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.46"
             },
             "funding": [
                 {
@@ -7642,7 +7642,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:11:13+00:00"
+            "time": "2024-10-25T11:45:42+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
