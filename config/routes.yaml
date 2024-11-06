@@ -326,7 +326,7 @@ slimdoo_portal_related_products:
     requirements:
         id: '\d+'
         tool: '\d+'
-        
+
 slimdoo_portal_variant_products:
     path:  /variant_products/{id}/{tool}
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::variantProductsGetAction' }
@@ -334,7 +334,7 @@ slimdoo_portal_variant_products:
     requirements:
         id: '\d+'
         tool: '\d+'
-        
+
 slimdoo_portal_variant_sizes:
     path:  /variant_sizes/{id}/{tool}
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::variantSizesGetAction' }
@@ -342,7 +342,7 @@ slimdoo_portal_variant_sizes:
     requirements:
         id: '\d+'
         tool: '\d+'
-        
+
 slimdoo_portal_linked_products:
     path:  /linked_products/{id}/{tool}
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::linkedProductsGetAction' }
@@ -350,7 +350,7 @@ slimdoo_portal_linked_products:
     requirements:
         id: '\d+'
         tool: '\d+'
-        
+
 slimdoo_portal_product_comments:
     path:  /product_comments/{id}/{tool}
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::productCommentsGetAction' }
@@ -395,7 +395,7 @@ slimdoo_portal_tip_show:
     methods:  [GET]
     requirements:
         id: '\d+'
-        
+
 slimdoo_portal_recipes:
     path:  /recipes
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::recipesAction' }
@@ -407,7 +407,7 @@ slimdoo_portal_recipe_show:
     methods:  [GET]
     requirements:
         id: '\d+'
-        
+
 slimdoo_portal_testimonials:
     path:  /testimonials
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::testimonialsAction', page: 1 }
@@ -1209,30 +1209,45 @@ slimdoo_pdv148:
     path:  /pdv/148
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv148Action' }
     methods:  [GET]
-        
+
 slimdoo_pdv149:
     path:  /pdv/149
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv149Action' }
     methods:  [GET]
-        
+
 slimdoo_pdv150:
     path:  /pdv/150
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv150Action' }
     methods:  [GET]
-        
+
 slimdoo_pdv151:
     path:  /pdv/151
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv151Action' }
     methods:  [GET]
-        
+
 slimdoo_pdv152:
     path:  /pdv/152
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv152Action' }
     methods:  [GET]
-        
+
 slimdoo_pdv153:
     path:  /pdv/153
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv153Action' }
+    methods:  [GET]
+
+slimdoo_pdv154:
+    path:  /pdv/154
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv154Action' }
+    methods:  [GET]
+
+slimdoo_pdv155:
+    path:  /pdv/155
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv155Action' }
+    methods:  [GET]
+
+slimdoo_pdv156:
+    path:  /pdv/156
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv156Action' }
     methods:  [GET]
 
 thetoujours_pdv201:
