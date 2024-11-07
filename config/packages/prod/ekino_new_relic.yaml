@@ -1,2 +1,16 @@
 ekino_new_relic:
     enabled: true
+    application_name: "%app.name%"
+    deployment_names: ~
+    api_key: '%env(resolve:NEWRELIC_API_KEY)%'
+    xmit: false
+    logging: true
+    instrument: false
+    log_exceptions: true
+    log_commands: true
+    using_symfony_cache: false
+    transaction_naming: route
+    transaction_naming_service: ~
+    ignored_routes: []                    # No transaction recorded for this routes
+    ignored_paths: []                     # No transaction recorded for this paths
+    ignored_commands: []                  # No transaction recorded for this commands (background tasks)
