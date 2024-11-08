@@ -9,3 +9,4 @@ liip_imagine:
                     region: '%env(resolve:amazon_s3_region)%'
                     version: 'latest'
                 bucket: '%env(resolve:amazon_s3_medias_bucket_name)%cache'
+                proxies: ['%env(resolve:app_cache_url)%']
