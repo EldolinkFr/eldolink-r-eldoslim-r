@@ -1,6 +1,11 @@
-# See dos how to configure the bundle: https://symfony.com/doc/current/bundles/LiipImagineBundle/basic-usage.html
 liip_imagine:
     resolvers:
         resolver_s3_medias:
             aws_s3:
-                proxies: ['%env(resolve:app_cache_url)%']
+                client_config:
+                    credentials:
+                        key: '%env(resolve:amazon_s3_key)%'
+                        secret: '%env(resolve:amazon_s3_secret)%'
+                    region: '%env(resolve:amazon_s3_region)%'
+                    version: 'latest'
+                bucket: '%env(resolve:amazon_s3_medias_bucket_name)%cache'
