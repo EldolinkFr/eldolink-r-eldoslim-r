@@ -2139,7 +2139,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "85f7c0aaf87f3fe474901982cad69407c7e3cd1b"
+                "reference": "9e7c64ab3d79866b3b4419f1d09f15e83e3bfaf5"
             },
             "require": {
                 "aws/aws-sdk-php": "3.319.2",
@@ -2217,7 +2217,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-10-31T14:35:17+00:00"
+            "time": "2024-11-07T16:14:28+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2225,7 +2225,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "1bd842ee424808d010e437fa49a3ea72391e500f"
+                "reference": "f8b41c58a3de94f2b7dc9c84dc34c4c32334ae4f"
             },
             "require": {
                 "components/font-awesome": "^4.7",
@@ -2260,7 +2260,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-11-06T11:22:10+00:00"
+            "time": "2024-11-15T09:08:57+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -4819,29 +4819,27 @@
         },
         {
             "name": "maxmind-db/reader",
-            "version": "v1.11.1",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
-                "reference": "1e66f73ffcf25e17c7a910a1317e9720a95497c7"
+                "reference": "5b2d7a721dedfaef9dc20822c5fe7d26f9f8eb90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/1e66f73ffcf25e17c7a910a1317e9720a95497c7",
-                "reference": "1e66f73ffcf25e17c7a910a1317e9720a95497c7",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/5b2d7a721dedfaef9dc20822c5fe7d26f9f8eb90",
+                "reference": "5b2d7a721dedfaef9dc20822c5fe7d26f9f8eb90",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
             "conflict": {
-                "ext-maxminddb": "<1.11.1,>=2.0.0"
+                "ext-maxminddb": "<1.11.1 || >=2.0.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "3.*",
-                "php-coveralls/php-coveralls": "^2.1",
                 "phpstan/phpstan": "*",
-                "phpunit/phpcov": ">=6.0.0",
                 "phpunit/phpunit": ">=8.0.0,<10.0.0",
                 "squizlabs/php_codesniffer": "3.*"
             },
@@ -4878,9 +4876,9 @@
             ],
             "support": {
                 "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
-                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.11.1"
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.12.0"
             },
-            "time": "2023-12-02T00:09:23+00:00"
+            "time": "2024-11-14T22:43:47+00:00"
         },
         {
             "name": "maxmind/web-service-common",
@@ -7555,16 +7553,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.46",
+            "version": "v5.4.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71"
+                "reference": "3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
-                "reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde",
+                "reference": "3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde",
                 "shasum": ""
             },
             "require": {
@@ -7626,7 +7624,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.46"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.47"
             },
             "funding": [
                 {
@@ -7642,7 +7640,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-10-25T11:45:42+00:00"
+            "time": "2024-11-13T12:18:12+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -10103,16 +10101,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.7",
+            "version": "1.12.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0"
+                "reference": "fc463b5d0fe906dcf19689be692c65c50406a071"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
-                "reference": "dc2b9976bd8b0f84ec9b0e50cc35378551de7af0",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fc463b5d0fe906dcf19689be692c65c50406a071",
+                "reference": "fc463b5d0fe906dcf19689be692c65c50406a071",
                 "shasum": ""
             },
             "require": {
@@ -10157,7 +10155,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-18T11:12:07+00:00"
+            "time": "2024-11-11T15:37:09+00:00"
         },
         {
             "name": "rector/rector",
