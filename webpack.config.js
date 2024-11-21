@@ -85,7 +85,7 @@ if (Encore.isProduction()) {
         throw env.error;
     }
 
-    Encore.setPublicPath(env.parsed.app_cdn_url);
+    Encore.setPublicPath(env.parsed.app_cdn_url+'/build');
     Encore.setManifestKeyPrefix('build/');
 }
 
