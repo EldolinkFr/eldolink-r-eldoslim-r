@@ -9,5 +9,5 @@ twig:
         default_currency: '%env(resolve:app_default_currency)%'
         default_locale: '%env(resolve:app_default_locale)%'
         default_affiliate: '%env(resolve:app_default_affiliate)%'
-        use_affiliate: '%env(resolve:app_use_affiliate)%'
+        use_affiliate: '%env(bool:app_use_affiliate)%'
         maxQuantity: '%env(resolve:app_maxQuantity)%'
