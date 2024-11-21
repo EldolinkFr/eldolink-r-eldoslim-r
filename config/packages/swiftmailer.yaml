@@ -1,3 +1,10 @@
 swiftmailer:
-    url: '%env(MAILER_URL)%'
-    spool: { type: 'memory' }
+    default_mailer: sendgrid
+    mailers:
+        sendgrid:
+            transport: "smtp"
+            host:      "smtp.sendgrid.net"
+            port:      "587"
+            username:  "apikey"
+            password:  "%env(resolve:sendgrid_api_key)%"
+            spool: { type: 'memory' }
