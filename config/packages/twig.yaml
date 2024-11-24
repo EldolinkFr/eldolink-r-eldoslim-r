@@ -6,6 +6,7 @@ twig:
     globals:
         cdn_url: '%env(resolve:app_cdn_url)%'
         app_name: '%env(resolve:app_name)%'
+        assets_version: '%env(resolve:assets_version)%'
         default_currency: '%env(resolve:app_default_currency)%'
         default_locale: '%env(resolve:app_default_locale)%'
         default_affiliate: '%env(resolve:app_default_affiliate)%'
