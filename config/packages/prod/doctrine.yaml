@@ -10,6 +10,20 @@ doctrine:
             type: pool
             pool: doctrine.cache_pool
 
+        second_level_cache:
+            enabled:            true
+            log_enabled:        true
+            region_cache_driver:
+                type: pool
+                pool: doctrine.cache_pool
+            region_lifetime: 3600
+            regions:
+                region_cached:
+                    lifetime: 60
+                    cache_driver:
+                        type: pool
+                        pool: doctrine.cache_pool
+
 framework:
     cache:
         pools:
