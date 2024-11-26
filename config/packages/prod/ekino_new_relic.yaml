@@ -6,3 +6,4 @@ ekino_new_relic:
     xmit: false
     logging: true
     instrument: false
+    deprecations: false
