@@ -1,4 +1,4 @@
-eldoToolBundle: 
+eldoToolsBundle: 
     resource: "@eldoToolsBundle/Controller/"
     type: annotation
     prefix:   /
