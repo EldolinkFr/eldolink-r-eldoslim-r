@@ -5,5 +5,5 @@ ekino_new_relic:
     api_key: '%env(resolve:NEWRELIC_API_KEY)%'
     xmit: false
     logging: true
-    instrument: false
     deprecations: false
+    instrument: false
