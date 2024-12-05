@@ -1427,7 +1427,7 @@ testimonial_show:
 video_show:
     path:  /video
     defaults: { _controller: 'eldo\PagesBundle\Controller\ContentController::videoAction' }
-    methods:  [POST]
+    methods:  [GET, POST]
 
 content_show_image:
     path:  /content/img/{identifier}
@@ -1452,7 +1452,7 @@ slimdoo_ajax_cart:
 slimdoo_ajax_addtocart:
     path:  /addToCart
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::ajaxAddToCartAction' }
-    methods:  [POST]
+    methods:  [GET, POST]
 
 slimdoo_ajax_chooseforcart:
     path:  /chooseForCart
