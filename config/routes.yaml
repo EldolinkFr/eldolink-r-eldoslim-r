@@ -377,7 +377,7 @@ slimdoo_portal_latests_tips:
 slimdoo_portal_catcher_result:
     path:  /catcher_result
     defaults: { _controller: 'eldo\PagesBundle\Controller\PortalController::catcherResultAction' }
-    methods:  [POST]
+    methods:  [GET, POST]
 
 slimdoo_portal_ajax_modal:
     path:  /modal
