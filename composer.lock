@@ -2289,7 +2289,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "cba6dd851ab6696eb0aeee803b8ae7452f43cb74"
+                "reference": "0ebd923ff70783906dedc3ec97b05d9d71b6554e"
             },
             "require": {
                 "aws/aws-sdk-php": "3.319.2",
@@ -2379,7 +2379,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-12-13T11:49:21+00:00"
+            "time": "2024-12-19T11:07:39+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2387,7 +2387,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "d30acd571aee36d383e75da23f06fd1295462bc1"
+                "reference": "b4cc9861c8a3bb4d0afd0db93e80b86bcec59b22"
             },
             "require": {
                 "php": "^7.0",
@@ -2418,7 +2418,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-12-17T12:04:24+00:00"
+            "time": "2024-12-19T11:13:52+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -10097,8 +10097,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -13856,16 +13856,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.12",
+            "version": "1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0"
+                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
-                "reference": "b5ae1b88f471d3fd4ba1aa0046234b5ca3776dd0",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b469068840cfa031e1deaf2fa1886d00e20680f",
+                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f",
                 "shasum": ""
             },
             "require": {
@@ -13910,7 +13910,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-28T22:13:23+00:00"
+            "time": "2024-12-17T17:00:20+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
