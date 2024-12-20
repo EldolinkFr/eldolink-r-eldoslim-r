@@ -33,6 +33,10 @@ routes-neo-ventre.com:
 routes-sublym-body.com:
     resource: "routes/routes-sublym-body.com.yaml"
     host:     "www.sublym-body.com"
+    
+routes-slimdoo-electro.com:
+    resource: "routes/routes-slimdoo-electro.com.yaml"
+    host:     "www.slimdoo-electro.com"
 
 routes-the-toujours.fr:
     resource: "routes/routes-the-toujours.fr.yaml"
