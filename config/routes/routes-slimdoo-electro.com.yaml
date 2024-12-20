@@ -1,0 +1,4 @@
+slimdoo-electro.com-index:
+    path: /
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv160Action' }
+    methods:  [GET, POST]
