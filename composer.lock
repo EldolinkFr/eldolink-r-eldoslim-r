@@ -2387,7 +2387,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "52a63651598774a4ec47b87837158c532c207a51"
+                "reference": "42ca40c367f14e80796b956547c25126c27a7cd7"
             },
             "require": {
                 "php": "^7.0",
@@ -2418,7 +2418,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-12-20T11:32:28+00:00"
+            "time": "2024-12-20T14:17:13+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -2426,7 +2426,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "92b4b0a8f5e8637e66dc4e93722d14c022a9c4f8"
+                "reference": "138c9e2b47e019b1ce5eec710c443305260bd450"
             },
             "require": {
                 "craue/formflow-bundle": "^3.6",
@@ -2457,7 +2457,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2024-12-20T13:42:49+00:00"
+            "time": "2024-12-20T14:00:00+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -2592,8 +2592,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "ocramius/proxy-manager",
-                    "url": "https://github.com/Ocramius/ProxyManager"
+                    "url": "https://github.com/Ocramius/ProxyManager",
+                    "name": "ocramius/proxy-manager"
                 }
             },
             "autoload": {
