@@ -2426,7 +2426,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
-                "reference": "c03c38dd65da408d881eebbbf82a098cc1f5f9ab"
+                "reference": "92b4b0a8f5e8637e66dc4e93722d14c022a9c4f8"
             },
             "require": {
                 "craue/formflow-bundle": "^3.6",
@@ -2457,7 +2457,7 @@
             "keywords": [
                 "Tools Bundle"
             ],
-            "time": "2024-12-20T13:21:53+00:00"
+            "time": "2024-12-20T13:42:49+00:00"
         },
         {
             "name": "esendex/sdk",
