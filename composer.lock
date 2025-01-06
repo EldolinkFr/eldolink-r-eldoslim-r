@@ -598,15 +598,15 @@
                     "dev-master": "1.x-dev"
                 },
                 "modera-module": {
-                    "register-bundle": "Cravler\\MaxMindGeoIpBundle\\CravlerMaxMindGeoIpBundle",
                     "scripts": {
-                        "post-package-install": [
-                            "Cravler\\MaxMindGeoIpBundle\\Composer\\ScriptHandler::maxMindGeoIpUpdate"
-                        ],
                         "post-package-update": [
                             "Cravler\\MaxMindGeoIpBundle\\Composer\\ScriptHandler::maxMindGeoIpUpdate"
+                        ],
+                        "post-package-install": [
+                            "Cravler\\MaxMindGeoIpBundle\\Composer\\ScriptHandler::maxMindGeoIpUpdate"
                         ]
-                    }
+                    },
+                    "register-bundle": "Cravler\\MaxMindGeoIpBundle\\CravlerMaxMindGeoIpBundle"
                 }
             },
             "autoload": {
@@ -2289,7 +2289,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "ff3072f840e166263dd6e521b7a3d73f815da0eb"
+                "reference": "94161d730b0cd2016102e1973c24d80593c8b820"
             },
             "require": {
                 "aws/aws-sdk-php": "3.319.2",
@@ -2379,7 +2379,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2024-12-20T09:21:42+00:00"
+            "time": "2024-12-24T13:05:34+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2387,7 +2387,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "23ed2deac430450082d4d150612d2732f6a209a7"
+                "reference": "9957409ee83a764dadb55c83828e8f06cb3478bd"
             },
             "require": {
                 "php": "^7.0",
@@ -2418,7 +2418,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2024-12-20T14:41:09+00:00"
+            "time": "2025-01-06T09:20:50+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -4072,12 +4072,12 @@
             },
             "type": "symfony-bundle",
             "extra": {
+                "symfony": {
+                    "require": "^5.4",
+                    "allow-contrib": true
+                },
                 "branch-alias": {
                     "dev-master": "1.7-dev"
-                },
-                "symfony": {
-                    "allow-contrib": true,
-                    "require": "^5.4"
                 }
             },
             "autoload": {
@@ -7665,12 +7665,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "2.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -8129,12 +8129,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "2.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -8533,12 +8533,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "1.1-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -11520,12 +11520,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "2.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -11987,12 +11987,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "2.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -13856,16 +13856,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.13",
+            "version": "1.12.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f"
+                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9b469068840cfa031e1deaf2fa1886d00e20680f",
-                "reference": "9b469068840cfa031e1deaf2fa1886d00e20680f",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c91d4e8bc056f46cf653656e6f71004b254574d1",
+                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1",
                 "shasum": ""
             },
             "require": {
@@ -13910,7 +13910,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-17T17:00:20+00:00"
+            "time": "2025-01-05T16:40:22+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
