@@ -2289,7 +2289,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
-                "reference": "9502c3005640c7808f95f871e6cc90b95b19bb9a"
+                "reference": "04bee6e4916071bd86a2e7101b9541518c924713"
             },
             "require": {
                 "aws/aws-sdk-php": "3.319.2",
@@ -2379,7 +2379,7 @@
             "keywords": [
                 "Main Bundle"
             ],
-            "time": "2025-01-21T09:22:08+00:00"
+            "time": "2025-01-22T10:25:00+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2387,7 +2387,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "7625b529bcddb6241910cdb6a962a8f4193868e2"
+                "reference": "7b6dad0af9f190c684d5eb206a5684ceba1b148a"
             },
             "require": {
                 "php": "^7.0",
@@ -2418,7 +2418,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2025-01-20T09:18:34+00:00"
+            "time": "2025-01-22T15:35:47+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -13856,16 +13856,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.15",
+            "version": "1.12.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1"
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c91d4e8bc056f46cf653656e6f71004b254574d1",
-                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e0bb5cb78545aae631220735aa706eac633a6be9",
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9",
                 "shasum": ""
             },
             "require": {
@@ -13910,7 +13910,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-05T16:40:22+00:00"
+            "time": "2025-01-21T14:50:05+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
