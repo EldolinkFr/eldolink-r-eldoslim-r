@@ -2387,7 +2387,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "4037b398c36c3229f382a66cd033855b8021127b"
+                "reference": "36f284d8d4b372fadf405fc49e7768514beac691"
             },
             "require": {
                 "php": "^7.0",
@@ -2418,7 +2418,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2025-02-07T14:44:03+00:00"
+            "time": "2025-02-11T12:37:33+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -13856,16 +13856,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.16",
+            "version": "1.12.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9"
+                "reference": "7027b3b0270bf392de0cfba12825979768d728bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e0bb5cb78545aae631220735aa706eac633a6be9",
-                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7027b3b0270bf392de0cfba12825979768d728bf",
+                "reference": "7027b3b0270bf392de0cfba12825979768d728bf",
                 "shasum": ""
             },
             "require": {
@@ -13910,7 +13910,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-21T14:50:05+00:00"
+            "time": "2025-02-07T15:01:57+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
