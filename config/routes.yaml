@@ -1,3 +1,7 @@
+routes-bien-en-forme.com:
+    resource: "routes/routes-bien-en-forme.com.yaml"
+    host:     "www.bien-en-forme.com"
+
 routes-depil-bien.com:
     resource: "routes/routes-depil-bien.com.yaml"
     host:     "www.depil-bien.com"

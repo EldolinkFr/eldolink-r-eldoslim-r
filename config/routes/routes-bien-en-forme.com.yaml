@@ -1,0 +1,4 @@
+bien-en-forme.com-index:
+    path: /
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::logoAction' }
+    methods:  [GET, POST]
