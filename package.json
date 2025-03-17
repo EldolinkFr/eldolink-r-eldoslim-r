@@ -32,10 +32,10 @@
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-uglify": "^5.0.1",
     "grunt-contrib-watch": "^1.1.0",
-    "load-grunt-tasks": "^5.1.0",
     "intl-tel-input": "^17.0.13",
     "jquery-validation": "^1.19.3",
     "libphonenumber-js": "^1.9.34",
+    "load-grunt-tasks": "^5.1.0",
     "source-map-loader": "^4.0.1"
   }
 }
