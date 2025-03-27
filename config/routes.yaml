@@ -1308,6 +1308,11 @@ slimdoo_pdv166:
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv166Action' }
     methods:  [GET]
 
+slimdoo_pdv167:
+    path:  /pdv/167
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv167Action' }
+    methods:  [GET]
+
 thetoujours_pdv201:
     path:  /pdv/201
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv201Action' }
