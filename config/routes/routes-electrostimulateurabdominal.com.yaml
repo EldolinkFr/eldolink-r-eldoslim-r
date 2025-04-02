@@ -1,0 +1,4 @@
+electrostimulateurabdominal.com-index:
+    path: /
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv302Action' }
+    methods:  [GET, POST]

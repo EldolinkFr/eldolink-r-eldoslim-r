@@ -1,0 +1,4 @@
+ceinturedesudation.com-index:
+    path: /
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv301Action' }
+    methods:  [GET, POST]

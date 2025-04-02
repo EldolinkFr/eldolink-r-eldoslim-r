@@ -1,6 +1,14 @@
+routes-bague-nasale.com:
+    resource: "routes/routes-bague-nasale.com.yaml"
+    host:     "www.bague-nasale.com"
+
 routes-bien-en-forme.com:
     resource: "routes/routes-bien-en-forme.com.yaml"
     host:     "www.bien-en-forme.com"
+
+routes-ceinturedesudation.com:
+    resource: "routes/routes-ceinturedesudation.com.yaml"
+    host:     "www.ceinturedesudation.com"
 
 routes-depil-bien.com:
     resource: "routes/routes-depil-bien.com.yaml"
@@ -10,10 +18,6 @@ routes-depil-poil.com:
     resource: "routes/routes-depil-poil.com.yaml"
     host:     "www.depil-poil.com"
 
-routes-electrostimulateur-fitness.com:
-    resource: "routes/routes-electrostimulateur-fitness.com.yaml"
-    host:     "www.electrostimulateur-fitness.com"
-
 routes-electro-abdo.com:
     resource: "routes/routes-electro-abdo.com.yaml"
     host:     "www.electro-abdo.com"
@@ -21,6 +25,14 @@ routes-electro-abdo.com:
 routes-electro-bien.com:
     resource: "routes/routes-electro-bien.com.yaml"
     host:     "www.electro-bien.com"
+
+routes-electrostimulateur-fitness.com:
+    resource: "routes/routes-electrostimulateur-fitness.com.yaml"
+    host:     "www.electrostimulateur-fitness.com"
+
+routes-electrostimulateurabdominal.com:
+    resource: "routes/routes-electrostimulateurabdominal.com.yaml"
+    host:     "www.electrostimulateurabdominal.com"
 
 routes-minceur-facile.com:
     resource: "routes/routes-minceur-facile.com.yaml"
@@ -1426,6 +1438,21 @@ slimdoo_pdv220:
 thetoujours_pdv221:
     path:  /pdv/221
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv221Action' }
+    methods:  [GET]
+
+slimdoo_pdv301:
+    path:  /pdv/301
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv301Action' }
+    methods:  [GET]
+
+slimdoo_pdv302:
+    path:  /pdv/302
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv302Action' }
+    methods:  [GET]
+
+slimdoo_pdv303:
+    path:  /pdv/303
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv303Action' }
     methods:  [GET]
 
 slimdoo_internetplus_modal:

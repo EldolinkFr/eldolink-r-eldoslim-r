@@ -1,0 +1,4 @@
+bague-nasale.com-index:
+    path: /
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv303Action' }
+    methods:  [GET, POST]
