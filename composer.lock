@@ -2397,7 +2397,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
-                "reference": "4cd9c687f6a106f54075c06a0a356d18a5215f31"
+                "reference": "25ab6a43c27831b5469fb5dc96397fecfd505cd9"
             },
             "require": {
                 "php": "^7.0",
@@ -2428,7 +2428,7 @@
             "keywords": [
                 "Pages Bundle"
             ],
-            "time": "2025-06-09T13:11:05+00:00"
+            "time": "2025-06-17T12:37:49+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
@@ -3625,16 +3625,16 @@
         },
         {
             "name": "jaybizzle/crawler-detect",
-            "version": "v1.3.4",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JayBizzle/Crawler-Detect.git",
-                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3"
+                "reference": "fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/d3b7ff28994e1b0de764ab7412fa269a79634ff3",
-                "reference": "d3b7ff28994e1b0de764ab7412fa269a79634ff3",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34",
+                "reference": "fbf1a3e81d61b088e7af723fb3c7a4ee92ac7e34",
                 "shasum": ""
             },
             "require": {
@@ -3671,9 +3671,9 @@
             ],
             "support": {
                 "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
-                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.4"
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.3.5"
             },
-            "time": "2025-03-05T23:12:10+00:00"
+            "time": "2025-06-11T17:58:05+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
