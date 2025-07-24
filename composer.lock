@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a9879be86a5534a96e7ea8ca0bc4167",
+    "content-hash": "e6c0d08c57e4c39c118fe76003dd00a3",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2298,8 +2298,14 @@
             "version": "4.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git",
+                "url": "git@github.com:EldolinkFr/eldolink-r-main-bundle.git",
                 "reference": "4380f375ca309c1abcd88e7e96b836aa7c1e2543"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/4380f375ca309c1abcd88e7e96b836aa7c1e2543",
+                "reference": "4380f375ca309c1abcd88e7e96b836aa7c1e2543",
+                "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "3.319.2",
@@ -2369,6 +2375,7 @@
                 "symfony/validator": "^4.0",
                 "symfony/yaml": "^4.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
@@ -2389,6 +2396,10 @@
             "keywords": [
                 "Main Bundle"
             ],
+            "support": {
+                "source": "https://github.com/EldolinkFr/eldolink-r-main-bundle/tree/4.4",
+                "issues": "https://github.com/EldolinkFr/eldolink-r-main-bundle/issues"
+            },
             "time": "2025-07-15T12:44:10+00:00"
         },
         {
@@ -2396,8 +2407,14 @@
             "version": "4.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git",
+                "url": "git@github.com:EldolinkFr/eldolink-r-pages-bundle.git",
                 "reference": "77bce615a4bb84538ca0b10c3e5cc78364245df1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-pages-bundle/zipball/77bce615a4bb84538ca0b10c3e5cc78364245df1",
+                "reference": "77bce615a4bb84538ca0b10c3e5cc78364245df1",
+                "shasum": ""
             },
             "require": {
                 "php": "^7.0",
@@ -2408,6 +2425,7 @@
                 "symfony/validator": "^4.0",
                 "symfony/yaml": "^4.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
@@ -2428,6 +2446,10 @@
             "keywords": [
                 "Pages Bundle"
             ],
+            "support": {
+                "source": "https://github.com/EldolinkFr/eldolink-r-pages-bundle/tree/4.4",
+                "issues": "https://github.com/EldolinkFr/eldolink-r-pages-bundle/issues"
+            },
             "time": "2025-07-22T09:35:25+00:00"
         },
         {
@@ -2435,8 +2457,14 @@
             "version": "4.4.x-dev",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git",
+                "url": "git@github.com:EldolinkFr/eldolink-r-tools-bundle.git",
                 "reference": "2a3ca5c6629e5c44f7aed6b2d6fe0758140b57df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/2a3ca5c6629e5c44f7aed6b2d6fe0758140b57df",
+                "reference": "2a3ca5c6629e5c44f7aed6b2d6fe0758140b57df",
+                "shasum": ""
             },
             "require": {
                 "craue/formflow-bundle": "^3.6",
@@ -2447,6 +2475,7 @@
                 "symfony/validator": "^4.0",
                 "symfony/yaml": "^4.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
@@ -2467,6 +2496,10 @@
             "keywords": [
                 "Tools Bundle"
             ],
+            "support": {
+                "source": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/tree/4.4",
+                "issues": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/issues"
+            },
             "time": "2025-06-03T12:56:13+00:00"
         },
         {

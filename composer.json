@@ -72,15 +72,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-r-main-bundle.git"
+            "url":  "https://github.com/EldolinkFr/eldolink-r-main-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-r-pages-bundle.git"
+            "url":  "https://github.com/EldolinkFr/eldolink-r-pages-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:alexdurand/eldolink-r-tools-bundle.git"
+            "url":  "https://github.com/EldolinkFr/eldolink-r-tools-bundle.git"
         }
     ]
 }
