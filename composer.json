@@ -72,15 +72,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/EldolinkFr/eldolink-r-main-bundle.git"
+            "url":  "git@github.com:EldolinkFr/eldolink-r-main-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "https://github.com/EldolinkFr/eldolink-r-pages-bundle.git"
+            "url":  "git@github.com:EldolinkFr/eldolink-r-pages-bundle.git"
         },
         {
             "type": "vcs",
-            "url":  "https://github.com/EldolinkFr/eldolink-r-tools-bundle.git"
+            "url":  "git@github.com:EldolinkFr/eldolink-r-tools-bundle.git"
         }
     ]
 }
