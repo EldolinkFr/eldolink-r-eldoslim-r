@@ -188,9 +188,6 @@
             "config/packages/nelmio_cors.yaml"
         ]
     },
-    "nmure/crawler-detect-bundle": {
-        "version": "v2.0.0"
-    },
     "nucleos/antispam-bundle": {
         "version": "2.2.1"
     },
