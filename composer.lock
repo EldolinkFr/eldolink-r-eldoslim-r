@@ -2297,12 +2297,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-main-bundle.git",
-                "reference": "be531316aa190bc7991cbe983b3c31beb2f3457f"
+                "reference": "f0602d730351a772d1fd2b013d1893f5701b524a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/be531316aa190bc7991cbe983b3c31beb2f3457f",
-                "reference": "be531316aa190bc7991cbe983b3c31beb2f3457f",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/f0602d730351a772d1fd2b013d1893f5701b524a",
+                "reference": "f0602d730351a772d1fd2b013d1893f5701b524a",
                 "shasum": ""
             },
             "require": {
@@ -2398,7 +2398,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-main-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-main-bundle/issues"
             },
-            "time": "2026-01-06T13:21:26+00:00"
+            "time": "2026-01-14T13:15:17+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2456,12 +2456,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-tools-bundle.git",
-                "reference": "8d0b7eabf49628879fccbf250c4073443578d42b"
+                "reference": "db516a902f06d32e4504910eebe4903342056757"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/8d0b7eabf49628879fccbf250c4073443578d42b",
-                "reference": "8d0b7eabf49628879fccbf250c4073443578d42b",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/db516a902f06d32e4504910eebe4903342056757",
+                "reference": "db516a902f06d32e4504910eebe4903342056757",
                 "shasum": ""
             },
             "require": {
@@ -2498,7 +2498,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/issues"
             },
-            "time": "2025-09-16T12:46:59+00:00"
+            "time": "2026-01-14T16:54:56+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -3533,16 +3533,16 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-imagine/Imagine.git",
-                "reference": "8b130cd281efdea67e52d5f0f998572eb62d2f04"
+                "reference": "f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/8b130cd281efdea67e52d5f0f998572eb62d2f04",
-                "reference": "8b130cd281efdea67e52d5f0f998572eb62d2f04",
+                "url": "https://api.github.com/repos/php-imagine/Imagine/zipball/f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c",
+                "reference": "f9ed796eefb77c2f0f2167e1d4e36bc2b5ed6b0c",
                 "shasum": ""
             },
             "require": {
@@ -3589,9 +3589,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-imagine/Imagine/issues",
-                "source": "https://github.com/php-imagine/Imagine/tree/1.5.1"
+                "source": "https://github.com/php-imagine/Imagine/tree/1.5.2"
             },
-            "time": "2025-12-09T15:27:47+00:00"
+            "time": "2026-01-09T10:45:12+00:00"
         },
         {
             "name": "isometriks/spam-bundle",

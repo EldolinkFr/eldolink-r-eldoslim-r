@@ -7,7 +7,7 @@ isometriks_spam:
 
     # Honeypot protection
     honeypot:
-        field: 'email_address'
+        field: 'first_name'
         use_class: false
-        hide_class: hidden
+        hide_class: 'hidden'
         global: false
