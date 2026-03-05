@@ -2406,12 +2406,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-pages-bundle.git",
-                "reference": "5349a468cef1558781e91191857bc8c76f5b6550"
+                "reference": "69c75a9237e4babcc340c6f24a3364e0ee6b9a34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-pages-bundle/zipball/5349a468cef1558781e91191857bc8c76f5b6550",
-                "reference": "5349a468cef1558781e91191857bc8c76f5b6550",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-pages-bundle/zipball/69c75a9237e4babcc340c6f24a3364e0ee6b9a34",
+                "reference": "69c75a9237e4babcc340c6f24a3364e0ee6b9a34",
                 "shasum": ""
             },
             "require": {
@@ -2449,7 +2449,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-pages-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-pages-bundle/issues"
             },
-            "time": "2026-03-05T09:42:16+00:00"
+            "time": "2026-03-05T10:10:28+00:00"
         },
         {
             "name": "eldolink/tools-bundle",
