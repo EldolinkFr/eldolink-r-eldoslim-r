@@ -1545,6 +1545,21 @@ slimdoo_pdv615:
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv615Action' }
     methods:  [GET]
 
+slimdoo_pdv701:
+    path:  /pdv/701
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv701Action' }
+    methods:  [GET]
+
+slimdoo_pdv702:
+    path:  /pdv/702
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv702Action' }
+    methods:  [GET]
+
+slimdoo_pdv703:
+    path:  /pdv/703
+    defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::pdv703Action' }
+    methods:  [GET]
+
 slimdoo_internetplus_modal:
     path:  /internetplusModal
     defaults: { _controller: 'eldo\PagesBundle\Controller\PageController::internetplusModalAction' }
