@@ -2457,12 +2457,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-tools-bundle.git",
-                "reference": "c0bcf89b745e4a20206daae76699bb09111eb2bf"
+                "reference": "79fb15b02a1a4b41655bba8aa62c7ef67796dbd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/c0bcf89b745e4a20206daae76699bb09111eb2bf",
-                "reference": "c0bcf89b745e4a20206daae76699bb09111eb2bf",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/79fb15b02a1a4b41655bba8aa62c7ef67796dbd5",
+                "reference": "79fb15b02a1a4b41655bba8aa62c7ef67796dbd5",
                 "shasum": ""
             },
             "require": {
@@ -2499,7 +2499,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/issues"
             },
-            "time": "2026-04-23T15:43:07+00:00"
+            "time": "2026-04-24T09:52:26+00:00"
         },
         {
             "name": "esendex/sdk",
