@@ -2298,12 +2298,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-main-bundle.git",
-                "reference": "643bfb001b1e8a4b0240b361679d6a79f34c4588"
+                "reference": "41f3c62f97fcf1d251626f8d5fdc2b7eef2b3bda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/643bfb001b1e8a4b0240b361679d6a79f34c4588",
-                "reference": "643bfb001b1e8a4b0240b361679d6a79f34c4588",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/41f3c62f97fcf1d251626f8d5fdc2b7eef2b3bda",
+                "reference": "41f3c62f97fcf1d251626f8d5fdc2b7eef2b3bda",
                 "shasum": ""
             },
             "require": {
@@ -2317,6 +2317,7 @@
                 "esendex/sdk": "^3.0",
                 "facebook/php-business-sdk": "16.0.*",
                 "friendsofsymfony/rest-bundle": "^2.5",
+                "getbrevo/brevo-php": "^2.0",
                 "gordalina/cachetool": "^7.0",
                 "guzzlehttp/guzzle": "^7.0",
                 "isometriks/spam-bundle": "1.1.1",
@@ -2344,7 +2345,6 @@
                 "php-units-of-measure/php-units-of-measure": "2.*",
                 "predis/predis": "^1.1",
                 "sendgrid/sendgrid": "^7.9",
-                "sendinblue/api-v3-sdk": "^7.4",
                 "sensio/framework-extra-bundle": "^5.0",
                 "snc/redis-bundle": "^3.4",
                 "stof/doctrine-extensions-bundle": "^1.6",
@@ -2399,7 +2399,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-main-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-main-bundle/issues"
             },
-            "time": "2026-08-18T09:26:35+00:00"
+            "time": "2026-08-19T16:43:24+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2955,6 +2955,69 @@
                 "source": "https://github.com/maxmind/GeoIP2-php/tree/v2.13.0"
             },
             "time": "2022-08-05T20:32:58+00:00"
+        },
+        {
+            "name": "getbrevo/brevo-php",
+            "version": "v2.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getbrevo/brevo-php.git",
+                "reference": "1abb1b75e06aa2ca3a6893d8e8d1968a8a76dc3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getbrevo/brevo-php/zipball/1abb1b75e06aa2ca3a6893d8e8d1968a8a76dc3f",
+                "reference": "1abb1b75e06aa2ca3a6893d8e8d1968a8a76dc3f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^7.4.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.12",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Brevo\\Client\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brevo Developers",
+                    "email": "contact@brevo.com",
+                    "homepage": "https://www.brevo.com/"
+                }
+            ],
+            "description": "Official Brevo provided RESTFul API V3 php library",
+            "homepage": "https://github.com/getbrevo/brevo-php",
+            "keywords": [
+                "api",
+                "brevo",
+                "php",
+                "sdk",
+                "swagger"
+            ],
+            "support": {
+                "issues": "https://github.com/getbrevo/brevo-php/issues",
+                "source": "https://github.com/getbrevo/brevo-php/tree/v2.0.14"
+            },
+            "time": "2025-11-06T10:13:45+00:00"
         },
         {
             "name": "giggsey/libphonenumber-for-php",
@@ -7086,70 +7149,6 @@
                 "source": "https://github.com/sendgrid/sendgrid-php/tree/7.11.5"
             },
             "time": "2022-03-09T20:21:56+00:00"
-        },
-        {
-            "name": "sendinblue/api-v3-sdk",
-            "version": "v7.4.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sendinblue/APIv3-php-library.git",
-                "reference": "229bfcd8fa76678526354078ca340c55ad506b48"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sendinblue/APIv3-php-library/zipball/229bfcd8fa76678526354078ca340c55ad506b48",
-                "reference": "229bfcd8fa76678526354078ca340c55ad506b48",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "guzzlehttp/guzzle": "^7.4.0",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~1.12",
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "~2.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "7.x.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SendinBlue\\Client\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "SendinBlue Developers",
-                    "email": "contact@sendinblue.com",
-                    "homepage": "https://www.sendinblue.com/"
-                }
-            ],
-            "description": "Official SendinBlue provided RESTFul API V3 php library",
-            "homepage": "https://github.com/sendinblue/APIv3-php-library",
-            "keywords": [
-                "api",
-                "php",
-                "sdk",
-                "sendinblue",
-                "swagger"
-            ],
-            "support": {
-                "issues": "https://github.com/sendinblue/APIv3-php-library/issues",
-                "source": "https://github.com/sendinblue/APIv3-php-library/tree/v7.4.5"
-            },
-            "abandoned": "getbrevo/brevo-php",
-            "time": "2021-11-03T08:49:10+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
