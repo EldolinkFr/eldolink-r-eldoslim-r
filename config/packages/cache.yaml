@@ -17,7 +17,16 @@ framework:
 
         # APCu (not recommended with heavy random-write workloads as memory fragmentation can cause perf issues)
         #app: cache.adapter.apcu
-
+    
         # Namespaced pools use the above "app" backend by default
-        #pools:
-            #my.dedicated.cache: null
+        pools:
+            # GeoIP lookups, keyed by IP. Memcached rather than the shared Redis on
+            # purpose: this is disposable, high-churn cache, and Memcached evicts by
+            # LRU on its own. The Redis instance runs maxmemory-policy noeviction,
+            # where switching to volatile-lru to make room would put the sessions --
+            # which carry a TTL too -- in the eviction pool alongside these keys.
+            # Shares the 1 GB slab with the rest of the application cache: watch
+            # "evictions" and "bytes" in memcached stats after rollout.
+            eldo.cache.geoip:
+                adapter: cache.adapter.memcached
+                default_lifetime: 3600
