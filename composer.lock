@@ -2460,12 +2460,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-tools-bundle.git",
-                "reference": "943a8ab7557078d35121eac7c2ac5adc663d4c90"
+                "reference": "72ef14c00c13d39941d35258ed435bae7876496a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/943a8ab7557078d35121eac7c2ac5adc663d4c90",
-                "reference": "943a8ab7557078d35121eac7c2ac5adc663d4c90",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-tools-bundle/zipball/72ef14c00c13d39941d35258ed435bae7876496a",
+                "reference": "72ef14c00c13d39941d35258ed435bae7876496a",
                 "shasum": ""
             },
             "require": {
@@ -2502,7 +2502,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-tools-bundle/issues"
             },
-            "time": "2026-06-24T08:41:01+00:00"
+            "time": "2026-09-21T13:14:49+00:00"
         },
         {
             "name": "esendex/sdk",
@@ -4843,21 +4843,22 @@
         },
         {
             "name": "league/oauth2-client",
-            "version": "2.9.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "26e8c5da4f3d78cede7021e09b1330a0fc093d5e"
+                "reference": "8cedfef9d01a8d1fd2ecfabb41734b17592c4b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/26e8c5da4f3d78cede7021e09b1330a0fc093d5e",
-                "reference": "26e8c5da4f3d78cede7021e09b1330a0fc093d5e",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/8cedfef9d01a8d1fd2ecfabb41734b17592c4b71",
+                "reference": "8cedfef9d01a8d1fd2ecfabb41734b17592c4b71",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+                "guzzlehttp/guzzle": "^6.5.8 || ^7.8.2 || ^8.0",
+                "guzzlehttp/psr7": "^1.9.1 || ^2.6.3 || ^3.0",
                 "php": "^7.1 || >=8.0.0 <8.6.0"
             },
             "require-dev": {
@@ -4902,9 +4903,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-client/issues",
-                "source": "https://github.com/thephpleague/oauth2-client/tree/2.9.0"
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.9.1"
             },
-            "time": "2025-11-25T22:17:17+00:00"
+            "time": "2026-09-16T13:14:31+00:00"
         },
         {
             "name": "liip/imagine-bundle",
