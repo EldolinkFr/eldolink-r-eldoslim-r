@@ -987,6 +987,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": true,
             "time": "2020-06-05T16:46:05+00:00"
         },
         {
@@ -2298,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:EldolinkFr/eldolink-r-main-bundle.git",
-                "reference": "e1a1e9e937bd94646db3d444effea12efe3bae75"
+                "reference": "9d665e681e024cf7b370ed55a9fd441f1473c24f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/e1a1e9e937bd94646db3d444effea12efe3bae75",
-                "reference": "e1a1e9e937bd94646db3d444effea12efe3bae75",
+                "url": "https://api.github.com/repos/EldolinkFr/eldolink-r-main-bundle/zipball/9d665e681e024cf7b370ed55a9fd441f1473c24f",
+                "reference": "9d665e681e024cf7b370ed55a9fd441f1473c24f",
                 "shasum": ""
             },
             "require": {
@@ -2399,7 +2400,7 @@
                 "source": "https://github.com/EldolinkFr/eldolink-r-main-bundle/tree/4.4",
                 "issues": "https://github.com/EldolinkFr/eldolink-r-main-bundle/issues"
             },
-            "time": "2026-10-30T12:55:50+00:00"
+            "time": "2026-11-04T21:33:52+00:00"
         },
         {
             "name": "eldolink/pages-bundle",
@@ -2564,12 +2565,12 @@
             "version": "16.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/facebook-php-business-sdk.git",
+                "url": "https://github.com/meta/facebook-php-business-sdk.git",
                 "reference": "ce3e5d19dcb03c079567c3d9b66503180378a38a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-business-sdk/zipball/ce3e5d19dcb03c079567c3d9b66503180378a38a",
+                "url": "https://api.github.com/repos/meta/facebook-php-business-sdk/zipball/ce3e5d19dcb03c079567c3d9b66503180378a38a",
                 "reference": "ce3e5d19dcb03c079567c3d9b66503180378a38a",
                 "shasum": ""
             },
@@ -8796,16 +8797,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.54",
+            "version": "v5.4.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "c4a6cc5733386414f6d17d744ee5ad8b445e349d"
+                "reference": "97768a0b5c3495c2a2469dfc1f3db00e006fc5d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c4a6cc5733386414f6d17d744ee5ad8b445e349d",
-                "reference": "c4a6cc5733386414f6d17d744ee5ad8b445e349d",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/97768a0b5c3495c2a2469dfc1f3db00e006fc5d5",
+                "reference": "97768a0b5c3495c2a2469dfc1f3db00e006fc5d5",
                 "shasum": ""
             },
             "require": {
@@ -8843,7 +8844,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.54"
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.56"
             },
             "funding": [
                 {
@@ -8863,7 +8864,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-30T06:54:06+00:00"
+            "time": "2026-11-03T06:18:36+00:00"
         },
         {
             "name": "symfony/finder",
